@@ -1,145 +1,128 @@
 # LDigital Entwicklungsplan
 
-Aktueller Stand: Version 1 ist technisch funktionsfähig, über GitHub Pages veröffentlicht und befindet sich in der finalen Vorbereitung für ldigital.ch.
+Aktueller Stand: Das technische Grundgerüst, die Startseite, die Über-uns-Seite, die Kontaktseite sowie die rechtlichen Seiten sind funktionsfähig und über GitHub Pages vorbereitet. Vor der Veröffentlichung auf ldigital.ch stehen noch Gesamtprüfung, README-Aktualisierung, Domain-Veröffentlichung, Open Graph nach Domain-Aufschaltung und finaler Live-Test an.
 
 ## Abgeschlossen
 
 * HTML- und CSS-Grundgerüst
 * Responsive Design
-* Startseitenstruktur
-* Dienstleistungen
-* Arbeitsweise und Nutzen
-* CarDesk-Bereich
-* Kontaktbereich
+* Startseite
+* Leistungen
+* Arbeitsweise
+* CarDesk-Hinweis
+* Kontaktbereich auf der Startseite
 * Impressum
-* Datenschutzerklärung
-* technische Prüfung der Startseite
-* visuelle Prüfung der Startseite
-* Seitentitel
-* Meta Description
-* README gepflegt
-* PLAN gepflegt
-* GitHub Pages Veröffentlichung
-* vorhandenes Logo als Grundlage für Version 1 festgelegt
+* Datenschutz
+* Logo
+* Favicon
+* SEO-Grundlagen
+* Typografie und Abstände
+* GitHub Pages
+* PLAN.md auf den aktuellen Mehrseiten-Stand gebracht
+* technische und visuelle Prüfung
+* Seitenarchitektur und Navigation finalisiert
+* `ueber-uns.html` erstellt
+* Inhalte der Über-uns-Seite überarbeitet und geprüft
+* `kontakt.html` erstellt
+* Inhalte der Kontaktseite überarbeitet und geprüft
+* Header-Navigation auf allen fünf Seiten vereinheitlicht
+* Footer-Navigation auf allen fünf Seiten vereinheitlicht
+* Kontaktadresse auf `info@ldigital.ch` vereinheitlicht
+* Startseiten-CTAs auf `kontakt.html` umgestellt
+* CarDesk-Bereich auf der Startseite gekürzt und als eigenständiges Zukunftsprojekt eingeordnet
+
+## Seitenstruktur für LDigital Version 1
+
+* `index.html` – Startseite mit Leistungen, Arbeitsweise und kurzem CarDesk-Hinweis
+* `ueber-uns.html` – Über LDigital, Haltung, Arbeitsweise und Entwicklung
+* `kontakt.html` – eigene Kontaktseite
+* `impressum.html`
+* `datenschutz.html`
+
+Die Dienstleistungen bleiben auf der Startseite und erhalten für Version 1 keine eigenen Unterseiten.
+
+## CarDesk
+
+CarDesk wird später als eigenständige Website entwickelt. Das Projekt erhält ein eigenes Repository sowie eine eigene Marken- und Produktstruktur.
+
+Auf der LDigital-Website bleibt nur ein kurzer CarDesk-Hinweis. Später kann dort ein Link zur eigenständigen CarDesk-Website ergänzt werden.
 
 ## Noch nötig für Version 1
 
-### 1. Logo vorbereiten und sauber in den Header integrieren
+### 1. Gesamtcheck aller fünf Seiten
 
-* Aufgabe: vorhandene Logo-Datei technisch prüfen, für Web vorbereiten und im Header einbinden.
-* Ziel: LDigital ist im Header visuell klar erkennbar, ohne die Veröffentlichung von einem perfekten Logo abhängig zu machen.
-* geschätzte Dauer: 30 bis 60 Minuten
+* Ziel: alle Seiten lokal auf Inhalt, Links, Navigation, Footer, responsive Darstellung und offensichtliche Fehler prüfen.
 * Priorität: Hoch
-* betroffene Dateien: `index.html`, `impressum.html`, `datenschutz.html`, `css/styles.css`, Logo-Datei
-* Abgeschlossen, wenn das vorhandene Logo auf Startseite, Impressum und Datenschutz sauber angezeigt wird und der Header auf Desktop und Smartphone funktioniert.
+* geschätzte Dauer: 45 bis 60 Minuten
+* betroffene Dateien: `index.html`, `ueber-uns.html`, `kontakt.html`, `impressum.html`, `datenschutz.html`, `css/styles.css`
+* Abgeschlossen, wenn alle fünf Seiten lokal geprüft sind und keine offensichtlichen Fehler mehr vorhanden sind.
 
-### 2. Favicon aus dem vorhandenen Logo erstellen und einbinden
+### 2. README aktualisieren
 
-* Aufgabe: aus dem vorhandenen Logo ein Favicon erstellen und im HTML einbinden.
-* Ziel: Browser-Tab und Lesezeichen zeigen ein passendes LDigital-Symbol.
-* geschätzte Dauer: 30 bis 45 Minuten
+* Ziel: README auf die neue Mehrseiten-Struktur und den aktuellen Projektstand bringen.
 * Priorität: Mittel
-* betroffene Dateien: `index.html`, `impressum.html`, `datenschutz.html`, Favicon-Datei
-* Abgeschlossen, wenn das Favicon lokal und über GitHub Pages sichtbar ist.
+* geschätzte Dauer: 20 bis 30 Minuten
+* betroffene Dateien: `README.md`
+* Abgeschlossen, wenn README Startseite, Über uns, Kontakt, Impressum, Datenschutz und den aktuellen Status korrekt beschreibt.
 
-### 3. Open-Graph- und Social-Media-Metadaten ergänzen
+### 3. Veröffentlichung auf `ldigital.ch`
 
-* Aufgabe: Open-Graph- und Social-Media-Metadaten ergänzen – blockiert bis `ldigital.ch` live ist, damit für `og:image` und `twitter:image` absolute URLs mit `https://ldigital.ch/...` verwendet werden können.
+* Ziel: Website über die eigene Domain erreichbar machen.
+* Priorität: Hoch
+* geschätzte Dauer: 60 bis 90 Minuten
+* betroffene Dateien: Projektdateien für Upload, cyon-/Domain-/DNS-/SSL-Konfiguration
+* Abgeschlossen, wenn `ldigital.ch` per HTTPS erreichbar ist und die aktuelle Website ausliefert.
+
+### 4. Open-Graph- und Social-Media-Metadaten nach Domain-Aufschaltung ergänzen
+
 * Status: Blockiert
-* Abhängigkeit: Veröffentlichung von `ldigital.ch`
-* Ziel: Geteilte Links wirken sauber und zeigen eine passende Vorschau.
-* geschätzte Dauer: 30 bis 45 Minuten
+* Abhängigkeit: `ldigital.ch` muss live sein
+* Ziel: Social-Media-Vorschau mit absoluten HTTPS-URLs korrekt ausliefern.
 * Priorität: Mittel
-* betroffene Dateien: `index.html`, `impressum.html`, `datenschutz.html`, Social-Preview-Bild
-* Danach zu erledigen:
-  * absolute Bild-URL eintragen
-  * Open-Graph-Metadaten ergänzen
-  * Twitter-/X-Metadaten ergänzen
-  * Social-Media-Vorschau testen
-* Abgeschlossen, wenn `ldigital.ch` live ist, die Metadaten absolute HTTPS-Bild-URLs verwenden und die Vorschau erfolgreich getestet wurde.
-
-### 4. Typografie und Abstände leicht verfeinern
-
-* Aufgabe: Schriftgrössen, Abstände und Lesbarkeit prüfen und behutsam verbessern.
-* Ziel: die Website wirkt ruhiger und professioneller, ohne Redesign.
-* geschätzte Dauer: 60 bis 90 Minuten
-* Priorität: Mittel
-* betroffene Dateien: `css/styles.css`
-* Abgeschlossen, wenn Startseite, Impressum und Datenschutz auf Desktop und Smartphone gut lesbar sind.
-
-### 5. Inhalte, Links und rechtliche Seiten abschliessend prüfen
-
-* Aufgabe: Texte, interne Links, E-Mail-Links, Impressum und Datenschutzerklärung final kontrollieren.
-* Ziel: Version 1 enthält keine offensichtlichen Fehler oder leeren Pflichtbereiche.
 * geschätzte Dauer: 30 bis 45 Minuten
+* betroffene Dateien: `index.html`, `ueber-uns.html`, `kontakt.html`, `impressum.html`, `datenschutz.html`, Social-Preview-Bild
+* Abgeschlossen, wenn `og:image` und `twitter:image` absolute URLs mit `https://ldigital.ch/...` verwenden und die Vorschau getestet ist.
+
+### 5. finaler Live-Test
+
+* Ziel: veröffentlichte Version auf Desktop, Tablet und Smartphone prüfen.
 * Priorität: Hoch
-* betroffene Dateien: `index.html`, `impressum.html`, `datenschutz.html`
-* Abgeschlossen, wenn alle Links funktionieren und die rechtlichen Seiten zum tatsächlich verwendeten Stand passen.
-
-### 6. Veröffentlichung auf cyon und ldigital.ch technisch vorbereiten und umsetzen
-
-* Aufgabe: Hosting, Domain, DNS, SSL und Dateiübertragung für ldigital.ch einrichten.
-* Ziel: die Website ist nicht nur über GitHub Pages, sondern auch über ldigital.ch erreichbar.
-* geschätzte Dauer: 60 bis 90 Minuten
-* Priorität: Hoch
-* betroffene Dateien: Projektdateien für Upload, cyon-Konfiguration, Domain-/DNS-Einstellungen
-* Abgeschlossen, wenn ldigital.ch per HTTPS erreichbar ist und die aktuelle Version ausliefert.
-
-### 7. Live-Test auf Desktop, Tablet und Smartphone durchführen
-
-* Aufgabe: veröffentlichte Website auf mehreren Bildschirmgrössen und Geräten prüfen.
-* Ziel: Version 1 funktioniert nach der Veröffentlichung zuverlässig.
 * geschätzte Dauer: 30 bis 45 Minuten
-* Priorität: Hoch
 * betroffene Dateien: keine zwingend, nur bei gefundenen Fehlern
-* Abgeschlossen, wenn Startseite, Impressum, Datenschutz, Navigation und E-Mail-Links live geprüft sind.
+* Abgeschlossen, wenn alle Seiten, Navigation, Logo, Favicon, E-Mail-Links und Rechtsseiten live geprüft sind.
 
 ## Geschätzter Gesamtaufwand bis Version 1
 
-Realistischer Restaufwand: ungefähr 5 bis 7 Stunden.
+Ungefähr 3 bis 5 Stunden bis zur vollständigen LDigital Version 1.
 
-Die tatsächliche Dauer hängt vor allem von der vorhandenen Logo-Datei, der cyon-Konfiguration und möglichen technischen Problemen bei Domain, DNS oder SSL ab.
+Die tatsächliche Dauer hängt vor allem von der finalen Prüfung, der README-Aktualisierung, der cyon-Konfiguration sowie möglichen technischen Themen bei Domain, DNS oder SSL ab.
 
-## Empfohlene Arbeitsblöcke
+## Nächster Arbeitsblock
 
-### Arbeitsblock 1 – Branding und Metadaten
+### Gesamtprüfung und Veröffentlichungsvorbereitung
 
-* Logo
-* Favicon
-* Open Graph
-* Dauer: ungefähr 1,5 bis 2,5 Stunden
-
-### Arbeitsblock 2 – Feinschliff und Endkontrolle
-
-* Typografie
-* Abstände
-* Inhalte
-* Links
-* rechtliche Seiten
-* Dauer: ungefähr 1,5 bis 2 Stunden
-
-### Arbeitsblock 3 – Veröffentlichung
-
-* cyon
-* ldigital.ch
-* DNS
-* SSL
-* Live-Test
-* Dauer: ungefähr 2 bis 2,5 Stunden
+* alle fünf Seiten lokal prüfen
+* Header, Footer und Links kontrollieren
+* mobile Darstellung prüfen
+* Texte auf Wiederholungen und Fehler prüfen
+* README aktualisieren
+* danach Veröffentlichung auf `ldigital.ch` vorbereiten
 
 ## Nach Version 1
 
-* CarDesk-Unterseite
-* eigene Leistungsseiten
-* Kontaktformular
+* eigenständige CarDesk-Website
 * Referenzen
 * Blog
 * Analytics
 * Mehrsprachigkeit
-* weiterer Marken- und Designausbau
+* spätere Leistungsseiten
+* Kontaktformular
+* weiterer Designausbau
+
+Diese Punkte sind keine Voraussetzung für LDigital Version 1.
 
 ## Nächste drei konkrete Ziele
 
-1. Logo-Datei technisch prüfen und für Web vorbereiten
-2. Logo im Header integrieren
-3. Favicon aus dem Logo erstellen
+1. Gesamtcheck aller fünf Seiten durchführen
+2. README auf den neuen Mehrseiten-Stand aktualisieren
+3. Veröffentlichung auf `ldigital.ch` vorbereiten
