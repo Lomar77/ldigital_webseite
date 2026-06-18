@@ -37,6 +37,17 @@ header p a:hover {
     color: #d6a94d;
 }
 
+.logo-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo {
+    display: block;
+    height: 60px;
+    width: auto;
+}
+
 /* Navigation */
 nav {
     display: flex;
@@ -236,6 +247,10 @@ footer a:hover {
 
     nav {
         gap: 12px 18px;
+    }
+
+    .logo {
+        height: 48px;
     }
 
     main {
