@@ -44,12 +44,19 @@ Aktueller Stand: Version 1 ist technisch funktionsfähig, über GitHub Pages ver
 
 ### 3. Open-Graph- und Social-Media-Metadaten ergänzen
 
-* Aufgabe: grundlegende Social-Media-Metadaten für Titel, Beschreibung und Vorschaubild ergänzen.
+* Aufgabe: Open-Graph- und Social-Media-Metadaten ergänzen – blockiert bis `ldigital.ch` live ist, damit für `og:image` und `twitter:image` absolute URLs mit `https://ldigital.ch/...` verwendet werden können.
+* Status: Blockiert
+* Abhängigkeit: Veröffentlichung von `ldigital.ch`
 * Ziel: Geteilte Links wirken sauber und zeigen eine passende Vorschau.
 * geschätzte Dauer: 30 bis 45 Minuten
 * Priorität: Mittel
-* betroffene Dateien: `index.html`, optional Vorschaubild
-* Abgeschlossen, wenn die Startseite sinnvolle Open-Graph-Daten enthält und keine externen Dienste nötig sind.
+* betroffene Dateien: `index.html`, `impressum.html`, `datenschutz.html`, Social-Preview-Bild
+* Danach zu erledigen:
+  * absolute Bild-URL eintragen
+  * Open-Graph-Metadaten ergänzen
+  * Twitter-/X-Metadaten ergänzen
+  * Social-Media-Vorschau testen
+* Abgeschlossen, wenn `ldigital.ch` live ist, die Metadaten absolute HTTPS-Bild-URLs verwenden und die Vorschau erfolgreich getestet wurde.
 
 ### 4. Typografie und Abstände leicht verfeinern
 
