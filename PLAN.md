@@ -45,14 +45,80 @@ Aktueller Stand: Das technische Grundgerüst, die Startseite, die Über-uns-Seit
 ## Leistungsstruktur für Version 1
 
 1. Webseiten und digitales Auftreten
-   * Webseiten
-   * digitale Sichtbarkeit
+   * Unternehmenswebsites
+   * mobile Darstellung
    * Google Business
-2. Social Media
-3. Logodesign und Markenauftritt
-4. Prozessoptimierung und Automatisierung
+   * grundlegende digitale Sichtbarkeit
+2. Logodesign und Markenauftritt
+   * Logoentwicklung oder Überarbeitung
+   * Farben und Typografie
+   * Favicon und grundlegende Markenmittel
+3. Prozessoptimierung und Automatisierung
+   * Abläufe analysieren
+   * manuelle Schritte reduzieren
+   * einfache digitale Lösungen und Automatisierungen
 
 `Digitale Werkzeuge und Systeme` wird nicht mehr als eigener Leistungsbereich eingeplant.
+`Social Media` gehört nicht zu Version 1 und wird als späteres Angebot eingeordnet.
+
+## Geplante Startseiten-Cards
+
+### Gemeinsamer Aufbau
+
+Jede Card erhält später:
+
+* ein lokales Bild
+* einen Titel
+* drei Leistungszeilen mit Icon
+* einen kurzen Nutzen
+* einen Link `Mehr erfahren`
+* eine Verlinkung zum passenden Abschnitt auf `leistungen.html`
+
+Die Cards dürfen per Klick hervorgehoben werden. Nicht aktive Cards bleiben vollständig lesbar. Es wird keine starke Unschärfe verwendet.
+
+Der alte Card-Code dient nur als Designreferenz und wird nicht direkt übernommen. HTML, CSS und JavaScript werden später sauber getrennt.
+
+### Card 1: Webseiten & digitales Auftreten
+
+* Bildpfad: `Logo/Leistungen/webseiten-digitales-auftreten.png`
+* Unterpunkte:
+  1. Unternehmenswebsite – Übersichtliche und mobilfreundliche Website mit klaren Inhalten.
+  2. Google Business – Unternehmensprofil einrichten oder optimieren, damit wichtige Informationen bei Google auffindbar sind.
+  3. Digitale Sichtbarkeit – Struktur, Inhalte und technische Grundlagen für einen professionellen Online-Auftritt.
+* Nutzen: Interessenten verstehen schneller, was das Unternehmen anbietet, und finden einfacher den Weg zur Kontaktaufnahme.
+* Link: `leistungen.html#webseiten`
+
+### Card 2: Logodesign & Markenauftritt
+
+* Bildpfad: `Logo/Leistungen/logodesign-premium-visitenkarten.png`
+* Unterpunkte:
+  1. Logoentwicklung – Neues Logo entwickeln oder einen bestehenden Entwurf überarbeiten.
+  2. Farben und Typografie – Passende Farben und Schriften für einen einheitlichen Auftritt festlegen.
+  3. Premium-Visitenkarten – Hochwertige Formate, besondere Materialien und QR-Code-Integration für einen professionellen ersten Eindruck.
+* Nutzen: Logo, Farben, Website und Geschäftsmittel wirken einheitlich und wiedererkennbar.
+* Link: `leistungen.html#markenauftritt`
+
+### Card 3: Prozessoptimierung & Automatisierung
+
+* Bildpfad: `Logo/Leistungen/prozessoptimierung-automatisierung.png`
+* Unterpunkte:
+  1. Abläufe analysieren – Wiederkehrende Aufgaben und unnötige manuelle Schritte erkennen.
+  2. Prozesse vereinfachen – Informationen, Dokumente und Aufgaben klarer organisieren.
+  3. Sinnvoll automatisieren – Geeignete Arbeitsschritte digital verbinden oder automatisieren.
+* Nutzen: Weniger doppelte Arbeit, weniger Fehler und mehr Zeit für das eigentliche Geschäft.
+* Link: `leistungen.html#automatisierung`
+
+### Bildvorgaben
+
+Alle drei Bilder:
+
+* Format: PNG
+* Auflösung: 1200 x 800 Pixel
+* Seitenverhältnis: 3:2
+* lokale Dateien im Ordner `Logo/Leistungen/`
+* einheitliche Bildsprache
+* passende Blau-Gold-Farbwelt
+* keine externen Bildlinks
 
 ## CarDesk
 
@@ -91,7 +157,7 @@ Auf der LDigital-Website bleibt nur ein kurzer CarDesk-Hinweis. Später kann dor
 ### 3. Cards neu gestalten
 
 * Abhängigkeit: Prüfung des alten HTML- und CSS-Codes.
-* Ziel: Die Cards auf der Startseite und später auf `leistungen.html` sollen sich am früheren Entwurf orientieren und zum neuen Designsystem passen.
+* Ziel: Drei Startseiten-Cards und die Leistungsdarstellung auf `leistungen.html` sollen sich am früheren Entwurf orientieren und zum neuen Designsystem passen.
 * Priorität: Hoch
 * geschätzte Dauer: 45 bis 90 Minuten
 * betroffene Dateien: `index.html`, `leistungen.html`, `css/styles.css`
@@ -115,7 +181,7 @@ Auf der LDigital-Website bleibt nur ein kurzer CarDesk-Hinweis. Später kann dor
 
 ### 5. `leistungen.html` planen
 
-* Ziel: Inhaltliche Struktur der neuen Leistungsseite festlegen.
+* Ziel: Inhaltliche Struktur der neuen Leistungsseite mit drei Kernleistungen festlegen.
 * Priorität: Hoch
 * geschätzte Dauer: 30 bis 45 Minuten
 * betroffene Dateien: noch keine zwingend
@@ -123,15 +189,15 @@ Auf der LDigital-Website bleibt nur ein kurzer CarDesk-Hinweis. Später kann dor
 
 ### 6. Inhalte für `leistungen.html` schreiben
 
-* Ziel: Texte für die vier Leistungsbereiche sachlich, kurz und verständlich formulieren.
+* Ziel: Texte für die drei Kernleistungen sachlich, kurz und verständlich formulieren.
 * Priorität: Hoch
 * geschätzte Dauer: 60 bis 90 Minuten
 * betroffene Dateien: später `leistungen.html`
-* Abgeschlossen, wenn alle Leistungsbereiche fertig formuliert und keine unbelegten Versprechen enthalten sind.
+* Abgeschlossen, wenn alle drei Kernleistungen fertig formuliert sind und keine unbelegten Versprechen enthalten sind.
 
 ### 7. `leistungen.html` erstellen
 
-* Ziel: neue Leistungsseite technisch anlegen und in das bestehende Layout einfügen.
+* Ziel: neue Leistungsseite mit drei Kernleistungen technisch anlegen und in das bestehende Layout einfügen.
 * Priorität: Hoch
 * geschätzte Dauer: 60 bis 90 Minuten
 * betroffene Dateien: `leistungen.html`, eventuell `css/styles.css`
@@ -143,9 +209,9 @@ Auf der LDigital-Website bleibt nur ein kurzer CarDesk-Hinweis. Später kann dor
 * Zu planen:
   * Leistungsbereich an neue Leistungsstruktur anpassen
   * `Digitale Werkzeuge und Systeme` entfernen
-  * `Social Media` ergänzen
   * `Logodesign und Markenauftritt` ergänzen
   * `Webseiten und digitales Auftreten` um Google Business ergänzen
+  * drei kurze Startseiten-Cards planen
   * Leistungen kürzer darstellen
   * Link zu `leistungen.html`
   * Abschnitt `Schrittweise zu besseren digitalen Abläufen` entfernen oder ersetzen
@@ -241,6 +307,11 @@ Die tatsächliche Dauer hängt vor allem von der Qualität der alten HTML- und C
 
 ## Nach Version 1
 
+* Social-Media-Angebot entwickeln
+  * Profilaufbau
+  * Inhaltsplanung
+  * Designvorlagen
+  * später eventuell laufende Betreuung
 * eigenständige CarDesk-Website
 * Referenzen
 * Blog
@@ -257,3 +328,45 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
 1. Alten HTML- und CSS-Code bereitstellen und prüfen
 2. Leistungsangebot final definieren
 3. Designsystem aus Logo und altem Entwurf festlegen
+
+## Arbeitsverlauf
+
+### 17. Juni 2026
+
+* Arbeitszeit: 3 Stunden
+* Erledigt:
+  * technisches Grundgerüst und Startseitenstruktur weiterentwickelt
+  * Navigation, Inhalte und erste Designgrundlagen aufgebaut
+* Aktueller Stand:
+  * Startseite technisch funktionsfähig
+* Nächster Schritt:
+  * rechtliche Seiten, SEO und weitere Struktur ergänzen
+
+### 18. Juni 2026
+
+* Arbeitszeit: 2 Stunden
+* Erledigt:
+  * Impressum und Datenschutzerklärung erstellt
+  * SEO-Grundlagen ergänzt
+  * Logo und Favicon vorbereitet und eingebunden
+  * Typografie und Abstände verbessert
+* Aktueller Stand:
+  * Mehrseiten-Struktur vorbereitet
+* Nächster Schritt:
+  * Über-uns- und Kontaktseite ausbauen
+
+### 19. Juni 2026
+
+* Arbeitszeit: seit 21:30 Uhr, bisher rund 45 Minuten
+* Erledigt:
+  * Leistungsangebot für Version 1 auf drei Kernleistungen festgelegt
+  * Social Media auf eine spätere Phase verschoben
+  * alten Card-Code geprüft und als Designreferenz eingeordnet
+  * drei Startseiten-Cards mit Inhalten, Links und Bildpfaden geplant
+* Aktueller Stand:
+  * Card-Struktur und Bilddateinamen sind festgelegt
+  * Bilddateien werden vorbereitet
+* Nächster Schritt:
+  * drei Bilder im Projektordner speichern
+  * Designsystem festlegen
+  * Cards technisch umsetzen

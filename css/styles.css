@@ -1,4 +1,15 @@
 /* Allgemein */
+:root {
+    --color-primary: #123f73;
+    --color-primary-dark: #082d57;
+    --color-gold: #c99a3d;
+    --color-gold-hover: #e0b45a;
+    --color-background: #f5f7fa;
+    --color-surface: #ffffff;
+    --color-text: #263342;
+    --color-muted: #5e6b78;
+}
+
 *,
 *::before,
 *::after {
@@ -11,30 +22,21 @@ html {
 
 body {
     margin: 0;
-    background-color: #f4f6f8;
-    color: #1f2933;
-    font-family: Arial, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: "Segoe UI", Arial, sans-serif;
     line-height: 1.5;
 }
 
 /* Header */
 header {
-    background-color: #0a2a66;
+    background-color: var(--color-primary-dark);
     color: white;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-}
-
-header p a {
-    color: white;
-    text-decoration: none;
-}
-
-header p a:hover {
-    color: #d6a94d;
 }
 
 .logo-link {
@@ -61,7 +63,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #d6a94d;
+    color: var(--color-gold-hover);
 }
 
 /* Hauptinhalt */
@@ -76,21 +78,21 @@ section {
 }
 
 h1 {
-    color: #0a2a66;
+    color: var(--color-primary);
     font-size: 48px;
     margin-top: 0;
     margin-bottom: 22px;
 }
 
 h2 {
-    color: #0a2a66;
+    color: var(--color-primary);
     font-size: 32px;
     margin-top: 36px;
     margin-bottom: 16px;
 }
 
 h3 {
-    color: #0a2a66;
+    color: var(--color-primary);
     font-size: 22px;
     margin-top: 0;
     margin-bottom: 12px;
@@ -141,7 +143,7 @@ main li {
 .button {
     display: inline-block;
     padding: 14px 24px;
-    background-color: #0a2a66;
+    background-color: var(--color-primary);
     color: white;
     text-decoration: none;
     border-radius: 6px;
@@ -150,8 +152,8 @@ main li {
 }
 
 .button:hover {
-    background-color: #d6a94d;
-    color: #0a2a66;
+    background-color: var(--color-gold-hover);
+    color: var(--color-primary-dark);
 }
 
 /* Cards */
@@ -164,7 +166,7 @@ main li {
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--color-surface);
     padding: 24px;
     border-radius: 8px;
     box-shadow: 0 8px 20px rgba(10, 42, 102, 0.08);
@@ -181,37 +183,82 @@ main li {
 }
 
 /* Leistungen */
-#leistungen .cards {
-    margin-bottom: 24px;
-}
-
 #leistungen .button {
     margin-top: 4px;
 }
 
-/* Arbeitsweise */
-#arbeitsweise .cards {
-    flex-wrap: wrap;
-    margin-top: 24px;
-    margin-bottom: 24px;
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    margin: 28px 0 24px;
 }
 
-#arbeitsweise .card {
-    flex: 1 1 calc(50% - 20px);
-    min-width: 260px;
+.service-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: var(--color-surface);
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(10, 42, 102, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-#arbeitsweise > p:last-child {
-    max-width: 760px;
-    margin-top: 28px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(10, 42, 102, 0.14);
+.service-card:hover,
+.service-card:focus-within {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(10, 42, 102, 0.14);
+}
+
+.service-card-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
+
+.service-card-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.service-card-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+    line-height: 1.45;
+}
+
+.service-card-icon {
+    flex: 0 0 auto;
+    color: var(--color-gold);
+    font-weight: 700;
+}
+
+.service-card-benefit {
+    margin-top: 10px;
+}
+
+.service-card-link {
+    margin-top: auto;
+    color: var(--color-primary);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.service-card-link:hover,
+.service-card-link:focus {
+    color: var(--color-gold);
+    text-decoration: underline;
 }
 
 /* CarDesk */
 #cardesk {
-    background-color: white;
-    border-left: 5px solid #d6a94d;
+    background-color: var(--color-surface);
+    border-left: 5px solid var(--color-gold);
     border-radius: 8px;
     padding: 32px;
     box-shadow: 0 8px 20px rgba(10, 42, 102, 0.08);
@@ -237,7 +284,7 @@ main li {
 
 /* Footer */
 footer {
-    background-color: #0a2a66;
+    background-color: var(--color-primary-dark);
     color: white;
     padding: 32px 20px;
     text-align: center;
@@ -257,7 +304,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #d6a94d;
+    color: var(--color-gold-hover);
 }
 
 /* Responsive Design */
@@ -321,10 +368,6 @@ footer a:hover {
         max-width: 100%;
         white-space: normal;
         text-align: center;
-    }
-
-    #arbeitsweise .card {
-        min-width: 0;
     }
 
     #cardesk {
