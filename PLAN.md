@@ -165,6 +165,8 @@ Auf der LDigital-Website bleibt nur ein kurzer CarDesk-Hinweis. Später kann dor
 
 ### 4. Logo und Favicon technisch überarbeiten
 
+* Status: blockiert
+* Grund: Logo/Favicon benötigen eine separate Designentscheidung und sollen den weiteren Website-Aufbau nicht blockieren.
 * Ziel: Logo und Favicon technisch sauber für Web, Header und Browser-Tab vorbereiten.
 * Zu planen:
   * transparenter Hintergrund
@@ -297,13 +299,11 @@ Die tatsächliche Dauer hängt vor allem von der Qualität der alten HTML- und C
 
 ## Nächster Arbeitsblock
 
-### Strategie, Designgrundlage und Leistungsseite
+### Über uns, Kontakt und Gesamtcheck
 
-* alte HTML- und CSS-Entwürfe bereitstellen und prüfen
-* Leistungsangebot final definieren
-* Designsystem aus Logo und altem Entwurf festlegen
-* Struktur für `leistungen.html` planen
-* Startseite auf die neue Leistungsseite abstimmen
+* Über-uns-Seite visuell weiterentwickeln
+* danach Kontaktseite visuell weiterentwickeln
+* danach Gesamtcheck der sechs HTML-Seiten vorbereiten
 
 ## Nach Version 1
 
@@ -325,9 +325,9 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
 
 ## Nächste drei konkrete Ziele
 
-1. Alten HTML- und CSS-Code bereitstellen und prüfen
-2. Leistungsangebot final definieren
-3. Designsystem aus Logo und altem Entwurf festlegen
+1. Über-uns-Seite visuell weiterentwickeln
+2. Kontaktseite visuell weiterentwickeln
+3. Danach Gesamtcheck der sechs HTML-Seiten vorbereiten
 
 ## Arbeitsverlauf
 
@@ -370,3 +370,25 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * drei Bilder im Projektordner speichern
   * Designsystem festlegen
   * Cards technisch umsetzen
+
+### 20. Juni 2026
+
+* Arbeitszeit: keine Projektarbeit
+* Erledigt:
+  * keine Projektarbeit
+* Aktueller Stand:
+  * Projektstand unverändert
+* Nächster Schritt:
+  * neuen Arbeitsblock vorbereiten
+
+### 21. Juni 2026
+
+* Arbeitszeit: Start des neuen Arbeitsblocks um 18:00 Uhr
+* Erledigt:
+  * neuer Arbeitsblock festgelegt
+* Aktueller Stand:
+  * Fokus liegt auf der visuellen Weiterentwicklung der Über-uns-Seite und danach der Kontaktseite
+  * Logo/Favicon bleiben als separate Designentscheidung blockiert und blockieren den weiteren Website-Aufbau nicht
+* Nächster Schritt:
+  * Über-uns-Seite visuell weiterentwickeln
+  * danach Kontaktseite visuell weiterentwickeln
