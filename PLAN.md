@@ -122,9 +122,11 @@ Alle drei Bilder:
 
 ## CarDesk
 
-CarDesk wird später als eigenständige Website entwickelt. Das Projekt erhält ein eigenes Repository sowie eine eigene Marken- und Produktstruktur.
+CarDesk bleibt ein separates Projekt von LDigital. Das Projekt erhält später ein eigenes Repository sowie eine eigene Marken- und Produktstruktur.
 
-Auf der LDigital-Website bleibt nur ein kurzer CarDesk-Hinweis. Später kann dort ein Link zur eigenständigen CarDesk-Website ergänzt werden.
+Auf der LDigital-Website bleibt CarDesk als professioneller Pilotpartner-Aufruf sichtbar. Ziel ist die fachliche Prüfung und praxisnahe Fertigstellung mit passenden Pilotpartnern aus dem Garagenumfeld.
+
+CarDesk bleibt unabhängig von den regulären LDigital-Dienstleistungen. Später kann dort ein Link zur eigenständigen CarDesk-Website ergänzt werden.
 
 ## Noch nötig für Version 1
 
@@ -299,35 +301,41 @@ Die tatsächliche Dauer hängt vor allem von der Qualität der alten HTML- und C
 
 ## Nächster Arbeitsblock
 
-### Über uns, Kontakt und Gesamtcheck
+### Version-1 Text- und Verkaufslogik schärfen
 
-* Über-uns-Seite visuell weiterentwickeln
-* danach Kontaktseite visuell weiterentwickeln
-* danach Gesamtcheck der sechs HTML-Seiten vorbereiten
+Diese Runde gehört weiterhin zu LDigital Version 1. Der technische Aufbau ist grundsätzlich vorhanden, aber Texte, Nutzenargumentation und Seitenführung werden vor einem Commit nochmals geschärft.
 
-## Nach Version 1
+* Startseite sprachlich und verkaufslogisch schärfen
+* Leistungsseite zu einer stärkeren Angebotsseite weiterentwickeln
+* Kontaktseite vereinfachen und Formular-Option prüfen
+* Über-uns-Seite kürzen und vertrauensbildender formulieren
+* danach erneuter Gesamtcheck
+* danach Commit und Push
 
-* Social-Media-Angebot entwickeln
-  * Profilaufbau
-  * Inhaltsplanung
-  * Designvorlagen
-  * später eventuell laufende Betreuung
-* eigenständige CarDesk-Website
-* Referenzen
-* Blog
+Kein Commit erfolgt, bevor diese Text- und Verkaufslogik-Runde abgeschlossen ist.
+
+Logo/Favicon bleiben weiterhin blockiert und blockieren diesen Arbeitsblock nicht. CarDesk bleibt ein separates Projekt, ist aber auf der Startseite als professioneller Pilotpartner-Aufruf sichtbar.
+
+## Nach Version 1 / Version 2
+
+Diese Themen gehören nicht mehr zur aktuellen Version-1-Runde, sondern werden später separat geplant:
+
+* eigenständige CarDesk-Landingpage oder CarDesk-Website
+* Referenzen und Kundenbeispiele
+* Blog oder Ratgeber
+* erweitertes Design
+* komplexere Automatisierungen
+* Social-Media-Angebot
 * Analytics
 * Mehrsprachigkeit
-* spätere zusätzliche Leistungsvertiefungen
-* Kontaktformular
-* weiterer Designausbau
 
 Diese Punkte sind keine Voraussetzung für LDigital Version 1.
 
 ## Nächste drei konkrete Ziele
 
-1. Über-uns-Seite visuell weiterentwickeln
-2. Kontaktseite visuell weiterentwickeln
-3. Danach Gesamtcheck der sechs HTML-Seiten vorbereiten
+1. Startseite sprachlich und verkaufslogisch schärfen
+2. Leistungsseite zu einer stärkeren Angebotsseite weiterentwickeln
+3. Kontaktseite vereinfachen und Formular-Option prüfen
 
 ## Arbeitsverlauf
 
@@ -383,12 +391,24 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
 
 ### 21. Juni 2026
 
-* Arbeitszeit: Start des neuen Arbeitsblocks um 18:00 Uhr
+* Arbeitsblock 1: 18:00 bis 19:10 Uhr
+* Pause 1: 19:00 bis 19:10 Uhr
+* Arbeitsblock 2: 19:10 bis 20:20 Uhr
+* Pause 2: keine; Arbeitstag endete nach Arbeitsblock 2
 * Erledigt:
-  * neuer Arbeitsblock festgelegt
+  * Arbeitsblock 1: manueller Gesamtcheck der Startseite
+  * Arbeitsblock 2: Bereinigung und Aktualisierung von `PLAN.md` auf den aktuellen Version-1-Stand
 * Aktueller Stand:
-  * Fokus liegt auf der visuellen Weiterentwicklung der Über-uns-Seite und danach der Kontaktseite
-  * Logo/Favicon bleiben als separate Designentscheidung blockiert und blockieren den weiteren Website-Aufbau nicht
+  * Startseite wirkt noch zu überladen mit CTAs
+  * CarDesk-Hinweis auf der Startseite wirkt wie eine interne Notiz und soll als professioneller Pilotpartner-Aufruf neu eingeordnet werden
+  * Hero-Text soll stärker auf Schweizer Unternehmen ausgerichtet werden
+  * Nutzen-Texte in den Cards sollen professioneller formuliert werden
+  * `PLAN.md` wurde auf den aktuellen Version-1-Stand bereinigt
+  * die aktuelle aktive Runde bleibt `Version-1 Text- und Verkaufslogik schärfen`
+  * CarDesk bleibt als separates Projekt und Pilotpartner-Aufruf dokumentiert
+  * Logo/Favicon bleiben blockiert
+  * Version-2-Themen sind klar von Version 1 getrennt
 * Nächster Schritt:
-  * Über-uns-Seite visuell weiterentwickeln
-  * danach Kontaktseite visuell weiterentwickeln
+  * Startseite sprachlich und verkaufslogisch schärfen
+  * Leistungsseite zu einer stärkeren Angebotsseite weiterentwickeln
+  * Kontaktseite vereinfachen und Formular-Option prüfen
