@@ -312,6 +312,8 @@ Diese Runde gehört weiterhin zu LDigital Version 1. Der technische Aufbau ist g
 * danach erneuter Gesamtcheck
 * danach Commit und Push
 
+Für die Startseite werden in dieser Runde der Hero-CTA stärker formuliert, die Nutzen-Sätze der ersten beiden Service-Cards verbessert, der Abschnitt `#nutzen` entfernt, CarDesk als kurzer Pilotpartner-Aufruf sichtbar gehalten und der finale Kontaktbereich verkaufsstärker formuliert.
+
 Kein Commit erfolgt, bevor diese Text- und Verkaufslogik-Runde abgeschlossen ist.
 
 Logo/Favicon bleiben weiterhin blockiert und blockieren diesen Arbeitsblock nicht. CarDesk bleibt ein separates Projekt, ist aber auf der Startseite als professioneller Pilotpartner-Aufruf sichtbar.
@@ -410,5 +412,26 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * Version-2-Themen sind klar von Version 1 getrennt
 * Nächster Schritt:
   * Startseite sprachlich und verkaufslogisch schärfen
+  * Leistungsseite zu einer stärkeren Angebotsseite weiterentwickeln
+  * Kontaktseite vereinfachen und Formular-Option prüfen
+
+### 22. Juni 2026
+
+* Arbeitsblock 1: Start um 19:30 Uhr
+* Endzeit: offen
+* Pause: noch nicht festgelegt
+* Tätigkeit: Weiterarbeit an `PLAN.md` und Vorbereitung der Runde `Version-1 Text- und Verkaufslogik schärfen`
+* Erledigt:
+  * der gestern geplante Prompt wurde umgesetzt
+  * `PLAN.md` wurde auf den aktuellen Version-1-Stand bereinigt
+  * Startseite sprachlich und verkaufslogisch geschärft
+  * CarDesk-Text auf der Startseite als kurzer Pilotpartner-Aufruf präzisiert
+  * `PLAN.md` entsprechend aktualisiert
+* Aktueller Stand:
+  * die aktuelle aktive Runde bleibt `Version-1 Text- und Verkaufslogik schärfen`
+  * CarDesk bleibt als separates Projekt und Pilotpartner-Aufruf dokumentiert
+  * Logo/Favicon bleiben blockiert
+  * Version-2-Themen sind klar von Version 1 getrennt
+* Nächster Schritt:
   * Leistungsseite zu einer stärkeren Angebotsseite weiterentwickeln
   * Kontaktseite vereinfachen und Formular-Option prüfen
