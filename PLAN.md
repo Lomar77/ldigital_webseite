@@ -132,17 +132,7 @@ CarDesk bleibt unabhängig von den regulären LDigital-Dienstleistungen. Später
 
 ## Noch nötig für Version 1
 
-### 1. Kontaktseite final entschärfen
-
-* Ziel: Die Kontaktseite bleibt schlank und wirkt weniger fordernd.
-* Zu erledigen:
-  * Angaben zur ersten Anfrage weicher formulieren
-  * klarstellen, dass die Angaben hilfreich, aber nicht zwingend sind
-* Priorität: Mittel
-* betroffene Dateien: `kontakt.html`
-* Abgeschlossen, wenn die Kontaktseite kurz, handlungsorientiert und freundlich wirkt.
-
-### 2. Über-uns-Seite überarbeiten
+### 1. Über-uns-Seite überarbeiten
 
 * Ziel: Die Über-uns-Seite soll kürzer, vertrauensbildender und klarer erklären, wofür LDigital steht.
 * Zu erledigen:
@@ -154,7 +144,7 @@ CarDesk bleibt unabhängig von den regulären LDigital-Dienstleistungen. Später
 * betroffene Dateien: `ueber-uns.html`
 * Abgeschlossen, wenn die Seite persönlich, glaubwürdig und nicht zu textlastig wirkt.
 
-### 3. Gesamtcheck der sechs HTML-Seiten
+### 2. Gesamtcheck der sechs HTML-Seiten
 
 * Ziel: alle sechs Seiten lokal auf Inhalt, Links, Navigation, Footer, responsive Darstellung und offensichtliche Fehler prüfen.
 * Zu prüfen:
@@ -169,25 +159,26 @@ CarDesk bleibt unabhängig von den regulären LDigital-Dienstleistungen. Später
   * Mobile Ansicht
   * Links
   * Bilder
+  * Umlaute / Sonderzeichen
 * Priorität: Hoch
 * betroffene Dateien: alle HTML-Dateien und `css/styles.css`
 * Abgeschlossen, wenn alle Seiten lokal geprüft sind und keine offensichtlichen Fehler mehr vorhanden sind.
 
-### 4. README aktualisieren
+### 3. README aktualisieren
 
 * Ziel: README auf die neue Seitenstruktur und den Status als interne Version-1-Arbeitsversion bringen.
 * Priorität: Mittel
 * betroffene Dateien: `README.md`
 * Abgeschlossen, wenn README Startseite, Leistungen, Über uns, Kontakt, Impressum, Datenschutz und den aktuellen Status als interne Arbeitsversion korrekt beschreibt.
 
-### 5. Finaler lokaler Check der internen Version-1-Arbeitsversion
+### 4. Finaler lokaler Check der internen Version-1-Arbeitsversion
 
 * Ziel: interne Version 1 auf Desktop, Tablet und Smartphone prüfen.
 * Priorität: Hoch
 * betroffene Dateien: keine zwingend, nur bei gefundenen Fehlern
 * Abgeschlossen, wenn alle Seiten, Navigation, Logo, Favicon, E-Mail-Links, Bilder und Rechtsseiten lokal geprüft sind.
 
-### 6. Logo und Favicon technisch überarbeiten
+### 5. Logo und Favicon technisch überarbeiten
 
 * Status: blockiert
 * Grund: Logo/Favicon benötigen eine separate Designentscheidung und sollen den weiteren Website-Aufbau nicht blockieren.
@@ -211,13 +202,14 @@ Ungefähr 10 bis 16 Stunden bis zur vollständigen LDigital Version 1.
 
 Die tatsächliche Dauer hängt vor allem von der Qualität der alten HTML- und CSS-Entwürfe, der Designsystem-Entscheidung, der Logo-Bearbeitung, der Wiederverwendbarkeit des alten HTML- und CSS-Codes, der neuen Leistungsseite, der Überarbeitung der bestehenden Seiten sowie möglichen technischen Themen bei Domain, DNS oder SSL ab.
 
+LDigital als Gesamtprojekt läuft bereits seit 2025. Die aktuelle statische Version-1-Website mit GitHub, Codex und `PLAN.md` wird seit Mitte Juni 2026 intensiv aufgebaut. Am 22.06.2026 wurden zwei strukturierte Arbeitsblöcke durchgeführt.
+
 ## Nächster Arbeitsblock
 
 ### Version-1 Text- und Verkaufslogik schärfen
 
 Diese Runde gehört weiterhin zu LDigital Version 1. Der technische Aufbau ist grundsätzlich vorhanden, aber Texte, Nutzenargumentation und Seitenführung werden vor einem Commit nochmals geschärft.
 
-* Kontaktseite final entschärfen
 * Über-uns-Seite kürzen und vertrauensbildender formulieren
 * danach erneuter Gesamtcheck
 * danach Commit und Push
@@ -226,7 +218,7 @@ Die Startseite ist für Version 1 inhaltlich abgeschlossen und wird nur noch im 
 
 Die Leistungsseite wurde textlich und visuell geschärft. Cards und bestehende Bilder sind eingebaut; die Gestaltung ist an die Startseite angeglichen, ohne neue Leistungen zu ergänzen.
 
-Die Kontaktseite bleibt ohne Formular in Version 1. Im zweiten Arbeitsblock werden die Angaben zur ersten Anfrage weicher formuliert und als hilfreich, aber nicht zwingend eingeordnet.
+Die Kontaktseite wurde final entschärft und sprachlich nachgeschärft. Die Anfrage-Angaben werden nicht mehr als Liste dargestellt; dadurch wirkt der Kontaktbereich weniger fordernd und professioneller. Die Kontaktseite bleibt ohne Formular und die Kontaktaufnahme läuft über `info@ldigital.ch`.
 
 Die Über-uns-Seite bleibt offen und soll kürzer, vertrauensbildender und klarer formulieren, wofür LDigital steht.
 
@@ -258,9 +250,9 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
 
 ## Nächste drei konkrete Ziele
 
-1. Kontaktseite final entschärfen: Anfrage-Angaben weicher formulieren.
-2. Über-uns-Seite kürzen und vertrauensbildender formulieren.
-3. Danach erneuten Gesamtcheck der sechs HTML-Seiten vorbereiten.
+1. Über-uns-Seite kürzen und vertrauensbildender formulieren.
+2. Danach erneuten Gesamtcheck der sechs HTML-Seiten vorbereiten.
+3. README auf den Status der internen Version-1-Arbeitsversion aktualisieren.
 
 ## Arbeitsverlauf
 
@@ -342,8 +334,9 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
 
 * Arbeitsblock 1: abgeschlossen um 21:20 Uhr
 * Pause: 21:20 bis 21:30 Uhr
-* Arbeitsblock 2: Start um 21:30 Uhr
-* Endzeit Arbeitsblock 2: offen
+* Arbeitsblock 2: 21:30 bis 22:30 Uhr
+* Danach: Arbeitsende / Schlafpause
+* Kein weiterer Arbeitsblock am heutigen Abend geplant
 * Tätigkeit Arbeitsblock 1: Weiterarbeit an der Runde `Version-1 Text- und Verkaufslogik schärfen`
 * Tätigkeit Arbeitsblock 2: Fortsetzung der Version-1-Bereinigung und Vorbereitung der nächsten offenen Aufgaben
 * Erledigt:
@@ -359,14 +352,23 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * Kontakt-Cards entfernt
   * Kontaktaufnahme bleibt über `info@ldigital.ch`
   * Formular-Option geprüft und auf später verschoben
+  * Kontaktseite final entschärft
+  * Anfrage-Angaben weicher formuliert
+  * Angaben zur ersten Anfrage als hilfreich, aber nicht zwingend eingeordnet
+  * Anfrage-Liste entfernt
+  * Abschnitt `Erste Anfrage` eingeführt
+  * Kontaktbereich sprachlich nachgeschärft
   * erster Arbeitsblock um 21:20 Uhr abgeschlossen
   * strategische Entscheidung getroffen: Version 1 wird vorerst nicht auf `ldigital.ch` veröffentlicht
   * Version 1 bleibt als interne Arbeitsversion, präsentierbare Grundlage und Vorbereitung für das Marco-Projekt bestehen
   * Marco-Projekt als nächster strategischer Schritt nach Version 1 eingeordnet
   * Veröffentlichung von `ldigital.ch` wird erst nach dem Marco-Projekt beziehungsweise in Version 2 erneut geprüft
   * Leistungsseite mit Cards und bestehenden Bildern visuell gestärkt
+  * bestehende Bilder auf der Leistungsseite eingebunden
   * Gestaltung der Leistungsseite an die Startseite angeglichen
   * keine neuen Leistungen ergänzt
+  * Arbeitsblock 2 um 22:30 Uhr abgeschlossen
+  * Arbeitsende / Schlafpause dokumentiert
   * `PLAN.md` entsprechend aktualisiert
 * Aktueller Stand:
   * Startseite ist für Version 1 inhaltlich abgeschlossen
@@ -375,7 +377,7 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * Cards und bestehende Bilder sind auf der Leistungsseite eingebaut
   * Kontaktseite wurde vereinfacht und die Kontakt-Cards wurden entfernt
   * Kontaktseite bleibt ohne Formular in Version 1
-  * die Angaben für eine erste Anfrage wirken aktuell noch zu dominant und sollen im zweiten Arbeitsblock weicher formuliert werden
+  * die Angaben für eine erste Anfrage sind nicht mehr als Liste dargestellt und wirken weniger fordernd
   * Über-uns-Seite ist noch offen und braucht noch stärkere Vertrauensbildung
   * CarDesk-Unterseite wird nicht in Version 1 umgesetzt, sondern in Version 2
   * auf der Startseite bleibt CarDesk nur als kurzer Pilotpartner-Aufruf sichtbar
@@ -386,6 +388,5 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * Version 1 wird sauber fertiggestellt, aber vorerst nicht öffentlich auf `ldigital.ch` veröffentlicht
   * nach Version 1 folgt das Marco-Projekt als praktische Referenz und Erfahrungsgrundlage
 * Nächster Schritt:
-  * Kontaktseite final entschärfen
   * Über-uns-Seite kürzen und vertrauensbildender formulieren
   * danach erneuter Gesamtcheck
