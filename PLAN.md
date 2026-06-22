@@ -314,6 +314,14 @@ Diese Runde gehört weiterhin zu LDigital Version 1. Der technische Aufbau ist g
 
 Für die Startseite werden in dieser Runde der Hero-CTA stärker formuliert, die Nutzen-Sätze der ersten beiden Service-Cards verbessert, der Abschnitt `#nutzen` entfernt, CarDesk als kurzer Pilotpartner-Aufruf sichtbar gehalten und der finale Kontaktbereich verkaufsstärker formuliert.
 
+Die Leistungsseite wird schrittweise zu einer stärkeren Angebotsseite weiterentwickelt. Im ersten Schritt werden Einstieg und finaler CTA geschärft; danach werden die drei Leistungsabschnitte einzeln geprüft und verbessert.
+
+Der Abschnitt `Webseiten und digitales Auftreten` wird als erster Leistungsabschnitt einzeln geschärft. Fokus: klarerer Nutzen, professioneller erster Eindruck, bessere Verständlichkeit und einfachere Kontaktaufnahme.
+
+Der Abschnitt `Logodesign und Markenauftritt` wird als zweiter Leistungsabschnitt einzeln geschärft. Fokus: professioneller Auftritt, Wiedererkennung, einheitliche Gestaltung und hochwertiger erster Eindruck.
+
+Der Abschnitt `Prozessoptimierung und Automatisierung` wird als dritter Leistungsabschnitt einzeln geschärft. Fokus: weniger unnötiger Aufwand, bessere Übersicht, weniger Fehler und sinnvolle Automatisierung.
+
 Kein Commit erfolgt, bevor diese Text- und Verkaufslogik-Runde abgeschlossen ist.
 
 Logo/Favicon bleiben weiterhin blockiert und blockieren diesen Arbeitsblock nicht. CarDesk bleibt ein separates Projekt, ist aber auf der Startseite als professioneller Pilotpartner-Aufruf sichtbar.
@@ -426,6 +434,10 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * `PLAN.md` wurde auf den aktuellen Version-1-Stand bereinigt
   * Startseite sprachlich und verkaufslogisch geschärft
   * CarDesk-Text auf der Startseite als kurzer Pilotpartner-Aufruf präzisiert
+  * Einstieg und finaler CTA der Leistungsseite geschärft
+  * Abschnitt `Webseiten und digitales Auftreten` auf der Leistungsseite geschärft
+  * Abschnitt `Logodesign und Markenauftritt` auf der Leistungsseite geschärft
+  * Abschnitt `Prozessoptimierung und Automatisierung` auf der Leistungsseite geschärft
   * `PLAN.md` entsprechend aktualisiert
 * Aktueller Stand:
   * die aktuelle aktive Runde bleibt `Version-1 Text- und Verkaufslogik schärfen`
@@ -433,5 +445,4 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * Logo/Favicon bleiben blockiert
   * Version-2-Themen sind klar von Version 1 getrennt
 * Nächster Schritt:
-  * Leistungsseite zu einer stärkeren Angebotsseite weiterentwickeln
   * Kontaktseite vereinfachen und Formular-Option prüfen
