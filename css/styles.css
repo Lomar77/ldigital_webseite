@@ -255,6 +255,23 @@ main li {
     text-decoration: underline;
 }
 
+.service-detail-card {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.service-detail-card h2 {
+    margin-top: 0;
+}
+
+.service-detail-card .service-card-content {
+    padding: 28px;
+}
+
+.service-detail-card ul {
+    margin-bottom: 0;
+}
+
 /* CarDesk */
 #cardesk {
     background-color: var(--color-surface);

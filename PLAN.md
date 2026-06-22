@@ -1,6 +1,6 @@
 # LDigital Entwicklungsplan
 
-Aktueller Stand: Das technische Grundgerüst, die Startseite, die Über-uns-Seite, die Kontaktseite sowie die rechtlichen Seiten sind funktionsfähig und über GitHub Pages vorbereitet. Nach dem Gesamtcheck wird Version 1 neu um eine eigene Leistungsseite erweitert. Die Veröffentlichung auf `ldigital.ch` wird nach hinten verschoben.
+Aktueller Stand: Version 1 wird als interne Arbeitsversion, präsentierbare Grundlage, Basis für Gespräche und Weiterentwicklung sowie Vorbereitung für das Marco-Projekt fertiggestellt. Eine Veröffentlichung auf `ldigital.ch` erfolgt vorerst nicht und wird erst nach dem Marco-Projekt beziehungsweise im Rahmen von Version 2 erneut geprüft.
 
 ## Abgeschlossen
 
@@ -30,6 +30,8 @@ Aktueller Stand: Das technische Grundgerüst, die Startseite, die Über-uns-Seit
 * Kontaktadresse auf `info@ldigital.ch` vereinheitlicht
 * Startseiten-CTAs auf `kontakt.html` umgestellt
 * CarDesk-Bereich auf der Startseite gekürzt und als eigenständiges Zukunftsprojekt eingeordnet
+* Startseite für Version 1 inhaltlich abgeschlossen
+* Leistungsseite mit Cards und bestehenden Bildern visuell gestärkt
 
 ## Seitenstruktur für LDigital Version 1
 
@@ -130,42 +132,62 @@ CarDesk bleibt unabhängig von den regulären LDigital-Dienstleistungen. Später
 
 ## Noch nötig für Version 1
 
-### 1. Alten HTML- und CSS-Code prüfen
+### 1. Kontaktseite final entschärfen
 
-* Status: Blockiert, bis der Nutzer den alten Code bereitstellt.
-* Ziel: geeignete Card-Layouts, Abstände und visuelle Bausteine aus dem alten Entwurf identifizieren.
+* Ziel: Die Kontaktseite bleibt schlank und wirkt weniger fordernd.
+* Zu erledigen:
+  * Angaben zur ersten Anfrage weicher formulieren
+  * klarstellen, dass die Angaben hilfreich, aber nicht zwingend sind
+* Priorität: Mittel
+* betroffene Dateien: `kontakt.html`
+* Abgeschlossen, wenn die Kontaktseite kurz, handlungsorientiert und freundlich wirkt.
+
+### 2. Über-uns-Seite überarbeiten
+
+* Ziel: Die Über-uns-Seite soll kürzer, vertrauensbildender und klarer erklären, wofür LDigital steht.
+* Zu erledigen:
+  * Text kürzen
+  * Vertrauen stärken
+  * Haltung und Arbeitsweise klarer formulieren
+  * Überladung vermeiden
+* Priorität: Mittel
+* betroffene Dateien: `ueber-uns.html`
+* Abgeschlossen, wenn die Seite persönlich, glaubwürdig und nicht zu textlastig wirkt.
+
+### 3. Gesamtcheck der sechs HTML-Seiten
+
+* Ziel: alle sechs Seiten lokal auf Inhalt, Links, Navigation, Footer, responsive Darstellung und offensichtliche Fehler prüfen.
+* Zu prüfen:
+  * Startseite
+  * Leistungsseite
+  * Kontaktseite
+  * Über-uns-Seite
+  * Impressum
+  * Datenschutz
+  * Navigation
+  * Footer
+  * Mobile Ansicht
+  * Links
+  * Bilder
 * Priorität: Hoch
-* geschätzte Dauer: 30 bis 60 Minuten
-* betroffene Dateien: alte HTML-/CSS-Entwürfe, später eventuell `css/styles.css`
-* Abgeschlossen, wenn klar ist, welche Elemente übernommen, angepasst oder verworfen werden.
+* betroffene Dateien: alle HTML-Dateien und `css/styles.css`
+* Abgeschlossen, wenn alle Seiten lokal geprüft sind und keine offensichtlichen Fehler mehr vorhanden sind.
 
-### 2. Designsystem aus Logo ableiten
+### 4. README aktualisieren
 
-* Ziel: Die Website verwendet ein klares, konsistentes Farbsystem, das zum bestehenden Logo passt.
-* Zu planen:
-  * passendere `font-family`
-  * neue Header-Hintergrundfarbe
-  * passende Farben für `h1`, `h2`, `h3`
-  * neue Button-Farbe
-  * neue Button-Hover-Farbe
-  * passender Goldton
-  * Hintergrundfarbe passend zu Logo und Favicon
-  * einheitliche Farbcodes für die gesamte Website
+* Ziel: README auf die neue Seitenstruktur und den Status als interne Version-1-Arbeitsversion bringen.
+* Priorität: Mittel
+* betroffene Dateien: `README.md`
+* Abgeschlossen, wenn README Startseite, Leistungen, Über uns, Kontakt, Impressum, Datenschutz und den aktuellen Status als interne Arbeitsversion korrekt beschreibt.
+
+### 5. Finaler lokaler Check der internen Version-1-Arbeitsversion
+
+* Ziel: interne Version 1 auf Desktop, Tablet und Smartphone prüfen.
 * Priorität: Hoch
-* geschätzte Dauer: 45 bis 75 Minuten
-* betroffene Dateien: `css/styles.css`, Logo-Dateien als Referenz
-* Abgeschlossen, wenn ein schlankes, umsetzbares Designsystem für Version 1 festgelegt ist.
+* betroffene Dateien: keine zwingend, nur bei gefundenen Fehlern
+* Abgeschlossen, wenn alle Seiten, Navigation, Logo, Favicon, E-Mail-Links, Bilder und Rechtsseiten lokal geprüft sind.
 
-### 3. Cards neu gestalten
-
-* Abhängigkeit: Prüfung des alten HTML- und CSS-Codes.
-* Ziel: Drei Startseiten-Cards und die Leistungsdarstellung auf `leistungen.html` sollen sich am früheren Entwurf orientieren und zum neuen Designsystem passen.
-* Priorität: Hoch
-* geschätzte Dauer: 45 bis 90 Minuten
-* betroffene Dateien: `index.html`, `leistungen.html`, `css/styles.css`
-* Abgeschlossen, wenn die Cards einheitlich, responsive und passend zum neuen Designsystem gestaltet sind.
-
-### 4. Logo und Favicon technisch überarbeiten
+### 6. Logo und Favicon technisch überarbeiten
 
 * Status: blockiert
 * Grund: Logo/Favicon benötigen eine separate Designentscheidung und sollen den weiteren Website-Aufbau nicht blockieren.
@@ -183,116 +205,6 @@ CarDesk bleibt unabhängig von den regulären LDigital-Dienstleistungen. Später
 * betroffene Dateien: Logo- und Favicon-Dateien, HTML-Dateien bei Pfad- oder Formatänderungen
 * Abgeschlossen, wenn Logo und Favicon technisch sauber eingebunden und auf Desktop sowie Smartphone geprüft sind.
 
-### 5. `leistungen.html` planen
-
-* Ziel: Inhaltliche Struktur der neuen Leistungsseite mit drei Kernleistungen festlegen.
-* Priorität: Hoch
-* geschätzte Dauer: 30 bis 45 Minuten
-* betroffene Dateien: noch keine zwingend
-* Abgeschlossen, wenn Reihenfolge, Abschnitte, CTA-Ziele und Abgrenzung der Leistungen definiert sind.
-
-### 6. Inhalte für `leistungen.html` schreiben
-
-* Ziel: Texte für die drei Kernleistungen sachlich, kurz und verständlich formulieren.
-* Priorität: Hoch
-* geschätzte Dauer: 60 bis 90 Minuten
-* betroffene Dateien: später `leistungen.html`
-* Abgeschlossen, wenn alle drei Kernleistungen fertig formuliert sind und keine unbelegten Versprechen enthalten sind.
-
-### 7. `leistungen.html` erstellen
-
-* Ziel: neue Leistungsseite mit drei Kernleistungen technisch anlegen und in das bestehende Layout einfügen.
-* Priorität: Hoch
-* geschätzte Dauer: 60 bis 90 Minuten
-* betroffene Dateien: `leistungen.html`, eventuell `css/styles.css`
-* Abgeschlossen, wenn die Seite existiert, responsive funktioniert und zur restlichen Website passt.
-
-### 8. Startseite visuell und inhaltlich überarbeiten
-
-* Ziel: Startseite auf die neue Leistungsseite und das neue Designsystem abstimmen.
-* Zu planen:
-  * Leistungsbereich an neue Leistungsstruktur anpassen
-  * `Digitale Werkzeuge und Systeme` entfernen
-  * `Logodesign und Markenauftritt` ergänzen
-  * `Webseiten und digitales Auftreten` um Google Business ergänzen
-  * drei kurze Startseiten-Cards planen
-  * Leistungen kürzer darstellen
-  * Link zu `leistungen.html`
-  * Abschnitt `Schrittweise zu besseren digitalen Abläufen` entfernen oder ersetzen
-  * letzten Abschnitt passend zur neuen Struktur anpassen
-  * CarDesk kurz halten
-  * neue Cards verwenden
-* Priorität: Hoch
-* geschätzte Dauer: 60 bis 120 Minuten
-* betroffene Dateien: `index.html`, eventuell `css/styles.css`
-* Abgeschlossen, wenn die Startseite klar auf Einstieg, Kurzüberblick, Vertrauen und Kontaktführung fokussiert ist.
-
-### 9. Über-uns-Seite visuell weiterentwickeln
-
-* Ziel: Die Seite soll nicht nur aus Überschriften und Absätzen bestehen, sondern eine klarere visuelle Gliederung erhalten.
-* Priorität: Mittel
-* geschätzte Dauer: 45 bis 90 Minuten
-* betroffene Dateien: `ueber-uns.html`
-* Abgeschlossen, wenn Inhalt und Ton zur neuen Version-1-Struktur passen.
-
-### 10. Kontaktseite visuell weiterentwickeln
-
-* Ziel: Die Kontaktseite soll technisch und visuell klarer aufgebaut werden, ohne Kontaktformular.
-* Priorität: Mittel
-* geschätzte Dauer: 30 bis 60 Minuten
-* betroffene Dateien: `kontakt.html`
-* Abgeschlossen, wenn die Kontaktseite zur neuen Navigation und Leistungsstruktur passt.
-
-### 11. Navigation um `Leistungen` ergänzen
-
-* Ziel: Hauptnavigation auf allen Seiten um die neue Leistungsseite ergänzen.
-* Priorität: Hoch
-* geschätzte Dauer: 30 bis 45 Minuten
-* betroffene Dateien: `index.html`, `leistungen.html`, `ueber-uns.html`, `kontakt.html`, `impressum.html`, `datenschutz.html`
-* Abgeschlossen, wenn alle Header- und Footer-Links konsistent sind und keine toten Links entstehen.
-
-### 12. Gesamtcheck
-
-* Ziel: alle sechs Seiten lokal auf Inhalt, Links, Navigation, Footer, responsive Darstellung und offensichtliche Fehler prüfen.
-* Priorität: Hoch
-* geschätzte Dauer: 60 bis 90 Minuten
-* betroffene Dateien: alle HTML-Dateien und `css/styles.css`
-* Abgeschlossen, wenn alle Seiten lokal geprüft sind und keine offensichtlichen Fehler mehr vorhanden sind.
-
-### 13. README aktualisieren
-
-* Ziel: README auf die neue Seitenstruktur und den aktuellen Projektstand bringen.
-* Priorität: Mittel
-* geschätzte Dauer: 20 bis 30 Minuten
-* betroffene Dateien: `README.md`
-* Abgeschlossen, wenn README Startseite, Leistungen, Über uns, Kontakt, Impressum, Datenschutz und den aktuellen Status korrekt beschreibt.
-
-### 14. Veröffentlichung auf `ldigital.ch`
-
-* Ziel: Website über die eigene Domain erreichbar machen.
-* Priorität: Hoch
-* geschätzte Dauer: 60 bis 90 Minuten
-* betroffene Dateien: Projektdateien für Upload, cyon-/Domain-/DNS-/SSL-Konfiguration
-* Abgeschlossen, wenn `ldigital.ch` per HTTPS erreichbar ist und die aktuelle Website ausliefert.
-
-### 15. Open Graph nach Domain-Aufschaltung
-
-* Status: Blockiert
-* Abhängigkeit: `ldigital.ch` muss live sein
-* Ziel: Social-Media-Vorschau mit absoluten HTTPS-URLs korrekt ausliefern.
-* Priorität: Mittel
-* geschätzte Dauer: 30 bis 45 Minuten
-* betroffene Dateien: `index.html`, `leistungen.html`, `ueber-uns.html`, `kontakt.html`, `impressum.html`, `datenschutz.html`, Social-Preview-Bild
-* Abgeschlossen, wenn `og:image` und `twitter:image` absolute URLs mit `https://ldigital.ch/...` verwenden und die Vorschau getestet ist.
-
-### 16. Finaler Live-Test
-
-* Ziel: veröffentlichte Version auf Desktop, Tablet und Smartphone prüfen.
-* Priorität: Hoch
-* geschätzte Dauer: 30 bis 45 Minuten
-* betroffene Dateien: keine zwingend, nur bei gefundenen Fehlern
-* Abgeschlossen, wenn alle Seiten, Navigation, Logo, Favicon, E-Mail-Links und Rechtsseiten live geprüft sind.
-
 ## Geschätzter Gesamtaufwand bis Version 1
 
 Ungefähr 10 bis 16 Stunden bis zur vollständigen LDigital Version 1.
@@ -305,37 +217,40 @@ Die tatsächliche Dauer hängt vor allem von der Qualität der alten HTML- und C
 
 Diese Runde gehört weiterhin zu LDigital Version 1. Der technische Aufbau ist grundsätzlich vorhanden, aber Texte, Nutzenargumentation und Seitenführung werden vor einem Commit nochmals geschärft.
 
-* Startseite sprachlich und verkaufslogisch schärfen
-* Leistungsseite zu einer stärkeren Angebotsseite weiterentwickeln
-* Kontaktseite vereinfachen und Formular-Option prüfen
+* Kontaktseite final entschärfen
 * Über-uns-Seite kürzen und vertrauensbildender formulieren
 * danach erneuter Gesamtcheck
 * danach Commit und Push
 
-Für die Startseite werden in dieser Runde der Hero-CTA stärker formuliert, die Nutzen-Sätze der ersten beiden Service-Cards verbessert, der Abschnitt `#nutzen` entfernt, CarDesk als kurzer Pilotpartner-Aufruf sichtbar gehalten und der finale Kontaktbereich verkaufsstärker formuliert.
+Die Startseite ist für Version 1 inhaltlich abgeschlossen und wird nur noch im finalen Gesamtcheck geprüft.
 
-Die Leistungsseite wird schrittweise zu einer stärkeren Angebotsseite weiterentwickelt. Im ersten Schritt werden Einstieg und finaler CTA geschärft; danach werden die drei Leistungsabschnitte einzeln geprüft und verbessert.
+Die Leistungsseite wurde textlich und visuell geschärft. Cards und bestehende Bilder sind eingebaut; die Gestaltung ist an die Startseite angeglichen, ohne neue Leistungen zu ergänzen.
 
-Der Abschnitt `Webseiten und digitales Auftreten` wird als erster Leistungsabschnitt einzeln geschärft. Fokus: klarerer Nutzen, professioneller erster Eindruck, bessere Verständlichkeit und einfachere Kontaktaufnahme.
+Die Kontaktseite bleibt ohne Formular in Version 1. Im zweiten Arbeitsblock werden die Angaben zur ersten Anfrage weicher formuliert und als hilfreich, aber nicht zwingend eingeordnet.
 
-Der Abschnitt `Logodesign und Markenauftritt` wird als zweiter Leistungsabschnitt einzeln geschärft. Fokus: professioneller Auftritt, Wiedererkennung, einheitliche Gestaltung und hochwertiger erster Eindruck.
-
-Der Abschnitt `Prozessoptimierung und Automatisierung` wird als dritter Leistungsabschnitt einzeln geschärft. Fokus: weniger unnötiger Aufwand, bessere Übersicht, weniger Fehler und sinnvolle Automatisierung.
+Die Über-uns-Seite bleibt offen und soll kürzer, vertrauensbildender und klarer formulieren, wofür LDigital steht.
 
 Kein Commit erfolgt, bevor diese Text- und Verkaufslogik-Runde abgeschlossen ist.
 
 Logo/Favicon bleiben weiterhin blockiert und blockieren diesen Arbeitsblock nicht. CarDesk bleibt ein separates Projekt, ist aber auf der Startseite als professioneller Pilotpartner-Aufruf sichtbar.
 
+Nach Fertigstellung von Version 1 wird am Marco-Projekt weitergearbeitet. Das Marco-Projekt dient als praktische Referenz und Erfahrungsgrundlage. Erkenntnisse daraus sollen später in Version 2 von LDigital einfließen, damit Version 2 konkreter, vertrauenswürdiger und stärker auf echte Kundenbedürfnisse ausgerichtet wird.
+
 ## Nach Version 1 / Version 2
 
 Diese Themen gehören nicht mehr zur aktuellen Version-1-Runde, sondern werden später separat geplant:
 
-* eigenständige CarDesk-Landingpage oder CarDesk-Website
-* Referenzen und Kundenbeispiele
+* Veröffentlichung von `ldigital.ch` erneut prüfen
+* eigenständige CarDesk-Unterseite oder CarDesk-Landingpage
+* Erkenntnisse aus dem Marco-Projekt einbauen
+* Referenz oder Pilotbeispiel stärker nutzen
+* Kontaktformular prüfen
+* weitere Referenzen oder Kundenbeispiele
 * Blog oder Ratgeber
 * erweitertes Design
-* komplexere Automatisierungen
+* erweiterte Automatisierungen
 * Social-Media-Angebot
+* Open Graph und Social-Media-Metadaten nach Domain-Aufschaltung
 * Analytics
 * Mehrsprachigkeit
 
@@ -343,9 +258,9 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
 
 ## Nächste drei konkrete Ziele
 
-1. Startseite sprachlich und verkaufslogisch schärfen
-2. Leistungsseite zu einer stärkeren Angebotsseite weiterentwickeln
-3. Kontaktseite vereinfachen und Formular-Option prüfen
+1. Kontaktseite final entschärfen: Anfrage-Angaben weicher formulieren.
+2. Über-uns-Seite kürzen und vertrauensbildender formulieren.
+3. Danach erneuten Gesamtcheck der sechs HTML-Seiten vorbereiten.
 
 ## Arbeitsverlauf
 
@@ -419,16 +334,18 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * Logo/Favicon bleiben blockiert
   * Version-2-Themen sind klar von Version 1 getrennt
 * Nächster Schritt:
-  * Startseite sprachlich und verkaufslogisch schärfen
-  * Leistungsseite zu einer stärkeren Angebotsseite weiterentwickeln
-  * Kontaktseite vereinfachen und Formular-Option prüfen
+  * Leistungsseite visuell stärken
+  * Kontaktseite final entschärfen
+  * Über-uns-Seite kürzen und vertrauensbildender formulieren
 
 ### 22. Juni 2026
 
-* Arbeitsblock 1: Start um 19:30 Uhr
-* Endzeit: offen
-* Pause: noch nicht festgelegt
-* Tätigkeit: Weiterarbeit an `PLAN.md` und Vorbereitung der Runde `Version-1 Text- und Verkaufslogik schärfen`
+* Arbeitsblock 1: abgeschlossen um 21:20 Uhr
+* Pause: 21:20 bis 21:30 Uhr
+* Arbeitsblock 2: Start um 21:30 Uhr
+* Endzeit Arbeitsblock 2: offen
+* Tätigkeit Arbeitsblock 1: Weiterarbeit an der Runde `Version-1 Text- und Verkaufslogik schärfen`
+* Tätigkeit Arbeitsblock 2: Fortsetzung der Version-1-Bereinigung und Vorbereitung der nächsten offenen Aufgaben
 * Erledigt:
   * der gestern geplante Prompt wurde umgesetzt
   * `PLAN.md` wurde auf den aktuellen Version-1-Stand bereinigt
@@ -438,11 +355,37 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * Abschnitt `Webseiten und digitales Auftreten` auf der Leistungsseite geschärft
   * Abschnitt `Logodesign und Markenauftritt` auf der Leistungsseite geschärft
   * Abschnitt `Prozessoptimierung und Automatisierung` auf der Leistungsseite geschärft
+  * Kontaktseite für Version 1 vereinfacht
+  * Kontakt-Cards entfernt
+  * Kontaktaufnahme bleibt über `info@ldigital.ch`
+  * Formular-Option geprüft und auf später verschoben
+  * erster Arbeitsblock um 21:20 Uhr abgeschlossen
+  * strategische Entscheidung getroffen: Version 1 wird vorerst nicht auf `ldigital.ch` veröffentlicht
+  * Version 1 bleibt als interne Arbeitsversion, präsentierbare Grundlage und Vorbereitung für das Marco-Projekt bestehen
+  * Marco-Projekt als nächster strategischer Schritt nach Version 1 eingeordnet
+  * Veröffentlichung von `ldigital.ch` wird erst nach dem Marco-Projekt beziehungsweise in Version 2 erneut geprüft
+  * Leistungsseite mit Cards und bestehenden Bildern visuell gestärkt
+  * Gestaltung der Leistungsseite an die Startseite angeglichen
+  * keine neuen Leistungen ergänzt
   * `PLAN.md` entsprechend aktualisiert
 * Aktueller Stand:
+  * Startseite ist für Version 1 inhaltlich abgeschlossen
+  * Startseite wird nur noch im finalen Gesamtcheck geprüft
+  * Leistungsseite wurde textlich und visuell geschärft
+  * Cards und bestehende Bilder sind auf der Leistungsseite eingebaut
+  * Kontaktseite wurde vereinfacht und die Kontakt-Cards wurden entfernt
+  * Kontaktseite bleibt ohne Formular in Version 1
+  * die Angaben für eine erste Anfrage wirken aktuell noch zu dominant und sollen im zweiten Arbeitsblock weicher formuliert werden
+  * Über-uns-Seite ist noch offen und braucht noch stärkere Vertrauensbildung
+  * CarDesk-Unterseite wird nicht in Version 1 umgesetzt, sondern in Version 2
+  * auf der Startseite bleibt CarDesk nur als kurzer Pilotpartner-Aufruf sichtbar
   * die aktuelle aktive Runde bleibt `Version-1 Text- und Verkaufslogik schärfen`
   * CarDesk bleibt als separates Projekt und Pilotpartner-Aufruf dokumentiert
   * Logo/Favicon bleiben blockiert
   * Version-2-Themen sind klar von Version 1 getrennt
+  * Version 1 wird sauber fertiggestellt, aber vorerst nicht öffentlich auf `ldigital.ch` veröffentlicht
+  * nach Version 1 folgt das Marco-Projekt als praktische Referenz und Erfahrungsgrundlage
 * Nächster Schritt:
-  * Kontaktseite vereinfachen und Formular-Option prüfen
+  * Kontaktseite final entschärfen
+  * Über-uns-Seite kürzen und vertrauensbildender formulieren
+  * danach erneuter Gesamtcheck
