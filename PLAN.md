@@ -243,6 +243,9 @@ Diese Themen gehören nicht mehr zur aktuellen Version-1-Runde, sondern werden s
 * weitere Referenzen oder Kundenbeispiele
 * Blog oder Ratgeber
 * erweitertes Design
+* professionelle Quinas- oder Vektorgrafik für `As Cinco Quinas` prüfen beziehungsweise erstellen lassen
+* Typografie, Ausrichtung und Lesbarkeit der Quinas-Grafik professionell ausarbeiten
+* Einsatz der Quinas-Grafik auf der Über-uns-Seite oder in Social Media prüfen
 * erweiterte Automatisierungen
 * Social-Media-Angebot
 * Open Graph und Social-Media-Metadaten nach Domain-Aufschaltung
@@ -253,8 +256,8 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
 
 ## Nächste drei konkrete Ziele
 
-1. Über-uns-Seite kürzen und vertrauensbildender formulieren.
-2. Danach erneuten Gesamtcheck der sechs HTML-Seiten vorbereiten.
+1. Über-uns-Seite auf Desktop und Mobile final prüfen und über die Version-1-Abnahme entscheiden.
+2. Danach den Gesamtcheck der internen Version-1-Arbeitsversion vorbereiten und durchführen.
 3. README auf den Status der internen Version-1-Arbeitsversion aktualisieren.
 
 ## Arbeitsverlauf
@@ -398,7 +401,10 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
 
 * Arbeitsblock 1: Start um 13:30 Uhr
 * Unterbrechung: 15:00 Uhr wegen Meeting
-* Status: Arbeitsblock noch nicht abgeschlossen
+* Nach dem Meeting: zusätzliches Workout
+* Arbeitsblock 2: 21:15 bis 24:00 Uhr
+* Tagesabschluss: 24:00 Uhr
+* Status: Arbeitsblock 2 und Arbeitstag abgeschlossen
 * Fokus: Version 1 intern fertigstellen
 * Hinweis:
   * Version 1 bleibt eine interne, präsentierbare Arbeitsversion und wird noch nicht veröffentlicht
@@ -414,6 +420,14 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * Über-uns-Seite kürzen und vertrauensbildender formulieren
   * danach prüfen, ob die Über-uns-Seite für Version 1 ausreichend ist
   * falls Zeit bleibt: erster Gesamtcheck der internen Version-1-Arbeitsversion
+* Fokus Arbeitsblock 2:
+  * Über-uns-Seite prüfen und korrigieren
+  * entscheiden, ob die Über-uns-Seite für Version 1 akzeptiert werden kann
+  * `As Cinco Quinas – fünf Grundsätze` als ruhigen Text- und Wertebereich beibehalten
+  * grossen Korrekturblock für die Über-uns-Seite umsetzen
+  * Positionierung, persönliche Verantwortung, visuelle Hierarchie und technische Sauberkeit gemeinsam prüfen
+  * Gründertext persönlicher, ruhiger und glaubwürdiger formulieren
+  * Quinas-Bereich typografisch weiter verfeinern
 * Stand vor dem Meeting:
   * Über-uns-Seite war aktiver Fokus des heutigen Arbeitsblocks
   * die erste neue Version der Über-uns-Seite wirkte zu card-lastig und im Design nicht überzeugend
@@ -424,7 +438,13 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * weniger Boxen, weniger Schatten und weniger Card-Optik
   * visuelle und inhaltliche Prüfung erfolgt erst nach dem Meeting
 * Wichtige Entscheidungen:
+  * die Über-uns-Seite ist nach der letzten Umsetzung noch nicht final abgenommen
+  * der bisherige Gründertext wirkte zu distanziert und stellenweise zu werblich
+  * der Gründertext wird deshalb in einer natürlichen Ich-Form formuliert
   * `As Cinco Quinas – fünf Grundsätze` bleibt auf der Über-uns-Seite, aber ruhiger und weniger card-lastig
+  * für Version 1 wird keine Quinas-, Canva-, SVG- oder andere grafische Quinas-Darstellung eingebaut
+  * die Idee einer visuellen Quinas-Grafik bleibt erhalten und wird für Version 2 vorgemerkt
+  * Grund: Die Idee ist stark, aber die aktuelle grafische Umsetzung ist noch nicht professionell genug
   * CarDesk bleibt auf der Über-uns-Seite entfernt
   * keine Buchhaltung, Treuhand oder Finanzverwaltung in Version 1
   * im Hauptinhalt der Über-uns-Seite wird von `Unternehmen` gesprochen, nicht von `KMU`
@@ -446,16 +466,66 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * Abschnitt `Arbeitsweise` entfernt
   * Über-uns-Seite auf Intro, Gründer, Quinas und CTA reduziert
   * Design ruhiger und näher an die bestehende LDigital-Gestaltung angepasst
+  * grossen Korrekturblock für die Über-uns-Seite umgesetzt
+  * Intro gekürzt und Positionierung auf Unternehmen in der Schweiz präzisiert
+  * Gründerbereich technisch korrigiert, sodass die Gründertexte gemeinsam in der rechten Spalte stehen
+  * Rafael Lomar klar als Gründer, Inhaber und direkte Ansprechperson positioniert
+  * Quinas-Texte gekürzt und als ruhigen Wertebereich beibehalten
+  * CTA zurückhaltender und klarer formuliert
+  * keine Quinas-Grafik in Version 1 eingebaut
+  * keine Buchhaltung, Treuhand, Finanzverwaltung, Behördennähe oder CarDesk im Über-uns-Hauptinhalt ergänzt
+  * Version 1 bleibt eine interne, präsentierbare Arbeitsversion
+  * Gründertext in eine persönliche und zurückhaltende Ich-Form überführt
+  * werbliche Formulierungen im Gründerbereich entfernt
+  * Quinas-Erklärung mit Bezug auf die portugiesische Symbolik präzisiert
+  * Quinas als nummerierten Wertebereich `01–05` gestaltet
+  * Quinas-Bereich ohne Grafik, Cards oder Schatten typografisch verfeinert
+  * zweiten Gründerabsatz weiter verfeinert, weil die vorherige Fassung noch zu bürokratisch wirkte
+  * Gründertext persönlich, ruhig und frei von Selbstlob gehalten
+  * sichtbare Quinas-Nummern wieder entfernt
+  * Quinas auf Desktop in einer subtilen Quinas-Anordnung positioniert
+  * `Confiança – Vertrauen` als zentralen Wert in die Mitte gesetzt
+  * Quinas auf Mobile in einer logischen einspaltigen Reihenfolge beibehalten
+  * Quinas weiterhin ohne Grafik dargestellt
+* Stand zum Tagesabschluss:
+  * die Über-uns-Seite wurde weiter überarbeitet und ist deutlich näher an einer Version-1-Abnahme
+  * der Gründerbereich wurde persönlicher formuliert
+  * der distanzierte und leicht werbliche Gründertext wurde durch eine natürlichere Ich-Form ersetzt
+  * der zweite Gründerabsatz wurde nochmals vereinfacht, weil die vorherige Fassung noch zu bürokratisch wirkte
+  * die Quinas-Erklärung wurde verbessert
+  * die sichtbaren Quinas-Zahlen wurden entfernt
+  * die Quinas bleiben ohne Grafik
+  * die Quinas wurden gestalterisch gegliedert, damit die Formidee subtil erhalten bleibt
+  * `Confiança – Vertrauen` steht als zentraler Wert in der Mitte
+  * die Über-uns-Seite ist noch nicht endgültig abgenommen und muss nochmals visuell sowie mobil geprüft werden
+  * Version 1 bleibt eine interne, präsentierbare Arbeitsversion
+  * nach Version 1 folgt weiterhin zuerst das Marco-Projekt
+  * die Veröffentlichung von `ldigital.ch` wird später im Rahmen von Version 2 erneut geprüft
 * Nächster Schritt:
-  * nach dem Meeting die überarbeitete Über-uns-Seite prüfen
-  * prüfen, ob das Design ruhiger wirkt
-  * prüfen, ob der Abschnitt `Arbeitsweise` vollständig entfernt ist
-  * prüfen, ob die Quinas hochwertig und nicht kitschig wirken
-  * prüfen, ob das Design zur Startseite und Leistungsseite passt
-  * mobile Darstellung prüfen
-  * prüfen, ob CarDesk, Buchhaltung, Treuhand und Finanzverwaltung weiterhin nicht enthalten sind
-  * danach entscheiden: Über-uns-Seite akzeptieren, kleine Korrekturen planen oder Design weiter vereinfachen
-  * danach Gesamtcheck der internen Version-1-Arbeitsversion vorbereiten
+  1. Über-uns-Seite final prüfen:
+     * Desktop-Ansicht prüfen
+     * Mobile-Ansicht prüfen
+     * Gründertext prüfen
+     * Quinas-Anordnung prüfen
+     * CTA prüfen
+  2. Danach entscheiden:
+     * Über-uns-Seite für Version 1 akzeptieren
+     * oder letzte kleine Korrekturen durchführen
+  3. Anschliessend Gesamtcheck der internen Version-1-Arbeitsversion vorbereiten:
+     * Startseite
+     * Leistungen
+     * Kontakt
+     * Über uns
+     * Impressum
+     * Datenschutz
+     * Navigation
+     * Footer
+     * Mobile Darstellung
+     * Links
+     * Bilder
+     * Umlaute
+     * Sprachregel `KMU` vs. `Unternehmen`
+  4. Danach README aktualisieren.
 * Offene Version-1-Aufgaben:
   * Über-uns-Seite verbessern: kürzer, vertrauensbildender, klarer erklären, wofür LDigital steht, nicht überladen
   * Gesamtcheck: Startseite, Leistungsseite, Kontaktseite, Über-uns-Seite, Impressum, Datenschutz, Navigation, Footer, mobile Ansicht, Links, Bilder, Umlaute / Sonderzeichen, seitenweite Sprachprüfung `KMU` vs. `Unternehmen`
