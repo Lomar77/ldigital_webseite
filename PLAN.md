@@ -160,6 +160,7 @@ CarDesk bleibt unabhängig von den regulären LDigital-Dienstleistungen. Später
   * Links
   * Bilder
   * Umlaute / Sonderzeichen
+  * seitenweite Sprachprüfung `KMU` vs. `Unternehmen`
 * Priorität: Hoch
 * betroffene Dateien: alle HTML-Dateien und `css/styles.css`
 * Abgeschlossen, wenn alle Seiten lokal geprüft sind und keine offensichtlichen Fehler mehr vorhanden sind.
@@ -220,7 +221,9 @@ Die Leistungsseite wurde textlich und visuell geschärft. Cards und bestehende B
 
 Die Kontaktseite wurde final entschärft und sprachlich nachgeschärft. Die Anfrage-Angaben werden nicht mehr als Liste dargestellt; dadurch wirkt der Kontaktbereich weniger fordernd und professioneller. Die Kontaktseite bleibt ohne Formular und die Kontaktaufnahme läuft über `info@ldigital.ch`.
 
-Die Über-uns-Seite bleibt offen und soll kürzer, vertrauensbildender und klarer formulieren, wofür LDigital steht.
+Die Über-uns-Seite wurde für Version 1 neu aufgebaut und nach einer ersten Sichtprüfung korrigiert. Der Fokus liegt auf Persönlichkeit, Vertrauen und einer stärkeren LDigital-Identität. Der Abschnitt `Arbeitsweise` wurde entfernt; die Seite ist auf Intro, Gründer, `As Cinco Quinas – fünf Grundsätze` und CTA reduziert. Das Design wurde ruhiger und näher an die bestehende LDigital-Gestaltung angepasst. Buchhaltung, Treuhand und Finanzverwaltung gehören nicht zu Version 1. CarDesk bleibt auf der Über-uns-Seite entfernt und ist weiterhin als separates Projekt sowie Startseiten-Pilotpartner-Aufruf dokumentiert.
+
+Im späteren Gesamtcheck wird seitenweit geprüft, ob die Sprachregel `KMU` oder `Unternehmen` konsistent verwendet werden soll. Der Footer bleibt bis dahin unverändert.
 
 Kein Commit erfolgt, bevor diese Text- und Verkaufslogik-Runde abgeschlossen ist.
 
@@ -390,3 +393,70 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
 * Nächster Schritt:
   * Über-uns-Seite kürzen und vertrauensbildender formulieren
   * danach erneuter Gesamtcheck
+
+### 23. Juni 2026
+
+* Arbeitsblock 1: Start um 13:30 Uhr
+* Unterbrechung: 15:00 Uhr wegen Meeting
+* Status: Arbeitsblock noch nicht abgeschlossen
+* Fokus: Version 1 intern fertigstellen
+* Hinweis:
+  * Version 1 bleibt eine interne, präsentierbare Arbeitsversion und wird noch nicht veröffentlicht
+* Aktueller Stand vor Arbeitsbeginn:
+  * Startseite ist für Version 1 inhaltlich abgeschlossen
+  * Leistungsseite wurde textlich und visuell gestärkt
+  * Kontaktseite wurde vereinfacht und der Anfragebereich professioneller formuliert
+  * Version 1 wird nicht direkt veröffentlicht
+  * nach Version 1 folgt zuerst das Marco-Projekt
+  * Veröffentlichung von `ldigital.ch` wird im Rahmen von Version 2 erneut geprüft
+* Fokus dieses Arbeitsblocks:
+  * Über-uns-Seite analysieren
+  * Über-uns-Seite kürzen und vertrauensbildender formulieren
+  * danach prüfen, ob die Über-uns-Seite für Version 1 ausreichend ist
+  * falls Zeit bleibt: erster Gesamtcheck der internen Version-1-Arbeitsversion
+* Stand vor dem Meeting:
+  * Über-uns-Seite war aktiver Fokus des heutigen Arbeitsblocks
+  * die erste neue Version der Über-uns-Seite wirkte zu card-lastig und im Design nicht überzeugend
+  * daraufhin wurde eine Korrektur geplant und an Codex übergeben
+  * Abschnitt `Arbeitsweise` soll vollständig entfernt sein
+  * Über-uns-Seite soll auf Intro, Gründer Rafael Lomar, `As Cinco Quinas – fünf Grundsätze` und CTA reduziert sein
+  * Design soll ruhiger, hochwertiger und näher an der bestehenden LDigital-Gestaltung ausgerichtet sein
+  * weniger Boxen, weniger Schatten und weniger Card-Optik
+  * visuelle und inhaltliche Prüfung erfolgt erst nach dem Meeting
+* Wichtige Entscheidungen:
+  * `As Cinco Quinas – fünf Grundsätze` bleibt auf der Über-uns-Seite, aber ruhiger und weniger card-lastig
+  * CarDesk bleibt auf der Über-uns-Seite entfernt
+  * keine Buchhaltung, Treuhand oder Finanzverwaltung in Version 1
+  * im Hauptinhalt der Über-uns-Seite wird von `Unternehmen` gesprochen, nicht von `KMU`
+  * Footer bleibt vorerst unverändert
+  * seitenweite Sprachprüfung `KMU` vs. `Unternehmen` bleibt Thema für den Gesamtcheck
+  * Version 1 bleibt eine interne, präsentierbare Arbeitsversion und wird noch nicht veröffentlicht
+* Erledigt:
+  * Über-uns-Seite für Version 1 gekürzt
+  * Über-uns-Seite vertrauensbildender und weniger wie eine Projektbeschreibung formuliert
+  * LDigital klarer als pragmatischer digitaler Partner positioniert
+  * CarDesk auf der Über-uns-Seite entfernt
+  * CarDesk bleibt als separates Projekt und Startseiten-Pilotpartner-Aufruf dokumentiert
+  * Über-uns-Seite mit stärkerer LDigital-Identität neu aufgebaut
+  * Rafael Lomar als Gründer und Inhaber eingeordnet
+  * Wertebereich `As Cinco Quinas – fünf Grundsätze` eingeführt
+  * keine Buchhaltung, Treuhand oder Finanzverwaltung ergänzt
+  * spätere seitenweite Sprachprüfung `KMU` vs. `Unternehmen` im Gesamtcheck vorgemerkt
+  * Über-uns-Seite nach erster Sichtprüfung korrigiert
+  * Abschnitt `Arbeitsweise` entfernt
+  * Über-uns-Seite auf Intro, Gründer, Quinas und CTA reduziert
+  * Design ruhiger und näher an die bestehende LDigital-Gestaltung angepasst
+* Nächster Schritt:
+  * nach dem Meeting die überarbeitete Über-uns-Seite prüfen
+  * prüfen, ob das Design ruhiger wirkt
+  * prüfen, ob der Abschnitt `Arbeitsweise` vollständig entfernt ist
+  * prüfen, ob die Quinas hochwertig und nicht kitschig wirken
+  * prüfen, ob das Design zur Startseite und Leistungsseite passt
+  * mobile Darstellung prüfen
+  * prüfen, ob CarDesk, Buchhaltung, Treuhand und Finanzverwaltung weiterhin nicht enthalten sind
+  * danach entscheiden: Über-uns-Seite akzeptieren, kleine Korrekturen planen oder Design weiter vereinfachen
+  * danach Gesamtcheck der internen Version-1-Arbeitsversion vorbereiten
+* Offene Version-1-Aufgaben:
+  * Über-uns-Seite verbessern: kürzer, vertrauensbildender, klarer erklären, wofür LDigital steht, nicht überladen
+  * Gesamtcheck: Startseite, Leistungsseite, Kontaktseite, Über-uns-Seite, Impressum, Datenschutz, Navigation, Footer, mobile Ansicht, Links, Bilder, Umlaute / Sonderzeichen, seitenweite Sprachprüfung `KMU` vs. `Unternehmen`
+  * README aktualisieren: Status als interne Version-1-Arbeitsversion festhalten, keine direkte Veröffentlichung auf `ldigital.ch`, Marco-Projekt als nächster strategischer Schritt
