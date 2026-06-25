@@ -157,11 +157,11 @@ Die lokalen PNG-Bilder liegen unter `Logo/Leistungen/`. Die Cards sind statisch,
 
 ## CarDesk
 
-CarDesk bleibt ein separates Projekt von LDigital. Das Projekt erhält später ein eigenes Repository sowie eine eigene Marken- und Produktstruktur.
+CarDesk ist ein geplantes digitales System für Garagen und Fahrzeugbetriebe. `cardesk.html` dient innerhalb der LDigital-Website als vorsichtig formulierte Konzeptseite und beschreibt Problem, Lösungsansatz, mögliche Bausteine, Zielgruppe und Pilotstatus.
 
-Auf der LDigital-Website bleibt CarDesk als professioneller Pilotpartner-Aufruf sichtbar. Ziel ist die fachliche Prüfung und praxisnahe Fertigstellung mit passenden Pilotpartnern aus dem Garagenumfeld.
+CarDesk ist aktuell eine Konzept- und Pilotidee in Vorbereitung. Es ist kein fertiges Produkt, kein öffentlich buchbares System und kein abgeschlossenes Kundenprojekt. Die Konzeptseite verspricht keine fertigen Funktionen oder Resultate.
 
-CarDesk bleibt unabhängig von den regulären LDigital-Dienstleistungen. Später kann dort ein Link zur eigenständigen CarDesk-Website ergänzt werden.
+Das spätere eigentliche System bleibt ein separates Produktprojekt von LDigital und soll eine eigene Marken-, Produkt- und Repository-Struktur erhalten. Die LDigital-Seite verlinkt vorerst von Startseite und Leistungsseite auf die interne Konzeptseite. Eine spätere Pilotphase soll die fachliche Prüfung mit geeigneten Betrieben ermöglichen.
 
 ## LDigital Webseite – Version 2
 
@@ -368,7 +368,7 @@ Geplante Inhalte:
 * Flyer oder Visitenkarte vorbereiten;
 * erste Social-Media-Beiträge planen;
 * Google Search Console einrichten;
-* Analytics und Datenschutz gemeinsam sauber prüfen;
+* Google Analytics oder andere Trackinglösungen gemeinsam mit dem Datenschutz erneut prüfen;
 * lokale Branchenverzeichnisse prüfen;
 * Akquise-Liste für Garagen und lokale Betriebe vorbereiten;
 * Gesprächsleitfaden für den Erstkontakt vorbereiten;
@@ -528,6 +528,9 @@ Version 2.1 gilt als fertig, wenn:
 - [ ] Performance und Lighthouse-Werte prüfen
 - [x] Accessibility-Grundlagen prüfen und verbessern
 - [x] Navigation für Über mich und Portfolio vorbereiten
+- [x] CarDesk-Konzeptseite für Version 2 vorbereiten
+- [x] Tracking- und externe Dienste statisch prüfen
+- [x] Pre-Launch-Entscheidungen zu Anbieter, Kontakt, Rechtstexten und Veröffentlichung dokumentieren
 - [ ] Hosting-, Domain- und rechtliche Launchvoraussetzungen prüfen
 
 ### To-dos für Version 2.1 nach Veröffentlichung
@@ -673,10 +676,10 @@ Die erreichbare Website unter `https://ldigital.ch/` enthält weiterhin das ält
 
 #### Abschliessende Pre-Launch-To-dos und Blocker
 
-1. Definitive Anbieteridentität, öffentliche Geschäftsadresse und Kontaktdaten bestätigen.
+1. Die festgelegten Anbieterangaben `LDigital`, Rafael Lomar und Einzelunternehmen ohne Handelsregistereintrag mit einer final freigegebenen öffentlichen Geschäftsadresse abstimmen.
 2. Hosting-Anbieter, Zielumgebung und tatsächliche Datenbearbeitung festlegen.
-3. Impressum und Datenschutz auf den realen Veröffentlichungsstand bringen und extern rechtlich prüfen lassen.
-4. Ablösung oder Migration der bestehenden WordPress-Seite planen und separat umsetzen.
+3. Impressum und Datenschutz mit einer seriösen Schweizer Vorlage oder einem Generator auf den realen Veröffentlichungsstand bringen und anschliessend extern rechtlich prüfen lassen.
+4. Ablösung der bestehenden WordPress-Seite einschliesslich Backup, Testversion, Deployment und Rückweg planen und separat umsetzen.
 5. Texte, Logo und Markenauftritt menschlich final prüfen und freigeben.
 6. Aktuelle Asset-Grössen optimieren oder bewusst für die Veröffentlichung akzeptieren.
 7. Lighthouse-Test auf Staging oder der späteren Zielumgebung durchführen und Ergebnisse beurteilen.
@@ -688,6 +691,117 @@ Die erreichbare Website unter `https://ldigital.ch/` enthält weiterhin das ält
 * Bilder, README und weitere Dokumentationsdateien blieben unverändert;
 * ausschließlich dieser Freigabebericht in `PLAN.md` wurde ergänzt;
 * kein Commit wurde erstellt.
+
+### Arbeitsblock 4 – CarDesk und Pre-Launch-Entscheidungen
+
+**Datum:** 25. Juni 2026
+
+**Fokus:** CarDesk als vorsichtige Konzeptseite vorbereiten und offene Pre-Launch-Entscheidungen verbindlich dokumentieren
+
+**Status:** umgesetzt und technisch geprüft; Veröffentlichung weiterhin blockiert
+
+#### CarDesk-Konzeptseite
+
+* `cardesk.html` als eigene Konzeptseite innerhalb der LDigital-Website vorbereitet;
+* CarDesk als geplantes digitales System für Garagen und Fahrzeugbetriebe eingeordnet;
+* Problem, Lösungsansatz, mögliche Bausteine, Zielbetriebe und Pilotstatus sachlich beschrieben;
+* deutlich festgehalten, dass CarDesk kein fertiges Produkt, kein öffentlich buchbares System und kein abgeschlossenes Kundenprojekt ist;
+* keine Preise, erfundenen Pilotkunden, Resultate, Testimonials, Garantien oder fertigen Funktionen ergänzt;
+* Hauptnavigation unverändert gelassen;
+* CarDesk von der Startseite und der Leistungsseite sichtbar verlinkt;
+* bestehende Footer unverändert und ohne zusätzlichen CarDesk-Hauptlink belassen;
+* seitenspezifische Meta- und OpenGraph-Daten mit `https://ldigital.ch/cardesk.html` ergänzt;
+* vorhandenes Social-Preview-Bild eingebunden, da die lokale Datei existiert.
+
+#### Datenschutz und Tracking
+
+Aktuelle Entscheidung:
+
+* Version 2 wird ohne Google Analytics und ohne andere Analyse- oder Trackingtools veröffentlicht.
+* Google Search Console gehört zu Version 2.1 und wird nicht in Arbeitsblock 4 eingerichtet.
+* Google Analytics oder andere Trackinglösungen werden frühestens in Version 2.1 gemeinsam mit den tatsächlichen Datenschutzanforderungen erneut beurteilt.
+
+Statische Projektsuche:
+
+* keine aktive Laufzeitintegration für Google Analytics, Google Tag Manager, Meta Pixel, Hotjar oder andere Trackingdienste gefunden;
+* keine extern geladenen Google Fonts, Videos, Karten, Kalender, Iframes oder externen Skripte gefunden;
+* kein Kontaktformular und kein externes Formularziel gefunden;
+* `datenschutz.html` nennt Google Analytics und Meta Pixel ausschließlich im verneinenden Hinweis, dass diese Dienste derzeit nicht verwendet werden;
+* `PLAN.md` nennt Analytics, Facebook und Google Search Console ausschließlich als dokumentierte Entscheidung oder spätere Aufgabe für Version 2.1;
+* Garage-Dokumentationen enthalten Facebook und YouTube nur als mögliche Briefing- beziehungsweise Checklistenpunkte, nicht als aktive Website-Einbindungen.
+
+Es wurden keine externen Dienste entfernt und keine neuen Trackingwerkzeuge eingebaut.
+
+#### Rechtstexte – Option B
+
+Für Impressum und Datenschutz gilt Option B:
+
+* eine seriöse Schweizer Vorlage oder einen geeigneten Generator verwenden;
+* den Entwurf an den tatsächlichen Anbieter, das Hosting und die wirklich verwendeten Dienste anpassen;
+* keine rechtliche Eigenfreigabe durch Codex;
+* finale externe rechtliche Prüfung bleibt vor der Veröffentlichung erforderlich.
+
+Die bestehenden Rechtsseiten werden in Arbeitsblock 4 nicht vollständig neu geschrieben. Die aktuelle Bezeichnung `Lomar Digital`, die noch offene Geschäftsadresse und die vorläufigen Hosting-Aussagen bleiben sichtbare Blocker und müssen später mit den bestätigten Daten abgeglichen werden.
+
+#### Anbieter- und Kontaktentscheidungen
+
+* Anbietername: LDigital;
+* verantwortliche Person: Rafael Lomar;
+* Rechtsform-Formulierung: Einzelunternehmen ohne Handelsregistereintrag;
+* Standortkommunikation: Liestal, Schweiz;
+* die Privatadresse wird vor der Veröffentlichung noch nicht öffentlich final freigegeben;
+* vorerst keine öffentliche Telefonnummer;
+* WhatsApp und ein Kontaktformular werden erst später geprüft;
+* aktueller Kontaktweg bleibt E-Mail über `info@ldigital.ch`;
+* Rafael Lomar bleibt auf der Website sichtbar;
+* der Schweiz-/Portugal-Bezug bleibt Bestandteil der Marke.
+
+In Arbeitsblock 4 werden keine Privatadresse, Telefonnummer oder Kontaktformular ergänzt.
+
+#### Veröffentlichung und bestehende WordPress-Seite
+
+Nach aktuellem Projektstand läuft unter `ldigital.ch` weiterhin die ältere WordPress-Seite. Die statische Version soll sie später ersetzen, aber erst nach einem eigenen gründlichen Veröffentlichungscheck.
+
+* **Staging:** eine nicht öffentliche oder getrennte Testversion der neuen Website;
+* **Backup:** eine Sicherung der bisherigen WordPress-Seite und ihrer benötigten Daten;
+* **Deployment:** die eigentliche Veröffentlichung der neuen statischen Website;
+* **Rollback:** der vorbereitete Rückweg zur bisherigen Version, falls bei der Veröffentlichung ein Problem auftritt.
+
+Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren Auftrag. In Arbeitsblock 4 wird keine Testumgebung eingerichtet, kein WordPress ersetzt und nichts veröffentlicht.
+
+#### Logo und weitere Assets
+
+* Logo ist noch nicht final;
+* Favicon ist noch nicht final;
+* Social Preview ist ein Platzhalter und muss ersetzt oder optimiert werden;
+* die Logo-Anpassung bleibt ein echter Blocker vor der Veröffentlichung;
+* in Arbeitsblock 4 werden keine Bilddateien verändert.
+
+#### Offene Punkte vor der Veröffentlichung
+
+1. Öffentliche Geschäftsadresse bestätigen und Anbieterbezeichnung auf allen Rechtsseiten vereinheitlichen.
+2. Hosting, Zielumgebung und tatsächliche Datenbearbeitung festlegen.
+3. Rechtstexte nach Option B vorbereiten, an reale Dienste anpassen und extern prüfen lassen.
+4. WordPress-Ablösung mit Staging, Backup, Deployment und Rollback planen.
+5. Texte, Logo, Favicon und Social Preview menschlich final freigeben.
+6. Bildgrössen optimieren oder ihren aktuellen Umfang bewusst akzeptieren.
+7. Lighthouse-Test auf der späteren Test- oder Zielumgebung durchführen.
+
+#### Abschlussprüfung von Arbeitsblock 4
+
+* alle acht HTML-Seiten statisch auf Sprache, UTF-8, Hauptüberschrift, Meta-Daten, OpenGraph-Daten und lokale Ressourcen geprüft;
+* alle acht `og:url`-Werte als korrekt und seitenspezifisch bestätigt;
+* alle lokalen Datei-, Bild- und Ankerziele als vorhanden bestätigt;
+* Startseiten- und Leistungsseiten-Link zur CarDesk-Konzeptseite funktional geprüft;
+* CarDesk-CTA zur Kontaktseite funktional geprüft;
+* alle acht Seiten lokal bei 1280 Pixel und 390 Pixel geprüft;
+* keine horizontalen Überläufe, fehlenden Bilder oder Browser-Konsolenfehler festgestellt;
+* Hauptnavigation mit fünf Punkten und bestehende Fussnavigation mit sieben Punkten unverändert bestätigt;
+* keine aktiven Trackingdienste, externen Skripte, Iframes oder Formulare gefunden oder ergänzt;
+* keine festen Preise, erfundenen Kundenreferenzen, Testimonials, Garantien oder falschen Produktversprechen ergänzt;
+* keine CSS-Erweiterung erforderlich;
+* Bilder, Rechtsseiten, README und weitere Dokumentationsdateien unverändert gelassen;
+* kein Deployment und kein Commit erstellt.
 
 ## Verbindliche Roadmap
 
