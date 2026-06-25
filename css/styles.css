@@ -135,10 +135,6 @@ main li {
     margin-right: 12px;
 }
 
-.hero .button + .button {
-    margin-left: 0;
-}
-
 /* Buttons */
 .button {
     display: inline-block;
@@ -154,32 +150,6 @@ main li {
 .button:hover {
     background-color: var(--color-gold-hover);
     color: var(--color-primary-dark);
-}
-
-/* Cards */
-.cards {
-    display: flex;
-    gap: 20px;
-}
-
-.card {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-surface);
-    padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0 8px 20px rgba(10, 42, 102, 0.08);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.card p:last-child {
-    margin-bottom: 0;
-}
-
-.card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(10, 42, 102, 0.12);
 }
 
 /* Über uns */
@@ -275,10 +245,6 @@ main li {
 }
 
 /* Leistungen */
-#leistungen .button {
-    margin-top: 4px;
-}
-
 .service-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -343,8 +309,9 @@ main li {
 
 .service-card-link:hover,
 .service-card-link:focus {
-    color: var(--color-gold);
+    color: var(--color-primary-dark);
     text-decoration: underline;
+    text-decoration-color: var(--color-gold);
 }
 
 .service-detail-card {
@@ -440,12 +407,10 @@ footer a:hover {
         padding: 30px 0;
     }
 
-    .cards {
-        flex-direction: column;
-    }
-
     h1 {
         font-size: 36px;
+        overflow-wrap: anywhere;
+        hyphens: auto;
     }
 
     h2 {

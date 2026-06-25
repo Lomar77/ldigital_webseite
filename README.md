@@ -1,48 +1,45 @@
 # LDigital Website
 
-Die offizielle Website von LDigital.
-LDigital entwickelt Webseiten, digitale Werkzeuge und einfache Automatisierungen für Schweizer KMU.
+Interne, präsentierbare Version-1-Arbeitsversion der LDigital-Website.
 
-## Aktueller Stand
+LDigital unterstützt Unternehmen in der Schweiz in drei Kernbereichen:
 
-* Startseite erstellt
-* Responsive Design umgesetzt
-* Dienstleistungen dargestellt
-* Arbeitsweise erklärt
-* CarDesk als zukünftiges Produkt/Pilotprojekt eingebunden
-* Kontaktbereich vorhanden
-* Impressum erstellt
-* Datenschutzerklärung erstellt
-* SEO-Grundlagen mit Seitentitel und Meta Description ergänzt
-* Website über GitHub Pages veröffentlicht
-
-## Technologien
-
-* HTML
-* CSS
-* JavaScript
-* Git
-* GitHub
-* GitHub Pages
-
-## Projektstruktur
-
-* `index.html` – Startseite
-* `impressum.html` – Impressum
-* `datenschutz.html` – Datenschutzerklärung
-* `css/styles.css` – Gestaltung
-* `js/script.js` – JavaScript-Grundlage
-* `PLAN.md` – Entwicklungsplan
-
-## Nächste Schritte
-
-* Logo integrieren
-* Inhalte weiter verfeinern
-* Favicon ergänzen
-* Social-Media-Vorschau vorbereiten
-* spätere CarDesk-Unterseite planen
-* Veröffentlichung auf `ldigital.ch` vorbereiten
+* Webseiten & digitales Auftreten
+* Logodesign & Markenauftritt
+* Prozessoptimierung & Automatisierung
 
 ## Status
 
-Version 1 befindet sich im Aufbau, ist technisch funktionsfähig und über GitHub Pages erreichbar.
+Version 1 wird intern fertiggestellt und ist noch keine öffentliche Launch-Version. Eine direkte Veröffentlichung auf `ldigital.ch` ist derzeit nicht vorgesehen und wird im Rahmen von Version 2 erneut geprüft.
+
+Nach Abschluss der internen Version 1 folgt zuerst das Marco-Projekt. Die dabei gewonnenen praktischen Erfahrungen sollen später in Version 2 von LDigital einfliessen.
+
+## Seitenstruktur
+
+* `index.html` – Startseite
+* `leistungen.html` – Leistungsseite
+* `ueber-uns.html` – Über LDigital
+* `kontakt.html` – Kontakt per E-Mail
+* `impressum.html` – Impressum
+* `datenschutz.html` – Datenschutzerklärung
+
+## CarDesk
+
+CarDesk ist ein separates Zukunftsprojekt von LDigital. Auf der Startseite erscheint es in Version 1 nur als Pilotpartner-Aufruf. Ein fertiges Produkt oder eine eigene CarDesk-Seite ist nicht Teil von Version 1.
+
+## Technik
+
+* HTML
+* CSS
+* lokale Bilddateien
+
+Die Website verwendet derzeit kein aktives JavaScript, kein Kontaktformular, keine externen Schriftarten und keine Analyse- oder Trackingdienste.
+
+## Nächste Schritte
+
+* finaler Desktop-, Mobile-, Link- und Inhaltscheck
+* interne Version 1 abnehmen
+* danach am Marco-Projekt weiterarbeiten
+* öffentliche Veröffentlichung von `ldigital.ch` erst in Version 2 erneut prüfen
+
+Weitere Entscheidungen und der Arbeitsverlauf sind in `PLAN.md` dokumentiert.

@@ -1,6 +1,48 @@
 # LDigital Entwicklungsplan
 
-Aktueller Stand: Version 1 wird als interne Arbeitsversion, präsentierbare Grundlage, Basis für Gespräche und Weiterentwicklung sowie Vorbereitung für das Marco-Projekt fertiggestellt. Eine Veröffentlichung auf `ldigital.ch` erfolgt vorerst nicht und wird erst nach dem Marco-Projekt beziehungsweise im Rahmen von Version 2 erneut geprüft.
+## Status Version 1
+
+LDigital Version 1 ist abgeschlossen.
+
+* Version 1 ist eine interne, präsentierbare Arbeitsversion.
+* Die Webseite dient als Grundlage und Referenz für weitere LDigital-Arbeiten.
+* In diesem Abschluss- und Dokumentationsschritt erfolgen keine weiteren Änderungen an HTML, CSS oder JavaScript.
+* Version 1 bleibt vorerst die stabile Basis, bevor Version 1.1 oder Version 2 geplant wird.
+* Eine Veröffentlichung auf `ldigital.ch` erfolgt vorerst nicht und wird nach dem Marco-Projekt beziehungsweise im Rahmen einer späteren Version erneut geprüft.
+
+## Dokumentation für Garage-Webseiten
+
+Der Dokumentationsblock für künftige Garage-, Carrosserie- und Werkstattprojekte ist abgeschlossen. Folgende Arbeitsgrundlagen stehen zur Verfügung:
+
+* [Interne Garage-Analyse](docs/intern/garage-analyse-intern.md)
+* [Garage-Preisstruktur](docs/preise/garage-preisstruktur.md)
+* [Pilotpartner-Preisstrategie](docs/preise/pilotpartner-preisstrategie.md)
+* [Ausführliches Garage-Kundenbriefing](docs/kunden-briefings/garage-kundenbriefing.md)
+* [Kurzbriefing für den Erstkontakt](docs/kunden-briefings/garage-kundenbriefing-kurz.md)
+* [Fragebogen für Zusatzwünsche](docs/kunden-briefings/garage-zusatzwuensche.md)
+
+Die Preisangaben sind interne Richtwerte beziehungsweise unverbindliche Orientierungswerte. Verbindliche Preise werden erst nach Briefing und klarer Leistungsabgrenzung offeriert. Das Marco-/Familienprojekt mit ungefähr CHF 200 bleibt eine persönliche Lern- und Referenzausnahme und ist kein offizieller Marktpreis.
+
+## Erkenntnisse aus dem Garage-Dokumentationsblock
+
+* Die bestehende LDigital-Webseite kann teilweise als technische und strukturelle Grundlage für Garage-Webseiten dienen.
+* Inhalte, Bilder, Logo, Farben, Kontaktwege und rechtliche Angaben müssen pro Kunde individuell ersetzt und geprüft werden.
+* Pilotpartnerpreise sollen bewusst günstiger sein als spätere Normalpreise, aber nicht als Billigangebot kommuniziert werden.
+* Zusatzleistungen wie zusätzliche Sprachen, Zusatzseiten, Fotografie, Terminbuchung, Google Business, grosse Galerien oder laufende Wartung werden separat offeriert.
+* Das Marco-/Familienprojekt mit ungefähr CHF 200 bleibt eine persönliche Ausnahme und ist kein offizieller Marktpreis.
+* Für externe Garage-Pilotpartner gelten klare Gegenleistungen, Projektgrenzen und Mindestpreise.
+
+## Offene Feinschliffe aus den Dokumenten
+
+Die folgenden Feinschliffe wurden ursprünglich als offene Aufgaben identifiziert und inzwischen umgesetzt:
+
+* [x] `garage-preisstruktur.md` preislich an die aktuelle Aufbauphase von LDigital anpassen
+* [x] `pilotpartner-preisstrategie.md` um Zahlungsbedingungen, Korrekturrunden, Pausierung/Abbruch und Nutzungsrechte ergänzen
+* [x] `garage-zusatzwuensche.md` um Datenschutzhinweise, Fotografenkosten, Bildübermittlung, Wartungsbeispiele und Zeitplan ergänzen
+* [x] `garage-kundenbriefing.md` als ausführliches Projektbriefing belassen
+* [x] kurze Erstkontakt-Version des Kundenbriefings erstellen
+
+Die Dokumente werden beim ersten realen Kundengespräch praktisch getestet. Neue Rückfragen oder Unklarheiten werden danach separat dokumentiert und bei Bedarf ergänzt.
 
 ## Abgeschlossen
 
@@ -8,16 +50,13 @@ Aktueller Stand: Version 1 wird als interne Arbeitsversion, präsentierbare Grun
 * Responsive Design
 * Startseite
 * Leistungen
-* Arbeitsweise
 * CarDesk-Hinweis
 * Kontaktbereich auf der Startseite
 * Impressum
 * Datenschutz
-* Logo
-* Favicon
+* Logo und Favicon eingebunden
 * SEO-Grundlagen
 * Typografie und Abstände
-* GitHub Pages
 * PLAN.md auf den aktuellen Mehrseiten-Stand gebracht
 * technische und visuelle Prüfung
 * Seitenarchitektur und Navigation finalisiert
@@ -25,19 +64,26 @@ Aktueller Stand: Version 1 wird als interne Arbeitsversion, präsentierbare Grun
 * Inhalte der Über-uns-Seite überarbeitet und geprüft
 * `kontakt.html` erstellt
 * Inhalte der Kontaktseite überarbeitet und geprüft
-* Header-Navigation auf allen fünf Seiten vereinheitlicht
-* Footer-Navigation auf allen fünf Seiten vereinheitlicht
+* Header-Navigation auf allen sechs Seiten vereinheitlicht
+* Footer-Navigation auf allen sechs Seiten vereinheitlicht
 * Kontaktadresse auf `info@ldigital.ch` vereinheitlicht
 * Startseiten-CTAs auf `kontakt.html` umgestellt
 * CarDesk-Bereich auf der Startseite gekürzt und als eigenständiges Zukunftsprojekt eingeordnet
 * Startseite für Version 1 inhaltlich abgeschlossen
 * Leistungsseite mit Cards und bestehenden Bildern visuell gestärkt
+* Über-uns-Seite auf Intro, Gründer, Quinas und CTA reduziert
+* Kontaktseite als schlanke E-Mail-Seite umgesetzt
+* Abschlusskorrekturen aus dem Gesamtcheck umgesetzt
+* README auf den aktuellen Version-1-Stand gebracht
+* PLAN.md auf den aktuellen Abschlussstand bereinigt
+* LDigital Version 1 als interne, präsentierbare Arbeitsversion abgeschlossen
+* Dokumentationsblock für Garage-Webseiten erstellt und verlinkt
 
 ## Seitenstruktur für LDigital Version 1
 
 * `index.html` – Startseite
 * `leistungen.html` – Leistungsseite
-* `ueber-uns.html` – Über LDigital, Haltung, Arbeitsweise und Entwicklung
+* `ueber-uns.html` – Über LDigital, Gründer und Werte
 * `kontakt.html` – Kontaktseite
 * `impressum.html`
 * `datenschutz.html`
@@ -63,64 +109,15 @@ Aktueller Stand: Version 1 wird als interne Arbeitsversion, präsentierbare Grun
 `Digitale Werkzeuge und Systeme` wird nicht mehr als eigener Leistungsbereich eingeplant.
 `Social Media` gehört nicht zu Version 1 und wird als späteres Angebot eingeordnet.
 
-## Geplante Startseiten-Cards
+## Aktueller Stand der Startseiten-Cards
 
-### Gemeinsamer Aufbau
+Die drei Startseiten-Cards sind umgesetzt und verlinken auf die passenden Abschnitte der Leistungsseite:
 
-Jede Card erhält später:
+* Webseiten & digitales Auftreten → `leistungen.html#webseiten`
+* Logodesign & Markenauftritt → `leistungen.html#markenauftritt`
+* Prozessoptimierung & Automatisierung → `leistungen.html#automatisierung`
 
-* ein lokales Bild
-* einen Titel
-* drei Leistungszeilen mit Icon
-* einen kurzen Nutzen
-* einen Link `Mehr erfahren`
-* eine Verlinkung zum passenden Abschnitt auf `leistungen.html`
-
-Die Cards dürfen per Klick hervorgehoben werden. Nicht aktive Cards bleiben vollständig lesbar. Es wird keine starke Unschärfe verwendet.
-
-Der alte Card-Code dient nur als Designreferenz und wird nicht direkt übernommen. HTML, CSS und JavaScript werden später sauber getrennt.
-
-### Card 1: Webseiten & digitales Auftreten
-
-* Bildpfad: `Logo/Leistungen/webseiten-digitales-auftreten.png`
-* Unterpunkte:
-  1. Unternehmenswebsite – Übersichtliche und mobilfreundliche Website mit klaren Inhalten.
-  2. Google Business – Unternehmensprofil einrichten oder optimieren, damit wichtige Informationen bei Google auffindbar sind.
-  3. Digitale Sichtbarkeit – Struktur, Inhalte und technische Grundlagen für einen professionellen Online-Auftritt.
-* Nutzen: Interessenten verstehen schneller, was das Unternehmen anbietet, und finden einfacher den Weg zur Kontaktaufnahme.
-* Link: `leistungen.html#webseiten`
-
-### Card 2: Logodesign & Markenauftritt
-
-* Bildpfad: `Logo/Leistungen/logodesign-premium-visitenkarten.png`
-* Unterpunkte:
-  1. Logoentwicklung – Neues Logo entwickeln oder einen bestehenden Entwurf überarbeiten.
-  2. Farben und Typografie – Passende Farben und Schriften für einen einheitlichen Auftritt festlegen.
-  3. Premium-Visitenkarten – Hochwertige Formate, besondere Materialien und QR-Code-Integration für einen professionellen ersten Eindruck.
-* Nutzen: Logo, Farben, Website und Geschäftsmittel wirken einheitlich und wiedererkennbar.
-* Link: `leistungen.html#markenauftritt`
-
-### Card 3: Prozessoptimierung & Automatisierung
-
-* Bildpfad: `Logo/Leistungen/prozessoptimierung-automatisierung.png`
-* Unterpunkte:
-  1. Abläufe analysieren – Wiederkehrende Aufgaben und unnötige manuelle Schritte erkennen.
-  2. Prozesse vereinfachen – Informationen, Dokumente und Aufgaben klarer organisieren.
-  3. Sinnvoll automatisieren – Geeignete Arbeitsschritte digital verbinden oder automatisieren.
-* Nutzen: Weniger doppelte Arbeit, weniger Fehler und mehr Zeit für das eigentliche Geschäft.
-* Link: `leistungen.html#automatisierung`
-
-### Bildvorgaben
-
-Alle drei Bilder:
-
-* Format: PNG
-* Auflösung: 1200 x 800 Pixel
-* Seitenverhältnis: 3:2
-* lokale Dateien im Ordner `Logo/Leistungen/`
-* einheitliche Bildsprache
-* passende Blau-Gold-Farbwelt
-* keine externen Bildlinks
+Die lokalen PNG-Bilder liegen unter `Logo/Leistungen/`. Die Cards sind statisch, vollständig lesbar und benötigen kein JavaScript.
 
 ## CarDesk
 
@@ -130,112 +127,40 @@ Auf der LDigital-Website bleibt CarDesk als professioneller Pilotpartner-Aufruf 
 
 CarDesk bleibt unabhängig von den regulären LDigital-Dienstleistungen. Später kann dort ein Link zur eigenständigen CarDesk-Website ergänzt werden.
 
-## Noch nötig für Version 1
+## Nächster Arbeitsblock: Garage-Struktur und Marco / Garage Rotterdam
 
-### 1. Über-uns-Seite überarbeiten
+Nach Abschluss von LDigital Version 1 wird eine neue Projektstruktur speziell für Garage-Webseiten aufgebaut.
 
-* Ziel: Die Über-uns-Seite soll kürzer, vertrauensbildender und klarer erklären, wofür LDigital steht.
-* Zu erledigen:
-  * Text kürzen
-  * Vertrauen stärken
-  * Haltung und Arbeitsweise klarer formulieren
-  * Überladung vermeiden
-* Priorität: Mittel
-* betroffene Dateien: `ueber-uns.html`
-* Abgeschlossen, wenn die Seite persönlich, glaubwürdig und nicht zu textlastig wirkt.
+* Diese Struktur wird getrennt von der LDigital-Firmenwebseite geführt.
+* Ziel ist eine wiederverwendbare Garage-Grundlage für künftige Kunden.
+* Innerhalb dieser Garage-Struktur wird das erste konkrete Projekt für Marco / Garage Rotterdam vorbereitet.
+* Marco / Garage Rotterdam dient als Lern-, Test- und Referenzprojekt.
+* Erkenntnisse aus dem Projekt sollen in Briefings, Preisstruktur, Abläufe und spätere Garage-Kundenprojekte einfliessen.
+* Der Aufbau erfolgt nicht direkt in der LDigital-Webseite, sondern in einem separaten Projektordner oder separaten Repository.
+* Vor der ersten Umsetzung werden Projektgrenzen, Material, Seitenumfang und gewünschte Funktionen geklärt.
 
-### 2. Gesamtcheck der sechs HTML-Seiten
+## Konkrete nächste Aufgaben
 
-* Ziel: alle sechs Seiten lokal auf Inhalt, Links, Navigation, Footer, responsive Darstellung und offensichtliche Fehler prüfen.
-* Zu prüfen:
-  * Startseite
-  * Leistungsseite
-  * Kontaktseite
-  * Über-uns-Seite
-  * Impressum
-  * Datenschutz
-  * Navigation
-  * Footer
-  * Mobile Ansicht
-  * Links
-  * Bilder
-  * Umlaute / Sonderzeichen
-  * seitenweite Sprachprüfung `KMU` vs. `Unternehmen`
-* Priorität: Hoch
-* betroffene Dateien: alle HTML-Dateien und `css/styles.css`
-* Abgeschlossen, wenn alle Seiten lokal geprüft sind und keine offensichtlichen Fehler mehr vorhanden sind.
+1. LDigital Version 1 final committen und auf GitHub sichern.
+2. Prüfen, ob alle Garage-Dokumente korrekt verlinkt sind.
+3. Offene Feinschliffe an den Garage-Dokumenten separat abarbeiten.
+4. Neue Projektstruktur für Garage-Webseiten planen.
+5. Entscheiden, ob die Garage-Struktur als eigenes Repository oder eigener Ordner geführt wird.
+6. Basisstruktur für Garage-Webseiten definieren.
+7. Marco / Garage Rotterdam als erstes konkretes Projekt vorbereiten.
+8. Bestehendes Material von Marco sammeln: Logo, Farben, Bilder, Texte, Adresse, Öffnungszeiten und Leistungen.
+9. Umfang für Marco klar festlegen.
+10. Erst danach mit der HTML-/CSS-Umsetzung für Garage Rotterdam starten.
 
-### 3. README aktualisieren
-
-* Ziel: README auf die neue Seitenstruktur und den Status als interne Version-1-Arbeitsversion bringen.
-* Priorität: Mittel
-* betroffene Dateien: `README.md`
-* Abgeschlossen, wenn README Startseite, Leistungen, Über uns, Kontakt, Impressum, Datenschutz und den aktuellen Status als interne Arbeitsversion korrekt beschreibt.
-
-### 4. Finaler lokaler Check der internen Version-1-Arbeitsversion
-
-* Ziel: interne Version 1 auf Desktop, Tablet und Smartphone prüfen.
-* Priorität: Hoch
-* betroffene Dateien: keine zwingend, nur bei gefundenen Fehlern
-* Abgeschlossen, wenn alle Seiten, Navigation, Logo, Favicon, E-Mail-Links, Bilder und Rechtsseiten lokal geprüft sind.
-
-### 5. Logo und Favicon technisch überarbeiten
-
-* Status: blockiert
-* Grund: Logo/Favicon benötigen eine separate Designentscheidung und sollen den weiteren Website-Aufbau nicht blockieren.
-* Ziel: Logo und Favicon technisch sauber für Web, Header und Browser-Tab vorbereiten.
-* Zu planen:
-  * transparenter Hintergrund
-  * saubere Web-Dateiformate
-  * Logo für den Header
-  * Favicon mit 512 x 512 Pixel
-  * Seitenverhältnisse des Kreuzes prüfen
-  * Kreuzgeometrie gegebenenfalls separat überarbeiten
-* Hinweis: Transparenz und Kreuzgeometrie werden nicht über CSS gelöst.
-* Priorität: Mittel
-* geschätzte Dauer: 60 bis 120 Minuten
-* betroffene Dateien: Logo- und Favicon-Dateien, HTML-Dateien bei Pfad- oder Formatänderungen
-* Abgeschlossen, wenn Logo und Favicon technisch sauber eingebunden und auf Desktop sowie Smartphone geprüft sind.
-
-## Geschätzter Gesamtaufwand bis Version 1
-
-Ungefähr 10 bis 16 Stunden bis zur vollständigen LDigital Version 1.
-
-Die tatsächliche Dauer hängt vor allem von der Qualität der alten HTML- und CSS-Entwürfe, der Designsystem-Entscheidung, der Logo-Bearbeitung, der Wiederverwendbarkeit des alten HTML- und CSS-Codes, der neuen Leistungsseite, der Überarbeitung der bestehenden Seiten sowie möglichen technischen Themen bei Domain, DNS oder SSL ab.
-
-LDigital als Gesamtprojekt läuft bereits seit 2025. Die aktuelle statische Version-1-Website mit GitHub, Codex und `PLAN.md` wird seit Mitte Juni 2026 intensiv aufgebaut. Am 22.06.2026 wurden zwei strukturierte Arbeitsblöcke durchgeführt.
-
-## Nächster Arbeitsblock
-
-### Version-1 Text- und Verkaufslogik schärfen
-
-Diese Runde gehört weiterhin zu LDigital Version 1. Der technische Aufbau ist grundsätzlich vorhanden, aber Texte, Nutzenargumentation und Seitenführung werden vor einem Commit nochmals geschärft.
-
-* Über-uns-Seite kürzen und vertrauensbildender formulieren
-* danach erneuter Gesamtcheck
-* danach Commit und Push
-
-Die Startseite ist für Version 1 inhaltlich abgeschlossen und wird nur noch im finalen Gesamtcheck geprüft.
-
-Die Leistungsseite wurde textlich und visuell geschärft. Cards und bestehende Bilder sind eingebaut; die Gestaltung ist an die Startseite angeglichen, ohne neue Leistungen zu ergänzen.
-
-Die Kontaktseite wurde final entschärft und sprachlich nachgeschärft. Die Anfrage-Angaben werden nicht mehr als Liste dargestellt; dadurch wirkt der Kontaktbereich weniger fordernd und professioneller. Die Kontaktseite bleibt ohne Formular und die Kontaktaufnahme läuft über `info@ldigital.ch`.
-
-Die Über-uns-Seite wurde für Version 1 neu aufgebaut und nach einer ersten Sichtprüfung korrigiert. Der Fokus liegt auf Persönlichkeit, Vertrauen und einer stärkeren LDigital-Identität. Der Abschnitt `Arbeitsweise` wurde entfernt; die Seite ist auf Intro, Gründer, `As Cinco Quinas – fünf Grundsätze` und CTA reduziert. Das Design wurde ruhiger und näher an die bestehende LDigital-Gestaltung angepasst. Buchhaltung, Treuhand und Finanzverwaltung gehören nicht zu Version 1. CarDesk bleibt auf der Über-uns-Seite entfernt und ist weiterhin als separates Projekt sowie Startseiten-Pilotpartner-Aufruf dokumentiert.
-
-Im späteren Gesamtcheck wird seitenweit geprüft, ob die Sprachregel `KMU` oder `Unternehmen` konsistent verwendet werden soll. Der Footer bleibt bis dahin unverändert.
-
-Kein Commit erfolgt, bevor diese Text- und Verkaufslogik-Runde abgeschlossen ist.
-
-Logo/Favicon bleiben weiterhin blockiert und blockieren diesen Arbeitsblock nicht. CarDesk bleibt ein separates Projekt, ist aber auf der Startseite als professioneller Pilotpartner-Aufruf sichtbar.
-
-Nach Fertigstellung von Version 1 wird am Marco-Projekt weitergearbeitet. Das Marco-Projekt dient als praktische Referenz und Erfahrungsgrundlage. Erkenntnisse daraus sollen später in Version 2 von LDigital einfließen, damit Version 2 konkreter, vertrauenswürdiger und stärker auf echte Kundenbedürfnisse ausgerichtet wird.
+Die Website-Dateien von LDigital Version 1 werden in diesem Dokumentationsschritt nicht verändert. Es wird noch keine Garage-Webseite erstellt.
 
 ## Nach Version 1 / Version 2
 
 Diese Themen gehören nicht mehr zur aktuellen Version-1-Runde, sondern werden später separat geplant:
 
 * Veröffentlichung von `ldigital.ch` erneut prüfen
+* öffentliche Geschäftsadresse und rechtliche Launchprüfung klären
+* öffentlichen Hosting-Anbieter festlegen und Datenschutzerklärung anpassen
 * eigenständige CarDesk-Unterseite oder CarDesk-Landingpage
 * Erkenntnisse aus dem Marco-Projekt einbauen
 * Referenz oder Pilotbeispiel stärker nutzen
@@ -253,12 +178,6 @@ Diese Themen gehören nicht mehr zur aktuellen Version-1-Runde, sondern werden s
 * Mehrsprachigkeit
 
 Diese Punkte sind keine Voraussetzung für LDigital Version 1.
-
-## Nächste drei konkrete Ziele
-
-1. Über-uns-Seite auf Desktop und Mobile final prüfen und über die Version-1-Abnahme entscheiden.
-2. Danach den Gesamtcheck der internen Version-1-Arbeitsversion vorbereiten und durchführen.
-3. README auf den Status der internen Version-1-Arbeitsversion aktualisieren.
 
 ## Arbeitsverlauf
 
@@ -530,3 +449,44 @@ Diese Punkte sind keine Voraussetzung für LDigital Version 1.
   * Über-uns-Seite verbessern: kürzer, vertrauensbildender, klarer erklären, wofür LDigital steht, nicht überladen
   * Gesamtcheck: Startseite, Leistungsseite, Kontaktseite, Über-uns-Seite, Impressum, Datenschutz, Navigation, Footer, mobile Ansicht, Links, Bilder, Umlaute / Sonderzeichen, seitenweite Sprachprüfung `KMU` vs. `Unternehmen`
   * README aktualisieren: Status als interne Version-1-Arbeitsversion festhalten, keine direkte Veröffentlichung auf `ldigital.ch`, Marco-Projekt als nächster strategischer Schritt
+
+### 24. Juni 2026
+
+* Arbeitsblock 1: Start um 19:50 Uhr
+* Fokus: Gesamtcheck und Abschlussblock für die interne Version 1
+* Ausgangslage:
+  * Version 1 ist fast abgeschlossen, aber erst nach Korrekturblock und finalem Test intern abgenommen
+  * Version 1 bleibt eine interne, präsentierbare Arbeitsversion
+  * nach Version 1 folgt zuerst das Marco-Projekt
+  * Veröffentlichung von `ldigital.ch` wird in Version 2 erneut geprüft
+* Gesamtcheck:
+  * alle sechs HTML-Seiten, CSS, JavaScript, Bilder, README und PLAN geprüft
+  * Navigation, Footer, Links, Anker, Metadaten und Bilder kontrolliert
+  * Desktop sowie Smartphone mit 390 px und 320 px geprüft
+  * mobilen Überlauf bei `Datenschutzerklärung` gefunden
+  * gemischte Sprachregel `KMU` und `Unternehmen` gefunden
+  * veraltete Hosting-, README- und PLAN-Angaben gefunden
+  * leere und ungenutzte JavaScript-Datei sowie ungenutzte CSS-Regeln gefunden
+* Korrekturblock umgesetzt:
+  * Marketingtexte, Metadaten und Footer auf `Unternehmen` vereinheitlicht
+  * Kontaktseite von einer doppelten Aufforderung bereinigt
+  * Datenschutzerklärung auf den aktuellen lokalen, nicht öffentlichen Stand korrigiert
+  * mobilen Umbruch langer Überschriften ergänzt
+  * Service-Link-Hover kontrastreicher gestaltet
+  * leere JavaScript-Datei und alle Script-Einbindungen entfernt
+  * eindeutig ungenutzte CSS-Regeln entfernt
+  * README auf den aktuellen Stand der internen Version 1 gebracht
+  * PLAN auf den aktuellen Abschlussstand bereinigt
+* Aktueller Stand:
+  * Korrekturblock ist umgesetzt
+  * README und PLAN sind aktualisiert
+  * technischer Desktop-, Mobile-, Link- und Inhaltscheck ist erfolgreich abgeschlossen
+  * alle sechs Seiten wurden auf Desktop sowie mit 390 px und 320 px geprüft
+  * Navigation, Footer, Links, Mailto-Links, Bilder, Metadaten und Umlaute wurden geprüft
+  * keine horizontalen Überläufe, kaputten Links, fehlenden Bilder oder Konsolenfehler gefunden
+  * mobile Trennung der langen Überschrift `Datenschutzerklärung` verbessert
+  * Version 1 wartet nur noch auf die menschliche visuelle Abnahme
+* Nächster Schritt:
+  1. menschliche visuelle Abnahme durchführen
+  2. gegebenenfalls letzte kleine Fehler korrigieren
+  3. Version 1 intern abschliessen
