@@ -505,16 +505,16 @@ Version 2.1 gilt als fertig, wenn:
 
 ### Inhaltliche To-dos für Version 2
 
-- [ ] Seitenstruktur für Version 2 final definieren
+- [x] Seitenstruktur für Version 2 definieren
 - [ ] Über-mich-Seite planen und Texte bestätigen
-- [ ] Texte der fünf Grundsätze weiter schärfen
+- [x] Texte der fünf Grundsätze weiter schärfen
 - [ ] Logo-Anpassung und benötigte Assets klären
-- [ ] kurze Logo-Geschichte formulieren
-- [ ] Leistungsbereiche final priorisieren
+- [x] kurze Logo-Geschichte für Version 2 formulieren
+- [x] Leistungsbereiche für Version 2 priorisieren
 - [x] Portfolio-Struktur und internes Referenzprojekt vorbereiten
-- [x] erste FAQ-Fragen sammeln und sachlich beantworten
-- [ ] Projektablauf formulieren
-- [ ] Call-to-Actions definieren
+- [x] FAQ-Fragen sammeln und sachlich beantworten
+- [x] Projektablauf formulieren
+- [x] Call-to-Actions definieren
 - [x] technisches Design-System als Grundlage skizzieren
 
 ### Technische To-dos für die spätere Umsetzung mit Codex
@@ -585,16 +585,57 @@ Prüfung:
 * alle `og:url`-Werte und das vorhandene OpenGraph-Bild geprüft;
 * Version 2.1 und Version 3 nicht umgesetzt.
 
-### Nächster Arbeitsblock – Inhalte und visuelle Verfeinerung
+### Arbeitsblock 2 – Inhalte, Marke und Veröffentlichungsqualität
 
-* Hero, Positionierung und Leistungsdarstellung inhaltlich weiter schärfen;
-* Über-mich-Texte, fünf Grundsätze und kurze Logo-Geschichte menschlich prüfen und finalisieren;
-* Projektablauf und Call-to-Actions konsistent formulieren;
-* Portfolio-Darstellung weiter prüfen, ohne unfertige Projekte als Referenzen auszugeben;
-* Logo, Favicon und Social-Preview-Asset gestalterisch beziehungsweise hinsichtlich Dateigrösse prüfen;
-* vollständige Performance- und Lighthouse-Prüfung durchführen;
-* Hosting, Domain, Impressum und Datenschutz vor Veröffentlichung klären;
-* finale visuelle Abnahme auf weiteren Desktop- und Mobile-Grössen durchführen.
+* Start: 25. Juni 2026
+* Fokus: Inhalte, Marke und Veröffentlichungsqualität
+* Status: umgesetzt und technisch geprüft; menschliche Textabnahme bleibt offen
+
+Umgesetzt:
+
+* Hero und Positionierung auf Webseiten, lokale Sichtbarkeit und praktische digitale Lösungen für Schweizer KMU ausgerichtet;
+* Startseiten-CTAs auf kostenloses Erstgespräch und Leistungsübersicht vereinheitlicht;
+* drei Hauptleistungen festgelegt: Webseiten und digitales Auftreten, Google Business und lokale Sichtbarkeit sowie digitale Werkzeuge und Automatisierungen;
+* Betreuung, Pflege und Weiterentwicklung als unterstützenden Bereich ergänzt;
+* Markenauftritt als ergänzende Leistung erhalten, aber nicht als Hauptpositionierung geführt;
+* vierstufigen Projektablauf mit Erstgespräch, Klärung und Offerte, Umsetzung und Abstimmung sowie Prüfung und Weiterentwicklung ergänzt;
+* Vertrauenselemente zu persönlicher Betreuung, verständlicher Kommunikation, individueller Offerte und fehlenden versteckten Kosten ergänzt;
+* bestehenden CarDesk-Pilotpartner-Aufruf auf der Startseite unverändert erhalten;
+* FAQ auf sieben kurze, sachliche Fragen und Antworten erweitert;
+* Leistungsseite mit fünf Ankern für Haupt- und Zusatzleistungen strukturiert;
+* die drei Hauptleistungen auf Desktop kompakter als Bild-Text-Bereiche und mobil weiterhin gestapelt dargestellt;
+* Über-mich-Seite persönlicher formuliert und kaufmännischen Hintergrund, Schweizer Tätigkeit, portugiesische Herkunft und Motivation verbunden;
+* Clareza, Confiança, Estrutura, Eficiência und Evolução als konkrete Arbeitsprinzipien ausgearbeitet;
+* Logo-Geschichte zu Schweiz, Portugal und Digitalisierung kurz geschärft;
+* Portfolio als transparente Projektübersicht weiterentwickelt und den Status von LDigital Version 2 präzisiert;
+* Marco / Garage Rotterdam weiterhin klar als pausiert und nicht als Referenz gekennzeichnet;
+* Kontaktseite auf kostenloses Erstgespräch, transparente Klärung und individuelle Offerte ausgerichtet;
+* Footer aller sieben Seiten auf die aktuelle Kernpositionierung vereinheitlicht;
+* Meta-Titles und Meta-Descriptions der fünf Marketingseiten aktualisiert;
+* OpenGraph-Titel und -Beschreibungen angepasst, seitenspezifische `og:url`-Werte unverändert erhalten;
+* vorhandene Bilddateien ohne Bearbeitung weiterverwendet;
+* keine neue Hauptseite, kein JavaScript und keine festen Preise ergänzt.
+
+Prüfung:
+
+* alle sieben Seiten lokal auf Desktop mit 1280 px und mobil mit 390 px geprüft;
+* keine horizontalen Überläufe, fehlenden Bilder oder Browser-Konsolenfehler festgestellt;
+* Navigation, aktive Seitenauszeichnung, Leistungsanker, FAQ und Mailto-Links geprüft;
+* lokale Datei- und Bildpfade, UTF-8, Überschriftenstruktur und OpenGraph-URLs geprüft;
+* keine erfundenen Referenzen, Testimonials oder Leistungsversprechen ergänzt;
+* Version 2.1 und Version 3 weiterhin nicht umgesetzt;
+* keine Bild-, README- oder Dokumentationsdateien verändert;
+* kein Commit für Arbeitsblock 2 erstellt.
+
+### Arbeitsblock 3 – Abschluss vor Veröffentlichung
+
+* alle neuen Marketing- und Über-mich-Texte menschlich prüfen und final abnehmen;
+* Logo, Favicon und Social-Preview-Asset final beurteilen;
+* Bildgrössen, Ladezeiten, Performance und Lighthouse-Werte prüfen;
+* Hosting, Domain und tatsächliche öffentliche Geschäftsangaben klären;
+* Impressum und Datenschutz auf den Veröffentlichungsstand abstimmen und rechtlich prüfen lassen;
+* finale Kontrolle von Meta-Daten, OpenGraph-Vorschau, Links und responsiver Darstellung durchführen;
+* Veröffentlichung vorbereiten und erst nach abgeschlossener Freigabe durchführen.
 
 ## Verbindliche Roadmap
 
