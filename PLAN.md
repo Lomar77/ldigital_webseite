@@ -803,6 +803,68 @@ Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren A
 * Bilder, Rechtsseiten, README und weitere Dokumentationsdateien unverändert gelassen;
 * kein Deployment und kein Commit erstellt.
 
+### Arbeitsblock 5 – technische Launch-Vorbereitung
+
+**Datum:** 25. Juni 2026
+
+**Fokus:** SEO- und Veröffentlichungsdateien sowie eindeutige Canonical-URLs vorbereiten
+
+**Status:** umgesetzt und technisch geprüft; Veröffentlichung weiterhin blockiert
+
+#### Launch-Dateien
+
+* `sitemap.xml` mit den acht bestätigten öffentlichen Seiten der statischen Website erstellt;
+* ausschließlich absolute URLs unter `https://ldigital.ch/` aufgenommen;
+* keine WordPress-URLs, Fehlerseite oder nicht existierenden Seiten aufgenommen;
+* bewusst keine erfundenen Änderungsdaten, Prioritäten oder Änderungsfrequenzen ergänzt;
+* `robots.txt` im Projektstamm erstellt;
+* allgemeines Crawling mit `User-agent: *` und `Allow: /` zugelassen;
+* Sitemap über `https://ldigital.ch/sitemap.xml` referenziert;
+* `404.html` mit bestehender Seitenhülle sowie Links zur Start- und Kontaktseite erstellt;
+* Fehlerseite mit `noindex` gekennzeichnet und ohne Canonical oder `og:url` belassen;
+* festgehalten, dass die tatsächliche Auslieferung mit HTTP-Status 404 erst in der späteren Hosting- und Deployment-Konfiguration geprüft werden kann.
+
+#### Canonical- und Linkprüfung
+
+* alle acht öffentlichen HTML-Seiten mit genau einem absoluten, selbstreferenzierenden Canonical-Link ergänzt;
+* Canonical-URLs an die bestehenden seitenspezifischen `og:url`-Werte angeglichen;
+* Startseite einheitlich über `https://ldigital.ch/` kanonisiert;
+* Hauptnavigation, Footer, CTAs, CarDesk-Verlinkungen, Leistungsanker, Mailto-Links sowie Impressum und Datenschutz werden in der Abschlussprüfung erneut kontrolliert;
+* keine neue Navigation und keine inhaltlichen Marketingbereiche ergänzt.
+
+#### Weiterhin offene Launch-Blocker
+
+1. Öffentliche Geschäftsadresse und Anbieterangaben final bestätigen und vereinheitlichen.
+2. Rechtstexte mit einer seriösen Schweizer Vorlage oder einem Generator vorbereiten, an reale Dienste anpassen und extern prüfen lassen.
+3. Logo finalisieren.
+4. Favicon finalisieren.
+5. Social Preview ersetzen oder optimieren.
+6. Lighthouse-Test auf der späteren Test- oder Zielumgebung durchführen.
+7. WordPress-Ablösung, Hosting und Deployment einschließlich Backup und Rollback separat planen.
+8. Menschlichen Gesamtcheck von Texten, Marke, Rechtstexten und Veröffentlichung durchführen.
+
+Arbeitsblock 5 umfasst kein Deployment, keine WordPress- oder Hosting-Änderung, keine Trackingintegration und keine Bild- oder Asset-Arbeiten.
+
+#### Abschlussprüfung von Arbeitsblock 5
+
+* XML-Struktur der Sitemap erfolgreich validiert;
+* exakt acht eindeutige öffentliche URLs und keine Fehlerseite in der Sitemap bestätigt;
+* keine erfundenen Änderungsdaten, Prioritäten oder Änderungsfrequenzen gefunden;
+* Robots-Datei mit drei vorgesehenen Direktiven und ohne unnötige Sperren bestätigt;
+* alle neun HTML-Seiten auf Sprache, UTF-8, genau eine Hauptüberschrift, Skip-Link und Hauptinhaltsziel geprüft;
+* auf allen acht öffentlichen Seiten genau einen korrekten Canonical und den unveränderten passenden `og:url` bestätigt;
+* auf `404.html` keinen Canonical, keinen `og:url` und genau eine `noindex`-Anweisung bestätigt;
+* alle lokalen Datei-, Bild- und Ankerziele geprüft;
+* Hauptnavigation, Footer, CTAs, CarDesk-Links, Leistungsanker, Mailto-Links sowie Rechtsseitenverweise geprüft;
+* Links der Fehlerseite zur Start- und Kontaktseite funktional geprüft;
+* alle neun Seiten lokal bei 1280 Pixel und 390 Pixel geprüft;
+* keine horizontalen Überläufe, fehlenden Bilder oder Browser-Konsolenfehler festgestellt;
+* keine aktiven Trackingtools, externen Skripte, Iframes oder Formulare gefunden oder ergänzt;
+* keine festen Preise, erfundenen Referenzen oder Testimonials ergänzt;
+* Bilder, Logo, Favicon, Social Preview, CSS, README und Dokumentationsdateien unverändert gelassen;
+* keine WordPress-, Hosting- oder externe Plattformänderung und kein Deployment durchgeführt;
+* kein Commit erstellt.
+
 ## Verbindliche Roadmap
 
 1. Marco / Garage Rotterdam pausiert lassen, bis Zugriff, Material und technische Grundlage geklärt sind.
