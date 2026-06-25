@@ -1,14 +1,50 @@
 # LDigital Entwicklungsplan
 
-## Status Version 1
+## Projektsteuerung und aktueller Status
+
+`PLAN.md` ist die zentrale Projektsteuerung für die nächsten Arbeitsphasen. Der frühere Arbeitsrapport ruht, wird nicht weitergeführt und nicht für die aktuelle Priorisierung verwendet.
+
+### LDigital Version 1
+
+LDigital Version 1 ist abgeschlossen und bleibt die stabile interne Ausgangsbasis für Version 2.
+
+### Marco / Garage Rotterdam
+
+Das Projekt Marco / Garage Rotterdam ist aktuell pausiert.
+
+Gründe:
+
+* Zugriff, technische Klärung und Hosting-Support sind noch offen.
+* Die Website ist unter den aktuellen Voraussetzungen nicht sinnvoll weiterbearbeitbar.
+* Es wird auf eine Antwort sowie auf vollständiges Material gewartet.
+
+Das Projekt wird nicht verworfen. Es bleibt heiss und relevant und soll wieder aufgenommen werden, sobald Zugriff, Material und technische Grundlage vollständig geklärt sind. Bis dahin erfolgt keine weitere aktive Bearbeitung.
+
+Nach der Wiederaufnahme gilt weiterhin:
+
+* Marco / Garage Rotterdam bleibt ein Lern-, Test- und Referenzprojekt.
+* Die Garage-Website wird getrennt von der LDigital-Firmenwebsite in einem eigenen Projektordner oder Repository geführt.
+* Die bestehende Garage-Dokumentation dient als Grundlage für Projektgrenzen, Briefing, Preisstruktur und spätere Garage-Kundenprojekte.
+* Vor der Umsetzung werden Material, Seitenumfang, Funktionen und technische Zuständigkeiten verbindlich geklärt.
+
+### Aktive Hauptpriorität
+
+Die aktive Hauptpriorität ist **LDigital Webseite – Version 2**.
+
+* Die Arbeit soll trotz der Blockierung des Garage-Projekts weitergehen.
+* LDigital benötigt eine veröffentlichungsreife und überzeugende eigene Website.
+* Die Website soll als Referenzprojekt und Grundlage für die Akquise dienen.
+* Version 2 wird veröffentlicht.
+
+## Status und Grundlage von Version 1
 
 LDigital Version 1 ist abgeschlossen.
 
 * Version 1 ist eine interne, präsentierbare Arbeitsversion.
 * Die Webseite dient als Grundlage und Referenz für weitere LDigital-Arbeiten.
-* In diesem Abschluss- und Dokumentationsschritt erfolgen keine weiteren Änderungen an HTML, CSS oder JavaScript.
-* Version 1 bleibt vorerst die stabile Basis, bevor Version 1.1 oder Version 2 geplant wird.
-* Eine Veröffentlichung auf `ldigital.ch` erfolgt vorerst nicht und wird nach dem Marco-Projekt beziehungsweise im Rahmen einer späteren Version erneut geprüft.
+* Version 1 bleibt als dokumentierter Ausgangspunkt erhalten.
+* Die nächste aktive Entwicklungsstufe ist Version 2.
+* Version 2 wird im Gegensatz zu Version 1 als Veröffentlichungsversion geplant.
 
 ## Dokumentation für Garage-Webseiten
 
@@ -127,59 +163,451 @@ Auf der LDigital-Website bleibt CarDesk als professioneller Pilotpartner-Aufruf 
 
 CarDesk bleibt unabhängig von den regulären LDigital-Dienstleistungen. Später kann dort ein Link zur eigenständigen CarDesk-Website ergänzt werden.
 
-## Nächster Arbeitsblock: Garage-Struktur und Marco / Garage Rotterdam
+## LDigital Webseite – Version 2
 
-Nach Abschluss von LDigital Version 1 wird eine neue Projektstruktur speziell für Garage-Webseiten aufgebaut.
+### Ziel von Version 2
 
-* Diese Struktur wird getrennt von der LDigital-Firmenwebseite geführt.
-* Ziel ist eine wiederverwendbare Garage-Grundlage für künftige Kunden.
-* Innerhalb dieser Garage-Struktur wird das erste konkrete Projekt für Marco / Garage Rotterdam vorbereitet.
-* Marco / Garage Rotterdam dient als Lern-, Test- und Referenzprojekt.
-* Erkenntnisse aus dem Projekt sollen in Briefings, Preisstruktur, Abläufe und spätere Garage-Kundenprojekte einfliessen.
-* Der Aufbau erfolgt nicht direkt in der LDigital-Webseite, sondern in einem separaten Projektordner oder separaten Repository.
-* Vor der ersten Umsetzung werden Projektgrenzen, Material, Seitenumfang und gewünschte Funktionen geklärt.
+Version 2 entwickelt die bestehende Version 1 zu einer professionellen, veröffentlichungsreifen Unternehmenswebsite weiter.
 
-## Konkrete nächste Aufgaben
+Die Website soll:
 
-1. LDigital Version 1 final committen und auf GitHub sichern.
-2. Prüfen, ob alle Garage-Dokumente korrekt verlinkt sind.
-3. Offene Feinschliffe an den Garage-Dokumenten separat abarbeiten.
-4. Neue Projektstruktur für Garage-Webseiten planen.
-5. Entscheiden, ob die Garage-Struktur als eigenes Repository oder eigener Ordner geführt wird.
-6. Basisstruktur für Garage-Webseiten definieren.
-7. Marco / Garage Rotterdam als erstes konkretes Projekt vorbereiten.
-8. Bestehendes Material von Marco sammeln: Logo, Farben, Bilder, Texte, Adresse, Öffnungszeiten und Leistungen.
-9. Umfang für Marco klar festlegen.
-10. Erst danach mit der HTML-/CSS-Umsetzung für Garage Rotterdam starten.
+* Vertrauen schaffen;
+* die Marke LDigital stärken;
+* als überzeugende Referenz in Kundengesprächen dienen;
+* zeigen, dass LDigital seriös, strukturiert und pragmatisch arbeitet;
+* besonders für KMU, Garagen, Dienstleister und lokale Unternehmen in der Schweiz glaubwürdig wirken;
+* nach der Veröffentlichung die aktive Ansprache von Garagen und anderen Betrieben unterstützen.
 
-Die Website-Dateien von LDigital Version 1 werden in diesem Dokumentationsschritt nicht verändert. Es wird noch keine Garage-Webseite erstellt.
+**Leitsatz: Nicht einfach mehr Funktionen, sondern mehr Überzeugungskraft.**
 
-## Nach Version 1 / Version 2
+### Website-Struktur und Inhalte
 
-Diese Themen gehören nicht mehr zur aktuellen Version-1-Runde, sondern werden später separat geplant:
+Version 2 soll folgende Bereiche enthalten oder so vorbereiten, dass sie später ohne grundlegenden Umbau ergänzt werden können:
 
-* Veröffentlichung von `ldigital.ch` erneut prüfen
-* öffentliche Geschäftsadresse und rechtliche Launchprüfung klären
-* öffentlichen Hosting-Anbieter festlegen und Datenschutzerklärung anpassen
-* eigenständige CarDesk-Unterseite oder CarDesk-Landingpage
-* Erkenntnisse aus dem Marco-Projekt einbauen
-* Referenz oder Pilotbeispiel stärker nutzen
-* Kontaktformular prüfen
-* weitere Referenzen oder Kundenbeispiele
-* Blog oder Ratgeber
-* erweitertes Design
-* professionelle Quinas- oder Vektorgrafik für `As Cinco Quinas` prüfen beziehungsweise erstellen lassen
-* Typografie, Ausrichtung und Lesbarkeit der Quinas-Grafik professionell ausarbeiten
-* Einsatz der Quinas-Grafik auf der Über-uns-Seite oder in Social Media prüfen
-* erweiterte Automatisierungen
-* Social-Media-Angebot
-* Open Graph und Social-Media-Metadaten nach Domain-Aufschaltung
-* Analytics
-* Mehrsprachigkeit
+* professionellere Startseite;
+* stärkere Hero-Section;
+* klare Positionierung von LDigital;
+* bessere und verständlichere Leistungsdarstellung;
+* Über-mich-Seite;
+* Portfolio- und Referenzbereich;
+* sichtbarer Projektablauf und verständliche Arbeitsweise;
+* FAQ-Bereich;
+* Kontaktbereich mit stärkerem Call-to-Action;
+* vorbereitete Landingpage-Struktur für einzelne Leistungen;
+* stärkere Vertrauenselemente;
+* bessere Bildsprache, Mockups und visuelle Elemente.
 
-Diese Punkte sind keine Voraussetzung für LDigital Version 1.
+Die überzeugende Hauptwebsite hat Vorrang. Nicht alle vorbereiteten Landingpages müssen bereits in Version 2 vollständig umgesetzt werden.
 
-## Arbeitsverlauf
+### Über-mich-Seite und fünf Grundsätze
+
+Die Über-mich-Seite ist ein zentraler Bestandteil von Version 2. Sie soll nicht nur persönliche Angaben wiedergeben, sondern nachvollziehbar erklären:
+
+* wer hinter LDigital steht;
+* warum LDigital existiert;
+* welche Haltung die Arbeit prägt;
+* weshalb Schweizer KMU von pragmatischen digitalen Lösungen profitieren;
+* weshalb persönliche Betreuung wichtig ist.
+
+Die bestehenden **As Cinco Quinas – fünf Grundsätze** werden als Marken- und Arbeitsprinzipien übernommen:
+
+1. **Clareza – Klarheit**
+2. **Confiança – Vertrauen**
+3. **Estrutura – Struktur**
+4. **Eficiência – Effizienz**
+5. **Evolução – Weiterentwicklung**
+
+Die Begriffe sind bereits vorhanden. Ihre Texte, Reihenfolge und visuelle Darstellung dürfen für Version 2 weiter geschärft werden, ohne künstlich neue Prinzipien zu erfinden.
+
+### Logo und Marke
+
+Für Version 2 sind folgende Markenarbeiten einzuplanen:
+
+* Logo finalisieren oder überarbeiten;
+* Proportionen, Lesbarkeit und Darstellung prüfen;
+* Schweizer Kreuz und historische portugiesische Quinas als Markenelemente sauber berücksichtigen;
+* konsistente Verwendung des Logos auf der Website sicherstellen;
+* Favicon prüfen;
+* Social-Media-Profilbild vorbereiten;
+* OpenGraph-Bild vorbereiten;
+* einheitliche Darstellung für Website, GitHub, Social Media, Dokumente und E-Mail-Signatur planen.
+
+Codex kann Platzhalter, Dateipfade, technische Einbindungen und Verwendungsregeln vorbereiten. Die professionelle Feinbearbeitung des Logos und der finalen Assets bleibt eine eigenständige Designaufgabe.
+
+### Geschichte des Logos
+
+Die Logo-Geschichte soll kurz und glaubwürdig auf der Über-mich-Seite oder in einer kompakten Markenbox erklärt werden:
+
+* Verbindung von Schweiz, Portugal und Digitalisierung;
+* Schweizer Kreuz und portugiesische Quinas als Herkunfts- und Wertebezug;
+* kurze, verständliche Darstellung ohne überlange Geschichtsseite.
+
+Eine ausführlichere Unterseite zur Logo-Geschichte wird für Version 3 vorgemerkt.
+
+### Vertrauen und Seriosität
+
+Version 2 soll Vertrauen durch konkrete und nachvollziehbare Inhalte aufbauen:
+
+* FAQ;
+* sichtbarer Projektablauf;
+* klare Kontaktmöglichkeit;
+* transparente Arbeitsweise;
+* keine versteckten Kosten;
+* individuelle Offerte nach dem Erstgespräch;
+* glaubwürdige Referenz- und Portfolio-Struktur;
+* klare Beschreibung der Zielgruppen;
+* seriöser, ruhiger Ton ohne Übertreibungen oder Billigwirkung.
+
+### Leistungen
+
+Die Leistungen werden klarer gegliedert und priorisiert. Mögliche Bereiche:
+
+* Webseiten und digitale Sichtbarkeit;
+* Google Business und lokale Sichtbarkeit;
+* einfache Automatisierungen;
+* digitale Werkzeuge;
+* Website-Wartung;
+* Markenauftritt, Logo und einfache Gestaltung;
+* Beratung für kleine Unternehmen.
+
+Die finale Leistungsstruktur wird vor der inhaltlichen Umsetzung festgelegt. Version 2 bereitet Navigation und Landingpage-Struktur vor, ohne jede mögliche Leistung sofort als vollständige Einzelseite umzusetzen.
+
+### Portfolio und Referenzen
+
+Der Portfolio-Bereich wird auch bei zunächst wenigen Projekten strukturell vorbereitet. Jedes veröffentlichte Projekt soll nach Möglichkeit enthalten:
+
+* Ausgangslage;
+* Ziel;
+* Lösung;
+* Ergebnis;
+* verwendete Leistungen.
+
+Mögliche erste Einträge:
+
+* die LDigital-Website als eigenes Referenzprojekt;
+* Marco / Garage Rotterdam nach Wiederaufnahme und tatsächlichem Abschluss;
+* weitere zukünftige Kundenprojekte.
+
+Es werden keine falschen Referenzen, Ergebnisse, Bewertungen oder Testimonials erfunden. Platzhalter müssen klar als geplant oder vorbereitet gekennzeichnet sein.
+
+### Design-System und Style Guide
+
+Version 2 soll ein einfaches, wiederverwendbares Design-System vorbereiten:
+
+* Farben;
+* Schriftgrössen und typografische Hierarchie;
+* Buttons;
+* Karten;
+* Abstände;
+* Icons;
+* Schatten;
+* Rundungen;
+* Bildstil;
+* Call-to-Action-Stil;
+* wiederverwendbare Komponenten.
+
+Ziel ist ein konsistenter LDigital-Auftritt und eine schnellere Grundlage für neue Seiten und spätere Kundenprojekte.
+
+### SEO, Technik und Qualität
+
+Version 2 soll technisch sauber und veröffentlichungsbereit sein:
+
+* Meta-Titles und Meta-Descriptions prüfen;
+* OpenGraph-Daten vorbereiten;
+* semantische HTML-Struktur verbessern;
+* Navigation klar und konsistent halten;
+* Mobile-Darstellung optimieren;
+* Performance optimieren;
+* Bildgrössen und Ladezeiten prüfen;
+* Accessibility-Grundlagen umsetzen;
+* Lighthouse-Ziele definieren;
+* Datei- und Ordnerstruktur sauber halten;
+* keine unnötigen oder leeren Dateien einbinden;
+* Hosting, Domain, Impressum und Datenschutz vor Veröffentlichung prüfen.
+
+Als Zielwerte für den finalen Lighthouse-Test gelten auf den zentralen Seiten mindestens 90 Punkte in Performance, Accessibility, Best Practices und SEO, soweit dies mit dem gewählten Hosting und den finalen Assets realistisch erreichbar ist.
+
+### Preisstrategie
+
+Auf der Website werden vorerst keine festen Preise veröffentlicht.
+
+Begründung:
+
+* Projekte und Anforderungen sind individuell.
+* Feste Einstiegspreise können falsche Erwartungen erzeugen.
+* Aussagen wie „Ab CHF 490“ ziehen möglicherweise vor allem Interessenten an, die nur den tiefsten Preis suchen.
+* LDigital soll nicht wie ein Billiganbieter wirken.
+* Der Preis wird passend zum tatsächlichen Projektumfang kalkuliert.
+
+Kommunikation auf der Website:
+
+* kostenloses Erstgespräch;
+* individuelles Angebot;
+* transparente Kalkulation;
+* keine versteckten Kosten.
+
+Intern wird später eine Kalkulations- und Preisliste erstellt beziehungsweise aus den bestehenden Preisgrundlagen weiterentwickelt. Diese interne Grundlage ist nicht automatisch für die Veröffentlichung bestimmt.
+
+## Version 2.1 – Sichtbarkeit, Vertrieb und Drumherum
+
+Version 2.1 betrifft primär den Marktauftritt nach der Veröffentlichung, nicht den grundlegenden Umbau der Website.
+
+**Ziel:** Nach Version 2.1 ist LDigital bereit, Garagen und andere lokale Unternehmen aktiv anzusprechen und seriöse Angebote abzugeben.
+
+Geplante Inhalte:
+
+* Google-Business-Profil erstellen oder optimieren;
+* LinkedIn-Unternehmensseite erstellen oder optimieren;
+* Instagram prüfen, erstellen oder vorbereiten;
+* Facebook prüfen, sofern es für die Zielgruppe sinnvoll ist;
+* Social-Media-Profilbilder und Banner vorbereiten;
+* E-Mail-Signatur erstellen;
+* Angebotsvorlage erstellen;
+* Rechnungsvorlage prüfen;
+* einfache Präsentations- oder Pitch-Unterlage vorbereiten;
+* Flyer oder Visitenkarte vorbereiten;
+* erste Social-Media-Beiträge planen;
+* Google Search Console einrichten;
+* Analytics und Datenschutz gemeinsam sauber prüfen;
+* lokale Branchenverzeichnisse prüfen;
+* Akquise-Liste für Garagen und lokale Betriebe vorbereiten;
+* Gesprächsleitfaden für den Erstkontakt vorbereiten;
+* einfache Angebotsstruktur für Garagen vorbereiten.
+
+Version 2.1 ist der Schritt von **„Website ist veröffentlicht“** zu **„LDigital kann aktiv verkaufen.“**
+
+## Nicht Teil von Version 2 – für Version 3 vormerken
+
+Version 2 darf nicht durch zusätzliche Ideen überladen oder verzögert werden. Folgende Themen werden bewusst für Version 3 oder eine spätere Ausbauphase vorgemerkt:
+
+* Mehrsprachigkeit Deutsch, Portugiesisch und Englisch;
+* Blog oder Wissensbereich;
+* Kundenportal;
+* Online-Terminbuchung;
+* interaktive Tools;
+* KI-Assistent;
+* grosse Fallstudien;
+* Videos;
+* Newsletter;
+* Downloadbereich;
+* komplexe Animationen;
+* ausführliche Logo-Geschichtsseite;
+* vollständige Plattform-Funktionen;
+* umfassendes CRM;
+* automatisierte Kundenprozesse.
+
+## Zuständigkeiten: Was Codex übernehmen kann und was nicht
+
+### Codex kann übernehmen
+
+* `PLAN.md` strukturieren und aktuell halten;
+* HTML-Struktur und bestehende Seiten technisch verbessern;
+* CSS überarbeiten;
+* neue statische Seiten anlegen;
+* Navigation erweitern;
+* Meta-Daten und OpenGraph-Tags vorbereiten;
+* leere oder unnötige Einbindungen entfernen;
+* Bildpfade und Platzhalter vorbereiten;
+* einfache wiederverwendbare Komponenten erstellen;
+* FAQ-Bereich technisch einbauen;
+* Über-mich-Seite als HTML-Struktur vorbereiten;
+* Portfolio- und Landingpage-Strukturen vorbereiten;
+* Mobile-Darstellung, Performance und Accessibility-Grundlagen verbessern;
+* `README.md` bei einem späteren, ausdrücklich beauftragten Arbeitsschritt aktualisieren;
+* saubere Git-Änderungen vorbereiten.
+
+### Codex kann nicht oder nur begrenzt übernehmen
+
+* finale Logo-Gestaltung als professionelle Designarbeit;
+* professionelle Bildbearbeitung;
+* finale Auswahl echter Bilder ohne bereitgestellte Assets;
+* Google Business oder Social-Media-Profile ohne Zugriff tatsächlich einrichten;
+* reale Einträge in Branchenverzeichnissen vornehmen;
+* echte Kunden kontaktieren;
+* Preise strategisch endgültig festlegen;
+* rechtliche Prüfung von Datenschutz und Impressum ersetzen;
+* Hosting- oder Support-Probleme mit Cyon selbst lösen;
+* persönliche Haltung und Geschichte ohne Bestätigung final festlegen;
+* Kundenreferenzen, Bewertungen oder Testimonials erfinden.
+
+### Codex kann vorbereiten, der Nutzer entscheidet final
+
+* Texte der Über-mich-Seite;
+* Formulierungen und Darstellung der fünf Grundsätze;
+* Logo-Geschichte;
+* Positionierung;
+* Preislogik;
+* Angebotsstruktur;
+* Zielgruppen;
+* Reihenfolge der Version-2-Arbeitsblöcke;
+* Veröffentlichung;
+* Akquise-Start.
+
+## Definition of Done für Version 2
+
+Version 2 gilt als fertig, wenn:
+
+* die Website lokal fehlerfrei läuft;
+* die Startseite professionell und überzeugend wirkt;
+* die Über-mich-Seite vorhanden und inhaltlich bestätigt ist;
+* die fünf Grundsätze integriert sind;
+* das Logo konsistent eingebunden ist;
+* Projektablauf und Arbeitsweise sichtbar sind;
+* ein FAQ vorhanden ist;
+* der Kontaktbereich einen klaren Call-to-Action enthält;
+* keine festen Preise veröffentlicht werden;
+* SEO- und OpenGraph-Grundlagen gesetzt sind;
+* die Mobile-Darstellung auf gängigen Breiten funktioniert;
+* Performance und Accessibility die definierten Qualitätsziele erfüllen oder begründete Abweichungen dokumentiert sind;
+* Impressum und Datenschutz vorhanden und vor Veröffentlichung geprüft sind;
+* die Portfolio-Struktur vorbereitet ist;
+* alle internen Links und verwendeten Assets funktionieren;
+* der Git-Status vor Veröffentlichung sauber ist;
+* Domain, Hosting und Veröffentlichung vorbereitet oder abgeschlossen sind.
+
+## Definition of Done für Version 2.1
+
+Version 2.1 gilt als fertig, wenn:
+
+* LDigital online auffindbar ist;
+* Google Business vorbereitet oder eingerichtet ist;
+* die relevanten Social-Media-Grundprofile vorbereitet sind;
+* eine E-Mail-Signatur vorhanden ist;
+* eine Angebotsvorlage vorhanden ist;
+* einfache Akquise-Unterlagen vorhanden sind;
+* eine erste Zielkundenliste erstellt ist;
+* ein Gesprächsleitfaden für Garagen vorhanden ist;
+* LDigital bereit ist, erste Kunden aktiv anzusprechen.
+
+## Risiken und Abhängigkeiten
+
+* Marco / Garage Rotterdam bleibt von Zugriff, Material und Support abhängig.
+* Version 2 darf nicht zu gross werden.
+* Logo-Perfektion darf die Veröffentlichung nicht blockieren.
+* Die fünf Grundsätze müssen klar und glaubwürdig formuliert bleiben.
+* Die Preisstrategie muss flexibel bleiben.
+* Rechtliche Texte müssen vor Veröffentlichung sauber geprüft werden.
+* Hosting, Domain und öffentliche Geschäftsangaben müssen rechtzeitig geklärt werden.
+* Social Media und Google Business gehören zu Version 2.1 und dürfen die Kernumsetzung von Version 2 nicht verzögern.
+* Version-3-Ideen dürfen Version 2 nicht aufhalten.
+* Fehlende Bilder oder finale Design-Assets dürfen durch klar gekennzeichnete Übergangslösungen aufgefangen werden, nicht durch erfundene Inhalte.
+
+## Nächste konkrete To-dos
+
+### Sofortige Planung
+
+- [x] Garage-/Marco-Projekt als pausiert markieren
+- [x] Version 2, Version 2.1 und Version 3 im Plan trennen
+- [x] Codex-Aufgaben und Grenzen ergänzen
+- [x] Definition of Done für Version 2 ergänzen
+- [x] Definition of Done für Version 2.1 ergänzen
+- [x] Reihenfolge der ersten Version-2-Arbeitsblöcke festlegen
+
+### Inhaltliche To-dos für Version 2
+
+- [ ] Seitenstruktur für Version 2 final definieren
+- [ ] Über-mich-Seite planen und Texte bestätigen
+- [ ] Texte der fünf Grundsätze weiter schärfen
+- [ ] Logo-Anpassung und benötigte Assets klären
+- [ ] kurze Logo-Geschichte formulieren
+- [ ] Leistungsbereiche final priorisieren
+- [x] Portfolio-Struktur und internes Referenzprojekt vorbereiten
+- [x] erste FAQ-Fragen sammeln und sachlich beantworten
+- [ ] Projektablauf formulieren
+- [ ] Call-to-Actions definieren
+- [x] technisches Design-System als Grundlage skizzieren
+
+### Technische To-dos für die spätere Umsetzung mit Codex
+
+- [x] HTML-Struktur prüfen
+- [x] CSS-Struktur prüfen und Version-2-Grundlage erstellen
+- [x] Mobile-Darstellung bei 390 px prüfen
+- [x] Meta-Daten prüfen
+- [x] OpenGraph-Basistags mit seitenspezifischen URLs vorbereiten
+- [x] Bildpfade und vorhandene Assets prüfen
+- [ ] Performance und Lighthouse-Werte prüfen
+- [x] Accessibility-Grundlagen prüfen und verbessern
+- [x] Navigation für Über mich und Portfolio vorbereiten
+- [ ] Hosting-, Domain- und rechtliche Launchvoraussetzungen prüfen
+
+### To-dos für Version 2.1 nach Veröffentlichung
+
+- [ ] Google Business vorbereiten
+- [ ] LinkedIn-Unternehmensseite vorbereiten
+- [ ] Instagram und Facebook prüfen
+- [ ] E-Mail-Signatur erstellen
+- [ ] Angebotsvorlage erstellen
+- [ ] Akquise-Liste für Garagen erstellen
+- [ ] Gesprächsleitfaden vorbereiten
+- [ ] erste Social-Media-Beiträge planen
+- [ ] einfache Werbemittel vorbereiten
+
+## Aktueller Arbeitsstand Version 2
+
+### Arbeitsblock 1 – technische Grundlage
+
+* Start: 25. Juni 2026, 17:30 Uhr
+* Fokus: technische Grundlage für Version 2
+* Status: technisch umgesetzt und geprüft
+
+Vorprüfung:
+
+* Die Version-1-Struktur bestand aus sechs HTML-Seiten, einer gemeinsamen CSS-Datei und lokalen Bilddateien.
+* Es war kein JavaScript eingebunden.
+* Sprache, UTF-8 und die lokalen Datei- und Bildpfade waren grundsätzlich funktionsfähig.
+* Die gemeinsame Navigation und das Design-System benötigten eine Version-2-Grundlage.
+* OpenGraph-Metadaten waren noch nicht vorhanden.
+
+Umgesetzt:
+
+* einheitliche Seitenhülle mit Skip-Link, Container, Hauptnavigation, Fussnavigation und aktiver Seitenauszeichnung;
+* Hauptnavigation auf Startseite, Leistungen, Über mich, Portfolio und Kontakt erweitert;
+* bestehende URL `ueber-uns.html` erhalten und sichtbar als Über-mich-Seite weiterentwickelt;
+* neue Seite `portfolio.html` mit transparent gekennzeichnetem internem Referenzprojekt erstellt;
+* Marco / Garage Rotterdam nur als pausiertes und nicht abgeschlossenes Projekt eingeordnet;
+* FAQ auf der Startseite ohne JavaScript mit nativen HTML-Elementen ergänzt;
+* CSS-Grundsystem auf Königsblau `#0A2A66` und Gold `#D6A94D` ausgerichtet;
+* wiederverwendbare Grundlagen für Buttons, Cards, Grids, Sections, CTA, Status und FAQ erstellt;
+* Fokuszustände, Skip-Link, reduzierte Bewegungen und mobile Umbrüche ergänzt;
+* Meta-Titles und Meta-Descriptions geprüft und angepasst;
+* OpenGraph-Basistags mit individueller URL pro Seite ergänzt;
+* vorhandenes Social-Preview-Bild geprüft und über eine absolute OpenGraph-URL eingebunden;
+* vorhandene Bilddateien nicht verändert;
+* keine JavaScript-, Tracking- oder externen Plattformfunktionen ergänzt;
+* keine festen Preise, erfundenen Referenzen oder Testimonials veröffentlicht.
+
+Prüfung:
+
+* alle sieben HTML-Seiten lokal auf Desktop und mit 390 px Breite geladen;
+* keine horizontalen Überläufe, fehlenden Bilder oder Browser-Konsolenfehler festgestellt;
+* genau eine Hauptüberschrift und fünf Hauptnavigationspunkte pro Seite geprüft;
+* FAQ-Funktion, aktive Navigation und lokale Links geprüft;
+* alle `og:url`-Werte und das vorhandene OpenGraph-Bild geprüft;
+* Version 2.1 und Version 3 nicht umgesetzt.
+
+### Nächster Arbeitsblock – Inhalte und visuelle Verfeinerung
+
+* Hero, Positionierung und Leistungsdarstellung inhaltlich weiter schärfen;
+* Über-mich-Texte, fünf Grundsätze und kurze Logo-Geschichte menschlich prüfen und finalisieren;
+* Projektablauf und Call-to-Actions konsistent formulieren;
+* Portfolio-Darstellung weiter prüfen, ohne unfertige Projekte als Referenzen auszugeben;
+* Logo, Favicon und Social-Preview-Asset gestalterisch beziehungsweise hinsichtlich Dateigrösse prüfen;
+* vollständige Performance- und Lighthouse-Prüfung durchführen;
+* Hosting, Domain, Impressum und Datenschutz vor Veröffentlichung klären;
+* finale visuelle Abnahme auf weiteren Desktop- und Mobile-Grössen durchführen.
+
+## Verbindliche Roadmap
+
+1. Marco / Garage Rotterdam pausiert lassen, bis Zugriff, Material und technische Grundlage geklärt sind.
+2. LDigital Version 2 planen und umsetzen.
+3. LDigital Version 2 veröffentlichen.
+4. Version 2.1 für Sichtbarkeit, Vertriebsgrundlagen und Akquise umsetzen.
+5. Marco / Garage Rotterdam wieder aufnehmen, sobald die Abhängigkeiten gelöst sind.
+6. Version 3 später als grössere Ausbauphase planen.
+
+## Historischer Arbeitsverlauf – ruhend
+
+Der folgende Verlauf bleibt als Projekthistorie erhalten. Er wird nicht weitergeführt und nicht für die aktuelle Projektsteuerung verwendet. Frühere Prioritäten werden durch den aktuellen Status und die verbindliche Roadmap am Anfang dieses Dokuments ersetzt.
 
 ### 17. Juni 2026
 

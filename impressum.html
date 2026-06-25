@@ -6,27 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impressum | LDigital</title>
     <meta name="description" content="Impressum von LDigital mit Anbieterangaben, Kontaktinformationen und rechtlichen Hinweisen.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_CH">
+    <meta property="og:title" content="Impressum | LDigital">
+    <meta property="og:description" content="Impressum von LDigital mit Anbieterangaben und Kontaktinformationen.">
+    <meta property="og:url" content="https://ldigital.ch/impressum.html">
+    <meta property="og:image" content="https://ldigital.ch/Logo/ldigital-social-preview.png">
+    <meta property="og:image:alt" content="LDigital – digitale Lösungen für Unternehmen in der Schweiz">
     <link rel="icon" type="image/png" href="Logo/favicon.png">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Direkt zum Inhalt</a>
 
     <header>
-        <a href="index.html" class="logo-link" aria-label="LDigital Startseite">
-            <img src="Logo/ldigital-logo.png" alt="LDigital Logo" class="logo">
-        </a>
-
-        <nav>
-            <a href="index.html">Startseite</a>
-            <a href="leistungen.html">Leistungen</a>
-            <a href="ueber-uns.html">Über uns</a>
-            <a href="kontakt.html">Kontakt</a>
-        </nav>
+        <div class="site-container header-inner">
+            <a href="index.html" class="logo-link" aria-label="LDigital Startseite">
+                <img src="Logo/ldigital-logo.png" alt="LDigital" class="logo">
+            </a>
+            <nav class="main-nav" aria-label="Hauptnavigation">
+                <a href="index.html">Startseite</a>
+                <a href="leistungen.html">Leistungen</a>
+                <a href="ueber-uns.html">Über mich</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section>
+    <main id="main-content" class="site-container">
+        <section class="legal-content">
             <h1>Impressum</h1>
 
             <h2>Anbieter</h2>
@@ -53,17 +63,24 @@
     </main>
 
     <footer>
-        <p>LDigital entwickelt Webseiten, Markenauftritte und einfache Automatisierungen für Unternehmen in der Schweiz.</p>
-        <p>&copy; 2026 LDigital. Alle Rechte vorbehalten.</p>
-
-        <nav>
-            <a href="index.html">Startseite</a>
-            <a href="leistungen.html">Leistungen</a>
-            <a href="ueber-uns.html">Über uns</a>
-            <a href="kontakt.html">Kontakt</a>
-            <a href="impressum.html">Impressum</a>
-            <a href="datenschutz.html">Datenschutz</a>
-        </nav>
+        <div class="site-container footer-inner">
+            <div>
+                <p class="footer-title">LDigital</p>
+                <p>Webseiten, Markenauftritte und einfache Automatisierungen für Unternehmen in der Schweiz.</p>
+            </div>
+            <div>
+                <p>&copy; 2026 LDigital. Alle Rechte vorbehalten.</p>
+                <nav class="footer-nav" aria-label="Fussnavigation">
+                    <a href="index.html">Startseite</a>
+                    <a href="leistungen.html">Leistungen</a>
+                    <a href="ueber-uns.html">Über mich</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="kontakt.html">Kontakt</a>
+                    <a href="impressum.html" aria-current="page">Impressum</a>
+                    <a href="datenschutz.html">Datenschutz</a>
+                </nav>
+            </div>
+        </div>
     </footer>
 
 </body>

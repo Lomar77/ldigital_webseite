@@ -6,34 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leistungen | LDigital</title>
     <meta name="description" content="Leistungen von LDigital für Unternehmen in der Schweiz: Webseiten, Markenauftritte sowie Prozessoptimierung und Automatisierung.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_CH">
+    <meta property="og:title" content="Leistungen | LDigital">
+    <meta property="og:description" content="Webseiten, Markenauftritte und pragmatische digitale Lösungen für Unternehmen in der Schweiz.">
+    <meta property="og:url" content="https://ldigital.ch/leistungen.html">
+    <meta property="og:image" content="https://ldigital.ch/Logo/ldigital-social-preview.png">
+    <meta property="og:image:alt" content="LDigital – digitale Lösungen für Unternehmen in der Schweiz">
     <link rel="icon" type="image/png" href="Logo/favicon.png">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Direkt zum Inhalt</a>
 
     <header>
-        <a href="index.html" class="logo-link" aria-label="LDigital Startseite">
-            <img src="Logo/ldigital-logo.png" alt="LDigital Logo" class="logo">
-        </a>
-
-        <nav>
-            <a href="index.html">Startseite</a>
-            <a href="leistungen.html">Leistungen</a>
-            <a href="ueber-uns.html">Über uns</a>
-            <a href="kontakt.html">Kontakt</a>
-        </nav>
+        <div class="site-container header-inner">
+            <a href="index.html" class="logo-link" aria-label="LDigital Startseite">
+                <img src="Logo/ldigital-logo.png" alt="LDigital" class="logo">
+            </a>
+            <nav class="main-nav" aria-label="Hauptnavigation">
+                <a href="index.html">Startseite</a>
+                <a href="leistungen.html" aria-current="page">Leistungen</a>
+                <a href="ueber-uns.html">Über mich</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section>
+    <main id="main-content" class="site-container">
+        <section class="page-intro">
+            <p class="eyebrow">Leistungen</p>
             <h1>Leistungen</h1>
             <p>LDigital unterstützt Schweizer Unternehmen dabei, professioneller aufzutreten, einheitlicher wahrgenommen zu werden und wiederkehrende Abläufe einfacher zu strukturieren. Die drei Leistungen greifen bewusst ineinander: Website, Markenauftritt und Automatisierung bilden eine klare digitale Grundlage für den Geschäftsalltag.</p>
         </section>
 
         <section id="webseiten">
             <article class="service-card service-detail-card">
-                <img src="Logo/Leistungen/webseiten-digitales-auftreten.png" alt="Webseiten und digitales Auftreten" class="service-card-image">
+                <img src="Logo/Leistungen/webseiten-digitales-auftreten.png" alt="" class="service-card-image">
                 <div class="service-card-content">
                     <h2>Webseiten und digitales Auftreten</h2>
                     <p>Die Website ist oft der erste Eindruck eines Unternehmens. Sie soll schnell verständlich machen, was angeboten wird, Vertrauen schaffen und den Weg zur Kontaktaufnahme einfach machen. LDigital unterstützt Schweizer Unternehmen dabei, online professioneller aufzutreten – mit klaren Inhalten, mobiler Darstellung und einer soliden Grundlage für digitale Sichtbarkeit.</p>
@@ -48,7 +59,7 @@
 
         <section id="markenauftritt">
             <article class="service-card service-detail-card">
-                <img src="Logo/Leistungen/logodesign-premium-visitenkarten.png" alt="Logodesign und Markenauftritt" class="service-card-image">
+                <img src="Logo/Leistungen/logodesign-premium-visitenkarten.png" alt="" class="service-card-image">
                 <div class="service-card-content">
                     <h2>Logodesign und Markenauftritt</h2>
                     <p>Ein Unternehmen wirkt professioneller, wenn Logo, Farben, Website und Geschäftsmittel zusammenpassen. Ein klarer Markenauftritt unterstützt Wiedererkennung, schafft Vertrauen und sorgt dafür, dass Gestaltung nicht nur gut aussieht, sondern im Alltag praktisch nutzbar bleibt. LDigital unterstützt Schweizer Unternehmen dabei, einheitlicher und hochwertiger aufzutreten.</p>
@@ -63,7 +74,7 @@
 
         <section id="automatisierung">
             <article class="service-card service-detail-card">
-                <img src="Logo/Leistungen/prozessoptimierung-automatisierung.png" alt="Prozessoptimierung und Automatisierung" class="service-card-image">
+                <img src="Logo/Leistungen/prozessoptimierung-automatisierung.png" alt="" class="service-card-image">
                 <div class="service-card-content">
                     <h2>Prozessoptimierung und Automatisierung</h2>
                     <p>Viele Unternehmen verlieren Zeit durch doppelte Arbeit, manuelle Schritte oder unübersichtliche Abläufe. Nicht jeder Prozess braucht sofort eine grosse Softwarelösung – oft reichen eine klare Struktur, bessere Organisation oder eine einfache Automatisierung. LDigital zeigt, wo digitale Unterstützung im Alltag wirklich hilft und wo sie unnötigen Aufwand, Fehler und Unklarheiten reduzieren kann.</p>
@@ -76,7 +87,7 @@
             </article>
         </section>
 
-        <section>
+        <section class="cta-section">
             <h2>Bereit für den nächsten digitalen Schritt?</h2>
             <p>Ob Website, Markenauftritt oder einfachere Abläufe: Eine kurze Anfrage reicht, um den passenden nächsten Schritt zu klären.</p>
             <a href="kontakt.html" class="button">Unverbindlich anfragen</a>
@@ -84,17 +95,24 @@
     </main>
 
     <footer>
-        <p>LDigital entwickelt Webseiten, Markenauftritte und einfache Automatisierungen für Unternehmen in der Schweiz.</p>
-        <p>&copy; 2026 LDigital. Alle Rechte vorbehalten.</p>
-
-        <nav>
-            <a href="index.html">Startseite</a>
-            <a href="leistungen.html">Leistungen</a>
-            <a href="ueber-uns.html">Über uns</a>
-            <a href="kontakt.html">Kontakt</a>
-            <a href="impressum.html">Impressum</a>
-            <a href="datenschutz.html">Datenschutz</a>
-        </nav>
+        <div class="site-container footer-inner">
+            <div>
+                <p class="footer-title">LDigital</p>
+                <p>Webseiten, Markenauftritte und einfache Automatisierungen für Unternehmen in der Schweiz.</p>
+            </div>
+            <div>
+                <p>&copy; 2026 LDigital. Alle Rechte vorbehalten.</p>
+                <nav class="footer-nav" aria-label="Fussnavigation">
+                    <a href="index.html">Startseite</a>
+                    <a href="leistungen.html" aria-current="page">Leistungen</a>
+                    <a href="ueber-uns.html">Über mich</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="kontakt.html">Kontakt</a>
+                    <a href="impressum.html">Impressum</a>
+                    <a href="datenschutz.html">Datenschutz</a>
+                </nav>
+            </div>
+        </div>
     </footer>
 
 </body>
