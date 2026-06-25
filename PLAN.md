@@ -629,13 +629,65 @@ Prüfung:
 
 ### Arbeitsblock 3 – Abschluss vor Veröffentlichung
 
-* alle neuen Marketing- und Über-mich-Texte menschlich prüfen und final abnehmen;
-* Logo, Favicon und Social-Preview-Asset final beurteilen;
-* Bildgrössen, Ladezeiten, Performance und Lighthouse-Werte prüfen;
-* Hosting, Domain und tatsächliche öffentliche Geschäftsangaben klären;
-* Impressum und Datenschutz auf den Veröffentlichungsstand abstimmen und rechtlich prüfen lassen;
-* finale Kontrolle von Meta-Daten, OpenGraph-Vorschau, Links und responsiver Darstellung durchführen;
-* Veröffentlichung vorbereiten und erst nach abgeschlossener Freigabe durchführen.
+**Datum:** 25. Juni 2026
+
+**Fokus:** finale technische und inhaltliche Qualitätsprüfung sowie Freigabeentscheid
+
+**Status:** Prüfung abgeschlossen – **technisch vorbereitet, noch nicht zur Veröffentlichung freigegeben**
+
+#### Prüfungsumfang und bestandene Kontrollen
+
+* Ausgangsstand vor Arbeitsblock 3: sauberer Git-Status, `main` mit `origin/main` synchron;
+* alle sieben HTML-Seiten statisch und lokal bei 1280 Pixel sowie 390 Pixel geprüft;
+* pro Seite genau eine Hauptüberschrift, `lang="de"`, UTF-8 und nachvollziehbare Überschriftenhierarchie bestätigt;
+* Seitentitel, Meta-Descriptions, OpenGraph-Daten und je Seite genau eine korrekte `og:url` geprüft;
+* Skip-Link und Hauptinhaltsziel, Navigation, aktive Seitenauszeichnung sowie einheitliche Fussnavigation geprüft;
+* interne Links, alle fünf Leistungsanker, Mailto-Links und lokale Bildpfade geprüft;
+* FAQ-Funktion, Fokusdarstellung, mobile Navigation und gestapelte Leistungsblöcke geprüft;
+* keine horizontalen Überläufe, fehlenden Bilder oder Browser-Konsolenfehler festgestellt;
+* keine JavaScript-Dateien, externen Schriftarten, Tracking-Dienste oder externen Medien eingebunden;
+* keine festen Website-Preise, Testimonials, Garantien, erfundenen Referenzen oder als umgesetzt dargestellten Funktionen aus Version 2.1 und Version 3 gefunden;
+* LDigital Version 2 bleibt im Portfolio korrekt als eigenes Projekt in Entwicklung bezeichnet;
+* Marco / Garage Rotterdam bleibt pausiert und ausdrücklich nicht als Referenz dargestellt;
+* keine objektiv notwendige Text-, HTML- oder CSS-Kleinkorrektur festgestellt oder ausgeführt;
+* keine Veröffentlichung, Migration oder Änderung an externen Plattformen durchgeführt.
+
+#### Assets und Performance
+
+Die vorhandenen Bilddateien wurden nicht verändert. Ihre aktuellen Grössen sind vor einer Veröffentlichung bewusst zu beurteilen:
+
+* Favicon: rund 284 KB;
+* Logo: rund 307 KB;
+* Social Preview: rund 1,7 MB;
+* Leistungsbilder: rund 222 bis 295 KB je Bild.
+
+Lighthouse ist in der lokalen Arbeitsumgebung nicht verfügbar. Die statisch prüfbaren Performance-Faktoren wurden kontrolliert; der eigentliche Lighthouse-Test bleibt für Staging oder die spätere Zielumgebung offen.
+
+#### Freigabeentscheid
+
+* **Technische Seitenstruktur:** voraussichtlich freigabefähig;
+* **tatsächliche Veröffentlichung:** blockiert;
+* **verbindlicher Gesamtstatus:** technisch vorbereitet, noch nicht zur Veröffentlichung freigegeben.
+
+Die erreichbare Website unter `https://ldigital.ch/` enthält weiterhin das ältere WordPress-Angebot. Dessen Anbieter-, Kontakt-, Hosting- und Datenschutzangaben unterscheiden sich teilweise von den lokalen Dateien und werden nicht automatisch übernommen. Die lokale statische Website wurde nicht deployed.
+
+#### Abschliessende Pre-Launch-To-dos und Blocker
+
+1. Definitive Anbieteridentität, öffentliche Geschäftsadresse und Kontaktdaten bestätigen.
+2. Hosting-Anbieter, Zielumgebung und tatsächliche Datenbearbeitung festlegen.
+3. Impressum und Datenschutz auf den realen Veröffentlichungsstand bringen und extern rechtlich prüfen lassen.
+4. Ablösung oder Migration der bestehenden WordPress-Seite planen und separat umsetzen.
+5. Texte, Logo und Markenauftritt menschlich final prüfen und freigeben.
+6. Aktuelle Asset-Grössen optimieren oder bewusst für die Veröffentlichung akzeptieren.
+7. Lighthouse-Test auf Staging oder der späteren Zielumgebung durchführen und Ergebnisse beurteilen.
+
+#### Grenzen und Abschluss von Arbeitsblock 3
+
+* Rechtstexte wurden nicht inhaltlich umgeschrieben;
+* Anbieter-, Adress- und Hosting-Angaben wurden nicht eigenmächtig ersetzt;
+* Bilder, README und weitere Dokumentationsdateien blieben unverändert;
+* ausschließlich dieser Freigabebericht in `PLAN.md` wurde ergänzt;
+* kein Commit wurde erstellt.
 
 ## Verbindliche Roadmap
 
