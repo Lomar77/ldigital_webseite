@@ -63,6 +63,7 @@ Erledigter Stand:
 * Desktop-/Mobile-Prüfung ist als technische QA-Checkliste vorbereitet: `docs/QA_CHECKLIST_V1.md`.
 * Interne Links und Navigation wurden anhand `docs/QA_CHECKLIST_V1.md` geprüft; es waren keine HTML-Korrekturen nötig.
 * Lighthouse-/Performance-Check ist als technische Prüfliste vorbereitet: `docs/LIGHTHOUSE_CHECKLIST_V1.md`.
+* Hosting, WordPress-Ablösung, Backup und Rollback sind als Deployment-Plan vorbereitet: `docs/DEPLOYMENT_PLAN_V1.md`.
 
 Noch offen:
 
@@ -71,7 +72,7 @@ Noch offen:
 * Logo / Favicon / Social Preview ist aktuell blockiert beziehungsweise verschoben, weil das Logo später manuell gezeichnet und finalisiert wird.
 * Desktop-/Mobile-Prüfung anhand `docs/QA_CHECKLIST_V1.md` durchführen und dokumentieren.
 * Lighthouse- oder vergleichbare Performance-/Qualitätsprüfung auf Staging oder Zielumgebung durchführen; Vorbereitung liegt in `docs/LIGHTHOUSE_CHECKLIST_V1.md`.
-* WordPress-Ablösung, Hosting, Deployment, Backup und Rollback separat planen.
+* WordPress-Ablösung, Hosting, Deployment, Backup und Rollback später anhand `docs/DEPLOYMENT_PLAN_V1.md` ausführen; aktuell wurde nichts deployed.
 * README bei nächster Gelegenheit auf den aktuellen Version-2-Stand bringen, weil sie noch stärker den früheren Version-1-Stand beschreibt.
 
 Bestätigte Anbieter-/Zustelladresse:
@@ -101,7 +102,7 @@ Blocker vor Veröffentlichung:
 1. Anbieter-/Zustelladresse: Nutzung als Zustelladresse bestätigt; finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 2. Datenschutz und Impressum: finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 3. Logo / Favicon / Social Preview blockiert beziehungsweise verschoben; Launch-Blocker bei Veröffentlichung mit finaler Marke.
-4. Noch nicht abschließend geklärte Hosting-, Deployment- und WordPress-Ablösung.
+4. Hosting-, Deployment- und WordPress-Ablösung sind vorbereitet, aber noch nicht ausgeführt.
 5. Noch ausstehende visuelle Endprüfung und Lighthouse-Prüfung auf Ziel- oder Staging-Umgebung.
 
 L-BWoods:
@@ -572,11 +573,11 @@ Version 2.1 gilt als fertig, wenn:
 
 ### Nächste fünf sinnvolle Aufgaben nach Repository-Check vom 26. Juni 2026
 
-1. Hosting, WordPress-Ablösung, Backup und Rollback planen.
+1. Finale Pre-Launch-Checkliste erstellen.
 2. Desktop-/Mobile-Prüfung anhand `docs/QA_CHECKLIST_V1.md` durchführen.
 3. Lighthouse-/Performance-Check auf Staging oder Zielumgebung anhand `docs/LIGHTHOUSE_CHECKLIST_V1.md` ausführen.
 4. Logo / Favicon / Social Preview später manuell finalisieren.
-5. Google Search Console für Version 2.1 vorbereiten; Analytics später erneut prüfen.
+5. Deployment später anhand `docs/DEPLOYMENT_PLAN_V1.md` ausführen.
 
 ### Sofortige Planung
 
@@ -618,7 +619,9 @@ Version 2.1 gilt als fertig, wenn:
 - [x] CarDesk-Konzeptseite für Version 2 vorbereiten
 - [x] Tracking- und externe Dienste statisch prüfen
 - [x] Pre-Launch-Entscheidungen zu Anbieter, Kontakt, Rechtstexten und Veröffentlichung dokumentieren
-- [ ] Hosting-, Domain- und rechtliche Launchvoraussetzungen prüfen
+- [x] Deployment- und Rollback-Plan vorbereitet (`docs/DEPLOYMENT_PLAN_V1.md`)
+- [ ] Finale Pre-Launch-Checkliste erstellen
+- [ ] Hosting-, Domain- und rechtliche Launchvoraussetzungen vor Live-Schaltung prüfen
 
 ### To-dos für Version 2.1 nach Veröffentlichung
 
@@ -854,7 +857,7 @@ Nach aktuellem Projektstand läuft unter `ldigital.ch` weiterhin die ältere Wor
 * **Deployment:** die eigentliche Veröffentlichung der neuen statischen Website;
 * **Rollback:** der vorbereitete Rückweg zur bisherigen Version, falls bei der Veröffentlichung ein Problem auftritt.
 
-Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren Auftrag. In Arbeitsblock 4 wird keine Testumgebung eingerichtet, kein WordPress ersetzt und nichts veröffentlicht.
+Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren Auftrag. Der sichere Ablauf ist inzwischen in `docs/DEPLOYMENT_PLAN_V1.md` vorbereitet. Es wurde keine Testumgebung eingerichtet, kein WordPress ersetzt und nichts veröffentlicht.
 
 #### Logo und weitere Assets
 
@@ -870,7 +873,7 @@ Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren A
 1. Anbieter-/Zustelladresse bestätigt; finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 2. Hosting, Zielumgebung und tatsächliche Datenbearbeitung festlegen.
 3. Rechtstexte nach Option B vorbereiten, an reale Dienste anpassen und extern prüfen lassen.
-4. WordPress-Ablösung mit Staging, Backup, Deployment und Rollback planen.
+4. WordPress-Ablösung mit Staging, Backup, Deployment und Rollback anhand `docs/DEPLOYMENT_PLAN_V1.md` später ausführen.
 5. Texte und Marke menschlich final freigeben; Logo / Favicon / Social Preview später manuell finalisieren.
 6. Bildgrössen optimieren oder ihren aktuellen Umfang bewusst akzeptieren.
 7. Lighthouse-Test auf der späteren Test- oder Zielumgebung durchführen.
@@ -926,7 +929,7 @@ Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren A
 2. Rechtstexte mit einer seriösen Schweizer Vorlage oder einem Generator vorbereiten, an reale Dienste anpassen und extern prüfen lassen.
 3. Logo / Favicon / Social Preview später manuell finalisieren; bis dahin keine KI- oder Codex-Bildänderungen.
 4. Lighthouse-Test auf der späteren Test- oder Zielumgebung durchführen.
-5. WordPress-Ablösung, Hosting und Deployment einschließlich Backup und Rollback separat planen.
+5. WordPress-Ablösung, Hosting und Deployment einschließlich Backup und Rollback sind in `docs/DEPLOYMENT_PLAN_V1.md` vorbereitet; Ausführung bleibt offen.
 6. Menschlichen Gesamtcheck von Texten, Marke, Rechtstexten und Veröffentlichung durchführen.
 
 Arbeitsblock 5 umfasst kein Deployment, keine WordPress- oder Hosting-Änderung, keine Trackingintegration und keine Bild- oder Asset-Arbeiten.
@@ -1024,7 +1027,7 @@ Diese Überarbeitung ist eine technische und inhaltslogische Vorbereitung. Sie i
 3. Google Search Console für Version 2.1 vorbereiten; Analytics später erneut prüfen.
 4. Logo / Favicon / Social Preview später manuell finalisieren; bis dahin keine KI- oder Codex-Bildänderungen.
 5. Lighthouse-Test auf der späteren Test- oder Zielumgebung durchführen.
-6. WordPress-Ablösung, Hosting und Deployment einschließlich Backup und Rollback separat planen.
+6. WordPress-Ablösung, Hosting und Deployment einschließlich Backup und Rollback sind in `docs/DEPLOYMENT_PLAN_V1.md` vorbereitet; Ausführung bleibt offen.
 7. Menschlichen Gesamtcheck von Texten, Marke, Rechtstexten und Veröffentlichung durchführen.
 
 Arbeitsblock 6 umfasst keine rechtliche Eigenfreigabe, keine neuen externen Dienste, keine Trackingintegration, keine Veröffentlichung und keine Änderung an WordPress oder Hosting.
