@@ -726,7 +726,7 @@ Statische Projektsuche:
 * keine aktive Laufzeitintegration für Google Analytics, Google Tag Manager, Meta Pixel, Hotjar oder andere Trackingdienste gefunden;
 * keine extern geladenen Google Fonts, Videos, Karten, Kalender, Iframes oder externen Skripte gefunden;
 * kein Kontaktformular und kein externes Formularziel gefunden;
-* `datenschutz.html` nennt Google Analytics und Meta Pixel ausschließlich im verneinenden Hinweis, dass diese Dienste derzeit nicht verwendet werden;
+* `datenschutz.html` nannte Google Analytics und Meta Pixel bis Arbeitsblock 6 ausschließlich im verneinenden Hinweis; die Produktnamen wurden danach durch eine allgemeine Beschreibung des tatsächlichen Zustands ersetzt;
 * `PLAN.md` nennt Analytics, Facebook und Google Search Console ausschließlich als dokumentierte Entscheidung oder spätere Aufgabe für Version 2.1;
 * Garage-Dokumentationen enthalten Facebook und YouTube nur als mögliche Briefing- beziehungsweise Checklistenpunkte, nicht als aktive Website-Einbindungen.
 
@@ -741,7 +741,7 @@ Für Impressum und Datenschutz gilt Option B:
 * keine rechtliche Eigenfreigabe durch Codex;
 * finale externe rechtliche Prüfung bleibt vor der Veröffentlichung erforderlich.
 
-Die bestehenden Rechtsseiten werden in Arbeitsblock 4 nicht vollständig neu geschrieben. Die aktuelle Bezeichnung `Lomar Digital`, die noch offene Geschäftsadresse und die vorläufigen Hosting-Aussagen bleiben sichtbare Blocker und müssen später mit den bestätigten Daten abgeglichen werden.
+Die in Arbeitsblock 4 festgestellte Bezeichnung `Lomar Digital` wurde in Arbeitsblock 6 auf den aktiven Rechtsseiten bereinigt. Die vollständige Anbieter- und Zustelladresse sowie der tatsächliche Hosting-Anbieter bleiben sichtbare Blocker und müssen vor Veröffentlichung mit bestätigten Daten ergänzt werden.
 
 #### Anbieter- und Kontaktentscheidungen
 
@@ -779,7 +779,7 @@ Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren A
 
 #### Offene Punkte vor der Veröffentlichung
 
-1. Öffentliche Geschäftsadresse bestätigen und Anbieterbezeichnung auf allen Rechtsseiten vereinheitlichen.
+1. Vollständige öffentliche Anbieter- und Zustelladresse bestätigen; die Anbieterbezeichnung wurde in Arbeitsblock 6 auf den aktiven Rechtsseiten vereinheitlicht.
 2. Hosting, Zielumgebung und tatsächliche Datenbearbeitung festlegen.
 3. Rechtstexte nach Option B vorbereiten, an reale Dienste anpassen und extern prüfen lassen.
 4. WordPress-Ablösung mit Staging, Backup, Deployment und Rollback planen.
@@ -834,7 +834,7 @@ Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren A
 
 #### Weiterhin offene Launch-Blocker
 
-1. Öffentliche Geschäftsadresse und Anbieterangaben final bestätigen und vereinheitlichen.
+1. Vollständige öffentliche Anbieter- und Zustelladresse final bestätigen; die Anbieterangaben wurden in Arbeitsblock 6 auf den aktiven Rechtsseiten vereinheitlicht.
 2. Rechtstexte mit einer seriösen Schweizer Vorlage oder einem Generator vorbereiten, an reale Dienste anpassen und extern prüfen lassen.
 3. Logo finalisieren.
 4. Favicon finalisieren.
@@ -864,6 +864,97 @@ Arbeitsblock 5 umfasst kein Deployment, keine WordPress- oder Hosting-Änderung,
 * Bilder, Logo, Favicon, Social Preview, CSS, README und Dokumentationsdateien unverändert gelassen;
 * keine WordPress-, Hosting- oder externe Plattformänderung und kein Deployment durchgeführt;
 * kein Commit erstellt.
+
+### Arbeitsblock 6 – Impressum, Datenschutz und Anbieterlogik
+
+**Datum:** 25. Juni 2026
+
+**Fokus:** aktive Rechtstexte auf die festgelegte Anbieterlogik und den tatsächlichen technischen Stand vorbereiten
+
+**Status:** umgesetzt und statisch geprüft; erneute visuelle Browserprüfung in diesem Arbeitsblock technisch blockiert
+
+#### Impressum
+
+* Anbietername auf `LDigital` vereinheitlicht;
+* Rafael Lomar als Inhaber und verantwortliche Person beibehalten;
+* Rechtsform als `Einzelunternehmen ohne Handelsregistereintrag` präzisiert;
+* Standortkommunikation `Liestal, Schweiz` ergänzt;
+* E-Mail `info@ldigital.ch` als einzigen aktuellen Kontaktweg beibehalten;
+* `Geschäftsadresse: auf Anfrage` und die Abhängigkeit von einer späteren separaten Geschäftsadresse entfernt;
+* stattdessen deutlich festgehalten, dass die vollständigen Anbieter- und Zustellangaben vor Veröffentlichung final ergänzt werden müssen;
+* Haftungs- und Urheberrechtsabschnitte inhaltlich beibehalten und auf `LDigital` vereinheitlicht;
+* keine Privatadresse, Telefonnummer oder WhatsApp-Angabe ergänzt.
+
+#### Datenschutz
+
+* verantwortliche Stelle auf `LDigital`, Rafael Lomar, Einzelunternehmen ohne Handelsregistereintrag und Liestal, Schweiz vereinheitlicht;
+* vollständige Anbieter- und Zustellangaben weiterhin ausdrücklich als vor Veröffentlichung zu ergänzen markiert;
+* veraltete Aussagen zur internen Version 1 entfernt;
+* Server-Logfiles und Hosting allgemein beschrieben, ohne einen Hosting-Anbieter zu erfinden;
+* E-Mail-Kontakt als einzigen aktuellen Kontaktweg beibehalten;
+* kein Kontaktformular als tatsächlichen technischen Stand festgehalten;
+* Analyse- und Trackingdienste allgemein als nicht verwendet beschrieben;
+* nicht eingesetzte Produktnamen aus dem aktiven Rechtstext entfernt;
+* keine eigenen Analyse- oder Marketing-Cookies als aktuellen Stand festgehalten;
+* keine extern geladenen Schriftarten, Karten, Videos, Kalender oder Social-Media-Inhalte als aktuellen Stand dokumentiert;
+* Option B ausdrücklich beibehalten: seriöse Schweizer Vorlage oder geeigneten Generator verwenden, an reale Dienste anpassen und extern prüfen lassen.
+
+Diese Überarbeitung ist eine technische und inhaltslogische Vorbereitung. Sie ist keine Rechtsberatung und keine rechtliche Freigabe.
+
+#### Anbieter- und Kontaktentscheidungen
+
+* Anbieter: LDigital;
+* verantwortliche Person: Rafael Lomar;
+* Rechtsform: Einzelunternehmen ohne Handelsregistereintrag;
+* Standortkommunikation: Liestal, Schweiz;
+* vollständige Privat- beziehungsweise Zustelladresse bleibt unveröffentlicht und ein echter Launch-Blocker;
+* keine öffentliche Telefonnummer;
+* WhatsApp wird später geprüft;
+* ein Kontaktformular wird später geprüft;
+* aktueller Kontaktweg bleibt E-Mail über `info@ldigital.ch`;
+* Version 2 bleibt ohne Google Analytics und ohne andere Trackingtools;
+* Google Search Console gehört zu Version 2.1;
+* Analytics und Tracking werden frühestens in Version 2.1 gemeinsam mit dem Datenschutz erneut geprüft.
+
+#### Projektweite Anbieter- und Drittanbieterprüfung
+
+* keine aktiven Trackingtools oder Analytics-Skripte gefunden;
+* keine externen Skripte, extern geladenen Fonts, Iframes, Karten, Videos, Kalender oder Formulare gefunden;
+* frühere Toolnamen in `datenschutz.html` waren reine verneinende Texttreffer und wurden durch generische Aussagen zum tatsächlichen technischen Stand ersetzt;
+* Facebook- und YouTube-Treffer in Garage-Dokumentationen sind interne Briefing- beziehungsweise Checklistenpunkte und bleiben unverändert;
+* ältere Angaben in README und historischem Arbeitsverlauf bleiben als Projekthistorie unverändert;
+* `Telefon` und `WhatsApp` in `cardesk.html` beschreiben Kommunikationskanäle im Garagenalltag und keine Kontaktangebote von LDigital;
+* keine GmbH, AG, Handelsregistereintragung, Telefonnummer oder Privatadresse auf den aktiven Webseiten ergänzt.
+
+#### Weiterhin offene Launch-Blocker
+
+1. Vollständige Anbieter- und Zustelladresse bestätigen und in Impressum sowie Datenschutz ergänzen.
+2. Rechtstexte mit einer seriösen Schweizer Vorlage oder einem geeigneten Generator final vorbereiten.
+3. Impressum und Datenschutz extern rechtlich prüfen lassen.
+4. Logo finalisieren.
+5. Favicon finalisieren.
+6. Social Preview ersetzen oder optimieren.
+7. Lighthouse-Test auf der späteren Test- oder Zielumgebung durchführen.
+8. WordPress-Ablösung, Hosting und Deployment einschließlich Backup und Rollback separat planen.
+9. Menschlichen Gesamtcheck von Texten, Marke, Rechtstexten und Veröffentlichung durchführen.
+
+Arbeitsblock 6 umfasst keine rechtliche Eigenfreigabe, keine neuen externen Dienste, keine Trackingintegration, keine Veröffentlichung und keine Änderung an WordPress oder Hosting.
+
+#### Abschlussprüfung von Arbeitsblock 6
+
+* beide Rechtsseiten auf UTF-8, `lang="de"`, genau eine Hauptüberschrift, Skip-Link und Hauptinhaltsziel geprüft;
+* Meta-Daten, Canonical-Links und bestehende OpenGraph-URLs unverändert als korrekt bestätigt;
+* Navigation, Footer, Mailto-Link sowie alle lokalen Datei- und Bildpfade statisch geprüft;
+* keine aktiven Vorkommen von `Lomar Digital`, `Geschäftsadresse: auf Anfrage` oder veralteten Version-1-Hostingaussagen in den Rechtsseiten gefunden;
+* keine konkreten nicht verwendeten Analytics-, Pixel-, Font-, Karten-, Video- oder Kalenderprodukte in den aktiven Rechtsseiten belassen;
+* keine GmbH-/AG-Angabe, Telefonnummer, WhatsApp-Angabe oder Privatadresse in Impressum und Datenschutz gefunden oder ergänzt;
+* projektweit keine aktiven Trackingtools, externen Skripte, extern geladenen Fonts, Iframes oder Formulare gefunden;
+* reine Texttreffer in `PLAN.md`, README, Garage-Dokumentationen und historischem Arbeitsverlauf eingeordnet und bewusst nicht blind geändert;
+* `Telefon` und `WhatsApp` in `cardesk.html` weiterhin nur als sachliche Beschreibung verteilter Kommunikationskanäle bestätigt;
+* CSS, Bilder, Logo, Favicon, Social Preview, README, Dokumentationen und übrige HTML-Seiten unverändert gelassen;
+* kein Deployment und kein Commit erstellt.
+
+Die vorgesehene erneute visuelle Prüfung bei 1280 Pixel und 390 Pixel konnte in diesem Arbeitsblock nicht ausgeführt werden, weil die lokale Browserverbindung durch die aktuelle Browserumgebung ausdrücklich blockiert wurde. Es wurde keine alternative Browsertechnik zur Umgehung eingesetzt. Die gemeinsame CSS-Datei und die Seitenhülle wurden nicht verändert; beide Rechtsseiten hatten dieselben Darstellungen in Arbeitsblock 5 erfolgreich bestanden. Eine erneute visuelle Kontrolle bleibt dennoch vor Veröffentlichung erforderlich.
 
 ## Verbindliche Roadmap
 
