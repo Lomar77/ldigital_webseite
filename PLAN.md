@@ -62,6 +62,7 @@ Erledigter Stand:
 * `datenschutz.html` ist als sachliche Datenschutzerklärung für eine einfache Schweizer KMU-Website vorbereitet.
 * Desktop-/Mobile-Prüfung ist als technische QA-Checkliste vorbereitet: `docs/QA_CHECKLIST_V1.md`.
 * Interne Links und Navigation wurden anhand `docs/QA_CHECKLIST_V1.md` geprüft; es waren keine HTML-Korrekturen nötig.
+* Lighthouse-/Performance-Check ist als technische Prüfliste vorbereitet: `docs/LIGHTHOUSE_CHECKLIST_V1.md`.
 
 Noch offen:
 
@@ -69,7 +70,7 @@ Noch offen:
 * Datenschutz und Impressum im rechtlichen und praktischen Gesamtzusammenhang vor Launch final prüfen.
 * Logo / Favicon / Social Preview ist aktuell blockiert beziehungsweise verschoben, weil das Logo später manuell gezeichnet und finalisiert wird.
 * Desktop-/Mobile-Prüfung anhand `docs/QA_CHECKLIST_V1.md` durchführen und dokumentieren.
-* Lighthouse- oder vergleichbare Performance-/Qualitätsprüfung auf Staging oder Zielumgebung durchführen.
+* Lighthouse- oder vergleichbare Performance-/Qualitätsprüfung auf Staging oder Zielumgebung durchführen; Vorbereitung liegt in `docs/LIGHTHOUSE_CHECKLIST_V1.md`.
 * WordPress-Ablösung, Hosting, Deployment, Backup und Rollback separat planen.
 * README bei nächster Gelegenheit auf den aktuellen Version-2-Stand bringen, weil sie noch stärker den früheren Version-1-Stand beschreibt.
 
@@ -571,9 +572,9 @@ Version 2.1 gilt als fertig, wenn:
 
 ### Nächste fünf sinnvolle Aufgaben nach Repository-Check vom 26. Juni 2026
 
-1. Lighthouse-/Performance-Check vorbereiten.
+1. Hosting, WordPress-Ablösung, Backup und Rollback planen.
 2. Desktop-/Mobile-Prüfung anhand `docs/QA_CHECKLIST_V1.md` durchführen.
-3. Hosting, WordPress-Ablösung, Backup und Rollback planen.
+3. Lighthouse-/Performance-Check auf Staging oder Zielumgebung anhand `docs/LIGHTHOUSE_CHECKLIST_V1.md` ausführen.
 4. Logo / Favicon / Social Preview später manuell finalisieren.
 5. Google Search Console für Version 2.1 vorbereiten; Analytics später erneut prüfen.
 
@@ -608,7 +609,8 @@ Version 2.1 gilt als fertig, wenn:
 - [x] Meta-Daten prüfen
 - [x] OpenGraph-Basistags mit seitenspezifischen URLs vorbereiten
 - [x] Bildpfade und vorhandene Assets prüfen
-- [ ] Performance und Lighthouse-Werte prüfen
+- [x] Lighthouse-/Performance-Checkliste vorbereitet (`docs/LIGHTHOUSE_CHECKLIST_V1.md`)
+- [ ] Performance und Lighthouse-Werte später auf Staging oder Zielumgebung prüfen
 - [x] Accessibility-Grundlagen prüfen und verbessern
 - [x] Navigation für Über mich und Portfolio vorbereiten
 - [x] QA-Checkliste für Desktop-/Mobile-, Link-, Recht-/Launch- und Performance-Prüfung erstellt (`docs/QA_CHECKLIST_V1.md`)
