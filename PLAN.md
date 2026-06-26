@@ -61,6 +61,7 @@ Erledigter Stand:
 * `cardesk.html` ist als Konzeptseite innerhalb der LDigital-Website vorhanden; CarDesk bleibt dennoch ein separates Zukunfts- beziehungsweise Produktprojekt.
 * `datenschutz.html` ist als sachliche Datenschutzerklärung für eine einfache Schweizer KMU-Website vorbereitet.
 * Desktop-/Mobile-Prüfung ist als technische QA-Checkliste vorbereitet: `docs/QA_CHECKLIST_V1.md`.
+* Interne Links und Navigation wurden anhand `docs/QA_CHECKLIST_V1.md` geprüft; es waren keine HTML-Korrekturen nötig.
 
 Noch offen:
 
@@ -570,11 +571,11 @@ Version 2.1 gilt als fertig, wenn:
 
 ### Nächste fünf sinnvolle Aufgaben nach Repository-Check vom 26. Juni 2026
 
-1. Interne Links und Navigation anhand der QA-Checkliste prüfen.
+1. Lighthouse-/Performance-Check vorbereiten.
 2. Desktop-/Mobile-Prüfung anhand `docs/QA_CHECKLIST_V1.md` durchführen.
-3. Lighthouse-/Performance-Check vorbereiten.
-4. Hosting, WordPress-Ablösung, Backup und Rollback planen.
-5. Logo / Favicon / Social Preview später manuell finalisieren.
+3. Hosting, WordPress-Ablösung, Backup und Rollback planen.
+4. Logo / Favicon / Social Preview später manuell finalisieren.
+5. Google Search Console für Version 2.1 vorbereiten; Analytics später erneut prüfen.
 
 ### Sofortige Planung
 
@@ -611,7 +612,7 @@ Version 2.1 gilt als fertig, wenn:
 - [x] Accessibility-Grundlagen prüfen und verbessern
 - [x] Navigation für Über mich und Portfolio vorbereiten
 - [x] QA-Checkliste für Desktop-/Mobile-, Link-, Recht-/Launch- und Performance-Prüfung erstellt (`docs/QA_CHECKLIST_V1.md`)
-- [ ] Interne Links und Navigation anhand der QA-Checkliste prüfen
+- [x] Interne Links und Navigation anhand der QA-Checkliste geprüft; keine Korrekturen nötig
 - [x] CarDesk-Konzeptseite für Version 2 vorbereiten
 - [x] Tracking- und externe Dienste statisch prüfen
 - [x] Pre-Launch-Entscheidungen zu Anbieter, Kontakt, Rechtstexten und Veröffentlichung dokumentieren
