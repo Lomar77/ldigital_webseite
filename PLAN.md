@@ -62,7 +62,7 @@ Erledigter Stand:
 
 Noch offen:
 
-* Anbieter- und Zustelladresse ist vorläufig geklärt, aber vor finaler Verwendung in Impressum und Datenschutz rechtlich und organisatorisch zu prüfen.
+* Anbieter- und Zustelladresse: Nutzung als Zustelladresse bestätigt; finale rechtliche und praktische Gesamtprüfung bleibt vor Launch offen.
 * Rechtstexte mit seriöser Schweizer Vorlage oder geeignetem Generator final vorbereiten und extern prüfen lassen.
 * Logo, Favicon und Social Preview finalisieren oder bewusst als Übergangslösung freigeben.
 * Visuelle Browserprüfung auf Desktop und Mobile wiederholen.
@@ -70,22 +70,22 @@ Noch offen:
 * WordPress-Ablösung, Hosting, Deployment, Backup und Rollback separat planen.
 * README bei nächster Gelegenheit auf den aktuellen Version-2-Stand bringen, weil sie noch stärker den früheren Version-1-Stand beschreibt.
 
-Vorläufig geklärte Anbieter-/Zustelladresse:
+Bestätigte Anbieter-/Zustelladresse:
 
 * LDigital
 * Industriestrasse 1
 * 4410 Liestal
 * Schweiz
 
-Vor finaler Verwendung im Impressum ist noch zu prüfen:
+Status:
 
-1. Geschäftliche Nutzung der Lageradresse erlaubt.
-2. Postempfang sichergestellt.
-3. Formulierung als `Zustelladresse` statt `Geschäftssitz` prüfen.
+* Nutzung als Zustelladresse bestätigt.
+* Formulierung im Impressum: `Zustelladresse`, nicht `Geschäftssitz`.
+* Offener Punkt bleibt die finale rechtliche und praktische Gesamtprüfung vor Launch.
 
 Blocker vor Veröffentlichung:
 
-1. Anbieter-/Zustelladresse vorläufig geklärt, rechtlich/organisatorisch zu prüfen.
+1. Anbieter-/Zustelladresse: Nutzung als Zustelladresse bestätigt; finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 2. Noch nicht final geprüfte Rechtstexte.
 3. Nicht finalisierte Markenassets: Logo, Favicon und Social Preview.
 4. Noch nicht abschließend geklärte Hosting-, Deployment- und WordPress-Ablösung.
@@ -559,11 +559,11 @@ Version 2.1 gilt als fertig, wenn:
 
 ### Nächste fünf sinnvolle Aufgaben nach Repository-Check vom 26. Juni 2026
 
-1. Nutzung der Lageradresse als Zustelladresse bestätigen.
-2. Impressum mit vorläufiger Adresse vorbereiten.
-3. Datenschutztext final vorbereiten.
-4. Logo, Favicon und Social Preview finalisieren.
-5. Staging-, Mobile- und Lighthouse-Prüfung vorbereiten.
+1. Datenschutztext auf die bestätigte Zustelladresse abstimmen.
+2. Impressum und Datenschutz im rechtlichen und praktischen Gesamtzusammenhang vor Launch prüfen.
+3. Logo, Favicon und Social Preview finalisieren.
+4. Staging-, Mobile- und Lighthouse-Prüfung vorbereiten.
+5. Hosting-, Deployment- und WordPress-Ablösung inklusive Backup und Rollback planen.
 
 ### Sofortige Planung
 
@@ -747,7 +747,7 @@ Die erreichbare Website unter `https://ldigital.ch/` enthält weiterhin das ält
 
 #### Abschliessende Pre-Launch-To-dos und Blocker
 
-1. Die festgelegten Anbieterangaben `LDigital`, Rafael Lomar und Einzelunternehmen ohne Handelsregistereintrag mit der vorläufig geklärten Zustelladresse abstimmen; geschäftliche Nutzung, Postempfang und genaue Formulierung bleiben vor finaler Veröffentlichung zu prüfen.
+1. Die festgelegten Anbieterangaben `LDigital`, Rafael Lomar und Einzelunternehmen ohne Handelsregistereintrag mit der bestätigten Zustelladresse abstimmen; finale rechtliche und praktische Gesamtprüfung bleibt vor Veröffentlichung offen.
 2. Hosting-Anbieter, Zielumgebung und tatsächliche Datenbearbeitung festlegen.
 3. Impressum und Datenschutz mit einer seriösen Schweizer Vorlage oder einem Generator auf den realen Veröffentlichungsstand bringen und anschliessend extern rechtlich prüfen lassen.
 4. Ablösung der bestehenden WordPress-Seite einschliesslich Backup, Testversion, Deployment und Rückweg planen und separat umsetzen.
@@ -812,7 +812,7 @@ Für Impressum und Datenschutz gilt Option B:
 * keine rechtliche Eigenfreigabe durch Codex;
 * finale externe rechtliche Prüfung bleibt vor der Veröffentlichung erforderlich.
 
-Die in Arbeitsblock 4 festgestellte Bezeichnung `Lomar Digital` wurde in Arbeitsblock 6 auf den aktiven Rechtsseiten bereinigt. Die Anbieter-/Zustelladresse ist inzwischen vorläufig geklärt, bleibt aber vor finaler Verwendung rechtlich und organisatorisch zu prüfen. Der tatsächliche Hosting-Anbieter bleibt vor Veröffentlichung mit bestätigten Daten zu ergänzen.
+Die in Arbeitsblock 4 festgestellte Bezeichnung `Lomar Digital` wurde in Arbeitsblock 6 auf den aktiven Rechtsseiten bereinigt. Die Nutzung der Adresse `Industriestrasse 1, 4410 Liestal, Schweiz` als Zustelladresse ist inzwischen bestätigt. Die finale rechtliche und praktische Gesamtprüfung sowie der tatsächliche Hosting-Anbieter bleiben vor Veröffentlichung offen.
 
 #### Anbieter- und Kontaktentscheidungen
 
@@ -850,7 +850,7 @@ Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren A
 
 #### Offene Punkte vor der Veröffentlichung
 
-1. Anbieter-/Zustelladresse vorläufig geklärt; geschäftliche Nutzung der Lageradresse, Postempfang und Formulierung als `Zustelladresse` statt `Geschäftssitz` prüfen.
+1. Anbieter-/Zustelladresse bestätigt; finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 2. Hosting, Zielumgebung und tatsächliche Datenbearbeitung festlegen.
 3. Rechtstexte nach Option B vorbereiten, an reale Dienste anpassen und extern prüfen lassen.
 4. WordPress-Ablösung mit Staging, Backup, Deployment und Rollback planen.
@@ -905,7 +905,7 @@ Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren A
 
 #### Weiterhin offene Launch-Blocker
 
-1. Anbieter-/Zustelladresse ist vorläufig geklärt (`Industriestrasse 1, 4410 Liestal, Schweiz`); geschäftliche Nutzung, Postempfang und Formulierung als `Zustelladresse` statt `Geschäftssitz` bleiben vor finaler Verwendung zu prüfen.
+1. Anbieter-/Zustelladresse bestätigt (`Industriestrasse 1, 4410 Liestal, Schweiz`); finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 2. Rechtstexte mit einer seriösen Schweizer Vorlage oder einem Generator vorbereiten, an reale Dienste anpassen und extern prüfen lassen.
 3. Logo finalisieren.
 4. Favicon finalisieren.
@@ -952,7 +952,7 @@ Arbeitsblock 5 umfasst kein Deployment, keine WordPress- oder Hosting-Änderung,
 * Standortkommunikation `Liestal, Schweiz` ergänzt;
 * E-Mail `info@ldigital.ch` als einzigen aktuellen Kontaktweg beibehalten;
 * `Geschäftsadresse: auf Anfrage` und die Abhängigkeit von einer späteren separaten Geschäftsadresse entfernt;
-* stattdessen deutlich festgehalten, dass Anbieter- und Zustellangaben vor Veröffentlichung final ergänzt werden müssen;
+* stattdessen deutlich festgehalten, dass Anbieter- und Zustellangaben vor Veröffentlichung final abgeglichen werden müssen;
 * Haftungs- und Urheberrechtsabschnitte inhaltlich beibehalten und auf `LDigital` vereinheitlicht;
 * keine Privatadresse, Telefonnummer oder WhatsApp-Angabe ergänzt.
 
@@ -978,9 +978,10 @@ Diese Überarbeitung ist eine technische und inhaltslogische Vorbereitung. Sie i
 * verantwortliche Person: Rafael Lomar;
 * Rechtsform: Einzelunternehmen ohne Handelsregistereintrag;
 * Standortkommunikation: Liestal, Schweiz;
-* vorläufige Anbieter-/Zustelladresse: Industriestrasse 1, 4410 Liestal, Schweiz;
-* geschäftliche Nutzung der Lageradresse, Postempfang und Formulierung als `Zustelladresse` statt `Geschäftssitz` vor finaler Verwendung prüfen;
-* Anbieter-/Zustelladresse gilt nicht mehr als komplett offen, ist aber noch nicht endgültig für Impressum und Datenschutz freigegeben;
+* bestätigte Anbieter-/Zustelladresse: Industriestrasse 1, 4410 Liestal, Schweiz;
+* Nutzung als Zustelladresse bestätigt;
+* Formulierung im Impressum: `Zustelladresse`, nicht `Geschäftssitz`;
+* finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen;
 * keine öffentliche Telefonnummer;
 * WhatsApp wird später geprüft;
 * ein Kontaktformular wird später geprüft;
@@ -1001,7 +1002,7 @@ Diese Überarbeitung ist eine technische und inhaltslogische Vorbereitung. Sie i
 
 #### Weiterhin offene Launch-Blocker
 
-1. Anbieter-/Zustelladresse vorläufig geklärt; rechtlich/organisatorisch prüfen und danach in Impressum sowie Datenschutz vorbereiten.
+1. Anbieter-/Zustelladresse bestätigt; Datenschutz vorbereiten und finale rechtliche sowie praktische Gesamtprüfung vor Launch offen halten.
 2. Rechtstexte mit einer seriösen Schweizer Vorlage oder einem geeigneten Generator final vorbereiten.
 3. Impressum und Datenschutz extern rechtlich prüfen lassen.
 4. Logo finalisieren.
