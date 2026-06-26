@@ -59,11 +59,12 @@ Erledigter Stand:
 * Eine statische Prüfung der relativen `href`- und `src`-Ziele in den neun HTML-Dateien ergab keine fehlenden lokalen Dateien und keine fehlenden lokalen Anker.
 * Es wurden keine aktiven Formulare, externen Skripte, extern geladenen Schriftarten, Iframes oder Tracking-Einbindungen festgestellt.
 * `cardesk.html` ist als Konzeptseite innerhalb der LDigital-Website vorhanden; CarDesk bleibt dennoch ein separates Zukunfts- beziehungsweise Produktprojekt.
+* `datenschutz.html` ist als sachliche Datenschutzerklärung für eine einfache Schweizer KMU-Website vorbereitet.
 
 Noch offen:
 
 * Anbieter- und Zustelladresse: Nutzung als Zustelladresse bestätigt; finale rechtliche und praktische Gesamtprüfung bleibt vor Launch offen.
-* Rechtstexte mit seriöser Schweizer Vorlage oder geeignetem Generator final vorbereiten und extern prüfen lassen.
+* Datenschutz und Impressum im rechtlichen und praktischen Gesamtzusammenhang vor Launch final prüfen.
 * Logo, Favicon und Social Preview finalisieren oder bewusst als Übergangslösung freigeben.
 * Visuelle Browserprüfung auf Desktop und Mobile wiederholen.
 * Lighthouse- oder vergleichbare Performance-/Qualitätsprüfung auf Staging oder Zielumgebung durchführen.
@@ -82,11 +83,15 @@ Status:
 * Nutzung als Zustelladresse bestätigt.
 * Formulierung im Impressum: `Zustelladresse`, nicht `Geschäftssitz`.
 * Offener Punkt bleibt die finale rechtliche und praktische Gesamtprüfung vor Launch.
+* Datenschutzseite ist mit der bestätigten Zustelladresse vorbereitet.
+* Version 2 soll weiterhin ohne Google Analytics veröffentlicht werden.
+* Google Search Console ist geplant beziehungsweise erlaubt.
+* Analytics und Tracking werden erst später erneut geprüft.
 
 Blocker vor Veröffentlichung:
 
 1. Anbieter-/Zustelladresse: Nutzung als Zustelladresse bestätigt; finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
-2. Noch nicht final geprüfte Rechtstexte.
+2. Datenschutz und Impressum: finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 3. Nicht finalisierte Markenassets: Logo, Favicon und Social Preview.
 4. Noch nicht abschließend geklärte Hosting-, Deployment- und WordPress-Ablösung.
 5. Noch ausstehende visuelle Endprüfung und Lighthouse-Prüfung auf Ziel- oder Staging-Umgebung.
@@ -559,11 +564,11 @@ Version 2.1 gilt als fertig, wenn:
 
 ### Nächste fünf sinnvolle Aufgaben nach Repository-Check vom 26. Juni 2026
 
-1. Datenschutztext auf die bestätigte Zustelladresse abstimmen.
-2. Impressum und Datenschutz im rechtlichen und praktischen Gesamtzusammenhang vor Launch prüfen.
-3. Logo, Favicon und Social Preview finalisieren.
-4. Staging-, Mobile- und Lighthouse-Prüfung vorbereiten.
-5. Hosting-, Deployment- und WordPress-Ablösung inklusive Backup und Rollback planen.
+1. Datenschutz und Impressum im rechtlichen und praktischen Gesamtzusammenhang vor Launch prüfen.
+2. Logo, Favicon und Social Preview finalisieren.
+3. Staging-, Mobile- und Lighthouse-Prüfung vorbereiten.
+4. Hosting-, Deployment- und WordPress-Ablösung inklusive Backup und Rollback planen.
+5. Google Search Console für Version 2.1 vorbereiten; Analytics später erneut prüfen.
 
 ### Sofortige Planung
 
@@ -797,7 +802,7 @@ Statische Projektsuche:
 * keine aktive Laufzeitintegration für Google Analytics, Google Tag Manager, Meta Pixel, Hotjar oder andere Trackingdienste gefunden;
 * keine extern geladenen Google Fonts, Videos, Karten, Kalender, Iframes oder externen Skripte gefunden;
 * kein Kontaktformular und kein externes Formularziel gefunden;
-* `datenschutz.html` nannte Google Analytics und Meta Pixel bis Arbeitsblock 6 ausschließlich im verneinenden Hinweis; die Produktnamen wurden danach durch eine allgemeine Beschreibung des tatsächlichen Zustands ersetzt;
+* `datenschutz.html` nennt Google Analytics inzwischen ausdrücklich im verneinenden Hinweis, weil Version 2 ohne Google Analytics veröffentlicht werden soll; daraus ergibt sich keine technische Integration;
 * `PLAN.md` nennt Analytics, Facebook und Google Search Console ausschließlich als dokumentierte Entscheidung oder spätere Aufgabe für Version 2.1;
 * Garage-Dokumentationen enthalten Facebook und YouTube nur als mögliche Briefing- beziehungsweise Checklistenpunkte, nicht als aktive Website-Einbindungen.
 
@@ -965,7 +970,7 @@ Arbeitsblock 5 umfasst kein Deployment, keine WordPress- oder Hosting-Änderung,
 * E-Mail-Kontakt als einzigen aktuellen Kontaktweg beibehalten;
 * kein Kontaktformular als tatsächlichen technischen Stand festgehalten;
 * Analyse- und Trackingdienste allgemein als nicht verwendet beschrieben;
-* nicht eingesetzte Produktnamen aus dem aktiven Rechtstext entfernt;
+* nicht eingesetzte Trackingwerkzeuge im aktiven Rechtstext nicht als verwendet beschrieben;
 * keine eigenen Analyse- oder Marketing-Cookies als aktuellen Stand festgehalten;
 * keine extern geladenen Schriftarten, Karten, Videos, Kalender oder Social-Media-Inhalte als aktuellen Stand dokumentiert;
 * Option B ausdrücklich beibehalten: seriöse Schweizer Vorlage oder geeigneten Generator verwenden, an reale Dienste anpassen und extern prüfen lassen.
@@ -986,9 +991,11 @@ Diese Überarbeitung ist eine technische und inhaltslogische Vorbereitung. Sie i
 * WhatsApp wird später geprüft;
 * ein Kontaktformular wird später geprüft;
 * aktueller Kontaktweg bleibt E-Mail über `info@ldigital.ch`;
+* Datenschutzseite ist sachlich vorbereitet;
 * Version 2 bleibt ohne Google Analytics und ohne andere Trackingtools;
-* Google Search Console gehört zu Version 2.1;
-* Analytics und Tracking werden frühestens in Version 2.1 gemeinsam mit dem Datenschutz erneut geprüft.
+* Google Search Console gehört zu Version 2.1 und ist geplant beziehungsweise erlaubt;
+* Analytics und Tracking werden frühestens später gemeinsam mit dem Datenschutz erneut geprüft;
+* finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 
 #### Projektweite Anbieter- und Drittanbieterprüfung
 
@@ -1002,9 +1009,9 @@ Diese Überarbeitung ist eine technische und inhaltslogische Vorbereitung. Sie i
 
 #### Weiterhin offene Launch-Blocker
 
-1. Anbieter-/Zustelladresse bestätigt; Datenschutz vorbereiten und finale rechtliche sowie praktische Gesamtprüfung vor Launch offen halten.
-2. Rechtstexte mit einer seriösen Schweizer Vorlage oder einem geeigneten Generator final vorbereiten.
-3. Impressum und Datenschutz extern rechtlich prüfen lassen.
+1. Datenschutzseite vorbereitet; finale rechtliche sowie praktische Gesamtprüfung vor Launch offen halten.
+2. Impressum und Datenschutz im Gesamtzusammenhang prüfen.
+3. Google Search Console für Version 2.1 vorbereiten; Analytics später erneut prüfen.
 4. Logo finalisieren.
 5. Favicon finalisieren.
 6. Social Preview ersetzen oder optimieren.
@@ -1020,7 +1027,7 @@ Arbeitsblock 6 umfasst keine rechtliche Eigenfreigabe, keine neuen externen Dien
 * Meta-Daten, Canonical-Links und bestehende OpenGraph-URLs unverändert als korrekt bestätigt;
 * Navigation, Footer, Mailto-Link sowie alle lokalen Datei- und Bildpfade statisch geprüft;
 * keine aktiven Vorkommen von `Lomar Digital`, `Geschäftsadresse: auf Anfrage` oder veralteten Version-1-Hostingaussagen in den Rechtsseiten gefunden;
-* keine konkreten nicht verwendeten Analytics-, Pixel-, Font-, Karten-, Video- oder Kalenderprodukte in den aktiven Rechtsseiten belassen;
+* keine Analytics-, Pixel-, Font-, Karten-, Video- oder Kalenderprodukte als aktiv verwendet beschrieben;
 * keine GmbH-/AG-Angabe, Telefonnummer, WhatsApp-Angabe oder Privatadresse in Impressum und Datenschutz gefunden oder ergänzt;
 * projektweit keine aktiven Trackingtools, externen Skripte, extern geladenen Fonts, Iframes oder Formulare gefunden;
 * reine Texttreffer in `PLAN.md`, README, Garage-Dokumentationen und historischem Arbeitsverlauf eingeordnet und bewusst nicht blind geändert;
