@@ -64,6 +64,7 @@ Erledigter Stand:
 * Interne Links und Navigation wurden anhand `docs/QA_CHECKLIST_V1.md` geprüft; es waren keine HTML-Korrekturen nötig.
 * Lighthouse-/Performance-Check ist als technische Prüfliste vorbereitet: `docs/LIGHTHOUSE_CHECKLIST_V1.md`.
 * Hosting, WordPress-Ablösung, Backup und Rollback sind als Deployment-Plan vorbereitet: `docs/DEPLOYMENT_PLAN_V1.md`.
+* Finale Pre-Launch-Checkliste ist erstellt: `docs/PRE_LAUNCH_CHECKLIST_V1.md`.
 
 Noch offen:
 
@@ -573,7 +574,7 @@ Version 2.1 gilt als fertig, wenn:
 
 ### Nächste fünf sinnvolle Aufgaben nach Repository-Check vom 26. Juni 2026
 
-1. Finale Pre-Launch-Checkliste erstellen.
+1. Offene Launch-Blocker final entscheiden.
 2. Desktop-/Mobile-Prüfung anhand `docs/QA_CHECKLIST_V1.md` durchführen.
 3. Lighthouse-/Performance-Check auf Staging oder Zielumgebung anhand `docs/LIGHTHOUSE_CHECKLIST_V1.md` ausführen.
 4. Logo / Favicon / Social Preview später manuell finalisieren.
@@ -620,7 +621,8 @@ Version 2.1 gilt als fertig, wenn:
 - [x] Tracking- und externe Dienste statisch prüfen
 - [x] Pre-Launch-Entscheidungen zu Anbieter, Kontakt, Rechtstexten und Veröffentlichung dokumentieren
 - [x] Deployment- und Rollback-Plan vorbereitet (`docs/DEPLOYMENT_PLAN_V1.md`)
-- [ ] Finale Pre-Launch-Checkliste erstellen
+- [x] Finale Pre-Launch-Checkliste erstellt (`docs/PRE_LAUNCH_CHECKLIST_V1.md`)
+- [ ] Offene Launch-Blocker final entscheiden
 - [ ] Hosting-, Domain- und rechtliche Launchvoraussetzungen vor Live-Schaltung prüfen
 
 ### To-dos für Version 2.1 nach Veröffentlichung
