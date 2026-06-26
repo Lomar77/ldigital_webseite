@@ -36,6 +36,55 @@ Die aktive Hauptpriorität ist **LDigital Webseite – Version 2**.
 * Die Website soll als Referenzprojekt und Grundlage für die Akquise dienen.
 * Version 2 wird veröffentlicht.
 
+### Aktueller Repository-Check vom 26. Juni 2026
+
+Der aktuelle Arbeitsbaum enthält eine statische LDigital-Website mit HTML-Dateien im Repository-Root, einer zentralen CSS-Datei und lokalen Bildassets. Es wurde kein neuer Codebereich begonnen und keine neue Seite gebaut.
+
+Geprüfter Bestand:
+
+* HTML-Seiten im Root: `index.html`, `leistungen.html`, `ueber-uns.html`, `portfolio.html`, `cardesk.html`, `kontakt.html`, `impressum.html`, `datenschutz.html`, `404.html`
+* Launch- und Projektdateien: `sitemap.xml`, `robots.txt`, `README.md`, `PLAN.md`
+* CSS: `css/styles.css`
+* Assets: `Logo/ldigital-logo.png`, `Logo/favicon.png`, `Logo/ldigital-social-preview.png`, drei Leistungsbilder unter `Logo/Leistungen/`
+* `js/` existiert als leerer Ordner; es ist aktuell kein JavaScript aktiv eingebunden
+* `docs/` wurde nur strukturell als vorhandener Dokumentationsbereich berücksichtigt und inhaltlich nicht weiterbearbeitet
+
+Erledigter Stand:
+
+* Die Website besteht aktuell aus einer mehrseitigen statischen Struktur mit Startseite, Leistungen, Über-mich-Seite, Portfolio, CarDesk-Konzeptseite, Kontakt, Impressum, Datenschutz und 404-Seite.
+* Navigation, Footer, Skip-Link, lokale CSS-Einbindung, Favicon und Logo sind auf den aktiven HTML-Seiten vorhanden.
+* Die Seiten verwenden lokale Assets und eine zentrale CSS-Datei.
+* `sitemap.xml` listet die acht öffentlichen HTML-Seiten ohne 404-Seite.
+* `robots.txt` verweist auf die Sitemap und erlaubt das Crawling.
+* Eine statische Prüfung der relativen `href`- und `src`-Ziele in den neun HTML-Dateien ergab keine fehlenden lokalen Dateien und keine fehlenden lokalen Anker.
+* Es wurden keine aktiven Formulare, externen Skripte, extern geladenen Schriftarten, Iframes oder Tracking-Einbindungen festgestellt.
+* `cardesk.html` ist als Konzeptseite innerhalb der LDigital-Website vorhanden; CarDesk bleibt dennoch ein separates Zukunfts- beziehungsweise Produktprojekt.
+
+Noch offen:
+
+* Vollständige Anbieter- und Zustelladresse für Impressum und Datenschutz final bestätigen.
+* Rechtstexte mit seriöser Schweizer Vorlage oder geeignetem Generator final vorbereiten und extern prüfen lassen.
+* Logo, Favicon und Social Preview finalisieren oder bewusst als Übergangslösung freigeben.
+* Visuelle Browserprüfung auf Desktop und Mobile wiederholen.
+* Lighthouse- oder vergleichbare Performance-/Qualitätsprüfung auf Staging oder Zielumgebung durchführen.
+* WordPress-Ablösung, Hosting, Deployment, Backup und Rollback separat planen.
+* README bei nächster Gelegenheit auf den aktuellen Version-2-Stand bringen, weil sie noch stärker den früheren Version-1-Stand beschreibt.
+
+Blocker vor Veröffentlichung:
+
+1. Fehlende vollständige öffentliche Anbieter- und Zustellangaben.
+2. Noch nicht final geprüfte Rechtstexte.
+3. Nicht finalisierte Markenassets: Logo, Favicon und Social Preview.
+4. Noch nicht abschließend geklärte Hosting-, Deployment- und WordPress-Ablösung.
+5. Noch ausstehende visuelle Endprüfung und Lighthouse-Prüfung auf Ziel- oder Staging-Umgebung.
+
+L-BWoods:
+
+* Der Ordner `l-bwoods/` existiert im aktuellen Arbeitsbaum nicht mehr.
+* `git ls-files l-bwoods` liefert keine aktuell getrackten `l-bwoods`-Dateien; der aktuelle `git status` zeigt neben dieser Planänderung keine L-BWoods-Änderungen.
+* L-BWoods ist jetzt ein eigenes privates Repository und soll im LDigital-Website-Repository nicht weitergeführt, nicht erweitert und nicht inhaltlich bearbeitet werden.
+* Falls alte Branches, Backups oder lokale Kopien den früheren Ordner noch enthalten, soll er nicht wieder in dieses Website-Repo übernommen werden.
+
 ## Status und Grundlage von Version 1
 
 LDigital Version 1 ist abgeschlossen.
@@ -147,11 +196,12 @@ Die Dokumente werden beim ersten realen Kundengespräch praktisch getestet. Neue
 
 ## Aktueller Stand der Startseiten-Cards
 
-Die drei Startseiten-Cards sind umgesetzt und verlinken auf die passenden Abschnitte der Leistungsseite:
+Die Startseiten-Cards sind umgesetzt und verlinken auf die passenden Abschnitte der Leistungsseite:
 
 * Webseiten & digitales Auftreten → `leistungen.html#webseiten`
-* Logodesign & Markenauftritt → `leistungen.html#markenauftritt`
-* Prozessoptimierung & Automatisierung → `leistungen.html#automatisierung`
+* Google Business & lokale Sichtbarkeit → `leistungen.html#sichtbarkeit`
+* Digitale Werkzeuge & Automatisierungen → `leistungen.html#automatisierung`
+* Betreuung, Pflege und Weiterentwicklung → `leistungen.html#betreuung`
 
 Die lokalen PNG-Bilder liegen unter `Logo/Leistungen/`. Die Cards sind statisch, vollständig lesbar und benötigen kein JavaScript.
 
@@ -493,6 +543,14 @@ Version 2.1 gilt als fertig, wenn:
 * Fehlende Bilder oder finale Design-Assets dürfen durch klar gekennzeichnete Übergangslösungen aufgefangen werden, nicht durch erfundene Inhalte.
 
 ## Nächste konkrete To-dos
+
+### Nächste fünf sinnvolle Aufgaben nach Repository-Check vom 26. Juni 2026
+
+1. Anbieter- und Zustelladresse verbindlich entscheiden und Impressum sowie Datenschutz danach final ergänzen.
+2. Rechtstexte mit einer seriösen Schweizer Grundlage final vorbereiten und extern prüfen lassen.
+3. Logo, Favicon und Social Preview finalisieren oder bewusst als klare Übergangsversion freigeben.
+4. Desktop-/Mobile-Sichtprüfung, Linkprüfung und Lighthouse-Test auf Staging oder Zielumgebung durchführen.
+5. Hosting-, Deployment- und WordPress-Ablösung inklusive Backup und Rollback planen; danach README und Git-Status bereinigen.
 
 ### Sofortige Planung
 
