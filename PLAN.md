@@ -65,6 +65,8 @@ Erledigter Stand:
 * Lighthouse-/Performance-Check ist als technische Prüfliste vorbereitet: `docs/LIGHTHOUSE_CHECKLIST_V1.md`.
 * Hosting, WordPress-Ablösung, Backup und Rollback sind als Deployment-Plan vorbereitet: `docs/DEPLOYMENT_PLAN_V1.md`.
 * Finale Pre-Launch-Checkliste ist erstellt: `docs/PRE_LAUNCH_CHECKLIST_V1.md`.
+* Launch-Entscheidungen für die aktuelle Pre-Launch-Phase sind dokumentiert: `docs/LAUNCH_ENTSCHEIDUNGEN_V1.md`.
+* Status: Pre-Launch-Phase, noch nicht final launchbereit.
 
 Noch offen:
 
@@ -574,7 +576,7 @@ Version 2.1 gilt als fertig, wenn:
 
 ### Nächste fünf sinnvolle Aufgaben nach Repository-Check vom 26. Juni 2026
 
-1. Offene Launch-Blocker final entscheiden.
+1. Verbliebene Launch-Blocker einzeln abarbeiten.
 2. Desktop-/Mobile-Prüfung anhand `docs/QA_CHECKLIST_V1.md` durchführen.
 3. Lighthouse-/Performance-Check auf Staging oder Zielumgebung anhand `docs/LIGHTHOUSE_CHECKLIST_V1.md` ausführen.
 4. Logo / Favicon / Social Preview später manuell finalisieren.
@@ -622,7 +624,8 @@ Version 2.1 gilt als fertig, wenn:
 - [x] Pre-Launch-Entscheidungen zu Anbieter, Kontakt, Rechtstexten und Veröffentlichung dokumentieren
 - [x] Deployment- und Rollback-Plan vorbereitet (`docs/DEPLOYMENT_PLAN_V1.md`)
 - [x] Finale Pre-Launch-Checkliste erstellt (`docs/PRE_LAUNCH_CHECKLIST_V1.md`)
-- [ ] Offene Launch-Blocker final entscheiden
+- [x] Launch-Entscheidungen für aktuelle Pre-Launch-Phase dokumentiert (`docs/LAUNCH_ENTSCHEIDUNGEN_V1.md`)
+- [ ] Verbliebene Launch-Blocker einzeln abarbeiten
 - [ ] Hosting-, Domain- und rechtliche Launchvoraussetzungen vor Live-Schaltung prüfen
 
 ### To-dos für Version 2.1 nach Veröffentlichung
