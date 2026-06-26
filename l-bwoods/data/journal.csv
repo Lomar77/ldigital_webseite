@@ -1,0 +1,4 @@
+datum,titel,kategorie,beschreibung,verknuepfung
+2026-06-26,Start L-BWoods,Meilenstein,L-BWoods als internes Finanz- und Unternehmenssystem gestartet,README.md
+2026-06-26,Erste Bareinlage,Kapital,Erste Bareinlage / Startkapital in Hoehe von 1000.00 CHF erfasst,data/kapital.csv
+2026-06-26,Erste Geschaeftsausgabe,Ausgabe,Bueromaterial fuer 9.97 CHF mit Beleg B-2026-0001 erfasst,data/ausgaben.csv

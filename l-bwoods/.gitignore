@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*.xlsx
+~$*.xls
+
+belege/*
+!belege/README.md
+!belege/.gitkeep
+
+bankdaten/
+exports/private/
+*.qif
+*.ofx
+*.camt
+*.csv.private
