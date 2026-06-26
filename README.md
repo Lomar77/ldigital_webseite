@@ -25,7 +25,7 @@ Nach Abschluss der internen Version 1 folgt zuerst das Marco-Projekt. Die dabei 
 
 ## CarDesk
 
-CarDesk ist ein separates Zukunftsprojekt von LDigital. Auf der Startseite erscheint es in Version 1 nur als Pilotpartner-Aufruf. Ein fertiges Produkt oder eine eigene CarDesk-Seite ist nicht Teil von Version 1.
+CarDesk ist ein separates Pilotprojekt von LDigital in Konzept- und Prototyp-Phase. Die CarDesk-Seite wurde aktualisiert und stellt klar, dass CarDesk noch keine fertige oder öffentlich buchbare Software ist.
 
 ## Technik
 

@@ -58,7 +58,8 @@ Erledigter Stand:
 * `robots.txt` verweist auf die Sitemap und erlaubt das Crawling.
 * Eine statische Prüfung der relativen `href`- und `src`-Ziele in den neun HTML-Dateien ergab keine fehlenden lokalen Dateien und keine fehlenden lokalen Anker.
 * Es wurden keine aktiven Formulare, externen Skripte, extern geladenen Schriftarten, Iframes oder Tracking-Einbindungen festgestellt.
-* `cardesk.html` ist als Konzeptseite innerhalb der LDigital-Website vorhanden; CarDesk bleibt dennoch ein separates Zukunfts- beziehungsweise Produktprojekt.
+* `cardesk.html` ist als aktualisierte Konzeptseite innerhalb der LDigital-Website vorhanden; CarDesk wird dort als Pilotprojekt von LDigital in Konzept- und Prototyp-Phase dargestellt.
+* Die CarDesk-Seite beschreibt eine digitale Arbeitsübersicht für kleine Garagen, Werkstätten und Carrosserien und stellt klar, dass CarDesk noch keine fertige oder öffentlich buchbare Software ist.
 * `datenschutz.html` ist als sachliche Datenschutzerklärung für eine einfache Schweizer KMU-Website vorbereitet.
 * Desktop-/Mobile-Prüfung ist als technische QA-Checkliste vorbereitet: `docs/QA_CHECKLIST_V1.md`.
 * Interne Links und Navigation wurden anhand `docs/QA_CHECKLIST_V1.md` geprüft; es waren keine HTML-Korrekturen nötig.
@@ -74,6 +75,9 @@ Noch offen:
 * Datenschutz und Impressum im rechtlichen und praktischen Gesamtzusammenhang vor Launch final prüfen.
 * Logo / Favicon / Social Preview ist aktuell blockiert beziehungsweise verschoben, weil das Logo später manuell gezeichnet und finalisiert wird.
 * Desktop-/Mobile-Prüfung anhand `docs/QA_CHECKLIST_V1.md` durchführen und dokumentieren.
+* CarDesk-Seite lokal prüfen und mobile Darstellung kontrollieren.
+* Danach Deployment vorbereiten oder einen Gesamtcheck durchführen.
+* CarDesk-Prototyp weiterhin separat im CarDesk-Repository führen.
 * Lighthouse- oder vergleichbare Performance-/Qualitätsprüfung auf Staging oder Zielumgebung durchführen; Vorbereitung liegt in `docs/LIGHTHOUSE_CHECKLIST_V1.md`.
 * WordPress-Ablösung, Hosting, Deployment, Backup und Rollback später anhand `docs/DEPLOYMENT_PLAN_V1.md` ausführen; aktuell wurde nichts deployed.
 * README bei nächster Gelegenheit auf den aktuellen Version-2-Stand bringen, weil sie noch stärker den früheren Version-1-Stand beschreibt.
@@ -237,11 +241,11 @@ Die lokalen PNG-Bilder liegen unter `Logo/Leistungen/`. Die Cards sind statisch,
 
 ## CarDesk
 
-CarDesk ist ein geplantes digitales System für Garagen und Fahrzeugbetriebe. `cardesk.html` dient innerhalb der LDigital-Website als vorsichtig formulierte Konzeptseite und beschreibt Problem, Lösungsansatz, mögliche Bausteine, Zielgruppe und Pilotstatus.
+CarDesk ist ein Pilotprojekt von LDigital für kleine Garagen, Werkstätten und Carrosserien. `cardesk.html` dient innerhalb der LDigital-Website als aktualisierte Konzeptseite und beschreibt Problem, Lösungsansatz, geplante Bausteine, Zielgruppe, Status und Pilotinteresse.
 
-CarDesk ist aktuell eine Konzept- und Pilotidee in Vorbereitung. Es ist kein fertiges Produkt, kein öffentlich buchbares System und kein abgeschlossenes Kundenprojekt. Die Konzeptseite verspricht keine fertigen Funktionen oder Resultate.
+CarDesk befindet sich aktuell in Konzept- und Prototyp-Phase. Es ist kein fertiges Produkt, keine öffentlich buchbare Software und kein abgeschlossenes Kundenprojekt. Die Konzeptseite verspricht keine fertigen Funktionen oder Resultate.
 
-Das spätere eigentliche System bleibt ein separates Produktprojekt von LDigital und soll eine eigene Marken-, Produkt- und Repository-Struktur erhalten. Die LDigital-Seite verlinkt vorerst von Startseite und Leistungsseite auf die interne Konzeptseite. Eine spätere Pilotphase soll die fachliche Prüfung mit geeigneten Betrieben ermöglichen.
+Der statische CarDesk-Prototyp bleibt separat im CarDesk-Repository. Die LDigital-Seite verlinkt vorerst von Startseite und Leistungsseite auf die interne Konzeptseite. Nächste Schritte sind lokale Prüfung, mobile Darstellung, anschliessend Deployment-Vorbereitung oder Gesamtcheck.
 
 ## LDigital Webseite – Version 2
 
@@ -619,7 +623,7 @@ Version 2.1 gilt als fertig, wenn:
 - [x] Navigation für Über mich und Portfolio vorbereiten
 - [x] QA-Checkliste für Desktop-/Mobile-, Link-, Recht-/Launch- und Performance-Prüfung erstellt (`docs/QA_CHECKLIST_V1.md`)
 - [x] Interne Links und Navigation anhand der QA-Checkliste geprüft; keine Korrekturen nötig
-- [x] CarDesk-Konzeptseite für Version 2 vorbereiten
+- [x] CarDesk-Konzeptseite für Version 2 vorbereiten und als Pilotprojekt in Konzept- und Prototyp-Phase schärfen
 - [x] Tracking- und externe Dienste statisch prüfen
 - [x] Pre-Launch-Entscheidungen zu Anbieter, Kontakt, Rechtstexten und Veröffentlichung dokumentieren
 - [x] Deployment- und Rollback-Plan vorbereitet (`docs/DEPLOYMENT_PLAN_V1.md`)
@@ -798,9 +802,9 @@ Die erreichbare Website unter `https://ldigital.ch/` enthält weiterhin das ält
 #### CarDesk-Konzeptseite
 
 * `cardesk.html` als eigene Konzeptseite innerhalb der LDigital-Website vorbereitet;
-* CarDesk als geplantes digitales System für Garagen und Fahrzeugbetriebe eingeordnet;
-* Problem, Lösungsansatz, mögliche Bausteine, Zielbetriebe und Pilotstatus sachlich beschrieben;
-* deutlich festgehalten, dass CarDesk kein fertiges Produkt, kein öffentlich buchbares System und kein abgeschlossenes Kundenprojekt ist;
+* CarDesk als Pilotprojekt von LDigital für kleine Garagen, Werkstätten und Carrosserien eingeordnet;
+* Problem, Lösungsansatz, geplante Bausteine, Zielbetriebe und Status in Konzept- und Prototyp-Phase sachlich beschrieben;
+* deutlich festgehalten, dass CarDesk keine fertige oder öffentlich buchbare Software und kein abgeschlossenes Kundenprojekt ist;
 * keine Preise, erfundenen Pilotkunden, Resultate, Testimonials, Garantien oder fertigen Funktionen ergänzt;
 * Hauptnavigation unverändert gelassen;
 * CarDesk von der Startseite und der Leistungsseite sichtbar verlinkt;
