@@ -65,7 +65,7 @@ Noch offen:
 
 * Anbieter- und Zustelladresse: Nutzung als Zustelladresse bestätigt; finale rechtliche und praktische Gesamtprüfung bleibt vor Launch offen.
 * Datenschutz und Impressum im rechtlichen und praktischen Gesamtzusammenhang vor Launch final prüfen.
-* Logo, Favicon und Social Preview finalisieren oder bewusst als Übergangslösung freigeben.
+* Logo / Favicon / Social Preview ist aktuell blockiert beziehungsweise verschoben, weil das Logo später manuell gezeichnet und finalisiert wird.
 * Visuelle Browserprüfung auf Desktop und Mobile wiederholen.
 * Lighthouse- oder vergleichbare Performance-/Qualitätsprüfung auf Staging oder Zielumgebung durchführen.
 * WordPress-Ablösung, Hosting, Deployment, Backup und Rollback separat planen.
@@ -87,12 +87,17 @@ Status:
 * Version 2 soll weiterhin ohne Google Analytics veröffentlicht werden.
 * Google Search Console ist geplant beziehungsweise erlaubt.
 * Analytics und Tracking werden erst später erneut geprüft.
+* Logo / Favicon / Social Preview aktuell blockiert beziehungsweise verschoben.
+* Grund: Das Logo wird später manuell gezeichnet und finalisiert.
+* Vorerst keine weiteren KI- oder Codex-Bildänderungen an Logo, Favicon oder Social Preview.
+* Der Block bleibt ein Launch-Blocker, falls die Website mit finaler Marke veröffentlicht werden soll.
+* Für eine technische Staging-Prüfung kann die Website trotzdem weiter vorbereitet werden.
 
 Blocker vor Veröffentlichung:
 
 1. Anbieter-/Zustelladresse: Nutzung als Zustelladresse bestätigt; finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 2. Datenschutz und Impressum: finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
-3. Nicht finalisierte Markenassets: Logo, Favicon und Social Preview.
+3. Logo / Favicon / Social Preview blockiert beziehungsweise verschoben; Launch-Blocker bei Veröffentlichung mit finaler Marke.
 4. Noch nicht abschließend geklärte Hosting-, Deployment- und WordPress-Ablösung.
 5. Noch ausstehende visuelle Endprüfung und Lighthouse-Prüfung auf Ziel- oder Staging-Umgebung.
 
@@ -551,7 +556,7 @@ Version 2.1 gilt als fertig, wenn:
 
 * Marco / Garage Rotterdam bleibt von Zugriff, Material und Support abhängig.
 * Version 2 darf nicht zu gross werden.
-* Logo-Perfektion darf die Veröffentlichung nicht blockieren.
+* Logo / Favicon / Social Preview sind bewusst verschoben und werden später manuell finalisiert; die technische Staging-Vorbereitung darf trotzdem weiterlaufen.
 * Die fünf Grundsätze müssen klar und glaubwürdig formuliert bleiben.
 * Die Preisstrategie muss flexibel bleiben.
 * Rechtliche Texte müssen vor Veröffentlichung sauber geprüft werden.
@@ -564,11 +569,11 @@ Version 2.1 gilt als fertig, wenn:
 
 ### Nächste fünf sinnvolle Aufgaben nach Repository-Check vom 26. Juni 2026
 
-1. Datenschutz und Impressum im rechtlichen und praktischen Gesamtzusammenhang vor Launch prüfen.
-2. Logo, Favicon und Social Preview finalisieren.
-3. Staging-, Mobile- und Lighthouse-Prüfung vorbereiten.
-4. Hosting-, Deployment- und WordPress-Ablösung inklusive Backup und Rollback planen.
-5. Google Search Console für Version 2.1 vorbereiten; Analytics später erneut prüfen.
+1. Logo / Favicon / Social Preview später manuell finalisieren.
+2. Desktop-/Mobile-Prüfung vorbereiten.
+3. Interne Links und Navigation prüfen.
+4. Lighthouse-/Performance-Check vorbereiten.
+5. Hosting, WordPress-Ablösung, Backup und Rollback planen.
 
 ### Sofortige Planung
 
@@ -584,7 +589,7 @@ Version 2.1 gilt als fertig, wenn:
 - [x] Seitenstruktur für Version 2 definieren
 - [ ] Über-mich-Seite planen und Texte bestätigen
 - [x] Texte der fünf Grundsätze weiter schärfen
-- [ ] Logo-Anpassung und benötigte Assets klären
+- [ ] Logo / Favicon / Social Preview später manuell finalisieren; vorerst keine KI- oder Codex-Bildänderungen
 - [x] kurze Logo-Geschichte für Version 2 formulieren
 - [x] Leistungsbereiche für Version 2 priorisieren
 - [x] Portfolio-Struktur und internes Referenzprojekt vorbereiten
@@ -847,10 +852,11 @@ Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren A
 
 #### Logo und weitere Assets
 
-* Logo ist noch nicht final;
-* Favicon ist noch nicht final;
-* Social Preview ist ein Platzhalter und muss ersetzt oder optimiert werden;
-* die Logo-Anpassung bleibt ein echter Blocker vor der Veröffentlichung;
+* Logo / Favicon / Social Preview ist aktuell blockiert beziehungsweise verschoben;
+* Grund: Das Logo wird später manuell gezeichnet und finalisiert;
+* vorerst keine weiteren KI- oder Codex-Bildänderungen an Logo, Favicon oder Social Preview;
+* der Block bleibt ein Launch-Blocker, falls die Website mit finaler Marke veröffentlicht werden soll;
+* für eine technische Staging-Prüfung kann die Website trotzdem weiter vorbereitet werden;
 * in Arbeitsblock 4 werden keine Bilddateien verändert.
 
 #### Offene Punkte vor der Veröffentlichung
@@ -859,7 +865,7 @@ Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren A
 2. Hosting, Zielumgebung und tatsächliche Datenbearbeitung festlegen.
 3. Rechtstexte nach Option B vorbereiten, an reale Dienste anpassen und extern prüfen lassen.
 4. WordPress-Ablösung mit Staging, Backup, Deployment und Rollback planen.
-5. Texte, Logo, Favicon und Social Preview menschlich final freigeben.
+5. Texte und Marke menschlich final freigeben; Logo / Favicon / Social Preview später manuell finalisieren.
 6. Bildgrössen optimieren oder ihren aktuellen Umfang bewusst akzeptieren.
 7. Lighthouse-Test auf der späteren Test- oder Zielumgebung durchführen.
 
@@ -912,12 +918,10 @@ Staging, Backup, Deployment und Rollback gehören zu einem separaten späteren A
 
 1. Anbieter-/Zustelladresse bestätigt (`Industriestrasse 1, 4410 Liestal, Schweiz`); finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 2. Rechtstexte mit einer seriösen Schweizer Vorlage oder einem Generator vorbereiten, an reale Dienste anpassen und extern prüfen lassen.
-3. Logo finalisieren.
-4. Favicon finalisieren.
-5. Social Preview ersetzen oder optimieren.
-6. Lighthouse-Test auf der späteren Test- oder Zielumgebung durchführen.
-7. WordPress-Ablösung, Hosting und Deployment einschließlich Backup und Rollback separat planen.
-8. Menschlichen Gesamtcheck von Texten, Marke, Rechtstexten und Veröffentlichung durchführen.
+3. Logo / Favicon / Social Preview später manuell finalisieren; bis dahin keine KI- oder Codex-Bildänderungen.
+4. Lighthouse-Test auf der späteren Test- oder Zielumgebung durchführen.
+5. WordPress-Ablösung, Hosting und Deployment einschließlich Backup und Rollback separat planen.
+6. Menschlichen Gesamtcheck von Texten, Marke, Rechtstexten und Veröffentlichung durchführen.
 
 Arbeitsblock 5 umfasst kein Deployment, keine WordPress- oder Hosting-Änderung, keine Trackingintegration und keine Bild- oder Asset-Arbeiten.
 
@@ -1012,12 +1016,10 @@ Diese Überarbeitung ist eine technische und inhaltslogische Vorbereitung. Sie i
 1. Datenschutzseite vorbereitet; finale rechtliche sowie praktische Gesamtprüfung vor Launch offen halten.
 2. Impressum und Datenschutz im Gesamtzusammenhang prüfen.
 3. Google Search Console für Version 2.1 vorbereiten; Analytics später erneut prüfen.
-4. Logo finalisieren.
-5. Favicon finalisieren.
-6. Social Preview ersetzen oder optimieren.
-7. Lighthouse-Test auf der späteren Test- oder Zielumgebung durchführen.
-8. WordPress-Ablösung, Hosting und Deployment einschließlich Backup und Rollback separat planen.
-9. Menschlichen Gesamtcheck von Texten, Marke, Rechtstexten und Veröffentlichung durchführen.
+4. Logo / Favicon / Social Preview später manuell finalisieren; bis dahin keine KI- oder Codex-Bildänderungen.
+5. Lighthouse-Test auf der späteren Test- oder Zielumgebung durchführen.
+6. WordPress-Ablösung, Hosting und Deployment einschließlich Backup und Rollback separat planen.
+7. Menschlichen Gesamtcheck von Texten, Marke, Rechtstexten und Veröffentlichung durchführen.
 
 Arbeitsblock 6 umfasst keine rechtliche Eigenfreigabe, keine neuen externen Dienste, keine Trackingintegration, keine Veröffentlichung und keine Änderung an WordPress oder Hosting.
 
