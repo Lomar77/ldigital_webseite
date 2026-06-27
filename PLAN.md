@@ -1379,3 +1379,36 @@ Der folgende Verlauf bleibt als Projekthistorie erhalten. Er wird nicht weiterge
   1. menschliche visuelle Abnahme durchführen
   2. gegebenenfalls letzte kleine Fehler korrigieren
   3. Version 1 intern abschliessen
+
+### 28. Juni 2026
+
+* Arbeitsblock: visuelle Professionalisierung mit HTML/CSS-Bildplatzhaltern
+* Fokus:
+  * bestehende LDigital-Seite hochwertiger, ruhiger und strukturierter darstellen
+  * Blau/Gold-Farbwelt kontrollierter einsetzen
+  * Inhalte und Positionierung beibehalten, aber die visuelle Hierarchie verbessern
+  * klare Platzhalterflächen für spätere Bilder, Screenshots und Mockups ergänzen
+* Rahmenbedingungen:
+  * kein Commit
+  * kein Deployment auf cyon
+  * keine externen Scripts
+  * kein Tracking
+  * kein neues Framework
+  * kein PHP
+  * keine WordPress-Dateien
+  * keine echten Bilder, KI-Bilder oder Stockbilder ergänzt
+* Umgesetzt:
+  * Startseite mit stärkerem Hero-Aufbau und Dashboard-Platzhalter ergänzt
+  * Leistungsbereich auf `Webseiten & Sichtbarkeit`, `Digitale Werkzeuge & Systeme` sowie `Prozessoptimierung & Automatisierung` geschärft
+  * echte Leistungsbilder durch professionelle HTML/CSS-Platzhalter ersetzt
+  * Arbeitsweise mit breitem Platzhalter für Analyse, Umsetzung und Weiterentwicklung ergänzt
+  * CarDesk auf Startseite, Leistungsseite und CarDesk-Seite als Konzept/Pilotprojekt mit Mockup-Platzhalter dargestellt
+  * Über-mich-Seite mit neutralem Platzhalter für Beratung / Arbeitsplatz ergänzt, ohne Personendarstellung zu erfinden
+  * Kontakt-CTA mit Platzhalter für Erstgespräch / Projektstart ergänzt
+  * Header, Typografie, Cards, Abstände und responsive Layouts ruhiger und professioneller gestaltet
+  * Dokument `docs/ldigital-bild-und-mockup-liste.md` für spätere Visual-Produktion erstellt
+* Nächste Aufgaben:
+  1. echte Bilder und neutrale Mockups erstellen oder freigeben
+  2. Inhalte final prüfen und auf Schweizer Hochdeutsch kontrollieren
+  3. Mobile-Darstellung und Performance nochmals prüfen
+  4. erst nach finaler Freigabe ein späteres Deployment auf cyon planen
