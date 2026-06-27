@@ -1412,3 +1412,28 @@ Der folgende Verlauf bleibt als Projekthistorie erhalten. Er wird nicht weiterge
   2. Inhalte final prüfen und auf Schweizer Hochdeutsch kontrollieren
   3. Mobile-Darstellung und Performance nochmals prüfen
   4. erst nach finaler Freigabe ein späteres Deployment auf cyon planen
+
+* Arbeitsblock: gezielte Integration ausgewählter Noir-Elemente
+* Rahmenbedingungen:
+  * aktueller Hero bewusst beibehalten und nicht durch den Hero aus `index.noir.html` ersetzt
+  * keine komplette Noir-Version übernommen
+  * kein Commit
+  * kein Deployment auf cyon
+  * keine externen Scripts, kein Tracking, kein PHP, keine WordPress-Dateien
+* Umgesetzt:
+  * `index.noir.html` ausgewertet und nur passende Struktur-/Designideen übernommen
+  * Abschnitt direkt nach dem Hero als kompakte Positionierungssektion neu aufgebaut
+  * Leistungsbereich auf der Startseite kompakter gemacht und stärker mit Nummerierung, kurzen Aussagen und klarer Card-Hierarchie strukturiert
+  * Platzhalter-Beschriftungen präzisiert: `Website-Mockup folgt`, `System-Mockup folgt`, `Workflow-Visual folgt`, `CarDesk-Mockup folgt` und `Projektbild folgt`
+  * dunklen Arbeitsweise-Block nach Noir-Vorbild integriert
+  * bestehende helle Arbeitsweise-Dopplung mit Prozess-Platzhalter entfernt
+  * Arbeitsweise-Schritte auf `01 Verstehen`, `02 Strukturieren`, `03 Umsetzen`, `04 Weiterentwickeln` harmonisiert
+* Hinweis zu `index.noir.html`:
+  * relevante Bestandteile wurden integriert
+  * Datei bleibt vorerst bestehen
+  * später prüfen, ob `index.noir.html` archiviert oder gelöscht werden soll
+  * möglicher Archivpfad: `docs/archive/index.noir.html`, aber erst nach Prüfung und Commit
+* Nächste Aufgaben:
+  1. neue Startseitenstruktur visuell final prüfen
+  2. Mobile-Ansicht und technische Checks wiederholen
+  3. `index.noir.html` nach finaler Freigabe archivieren oder löschen

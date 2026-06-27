@@ -11,6 +11,14 @@ Diese Liste beschreibt die Visuals, die später erstellt, fotografiert oder als 
 * CarDesk nur als Konzept oder Pilotprojekt darstellen.
 * Mockups neutral halten und Beispieldaten klar als Platzhalter erkennbar machen.
 
+## Aktuelle Platzhalter-Beschriftungen
+
+* `Website-Mockup folgt` für Website-, Sichtbarkeits- und Hero-Mockups.
+* `System-Mockup folgt` für interne Systeme, Dashboards und Organisationsoberflächen.
+* `Workflow-Visual folgt` für Prozessoptimierung und Automatisierung.
+* `CarDesk-Mockup folgt` für das CarDesk-Pilotkonzept.
+* `Projektbild folgt` für Beratung, Arbeitsplatz, Erstgespräch oder Projektstart.
+
 ## Benötigte Visuals
 
 | Bereich | Benötigtes Bild / Mockup | Zweck | Priorität | Mögliche Dateinamen | Hinweise |
