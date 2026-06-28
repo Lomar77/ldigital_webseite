@@ -1592,3 +1592,55 @@ Der folgende Verlauf bleibt als Projekthistorie erhalten. Er wird nicht weiterge
   * CarDesk-Bild oder Mockup später final prüfen.
   * Inhalte bei echter Pilotpartner-Phase mit Marco oder realer Garage schärfen.
   * kein Deployment erfolgt.
+
+### Arbeitsblock 9 – CarDesk-Hero-Visual integriert
+
+**Ziel:**
+
+  * Das lokal vorhandene CarDesk-Hero-Visual in die CarDesk-Unterseite integrieren.
+  * Den Hero-Bereich von `cardesk.html` stärker als hochwertiges Produktvisual für CarDesk darstellen.
+
+**Geänderte Dateien im Umsetzungsblock:**
+
+  * `cardesk.html`
+  * `css/styles.css`
+  * `assets/images/cardesk-hero-rs6-tech.png`
+
+**Umsetzung:**
+
+  * Das Bild `assets/images/cardesk-hero-rs6-tech.png` wurde im Hero-Bereich von `cardesk.html` eingebunden.
+  * Das Visual zeigt die CarDesk-Produktwelt in Anthrazit/Rot/Weiss mit Fahrzeug-, Technik- und Software-Bezug.
+  * Auf Desktop sitzt das Bild prominent rechts im Hero.
+  * Auf Tablet und Mobile skaliert das Bild sauber.
+  * Das Bild wurde mit Rahmen, Rundung, Schatten/Glow und Caption in die bestehende CarDesk-Optik integriert.
+  * Der Hero-Text bleibt lesbar.
+  * Der Alt-Text wurde gesetzt: `CarDesk Hero-Visual mit digitalisiertem Fahrzeug und roten Techniklinien`.
+
+**Browserprüfung:**
+
+  * Lokale Browserprüfung unter `http://127.0.0.1:8080` durchgeführt.
+  * Desktop geprüft: sauber.
+  * Tablet geprüft: sauber.
+  * Mobile geprüft: sauber.
+  * Keine Console-Errors.
+  * Kein horizontaler Overflow.
+  * Bild lädt korrekt.
+  * Bildgrösse: `1672x941`.
+  * Hero-Text bleibt lesbar.
+
+**Abgrenzung:**
+
+  * LDigital bleibt global blau/gold.
+  * CarDesk bleibt nur auf der CarDesk-Unterseite anthrazit/rot/weiss.
+  * Kein Tracking ergänzt.
+  * Keine Scripts ergänzt.
+  * Keine externen Abhängigkeiten ergänzt.
+  * Kein cyon-Deployment durchgeführt.
+  * Keine weiteren Designänderungen in diesem Dokumentationsschritt vorgenommen.
+
+**Offene Folgepunkte:**
+
+  * Finales CarDesk-Logo bleibt separat offen.
+  * CarDesk-Bild oder Mockup später final auf Markenqualität prüfen.
+  * Inhalte bei echter Pilotpartner-Phase mit Marco oder einer realen Garage weiter schärfen.
+  * Kein Deployment erfolgt.
