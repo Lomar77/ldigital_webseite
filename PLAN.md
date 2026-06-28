@@ -34,7 +34,37 @@ Die aktive Hauptpriorität ist **LDigital Webseite – Version 2**.
 * Die Arbeit soll trotz der Blockierung des Garage-Projekts weitergehen.
 * LDigital benötigt eine veröffentlichungsreife und überzeugende eigene Website.
 * Die Website soll als Referenzprojekt und Grundlage für die Akquise dienen.
-* Version 2 wird veröffentlicht.
+* Version 2 wird erst nach interner Qualitätsprüfung und separater Deployment-Entscheidung veröffentlicht.
+
+### Aktueller Status vom 28. Juni 2026 – LDigital Version 2.4
+
+LDigital Version 2.4 ist intern technisch und lokal im Browser geprüft.
+
+Geprüft wurden:
+
+* 11 HTML-Seiten;
+* Desktop `1280x900`;
+* Mobile `390x844`;
+* Narrow Mobile `320x720`;
+* insgesamt 33 Prüfungen.
+
+Ergebnis:
+
+* keine Console-Errors;
+* kein horizontaler Overflow;
+* keine kaputten Bilder;
+* keine überstehenden Elemente;
+* keine abgeschnittenen Button- oder Labeltexte;
+* Startseite enthält den neuen dunklen Arbeitsweise-Block;
+* Platzhalterlabels werden korrekt angezeigt;
+* lokale Vorschau wurde nach der Prüfung gestoppt;
+* Git-Status war sauber;
+* kein Commit erstellt;
+* kein cyon-Deployment durchgeführt.
+
+Version 2.4 ist damit intern browsergeprüft, aber noch nicht veröffentlicht.
+
+Die nächste Phase ist **Version 2.5 / interne LDigital-Qualitätsprüfung**. Dabei geht es nicht mehr primär um technische Grundstabilität, sondern um Wirkung, Texte, Verkaufsfähigkeit, Bilder/Mockups, Markenauftritt, Rechtstexte und die spätere Deployment-Entscheidung.
 
 ### Aktueller Repository-Check vom 26. Juni 2026
 
@@ -74,13 +104,12 @@ Noch offen:
 * Anbieter- und Zustelladresse: Nutzung als Zustelladresse bestätigt; finale rechtliche und praktische Gesamtprüfung bleibt vor Launch offen.
 * Datenschutz und Impressum im rechtlichen und praktischen Gesamtzusammenhang vor Launch final prüfen.
 * Logo / Favicon / Social Preview ist aktuell blockiert beziehungsweise verschoben, weil das Logo später manuell gezeichnet und finalisiert wird.
-* Desktop-/Mobile-Prüfung anhand `docs/QA_CHECKLIST_V1.md` durchführen und dokumentieren.
-* CarDesk-Seite lokal prüfen und mobile Darstellung kontrollieren.
-* Danach Deployment vorbereiten oder einen Gesamtcheck durchführen.
-* CarDesk-Prototyp weiterhin separat im CarDesk-Repository führen.
+* Menschliche Qualitätsprüfung von Texten, Wirkung, Verkaufslogik und Markenauftritt durchführen.
+* Bilder, Mockups und Platzhalter final beurteilen.
 * Lighthouse- oder vergleichbare Performance-/Qualitätsprüfung auf Staging oder Zielumgebung durchführen; Vorbereitung liegt in `docs/LIGHTHOUSE_CHECKLIST_V1.md`.
 * WordPress-Ablösung, Hosting, Deployment, Backup und Rollback später anhand `docs/DEPLOYMENT_PLAN_V1.md` ausführen; aktuell wurde nichts deployed.
-* README bei nächster Gelegenheit auf den aktuellen Version-2-Stand bringen, weil sie noch stärker den früheren Version-1-Stand beschreibt.
+* README bei nächster Gelegenheit auf den aktuellen Version-2.4-Stand bringen, weil sie noch stärker den früheren Version-1-Stand beschreibt.
+* CarDesk-Prototyp weiterhin separat im CarDesk-Repository führen.
 
 Bestätigte Anbieter-/Zustelladresse:
 
@@ -109,8 +138,9 @@ Blocker vor Veröffentlichung:
 1. Anbieter-/Zustelladresse: Nutzung als Zustelladresse bestätigt; finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 2. Datenschutz und Impressum: finale rechtliche und praktische Gesamtprüfung vor Launch bleibt offen.
 3. Logo / Favicon / Social Preview blockiert beziehungsweise verschoben; Launch-Blocker bei Veröffentlichung mit finaler Marke.
-4. Hosting-, Deployment- und WordPress-Ablösung sind vorbereitet, aber noch nicht ausgeführt.
-5. Noch ausstehende visuelle Endprüfung und Lighthouse-Prüfung auf Ziel- oder Staging-Umgebung.
+4. Menschliche Qualitätsprüfung von Texten, Wirkung, Verkaufslogik, Markenauftritt und Bildern ist noch offen.
+5. Lighthouse-Prüfung auf Ziel- oder Staging-Umgebung ist noch offen.
+6. Hosting-, Deployment- und WordPress-Ablösung sind vorbereitet, aber noch nicht ausgeführt.
 
 L-BWoods:
 
@@ -245,7 +275,7 @@ CarDesk ist ein Pilotprojekt von LDigital für kleine Garagen, Werkstätten und 
 
 CarDesk befindet sich aktuell in Konzept- und Prototyp-Phase. Es ist kein fertiges Produkt, keine öffentlich buchbare Software und kein abgeschlossenes Kundenprojekt. Die Konzeptseite verspricht keine fertigen Funktionen oder Resultate.
 
-Der statische CarDesk-Prototyp bleibt separat im CarDesk-Repository. Die LDigital-Seite verlinkt vorerst von Startseite und Leistungsseite auf die interne Konzeptseite. Nächste Schritte sind lokale Prüfung, mobile Darstellung, anschliessend Deployment-Vorbereitung oder Gesamtcheck.
+Der statische CarDesk-Prototyp bleibt separat im CarDesk-Repository. Die LDigital-Seite verlinkt vorerst von Startseite und Leistungsseite auf die interne Konzeptseite. Die lokale Browserprüfung der LDigital-Seite inklusive CarDesk-Seite ist abgeschlossen. Nächste Schritte sind menschliche Qualitätsprüfung, spätere Staging-/Lighthouse-Prüfung und erst danach eine separate Deployment-Entscheidung.
 
 ## LDigital Webseite – Version 2
 
@@ -578,13 +608,13 @@ Version 2.1 gilt als fertig, wenn:
 
 ## Nächste konkrete To-dos
 
-### Nächste fünf sinnvolle Aufgaben nach Repository-Check vom 26. Juni 2026
+### Nächste fünf sinnvolle Aufgaben nach Version 2.4
 
-1. Verbliebene Launch-Blocker einzeln abarbeiten.
-2. Desktop-/Mobile-Prüfung anhand `docs/QA_CHECKLIST_V1.md` durchführen.
-3. Lighthouse-/Performance-Check auf Staging oder Zielumgebung anhand `docs/LIGHTHOUSE_CHECKLIST_V1.md` ausführen.
-4. Logo / Favicon / Social Preview später manuell finalisieren.
-5. Deployment später anhand `docs/DEPLOYMENT_PLAN_V1.md` ausführen.
+1. Interne LDigital-Qualitätsprüfung durchführen: Texte, Wirkung, Verkaufslogik und Markenauftritt prüfen.
+2. Bilder, Mockups, Platzhalter, Logo, Favicon und Social Preview bewusst beurteilen.
+3. Datenschutz und Impressum im rechtlichen und praktischen Gesamtzusammenhang final prüfen.
+4. Lighthouse-/Performance-Check auf Staging oder Zielumgebung anhand `docs/LIGHTHOUSE_CHECKLIST_V1.md` ausführen.
+5. Danach entscheiden, ob Version 2.5 als Feinschliff-Version nötig ist oder ob die Deployment-Vorbereitung starten kann.
 
 ### Sofortige Planung
 
@@ -629,6 +659,10 @@ Version 2.1 gilt als fertig, wenn:
 - [x] Deployment- und Rollback-Plan vorbereitet (`docs/DEPLOYMENT_PLAN_V1.md`)
 - [x] Finale Pre-Launch-Checkliste erstellt (`docs/PRE_LAUNCH_CHECKLIST_V1.md`)
 - [x] Launch-Entscheidungen für aktuelle Pre-Launch-Phase dokumentiert (`docs/LAUNCH_ENTSCHEIDUNGEN_V1.md`)
+- [x] Lokale Browserprüfung für Version 2.4 abgeschlossen
+- [x] 11 HTML-Seiten auf Desktop `1280x900`, Mobile `390x844` und Narrow Mobile `320x720` geprüft
+- [x] Keine Console-Errors, kein horizontaler Overflow, keine kaputten Bilder und keine überstehenden Elemente festgestellt
+- [ ] Interne LDigital-Qualitätsprüfung von Texten, Wirkung, Verkaufslogik und Markenauftritt durchführen
 - [ ] Verbliebene Launch-Blocker einzeln abarbeiten
 - [ ] Hosting-, Domain- und rechtliche Launchvoraussetzungen vor Live-Schaltung prüfen
 
@@ -1057,14 +1091,59 @@ Arbeitsblock 6 umfasst keine rechtliche Eigenfreigabe, keine neuen externen Dien
 
 Die vorgesehene erneute visuelle Prüfung bei 1280 Pixel und 390 Pixel konnte in diesem Arbeitsblock nicht ausgeführt werden, weil die lokale Browserverbindung durch die aktuelle Browserumgebung ausdrücklich blockiert wurde. Es wurde keine alternative Browsertechnik zur Umgehung eingesetzt. Die gemeinsame CSS-Datei und die Seitenhülle wurden nicht verändert; beide Rechtsseiten hatten dieselben Darstellungen in Arbeitsblock 5 erfolgreich bestanden. Eine erneute visuelle Kontrolle bleibt dennoch vor Veröffentlichung erforderlich.
 
+### Arbeitsblock 7 – lokale Browserprüfung und interner technischer Abschluss
+
+**Datum:** 28. Juni 2026
+
+**Fokus:** echte lokale Browserprüfung der aktuellen LDigital-Version nach Abschluss der statischen Prüfungen
+
+**Status:** abgeschlossen – intern technisch/browsergeprüft, nicht veröffentlicht
+
+#### Prüfungsumfang
+
+Geprüft wurden:
+
+* 11 HTML-Seiten;
+* Desktop `1280x900`;
+* Mobile `390x844`;
+* Narrow Mobile `320x720`;
+* insgesamt 33 Prüfungen.
+
+#### Ergebnis
+
+* keine Console-Errors;
+* kein horizontaler Overflow;
+* keine kaputten Bilder;
+* keine überstehenden Elemente;
+* keine abgeschnittenen Button- oder Labeltexte;
+* Startseite enthält den neuen dunklen Arbeitsweise-Block;
+* Platzhalterlabels werden korrekt angezeigt;
+* lokale Vorschau wurde nach der Prüfung gestoppt.
+
+#### Abgrenzung
+
+* kein cyon-Deployment durchgeführt;
+* keine WordPress- oder Hosting-Änderung vorgenommen;
+* kein Commit erstellt;
+* Git-Status war sauber.
+
+#### Bedeutung
+
+Die technische lokale Browserprüfung ist abgeschlossen. Version 2.4 gilt damit als intern browsergeprüfter Zwischenstand.
+
+Die nächste Phase ist **Version 2.5 / interne LDigital-Qualitätsprüfung**. Dabei werden Wirkung, Texte, Verkaufsfähigkeit, Bild-/Mockup-Qualität, Markenauftritt, Logo/Favicon/Social Preview, Rechtstexte und Deployment-Entscheidung geprüft.
+
+
 ## Verbindliche Roadmap
 
 1. Marco / Garage Rotterdam pausiert lassen, bis Zugriff, Material und technische Grundlage geklärt sind.
-2. LDigital Version 2 planen und umsetzen.
-3. LDigital Version 2 veröffentlichen.
-4. Version 2.1 für Sichtbarkeit, Vertriebsgrundlagen und Akquise umsetzen.
-5. Marco / Garage Rotterdam wieder aufnehmen, sobald die Abhängigkeiten gelöst sind.
-6. Version 3 später als grössere Ausbauphase planen.
+2. LDigital Version 2.4 als intern browsergeprüften Zwischenstand festhalten.
+3. Version 2.5 / interne LDigital-Qualitätsprüfung durchführen.
+4. Nach der Qualitätsprüfung entscheiden, ob Feinschliff, Staging/Lighthouse oder Deployment-Vorbereitung folgt.
+5. LDigital erst nach separater Freigabe und vorbereitetem Deployment veröffentlichen.
+6. Version 2.1 für Sichtbarkeit, Vertriebsgrundlagen und Akquise nach Veröffentlichung umsetzen.
+7. Marco / Garage Rotterdam wieder aufnehmen, sobald die Abhängigkeiten gelöst sind.
+8. Version 3 später als grössere Ausbauphase planen.
 
 ## Historischer Arbeitsverlauf – ruhend
 
