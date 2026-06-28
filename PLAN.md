@@ -1644,3 +1644,78 @@ Der folgende Verlauf bleibt als Projekthistorie erhalten. Er wird nicht weiterge
   * CarDesk-Bild oder Mockup später final auf Markenqualität prüfen.
   * Inhalte bei echter Pilotpartner-Phase mit Marco oder einer realen Garage weiter schärfen.
   * Kein Deployment erfolgt.
+
+### Arbeitsblock 10 – Startseite für Version 2.5 geschärft
+
+**Status:** abgeschlossen, visuell geprüft, committed und gepusht
+
+**Ziel:**
+
+* Die Startseite wurde im Rahmen von Version 2.5 sichtbar aufgeräumt, geschärft und näher an einen launchfähigen Stand gebracht.
+* Ziel war eine klarere Verkaufswirkung, weniger Entwurfscharakter und eine professionellere Darstellung von LDigital als Anbieter für Schweizer KMU.
+
+**Geänderte Dateien im Umsetzungsblock:**
+
+* `index.html`
+* `css/styles.css`
+* `leistungen.html`
+* `cardesk.html`
+* `ueber-uns.html`
+* `kontakt.html`
+* `impressum.html`
+* `datenschutz.html`
+
+**Umsetzung:**
+
+* Navigation auf den Hauptseiten vereinheitlicht: `Leistungen | CarDesk | Über uns | Kontakt`.
+* `Startseite` aus der Navigation entfernt; das Logo bleibt Startseiten-Link.
+* `Über mich` zu `Über uns` geändert.
+* `Portfolio` aus der öffentlichen Hauptnavigation entfernt.
+* Hero der Startseite geschärft.
+* H1 ohne das überflüssige erste Wort `Ein` umgesetzt.
+* Zweiter Hero-Satz gesetzt: `Für Schweizer Unternehmen, die professionell auftreten möchten – ohne unnötige Komplexität.`
+* Überflüssige Hero-Kacheln entfernt.
+* Hero-Mockup überarbeitet und ruhiger gestaltet.
+* Positionierungsabschnitt entfernt, weil er redundant wirkte.
+* Leistungsbereich auf der Startseite verbessert.
+* Nummern und sichtbare Platzhalter aus den Leistungskarten entfernt.
+* Neue abstrakte HTML/CSS-Visuals für die Leistungsbereiche ergänzt.
+* Texte der Leistungsbereiche kürzer und kundennäher formuliert.
+* CarDesk-Startseitenblock an die neue Anthrazit/Rot/Weiss-Produktoptik angepasst.
+* CarDesk weiterhin klar als Konzept-/Pilotprojekt dargestellt.
+* Vorhandenes CarDesk-Hero-Visual eingebunden: `assets/images/cardesk-hero-rs6-tech.png`.
+* Arbeitsweise auf einen kompakten 3-Schritt-Block reduziert.
+* FAQ auf der Startseite in eine kurze Q&A-Struktur umgewandelt.
+* Letzten grossen CTA entfernt.
+* Footer auf den Hauptseiten reduziert: LDigital-Hinweis, `info@ldigital.ch`, Impressum, Datenschutz.
+
+**Prüfung:**
+
+* Startseite wurde vom Nutzer visuell geprüft.
+* Nutzer bewertet die neue Startseite als deutlich besser.
+* Statische Checks bestanden.
+* Keine leeren `href` oder `src`.
+* Keine Script- oder Tracking-Treffer.
+* CSS-Klammercheck bestanden.
+* `git diff --check` ohne Whitespace-Fehler; nur bekannte LF→CRLF-Warnungen.
+* Kein cyon-Deployment durchgeführt.
+
+**Abgrenzung:**
+
+* Unterseiten-Inhalte wurden noch nicht final bereinigt.
+* Kontaktseite wird als nächster separater Prüf- und Arbeitsblock behandelt.
+* Leistungsunterseite und Über-uns-Seite bleiben eigene Folgeblöcke.
+* Rechtstexte bleiben weiterhin offen.
+* Sonderdateien bleiben vor Launch zu klären: `portfolio.html`, `index.noir.html`, `css/noir.css`, `vision-koenigshaus.html`.
+* Logo, Favicon und Social Preview bleiben separate offene Punkte.
+* Kein Deployment erfolgt.
+
+**Offene Folgepunkte:**
+
+* Kontaktseite anhand der visuellen Prüfung überarbeiten.
+* Leistungsunterseite prüfen und schärfen.
+* Über-uns-Seite prüfen und schärfen.
+* Sichtbare Platzhalter auf Unterseiten entfernen.
+* Impressum und Datenschutz finalisieren.
+* Sonderdateien vor Deployment entfernen, absichern oder bewusst ausschliessen.
+* Lighthouse/Staging/Deployment erst nach Abschluss der Version-2.5-Inhalte.
