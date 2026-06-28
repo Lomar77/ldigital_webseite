@@ -1133,6 +1133,45 @@ Die technische lokale Browserprüfung ist abgeschlossen. Version 2.4 gilt damit 
 
 Die nächste Phase ist **Version 2.5 / interne LDigital-Qualitätsprüfung**. Dabei werden Wirkung, Texte, Verkaufsfähigkeit, Bild-/Mockup-Qualität, Markenauftritt, Logo/Favicon/Social Preview, Rechtstexte und Deployment-Entscheidung geprüft.
 
+### Arbeitsblock 8 – CarDesk-Unterseite als Produkt-Showcase
+
+**Status:** abgeschlossen und gepusht
+
+Die CarDesk-Unterseite wurde innerhalb der LDigital-Webseite als eigenständiger Produkt-Showcase umgesetzt.
+
+Geänderte Dateien:
+
+* `cardesk.html`
+* `css/styles.css`
+
+Umsetzung:
+
+* CarDesk-Unterseite nutzt ab Hauptinhalt eine eigene Anthrazit/Rot/Weiss-Produktoptik.
+* LDigital bleibt global blau/gold.
+* Header, Navigation und Footer bleiben LDigital-konform.
+* Design ist über `.cardesk-page` und zugehörige CarDesk-Klassen gekapselt.
+* CarDesk wird weiterhin klar als Konzept-/Pilotprojekt dargestellt, nicht als fertiges Serienprodukt.
+* Kein finales CarDesk-Logo-Asset eingebaut; stattdessen Text-Wordmark verwendet.
+* Keine Scripts, kein Tracking, keine externen Abhängigkeiten.
+* Kein cyon-Deployment durchgeführt.
+
+Browserprüfung:
+
+* `cardesk.html` Desktop `1440x1000`: sauber.
+* Tablet `834x1112`: sauber.
+* Mobile `390x844`: sauber.
+* Kein horizontaler Overflow.
+* Keine Console-Errors.
+* Keine defekten Bilder.
+* Buttons, Karten, CarDesk-Wordmark und CTA lesbar.
+* Kontrollseite `index.html` bleibt blau/gold.
+
+Offene Folgepunkte:
+
+* Finales CarDesk-Logo später separat erstellen.
+* CarDesk-Bild/Mockup später final prüfen.
+* Inhalte bei echter Pilotpartner-Phase mit Marco oder einer realen Garage schärfen.
+* Kein Deployment erfolgt.
 
 ## Verbindliche Roadmap
 
