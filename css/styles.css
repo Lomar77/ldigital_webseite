@@ -250,26 +250,6 @@ main li {
     max-width: 720px;
 }
 
-.hero-points {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 24px 0 0;
-    padding-left: 0;
-    list-style: none;
-}
-
-.hero-points li {
-    margin: 0;
-    padding: 8px 12px;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-sm);
-    background: var(--color-surface);
-    color: var(--color-primary-dark);
-    font-size: 0.94rem;
-    font-weight: 700;
-}
-
 .hero-mockup {
     position: relative;
     display: grid;
@@ -439,7 +419,8 @@ main li {
 
 .mockup-card-heading strong {
     min-width: 0;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
+    word-break: keep-all;
 }
 
 .mockup-pin,
@@ -567,7 +548,8 @@ main li {
 .mockup-stat small {
     display: block;
     min-width: 0;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
+    word-break: keep-all;
 }
 
 .mockup-stat strong {
@@ -580,30 +562,6 @@ main li {
     color: var(--color-muted);
     font-size: 0.76rem;
     font-weight: 750;
-}
-
-.positioning-section {
-    padding-block: clamp(42px, 6vw, 72px);
-}
-
-.positioning-grid {
-    display: grid;
-    grid-template-columns: minmax(220px, 0.72fr) minmax(0, 1.28fr);
-    gap: clamp(30px, 6vw, 72px);
-    align-items: start;
-}
-
-.positioning-copy {
-    max-width: 760px;
-}
-
-.positioning-copy p {
-    color: var(--color-muted);
-    font-size: 1.08rem;
-}
-
-.positioning-copy p:last-child {
-    margin-bottom: 0;
 }
 
 .section-heading {
@@ -661,6 +619,15 @@ main li {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+#leistungen .section-heading {
+    max-width: 900px;
+}
+
+#leistungen .section-heading h2 {
+    max-width: 900px;
+    font-size: clamp(2.2rem, 5vw, 3rem);
+}
+
 .service-card,
 .content-card,
 .project-card {
@@ -673,7 +640,7 @@ main li {
 
 .service-card {
     display: flex;
-    min-height: 430px;
+    min-height: 460px;
     flex-direction: column;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -753,20 +720,121 @@ main li {
     box-shadow: none;
 }
 
-.service-card-number {
-    display: block;
-    padding: 24px 26px 0;
-    color: var(--color-gold);
-    font-weight: 800;
+.service-visual {
+    position: relative;
+    display: grid;
+    min-height: 178px;
+    align-content: center;
+    gap: 14px;
+    overflow: hidden;
+    padding: 24px;
+    border-bottom: 1px solid var(--color-border);
+    background:
+        radial-gradient(circle at top right, rgba(214, 169, 77, 0.22), transparent 35%),
+        linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(238, 242, 246, 0.96));
 }
 
-.placeholder-dashboard {
+.service-visual::before {
+    position: absolute;
+    inset: 14px;
+    border: 1px solid rgba(10, 42, 102, 0.08);
+    border-radius: var(--radius-sm);
+    content: "";
+    pointer-events: none;
+}
+
+.service-visual > * {
     position: relative;
     z-index: 1;
+}
+
+.service-visual-window {
+    display: grid;
+    grid-template-columns: 8px 8px 8px minmax(0, 1fr);
+    gap: 6px;
+    align-items: center;
+    max-width: 210px;
+    padding: 11px 12px;
+    border-radius: var(--radius-sm);
+    background: var(--color-primary-dark);
+}
+
+.service-visual-window span {
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.service-visual-window span:first-child {
+    background: var(--color-gold);
+}
+
+.service-visual-hero,
+.service-visual-panel,
+.service-visual-progress {
+    height: 42px;
+    border-radius: var(--radius-sm);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+}
+
+.service-visual-row,
+.service-visual-dots,
+.service-visual-checks {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.service-visual-row span,
+.service-visual-list span,
+.service-visual-dots span,
+.service-visual-checks span {
+    display: block;
+    min-height: 20px;
+    border: 1px solid rgba(10, 42, 102, 0.12);
+    border-radius: var(--radius-sm);
+    background: rgba(255, 255, 255, 0.82);
+}
+
+.service-visual-list {
+    display: grid;
+    gap: 8px;
+}
+
+.service-visual-list span {
+    min-height: 12px;
+    border-radius: 999px;
+}
+
+.service-visual-dots {
+    grid-template-columns: repeat(3, 20px);
+}
+
+.service-visual-dots span {
+    min-height: 20px;
+    border-radius: 999px;
+    background: var(--color-gold-light);
+}
+
+.service-visual-flow {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 10px;
-    margin-top: auto;
+    gap: 12px;
+}
+
+.service-visual-flow span {
+    min-height: 48px;
+    border: 1px solid rgba(214, 169, 77, 0.38);
+    border-radius: var(--radius-sm);
+    background: var(--color-gold-light);
+}
+
+.service-visual-progress {
+    height: 12px;
+    width: 76%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-gold));
 }
 
 .placeholder-window,
@@ -816,10 +884,11 @@ main li {
 
 .service-card-text {
     color: var(--color-muted);
+    margin-bottom: auto;
 }
 
 .service-card-benefit {
-    margin-top: 10px;
+    margin-top: 18px;
     padding-top: 16px;
     border-top: 1px solid var(--color-border);
     color: var(--color-primary-dark);
@@ -832,6 +901,10 @@ main li {
     font-weight: 700;
     text-decoration-color: var(--color-gold);
     text-underline-offset: 4px;
+}
+
+.service-card .service-card-link {
+    margin-top: 18px;
 }
 
 .service-detail-card {
@@ -1006,6 +1079,10 @@ main li {
     margin-top: 28px;
 }
 
+.qa-section {
+    padding-bottom: clamp(3rem, 6vw, 5rem);
+}
+
 .faq-item {
     border: 1px solid var(--color-border);
     border-radius: var(--radius-sm);
@@ -1015,7 +1092,7 @@ main li {
 .faq-item summary {
     padding: 19px 22px;
     color: var(--color-primary);
-    font-weight: 750;
+    font-weight: 800;
     cursor: pointer;
 }
 
@@ -1038,13 +1115,18 @@ main li {
     color: white;
 }
 
+.process-section--compact {
+    margin-block: 34px;
+}
+
 .process-section h2,
 .process-section h3 {
     color: white;
 }
 
 .process-section .eyebrow,
-.process-list span {
+.process-list span,
+.process-steps span {
     color: var(--color-gold);
 }
 
@@ -1084,6 +1166,48 @@ main li {
 .process-list h3,
 .process-list p {
     margin-bottom: 0;
+}
+
+.process-section--compact .section-heading {
+    max-width: 760px;
+    margin-bottom: 28px;
+}
+
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.process-steps li {
+    margin: 0;
+    padding: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: var(--radius-sm);
+    background: rgba(255, 255, 255, 0.045);
+}
+
+.process-steps span,
+.process-steps h3,
+.process-steps p {
+    display: block;
+    margin-bottom: 0;
+}
+
+.process-steps span {
+    margin-bottom: 12px;
+    font-weight: 900;
+}
+
+.process-steps h3 {
+    margin-bottom: 8px;
+}
+
+.process-steps p {
+    color: rgba(255, 255, 255, 0.74);
 }
 
 .trust-list {
@@ -1156,6 +1280,111 @@ main li {
     color: var(--color-primary);
     font-size: 0.92rem;
     font-weight: 700;
+}
+
+.cardesk-teaser {
+    --teaser-red: #d62f3b;
+    --teaser-red-dark: #991f2a;
+    --teaser-text: #f5f7fa;
+    --teaser-muted: #aab3bd;
+    display: grid;
+    grid-template-columns: minmax(0, 0.95fr) minmax(280px, 1.05fr);
+    gap: clamp(28px, 5vw, 58px);
+    align-items: center;
+    margin-block: 34px;
+    padding: clamp(28px, 5vw, 46px);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-md);
+    background:
+        linear-gradient(135deg, rgba(214, 47, 59, 0.18), transparent 38%),
+        linear-gradient(180deg, #14191f, #080a0d);
+    box-shadow: 0 20px 46px rgba(8, 10, 13, 0.24);
+    color: var(--teaser-text);
+}
+
+.cardesk-teaser h2 {
+    color: var(--teaser-text);
+}
+
+.cardesk-teaser p {
+    color: var(--teaser-muted);
+}
+
+.cardesk-teaser__badge {
+    display: inline-flex;
+    width: fit-content;
+    margin-bottom: 16px;
+    padding: 7px 11px;
+    border: 1px solid rgba(214, 47, 59, 0.42);
+    border-radius: 999px;
+    background: rgba(214, 47, 59, 0.12);
+    color: #ffb8be;
+    font-size: 0.78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.cardesk-teaser__topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin: 20px 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.cardesk-teaser__topics li {
+    margin: 0;
+    padding: 7px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 999px;
+    color: var(--teaser-text);
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.cardesk-teaser__note {
+    font-size: 0.96rem;
+}
+
+.cardesk-teaser__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 12px 20px;
+    border: 1px solid var(--teaser-red);
+    border-radius: var(--radius-sm);
+    background: linear-gradient(180deg, #e33a46, var(--teaser-red-dark));
+    color: white;
+    font-weight: 850;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 12px 28px rgba(214, 47, 59, 0.24);
+}
+
+.cardesk-teaser__button:hover,
+.cardesk-teaser__button:focus-visible {
+    color: white;
+}
+
+.cardesk-teaser__visual {
+    position: relative;
+    margin: 0;
+    padding: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    border-radius: var(--radius-md);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.cardesk-teaser__visual img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: var(--radius-md);
+    box-shadow: 0 18px 38px rgba(0, 0, 0, 0.32), 0 0 28px rgba(214, 47, 59, 0.14);
 }
 
 .cardesk-page {
@@ -1690,8 +1919,9 @@ footer {
 
 .footer-inner {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
+    grid-template-columns: minmax(0, 1fr) auto;
     gap: 42px;
+    align-items: start;
 }
 
 footer p {
@@ -1704,7 +1934,30 @@ footer p {
     font-weight: 800;
 }
 
+.footer-meta {
+    display: grid;
+    justify-items: end;
+    gap: 12px;
+    text-align: right;
+}
+
+.footer-meta p {
+    margin-bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration-color: rgba(214, 169, 77, 0.72);
+    text-underline-offset: 5px;
+}
+
+footer a:hover,
+footer a:focus-visible {
+    color: var(--color-gold);
+}
+
 .footer-nav {
+    gap: 10px 18px;
     justify-content: flex-end;
 }
 
@@ -1713,8 +1966,8 @@ footer p {
     .page-intro--split,
     .callout--split,
     .cta-section--split,
-    .positioning-grid,
-    .process-section-grid {
+    .process-section-grid,
+    .cardesk-teaser {
         grid-template-columns: 1fr;
     }
 
@@ -1740,6 +1993,10 @@ footer p {
     .cardesk-problem-grid,
     .cardesk-feature-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .process-steps {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -1790,6 +2047,10 @@ footer p {
         min-height: auto;
     }
 
+    .service-visual {
+        min-height: 160px;
+    }
+
     .service-cards,
     .contact-grid,
     .project-grid,
@@ -1835,6 +2096,11 @@ footer p {
         justify-content: flex-start;
     }
 
+    .footer-meta {
+        justify-items: start;
+        text-align: left;
+    }
+
     .cardesk-container {
         width: min(100% - 32px, var(--container-width));
     }
@@ -1857,6 +2123,10 @@ footer p {
 
     .cardesk-visual {
         min-height: auto;
+    }
+
+    .cardesk-teaser__visual {
+        order: -1;
     }
 }
 
@@ -1896,6 +2166,10 @@ footer p {
         gap: 8px;
     }
 
+    .process-steps li {
+        padding: 18px;
+    }
+
     .callout,
     .cta-section,
     .brand-story,
@@ -1931,6 +2205,26 @@ footer p {
 
     .mockup-stat {
         padding: 11px 8px;
+    }
+
+    .mockup-stat strong {
+        font-size: 0.82rem;
+    }
+
+    .service-visual {
+        padding: 20px;
+    }
+
+    .service-visual-flow {
+        gap: 8px;
+    }
+
+    .cardesk-teaser {
+        padding: 24px 20px;
+    }
+
+    .cardesk-teaser__button {
+        width: 100%;
     }
 
     .cardesk-container {
