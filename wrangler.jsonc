@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ldigitalwebseite",
+  "compatibility_date": "2026-06-28",
+  "main": "src/index.js",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS"
+  }
+}
