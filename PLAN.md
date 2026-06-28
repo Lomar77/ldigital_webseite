@@ -1516,3 +1516,40 @@ Der folgende Verlauf bleibt als Projekthistorie erhalten. Er wird nicht weiterge
   1. neue Startseitenstruktur visuell final prüfen
   2. Mobile-Ansicht und technische Checks wiederholen
   3. `index.noir.html` nach finaler Freigabe archivieren oder löschen
+
+* Arbeitsblock 8 – CarDesk-Unterseite als Produkt-Showcase
+* Ziel:
+  * `cardesk.html` innerhalb der LDigital-Webseite als eigenständigen Produkt-Showcase für CarDesk darstellen.
+  * CarDesk klar als Konzept-/Pilotprojekt positionieren und nicht als fertiges Serienprodukt verkaufen.
+* Geänderte Dateien:
+  * `cardesk.html`
+  * `css/styles.css`
+* Designentscheidung:
+  * Die CarDesk-Unterseite nutzt ab dem Hauptinhalt eine eigene Anthrazit/Rot/Weiss-Produktoptik.
+  * Die LDigital-Dachmarke bleibt global blau/gold.
+  * Header, Navigation und Footer bleiben LDigital-konform.
+  * Die neue Gestaltung ist über `.cardesk-page` und zugehörige CarDesk-Klassen gekapselt.
+  * Es wurde kein finales CarDesk-Logo-Asset eingebaut; stattdessen wird eine Text-Wordmark verwendet.
+* Browserprüfung:
+  * lokale Vorschau unter `http://127.0.0.1:8080` geprüft.
+  * `cardesk.html` auf Desktop `1440x1000` geprüft: sauber.
+  * `cardesk.html` auf Tablet `834x1112` geprüft: sauber.
+  * `cardesk.html` auf Mobile `390x844` geprüft: sauber.
+  * kein horizontaler Overflow.
+  * keine Console-Errors.
+  * keine defekten Bilder.
+  * Buttons, Karten, CarDesk-Wordmark und CTA lesbar.
+  * Kontrollseite `index.html` bleibt blau/gold.
+  * keine CarDesk-Klassen im Hauptinhalt der Startseite.
+* Abgrenzung:
+  * keine Scripts ergänzt.
+  * kein Tracking ergänzt.
+  * keine externen Abhängigkeiten ergänzt.
+  * keine Assets geändert.
+  * kein cyon-Deployment durchgeführt.
+  * kein Commit erstellt.
+* Offene Folgepunkte:
+  * finales CarDesk-Logo später separat erstellen.
+  * CarDesk-Bild oder Mockup später final prüfen.
+  * Inhalte bei echter Pilotpartner-Phase mit Marco oder realer Garage schärfen.
+  * kein Deployment erfolgt.
