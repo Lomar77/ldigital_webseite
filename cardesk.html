@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CarDesk – digitale Arbeitsübersicht für Garagen | LDigital</title>
-    <meta name="description" content="CarDesk ist ein Pilotprojekt von LDigital für kleine Garagen, Werkstätten und Carrosserien. Ziel ist eine einfache digitale Übersicht für Kunden, Fahrzeuge, Termine, Aufträge und Notizen.">
+    <title>CarDesk – digitale Werkstattsteuerung für Garagen | LDigital</title>
+    <meta name="description" content="CarDesk ist ein Konzept- und Pilotprojekt von LDigital für Garagen, Werkstätten und Carrosserien. Ziel ist eine digitale Übersicht für Fahrzeuge, Aufträge, Termine und Kundenkommunikation.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="de_CH">
-    <meta property="og:title" content="CarDesk – digitale Arbeitsübersicht für Garagen | LDigital">
+    <meta property="og:title" content="CarDesk – digitale Werkstattsteuerung für Garagen | LDigital">
     <meta property="og:description" content="CarDesk ist ein Pilotprojekt von LDigital für kleine Garagen, Werkstätten und Carrosserien in Konzept- und Prototyp-Phase.">
     <meta property="og:url" content="https://ldigital.ch/cardesk.html">
     <meta property="og:image" content="https://ldigital.ch/Logo/ldigital-social-preview.png">
@@ -36,111 +36,177 @@
         </div>
     </header>
 
-    <main id="main-content" class="site-container">
-        <section class="page-intro page-intro--split">
-            <div>
-                <p class="eyebrow">Pilotprojekt von LDigital</p>
-                <h1>CarDesk</h1>
-                <p>CarDesk ist ein Pilotprojekt von LDigital für kleine Garagen, Werkstätten und Carrosserien. Ziel ist eine einfache digitale Arbeitsübersicht für Kunden, Fahrzeuge, Termine, Aufträge und Notizen.</p>
-                <p>CarDesk ist noch keine fertige oder öffentlich buchbare Software.</p>
-                <span class="status-badge">Konzept- und Prototyp-Phase</span>
-            </div>
-            <div class="image-placeholder image-placeholder--mockup" role="img" aria-label="CarDesk-Mockup folgt: CarDesk Pilotkonzept">
-                <span class="placeholder-label">CarDesk-Mockup folgt</span>
-                <strong>CarDesk Pilotkonzept</strong>
-                <span class="placeholder-note">später: neutrales Dashboard-Mockup ohne echte Kundendaten</span>
-                <div class="placeholder-dashboard" aria-hidden="true">
-                    <span class="placeholder-window"></span>
-                    <span class="placeholder-line placeholder-line--wide"></span>
-                    <span class="placeholder-line"></span>
-                    <span class="placeholder-tile"></span>
-                    <span class="placeholder-tile"></span>
-                    <span class="placeholder-tile placeholder-tile--gold"></span>
+    <main id="main-content" class="cardesk-page">
+        <section class="cardesk-hero">
+            <div class="cardesk-container cardesk-hero__grid">
+                <div class="cardesk-hero__copy">
+                    <div class="cardesk-wordmark" aria-label="CarDesk">
+                        <span class="cardesk-wordmark__car">Car</span><span class="cardesk-wordmark__desk">Desk</span>
+                    </div>
+                    <p class="cardesk-badge">Konzept / Pilotprojekt</p>
+                    <h1>CarDesk – digitale Werkstattsteuerung für Garagen</h1>
+                    <p class="cardesk-lead">Termine, Fahrzeuge, Aufträge und Kundenkommunikation an einem Ort strukturieren.</p>
+                    <div class="cardesk-actions">
+                        <a href="kontakt.html" class="cardesk-button cardesk-button--primary">Pilotprojekt besprechen</a>
+                        <a href="#konzept" class="cardesk-button cardesk-button--secondary">Konzept ansehen</a>
+                    </div>
+                    <p class="cardesk-note">Ein LDigital-Konzept für Garagen, Carrosserien und Werkstätten. Noch kein fertiges Serienprodukt.</p>
+                </div>
+                <div class="cardesk-visual" role="img" aria-label="Schematische CarDesk-Arbeitsübersicht mit Fahrzeugen, Aufträgen, Terminen und Status">
+                    <div class="cardesk-visual__topbar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="cardesk-visual__header">
+                        <span>Werkstatt heute</span>
+                        <strong>12 offene Punkte</strong>
+                    </div>
+                    <div class="cardesk-visual__timeline">
+                        <div>
+                            <span>08:30</span>
+                            <strong>Service BMW 320d</strong>
+                            <small>in Arbeit</small>
+                        </div>
+                        <div>
+                            <span>10:15</span>
+                            <strong>Reifenwechsel Audi A4</strong>
+                            <small>bereit</small>
+                        </div>
+                        <div>
+                            <span>14:00</span>
+                            <strong>Diagnose VW Golf</strong>
+                            <small>geplant</small>
+                        </div>
+                    </div>
+                    <div class="cardesk-visual__metrics">
+                        <span><strong>5</strong> Termine</span>
+                        <span><strong>7</strong> Aufträge</span>
+                        <span><strong>3</strong> Rückfragen</span>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="content-grid">
-            <div>
-                <p class="eyebrow">Ausgangslage</p>
-                <h2>Informationen sind vorhanden, aber nicht sauber verbunden</h2>
-            </div>
-            <div>
-                <p>Viele kleine Garagen haben nicht zu wenig Informationen, sondern Informationen an zu vielen Orten: Papier, WhatsApp, Kalender, E-Mails, Fotos, digitale Ordner und Kopf-Wissen.</p>
-                <p>Die Informationen sind vorhanden, aber nicht sauber verbunden. Dadurch entstehen Suchaufwand, vergessene Termine und fehlende Übersicht über Kunden, Fahrzeuge und offene Arbeiten.</p>
-            </div>
-        </section>
-
-        <section class="section">
-            <p class="eyebrow">Lösungsansatz</p>
-            <h2>Weniger verstreute Informationen, mehr Übersicht</h2>
-            <p class="section-intro">CarDesk soll zuerst Kunden, Fahrzeuge, Termine, Aufträge und Notizen in einer einfachen Arbeitsübersicht verbinden. Der Fokus liegt auf Übersicht und Alltagstauglichkeit, nicht auf möglichst viel Software.</p>
-
-            <div class="project-grid">
-                <article class="content-card">
-                    <h3>Tagesübersicht</h3>
-                    <p>Heutige Termine, offene Aufträge und wichtige Hinweise sollen schneller sichtbar werden.</p>
-                </article>
-                <article class="content-card">
-                    <h3>Kunden und Fahrzeuge</h3>
-                    <p>Kundendaten und Fahrzeuge sollen logisch zusammengehören, statt verteilt in Ordnern, Chats oder Papiernotizen zu liegen.</p>
-                </article>
-                <article class="content-card">
-                    <h3>Termine und Aufträge</h3>
-                    <p>Geplante Arbeiten, Status und nächste Schritte sollen im Werkstattalltag klarer nachvollziehbar sein.</p>
-                </article>
-                <article class="content-card">
-                    <h3>Notizen und Hinweise</h3>
-                    <p>Wichtige Informationen sollen nicht mehr auf Papier, in WhatsApp oder im Kopf verloren gehen.</p>
-                </article>
-            </div>
-        </section>
-
-        <section class="content-grid">
-            <div>
-                <p class="eyebrow">Geplante Bausteine</p>
-                <h2>Was später geprüft werden soll</h2>
-                <p>Die folgenden Bereiche beschreiben die heutige Konzeptidee. Sie sind keine Zusage fertiger Funktionen.</p>
-            </div>
-            <div>
-                <ul>
-                    <li>Dashboard mit Tagesübersicht</li>
-                    <li>Kundenübersicht</li>
-                    <li>Fahrzeugübersicht</li>
-                    <li>Terminübersicht</li>
-                    <li>Auftragsübersicht</li>
-                    <li>Notizen mit Bezug zu Kunde, Fahrzeug oder Auftrag</li>
-                    <li>mögliche spätere digitale Anfragefunktionen</li>
-                    <li>mögliche spätere Erweiterungen nach Pilotfeedback</li>
-                </ul>
+        <section class="cardesk-section cardesk-section--problem">
+            <div class="cardesk-container">
+                <div class="cardesk-section-heading">
+                    <p class="cardesk-kicker">Ausgangslage</p>
+                    <h2>Wenn der Werkstattalltag an zu vielen Orten passiert</h2>
+                    <p>Viele Garagen haben die wichtigsten Informationen längst. Sie liegen nur verteilt in Papiernotizen, Chatverläufen, Kalendern, E-Mails und im Kopf einzelner Personen.</p>
+                </div>
+                <div class="cardesk-problem-grid">
+                    <article class="cardesk-card">
+                        <span class="cardesk-card__number">01</span>
+                        <h3>Zettelwirtschaft</h3>
+                        <p>Aufträge, Hinweise und Rückfragen wandern zwischen Papier, Telefon und Ablage hin und her.</p>
+                    </article>
+                    <article class="cardesk-card">
+                        <span class="cardesk-card__number">02</span>
+                        <h3>WhatsApp-Chaos</h3>
+                        <p>Fotos, Zusagen und Fragen verschwinden in Chats, statt beim Fahrzeug oder Auftrag sichtbar zu bleiben.</p>
+                    </article>
+                    <article class="cardesk-card">
+                        <span class="cardesk-card__number">03</span>
+                        <h3>Unklare Auftragsstände</h3>
+                        <p>Im Team ist nicht immer sofort klar, was erledigt ist, was wartet und wer als Nächstes dran ist.</p>
+                    </article>
+                    <article class="cardesk-card">
+                        <span class="cardesk-card__number">04</span>
+                        <h3>Vergessene Termine</h3>
+                        <p>Planung wird mühsam, wenn Termine, Ersatzteile, Fahrzeuge und Kundeninfos nicht zusammen sichtbar sind.</p>
+                    </article>
+                    <article class="cardesk-card">
+                        <span class="cardesk-card__number">05</span>
+                        <h3>Fehlende Fahrzeugübersicht</h3>
+                        <p>Offene Arbeiten, Historie und nächste Schritte sind oft nur mit Nachfragen auffindbar.</p>
+                    </article>
+                    <article class="cardesk-card">
+                        <span class="cardesk-card__number">06</span>
+                        <h3>Zu viel Kopf-Wissen</h3>
+                        <p>Wenn eine Person fehlt, fehlen manchmal auch die entscheidenden Details zum Auftrag.</p>
+                    </article>
+                </div>
             </div>
         </section>
 
-        <section class="section">
-            <p class="eyebrow">Zielgruppe</p>
-            <h2>Für wen ist CarDesk gedacht?</h2>
-            <p class="section-intro">CarDesk ist zuerst für kleine Garagen und Werkstätten gedacht, die digitaler arbeiten möchten, aber keine überladene Unternehmenssoftware suchen.</p>
-            <ul class="tag-list">
-                <li>kleine Garagen</li>
-                <li>Werkstätten</li>
-                <li>Carrosserien</li>
-                <li>Fahrzeugbetriebe mit einfachen, wiederkehrenden Abläufen</li>
-                <li>Betriebe, die digitaler arbeiten möchten</li>
-            </ul>
+        <section id="konzept" class="cardesk-section cardesk-section--solution">
+            <div class="cardesk-container cardesk-solution-grid">
+                <div>
+                    <p class="cardesk-kicker">Kernidee</p>
+                    <h2>Eine klare Arbeitsübersicht für Fahrzeuge, Aufträge und Termine</h2>
+                    <p>CarDesk soll den Werkstattalltag nicht komplizierter machen, sondern die wichtigsten Informationen sauber verbinden: Fahrzeug, Auftrag, Termin, Status und Kundenkontakt.</p>
+                </div>
+                <div class="cardesk-solution-panel">
+                    <ul class="cardesk-checklist">
+                        <li>Fahrzeuge mit relevanten Informationen verwalten</li>
+                        <li>Aufträge strukturieren und nachvollziehbar halten</li>
+                        <li>Termine planen und mit Arbeiten verbinden</li>
+                        <li>Status im Team sichtbar machen</li>
+                        <li>Kundenkommunikation einfacher zuordnen</li>
+                        <li>Abläufe im Alltag klarer organisieren</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <section class="callout">
-            <p class="eyebrow">Status und Pilotphase</p>
-            <h2>Konzept prüfen, bevor technisch umgesetzt wird</h2>
-            <p>CarDesk befindet sich in Konzept- und Prototyp-Phase. Ein erster statischer Prototyp dient zur fachlichen Prüfung.</p>
-            <p>Vor einer technischen App-Version soll Praxisfeedback eingeholt werden. Es werden noch keine fertigen Funktionen oder Resultate versprochen.</p>
-            <p>Interessierte Betriebe können ihre Ausgangslage mit LDigital besprechen.</p>
+        <section class="cardesk-section">
+            <div class="cardesk-container">
+                <div class="cardesk-section-heading">
+                    <p class="cardesk-kicker">Module</p>
+                    <h2>Geplante Bausteine für den Pilot-Prototyp</h2>
+                    <p>Die folgenden Bereiche beschreiben die aktuelle Konzeptidee. Sie sind bewusst kompakt gehalten und noch keine Zusage fertiger Produktfunktionen.</p>
+                </div>
+                <div class="cardesk-feature-grid">
+                    <article class="cardesk-card cardesk-card--feature">
+                        <h3>Fahrzeuge</h3>
+                        <p>Fahrzeugdaten, Hinweise und offene Arbeiten sollen an einem Ort auffindbar sein.</p>
+                    </article>
+                    <article class="cardesk-card cardesk-card--feature">
+                        <h3>Arbeitsaufträge</h3>
+                        <p>Aufträge sollen klarer strukturiert werden: was ist geplant, offen, blockiert oder erledigt?</p>
+                    </article>
+                    <article class="cardesk-card cardesk-card--feature">
+                        <h3>Termine</h3>
+                        <p>Werkstatttermine sollen mit Fahrzeugen, Aufträgen und nächsten Schritten verbunden werden.</p>
+                    </article>
+                    <article class="cardesk-card cardesk-card--feature">
+                        <h3>Kunden</h3>
+                        <p>Kundendaten und Kommunikation sollen leichter dem richtigen Fahrzeug oder Auftrag zugeordnet werden.</p>
+                    </article>
+                    <article class="cardesk-card cardesk-card--feature">
+                        <h3>Statusübersicht</h3>
+                        <p>Das Team soll schneller sehen, wo ein Auftrag steht und wo Rückfragen nötig sind.</p>
+                    </article>
+                    <article class="cardesk-card cardesk-card--feature">
+                        <h3>Auswertungen</h3>
+                        <p>Spätere Auswertungen werden erst geprüft, wenn der Pilot zeigt, welche Daten wirklich helfen.</p>
+                    </article>
+                </div>
+            </div>
         </section>
 
-        <section class="cta-section">
-            <h2>Praxisfeedback zu CarDesk geben</h2>
-            <p>Garagen, Werkstätten oder Carrosserien, die ihre Abläufe digitaler und übersichtlicher strukturieren möchten, können ihre Ausgangslage unverbindlich mit LDigital besprechen.</p>
-            <a href="kontakt.html" class="button">CarDesk-Pilotinteresse besprechen</a>
+        <section id="pilotstatus" class="cardesk-section cardesk-pilot">
+            <div class="cardesk-container cardesk-pilot__grid">
+                <div>
+                    <p class="cardesk-kicker">Pilotstatus</p>
+                    <h2>Ehrlich entwickelt, nah an echten Garagen</h2>
+                </div>
+                <div class="cardesk-pilot__panel">
+                    <p>CarDesk ist aktuell ein Konzept- und Pilotprojekt. Es ist noch kein fertiges Serienprodukt und keine öffentlich buchbare Software.</p>
+                    <p>Der nächste Schritt ist ein verständlicher, einfacher und praxistauglicher Prototyp. Feedback aus echten Garagen, Werkstätten und Carrosserien ist dafür zentral.</p>
+                    <p>Erst wenn die wichtigsten Abläufe im Alltag Sinn ergeben, wird entschieden, welche Funktionen technisch umgesetzt werden.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cardesk-section cardesk-cta">
+            <div class="cardesk-container cardesk-cta__inner">
+                <p class="cardesk-kicker">Mitdenken</p>
+                <h2>Interesse als Pilotbetrieb?</h2>
+                <p>Garagen, Werkstätten oder Carrosserien, die ihre Abläufe digitaler und übersichtlicher organisieren möchten, können ihre Ausgangslage unverbindlich mit LDigital besprechen.</p>
+                <a href="kontakt.html" class="cardesk-button cardesk-button--primary">Kontakt aufnehmen</a>
+            </div>
         </section>
     </main>
 
