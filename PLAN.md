@@ -66,6 +66,36 @@ Version 2.4 ist damit intern browsergeprüft, aber noch nicht veröffentlicht.
 
 Die nächste Phase ist **Version 2.5 / interne LDigital-Qualitätsprüfung**. Dabei geht es nicht mehr primär um technische Grundstabilität, sondern um Wirkung, Texte, Verkaufsfähigkeit, Bilder/Mockups, Markenauftritt, Rechtstexte und die spätere Deployment-Entscheidung.
 
+### Arbeitsblock vom 29. Juni 2026 – neue Unterseite `projekte.html`
+
+Die neue Unterseite `projekte.html` wurde geplant und erstellt.
+
+Zweck:
+
+* Projekte, laufende Arbeiten und digitale Konzepte transparent darstellen.
+* Den aktuellen Projektstatus klar ausweisen, ohne öffentliche Kundenreferenzen oder fertige Resultate zu behaupten.
+* Eine erweiterbare Struktur schaffen, in der spätere echte Kundenprojekte ergänzt werden können.
+
+Erste Inhalte:
+
+* `LDigital Webseite` als eigene Unternehmenswebsite in Pre-Launch-/interner Version.
+* `Garage- und Carrosserie-Webseite` als neutrales Kundenprojekt in interner Prüfversion.
+* Statuslogik mit wiederverwendbaren Status-Badges eingeführt.
+
+Wichtiger Hinweis:
+
+* Die Garage-/Carrosserie-Karte behauptet keine öffentliche Kundenreferenz und nennt Marco nicht namentlich, solange keine Freigabe besteht.
+
+Neue offene Punkte:
+
+* `projekte.html` im Browser prüfen.
+* Navigation auf allen Seiten kontrollieren.
+* Mobile Darstellung prüfen.
+* Texte menschlich gegenlesen.
+* Klären, ab wann Marco namentlich als Referenz genannt werden darf.
+* Später echte Live-Referenzen ergänzen.
+* Nach Veröffentlichung prüfen, ob die Seite in der Akquise sinnvoll eingesetzt werden kann.
+
 ### Aktueller Repository-Check vom 26. Juni 2026
 
 Der aktuelle Arbeitsbaum enthält eine statische LDigital-Website mit HTML-Dateien im Repository-Root, einer zentralen CSS-Datei und lokalen Bildassets. Es wurde kein neuer Codebereich begonnen und keine neue Seite gebaut.
