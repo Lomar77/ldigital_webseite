@@ -1719,3 +1719,70 @@ Der folgende Verlauf bleibt als Projekthistorie erhalten. Er wird nicht weiterge
 * Impressum und Datenschutz finalisieren.
 * Sonderdateien vor Deployment entfernen, absichern oder bewusst ausschliessen.
 * Lighthouse/Staging/Deployment erst nach Abschluss der Version-2.5-Inhalte.
+
+### Arbeitsblock 11 – Version 2.5 Unterseiten und Startseite nachgeschärft
+
+**Status:** umgesetzt, intern geprüft, kein Deployment
+**Hinweis:** `ueber-uns.html` bleibt inhaltlich/visuell noch offen und wird separat nochmals geprüft.
+
+#### Umgesetzte Bereiche
+
+* Kontaktseite für Version 2.5 ruhiger und klarer aufgebaut.
+* Kontakt-Hero, Kontaktbereich, Transparenz-Block und Bildintegration überarbeitet.
+* Lokales Kontaktbild eingebunden: `assets/images/kontakt-erstgespraech-visual.png`.
+* Footer-Satz auf den Hauptseiten konsistent angepasst.
+* Startseite visuell nachgeschärft:
+
+  * Hero-Mockup ruhiger gestaltet.
+  * Leistungskarten sauberer ausgerichtet.
+  * Q&A-Bereich klarer strukturiert.
+* Leistungsseite geschärft:
+
+  * Einleitung aktualisiert.
+  * sichtbare Mockup-Platzhalter entfernt.
+  * HTML/CSS-Visuals für die drei Leistungsbereiche ergänzt.
+  * Texte praxisnäher für Schweizer KMU formuliert.
+  * Bereich „Weitere Unterstützung für Ihre digitale Grundlage“ aufgewertet.
+  * CarDesk-Block an Startseiten-/CarDesk-Optik angeglichen.
+  * finaler CTA auf Erstgespräch ausgerichtet.
+* Über-uns-Seite technisch und strukturell überarbeitet:
+
+  * gültige HTML-Struktur geprüft.
+  * Hero auf „Über LDigital“ ausgerichtet.
+  * Gründerabschnitt ohne Ich-Perspektive formuliert.
+  * Arbeitsweise mit Klarheit, Struktur, Pragmatismus und Verlässlichkeit ergänzt.
+  * Zielgruppenbezug gestärkt.
+  * Quinas-/Markenstory erhalten und weiter unten platziert.
+  * CTA angepasst.
+
+#### Geänderte Dateien
+
+* `kontakt.html`
+* `index.html`
+* `leistungen.html`
+* `ueber-uns.html`
+* `cardesk.html`
+* `impressum.html`
+* `datenschutz.html`
+* `css/styles.css`
+* `assets/images/kontakt-erstgespraech-visual.png`
+
+#### Prüfungen
+
+* Lokale Browserprüfungen unter `http://127.0.0.1:8080` durchgeführt.
+* Desktop, Tablet und Mobile geprüft.
+* Keine Console-Errors gemeldet.
+* Kein horizontaler Overflow gemeldet.
+* Keine leeren `href`/`src` gemeldet.
+* Keine Script- oder Tracking-Treffer gemeldet.
+* `git diff --check` ohne Whitespace-Fehler.
+* LF/CRLF-Warnungen vorhanden, aber ohne Fehler.
+
+#### Bewusst offen
+
+* `ueber-uns.html` ist noch nicht final freigegeben. Einzelne Punkte gefallen visuell/inhaltlich noch nicht und werden später separat geprüft.
+* Finale Bild-/Portraitlösung für `ueber-uns.html` fehlt noch.
+* Logo, Favicon und Social Preview bleiben separat offen.
+* Rechtstexte bleiben weiterhin final zu prüfen.
+* Kein Deployment auf cyon erfolgt.
+* Version 2.5 bleibt interne Arbeitsversion.
