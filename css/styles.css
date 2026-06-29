@@ -1862,6 +1862,10 @@ main li {
     align-items: stretch;
 }
 
+.project-cards-grid--single {
+    grid-template-columns: minmax(0, 1fr);
+}
+
 .project-overview-card {
     display: grid;
     gap: 22px;
@@ -1890,13 +1894,65 @@ main li {
     font-size: 1.08rem;
 }
 
+.project-detail-block h4,
+.project-feature-card__side h4 {
+    margin: 0 0 8px;
+    color: var(--color-primary);
+    font-size: 1.08rem;
+    line-height: 1.2;
+}
+
 .project-detail-block p,
 .project-tag-list {
     margin-bottom: 0;
 }
 
+.project-feature-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.75fr);
+    gap: clamp(28px, 5vw, 54px);
+    align-items: start;
+}
+
+.project-feature-card__main,
+.project-feature-card__side {
+    display: grid;
+    gap: 22px;
+}
+
+.project-feature-card__main > p {
+    max-width: 760px;
+    margin-bottom: 0;
+    color: var(--color-muted);
+}
+
+.project-feature-card__main h3,
+.project-overview-card h3 {
+    margin-bottom: 0;
+    color: var(--color-primary);
+    font-size: clamp(1.55rem, 3vw, 2rem);
+}
+
+.project-feature-card__side {
+    padding-left: clamp(24px, 4vw, 34px);
+    border-left: 1px solid var(--color-border);
+}
+
+.project-side-label {
+    margin-bottom: 8px;
+    color: var(--color-muted);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
 .project-tag-list li {
     background: var(--color-surface-muted);
+}
+
+.project-card-action {
+    margin-top: 4px;
 }
 
 .status-badge {
@@ -2608,9 +2664,17 @@ footer a:focus-visible {
     .callout--split,
     .cta-section--split,
     .contact-path,
+    .project-feature-card,
     .process-section-grid,
     .cardesk-teaser {
         grid-template-columns: 1fr;
+    }
+
+    .project-feature-card__side {
+        padding-top: 24px;
+        padding-left: 0;
+        border-top: 1px solid var(--color-border);
+        border-left: 0;
     }
 
     .service-cards {

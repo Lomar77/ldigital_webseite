@@ -96,6 +96,28 @@ Neue offene Punkte:
 * Später echte Live-Referenzen ergänzen.
 * Nach Veröffentlichung prüfen, ob die Seite in der Akquise sinnvoll eingesetzt werden kann.
 
+### Korrekturblock vom 29. Juni 2026 – `projekte.html` inhaltlich geschärft
+
+`projekte.html` wurde inhaltlich korrigiert und stärker auf spätere Kundenwirkung ausgerichtet.
+
+Umgesetzt:
+
+* Die eigene LDigital-Webseite wurde von der Projektseite entfernt.
+* Der Transparenz-Erklärblock wurde entfernt.
+* Das Kundenprojekt Garage-/Carrosserie-Webseite bleibt neutral formuliert und im Status `Interne Prüfversion`.
+* Der neue Bereich `Eigene Produkte & Konzepte` wurde ergänzt.
+* CarDesk wurde als eigenes Produkt/Konzept mit Status `Konzept / Pilotvorbereitung` ergänzt.
+* Es gibt keine Marco-Nennung und keine falschen Referenz-, Live- oder Freigabe-Behauptungen.
+
+Neue offene Punkte:
+
+* `projekte.html` erneut im Browser prüfen.
+* Querformat-Karte auf Desktop prüfen.
+* Mobile Darstellung prüfen.
+* CarDesk-Text gegen bestehende `cardesk.html` abgleichen.
+* Später klären, ab wann Garage-/Carrosserie-Projekt namentlich genannt werden darf.
+* Später echte Kundenreferenzen ergänzen, sobald Projekte live und freigegeben sind.
+
 ### Aktueller Repository-Check vom 26. Juni 2026
 
 Der aktuelle Arbeitsbaum enthält eine statische LDigital-Website mit HTML-Dateien im Repository-Root, einer zentralen CSS-Datei und lokalen Bildassets. Es wurde kein neuer Codebereich begonnen und keine neue Seite gebaut.
