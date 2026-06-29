@@ -253,26 +253,26 @@ main li {
 .hero-mockup {
     position: relative;
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(150px, 0.78fr);
-    gap: 14px;
+    grid-template-columns: minmax(0, 1.12fr) minmax(170px, 0.88fr);
+    gap: 16px;
     align-items: stretch;
-    min-height: 460px;
+    min-height: 438px;
     overflow: hidden;
-    padding: 20px;
+    padding: 22px;
     border: 1px solid rgba(10, 42, 102, 0.16);
     border-radius: var(--radius-md);
     background:
-        linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(238, 242, 246, 0.94)),
-        repeating-linear-gradient(90deg, rgba(10, 42, 102, 0.045) 0 1px, transparent 1px 44px),
-        repeating-linear-gradient(0deg, rgba(10, 42, 102, 0.035) 0 1px, transparent 1px 44px);
-    box-shadow: var(--shadow-md);
+        radial-gradient(circle at 12% 10%, rgba(214, 169, 77, 0.22), transparent 32%),
+        radial-gradient(circle at 88% 18%, rgba(10, 42, 102, 0.12), transparent 34%),
+        linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(242, 246, 250, 0.96));
+    box-shadow: 0 24px 54px rgba(10, 42, 102, 0.16);
     color: var(--color-text);
 }
 
 .hero-mockup::before {
     position: absolute;
-    inset: 14px;
-    border: 1px solid rgba(214, 169, 77, 0.24);
+    inset: 16px;
+    border: 1px solid rgba(214, 169, 77, 0.18);
     border-radius: var(--radius-sm);
     content: "";
     pointer-events: none;
@@ -284,15 +284,16 @@ main li {
 .mockup-stat {
     position: relative;
     z-index: 1;
-    border: 1px solid rgba(10, 42, 102, 0.12);
+    border: 1px solid rgba(10, 42, 102, 0.1);
     border-radius: var(--radius-md);
-    background: rgba(255, 255, 255, 0.86);
-    box-shadow: 0 10px 24px rgba(10, 42, 102, 0.08);
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 14px 30px rgba(10, 42, 102, 0.1);
 }
 
 .mockup-browser {
     grid-column: 1 / -1;
     overflow: hidden;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(247, 249, 252, 0.94));
 }
 
 .mockup-browser__bar {
@@ -332,12 +333,14 @@ main li {
 
 .mockup-website {
     display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(110px, 0.85fr);
     gap: 14px;
-    padding: 16px;
+    padding: 18px;
 }
 
 .mockup-website__nav {
     display: flex;
+    grid-column: 1 / -1;
     align-items: center;
     gap: 12px;
     min-width: 0;
@@ -356,6 +359,8 @@ main li {
 }
 
 .mockup-website__hero {
+    display: grid;
+    align-content: end;
     min-height: 88px;
     padding: 18px;
     border-left: 4px solid var(--color-gold);
@@ -384,12 +389,13 @@ main li {
 
 .mockup-website__cards {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+    gap: 9px;
 }
 
 .mockup-website__cards span {
-    min-height: 48px;
+    display: grid;
+    min-height: 40px;
+    align-items: center;
     padding: 13px 12px;
     border: 1px solid rgba(10, 42, 102, 0.1);
     border-radius: var(--radius-sm);
@@ -399,13 +405,33 @@ main li {
     font-weight: 800;
 }
 
+.mockup-website__metrics {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: 1.2fr 0.82fr 1fr;
+    gap: 9px;
+    align-items: end;
+    min-height: 30px;
+}
+
+.mockup-website__metrics span {
+    display: block;
+    height: 10px;
+    border-radius: 999px;
+    background: rgba(10, 42, 102, 0.13);
+}
+
+.mockup-website__metrics span:first-child {
+    background: rgba(214, 169, 77, 0.58);
+}
+
 .mockup-search-card,
 .mockup-system-card {
     display: grid;
     align-content: start;
-    gap: 12px;
+    gap: 11px;
     min-height: 150px;
-    padding: 16px;
+    padding: 17px;
 }
 
 .mockup-card-heading {
@@ -466,10 +492,34 @@ main li {
 }
 
 .mockup-rating span {
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
     border-radius: 3px;
     background: var(--color-gold);
+}
+
+.mockup-search-map {
+    position: relative;
+    min-height: 46px;
+    overflow: hidden;
+    border: 1px solid rgba(10, 42, 102, 0.1);
+    border-radius: var(--radius-sm);
+    background:
+        linear-gradient(90deg, transparent 48%, rgba(10, 42, 102, 0.08) 48% 52%, transparent 52%),
+        linear-gradient(0deg, transparent 48%, rgba(10, 42, 102, 0.08) 48% 52%, transparent 52%),
+        rgba(238, 242, 246, 0.82);
+}
+
+.mockup-search-map span {
+    position: absolute;
+    top: 14px;
+    left: 48%;
+    width: 16px;
+    height: 16px;
+    border: 4px solid var(--color-gold);
+    border-radius: 999px;
+    background: white;
+    box-shadow: 0 8px 16px rgba(10, 42, 102, 0.14);
 }
 
 .mockup-result-line {
@@ -491,10 +541,27 @@ main li {
 }
 
 .mockup-flow span {
-    min-height: 38px;
+    min-height: 34px;
     border: 1px solid rgba(214, 169, 77, 0.32);
     border-radius: var(--radius-sm);
     background: var(--color-gold-light);
+}
+
+.mockup-system-status {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    gap: 8px;
+}
+
+.mockup-system-status span {
+    display: block;
+    height: 10px;
+    border-radius: 999px;
+    background: rgba(10, 42, 102, 0.13);
+}
+
+.mockup-system-status span:first-child {
+    background: rgba(10, 42, 102, 0.28);
 }
 
 .mockup-system-card ul {
@@ -617,6 +684,7 @@ main li {
 
 .service-cards {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
 }
 
 #leistungen .section-heading {
@@ -643,6 +711,12 @@ main li {
     min-height: 460px;
     flex-direction: column;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-cards .service-card {
+    display: grid;
+    grid-template-rows: 190px 1fr;
+    min-height: 480px;
 }
 
 .service-card:hover,
@@ -723,7 +797,8 @@ main li {
 .service-visual {
     position: relative;
     display: grid;
-    min-height: 178px;
+    min-height: 190px;
+    height: 190px;
     align-content: center;
     gap: 14px;
     overflow: hidden;
@@ -882,9 +957,24 @@ main li {
     flex-direction: column;
 }
 
+.service-cards .service-card-content {
+    display: grid;
+    grid-template-rows: 76px 100px minmax(0, 1fr) auto;
+    align-content: stretch;
+    min-height: 100%;
+}
+
+.service-cards .service-card h3 {
+    min-height: 4.1rem;
+}
+
 .service-card-text {
+    margin-bottom: 0;
     color: var(--color-muted);
-    margin-bottom: auto;
+}
+
+.service-cards .service-card-text {
+    min-height: 5.45rem;
 }
 
 .service-card-benefit {
@@ -893,6 +983,11 @@ main li {
     border-top: 1px solid var(--color-border);
     color: var(--color-primary-dark);
     font-weight: 700;
+}
+
+.service-cards .service-card-benefit {
+    align-self: start;
+    margin-top: 0;
 }
 
 .service-card-link {
@@ -904,6 +999,7 @@ main li {
 }
 
 .service-card .service-card-link {
+    align-self: end;
     margin-top: 18px;
 }
 
@@ -1161,6 +1257,21 @@ main li {
 
 .qa-section {
     padding-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+.qa-section h2 {
+    margin-bottom: 8px;
+    padding-bottom: 0.08em;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    line-height: 1.08;
+}
+
+.qa-subtitle {
+    max-width: 760px;
+    margin-bottom: 12px;
+    color: var(--color-primary-dark);
+    font-size: clamp(1.25rem, 2.3vw, 1.65rem);
+    font-weight: 850;
 }
 
 .faq-item {
@@ -2060,6 +2171,15 @@ footer a:focus-visible {
         min-height: auto;
     }
 
+    .service-cards .service-card-content {
+        grid-template-rows: minmax(0, auto) minmax(0, auto) auto auto;
+    }
+
+    .service-cards .service-card h3,
+    .service-cards .service-card-text {
+        min-height: 0;
+    }
+
     .support-strip {
         grid-template-columns: 1fr;
         align-items: start;
@@ -2128,8 +2248,13 @@ footer a:focus-visible {
         min-height: auto;
     }
 
+    .mockup-website {
+        grid-template-columns: 1fr;
+    }
+
     .service-visual {
         min-height: 160px;
+        height: 160px;
     }
 
     .service-cards,
@@ -2287,6 +2412,20 @@ footer a:focus-visible {
         grid-column: auto;
     }
 
+    .mockup-website {
+        gap: 12px;
+        padding: 14px;
+    }
+
+    .mockup-website__cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .mockup-website__metrics,
+    .mockup-stats {
+        display: none;
+    }
+
     .mockup-website__nav {
         flex-wrap: wrap;
         gap: 8px 12px;
@@ -2300,6 +2439,16 @@ footer a:focus-visible {
     .mockup-search-card,
     .mockup-system-card {
         min-height: auto;
+        padding: 14px;
+    }
+
+    .mockup-search-map {
+        min-height: 36px;
+    }
+
+    .mockup-system-card ul,
+    .mockup-system-status {
+        display: none;
     }
 
     .mockup-stat {
@@ -2311,6 +2460,8 @@ footer a:focus-visible {
     }
 
     .service-visual {
+        min-height: 184px;
+        height: 184px;
         padding: 20px;
     }
 
