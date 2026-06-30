@@ -223,6 +223,7 @@ Der Dokumentationsblock für künftige Garage-, Carrosserie- und Werkstattprojek
 * [Fragebogen für Zusatzwünsche](docs/kunden-briefings/garage-zusatzwuensche.md)
 * [Reifenhotel-Pilot](docs/reifenhotel-pilot.md)
 * [Reifenhotel-Objektsuche](docs/reifenhotel-objektsuche.md)
+* [WheelDepot-Kaufobjekte](docs/wheeldepot-kaufobjekte.md)
 
 Die Preisangaben sind interne Richtwerte beziehungsweise unverbindliche Orientierungswerte. Verbindliche Preise werden erst nach Briefing und klarer Leistungsabgrenzung offeriert. Das Marco-/Familienprojekt mit ungefähr CHF 200 bleibt eine persönliche Lern- und Referenzausnahme und ist kein offizieller Marktpreis.
 
@@ -357,6 +358,10 @@ Für Partnergaragen ist ein konservatives Provisionsmodell als Pilotannahme doku
 Die detaillierte Planungsgrundlage steht in [`docs/reifenhotel-pilot.md`](docs/reifenhotel-pilot.md). Eine spätere Verbindung zu CarDesk ist möglich, wird aber erst nach praktischer Pilot-Erfahrung bewertet. Es wird aktuell keine Software-Funktionalität und keine Website-Unterseite dafür gebaut.
 
 Für den Pilot soll ein geeignetes Lager-/Gewerbeobjekt gesucht werden. Die Such- und Bewertungsübersicht steht in [`docs/reifenhotel-objektsuche.md`](docs/reifenhotel-objektsuche.md). Gesucht wird grob ca. 100 m², trocken, abschliessbar, gut zugänglich, mit Zufahrt für Auto/Transporter und schriftlich erlaubter Nutzung als Räder-/Reifenlager.
+
+Ein Kaufobjekt bleibt als langfristiges strategisches Ziel in der Planung, ist aber keine Voraussetzung für den WheelDepot-Start. Der Start soll kurzfristig über ein Mietobjekt, eine flexible Lagerlösung oder eine andere schlanke Lösung möglich bleiben. Kaufobjekte werden weiter beobachtet, um Marktverständnis für Gewerbe- und Lagerflächen aufzubauen.
+
+Die Kaufstrategie wird frühestens im Frühling 2027, alternativ im Herbst 2027, neu bewertet. Ein Kauf wird nur geprüft, wenn Eigenkapital, Bankfinanzierung, Nachfrage und Alternativnutzung realistisch sind. Externe Investoren sind aktuell nicht als aktive Startoption vorgesehen; WheelDepot, CarDesk und LDigital sollen möglichst unter eigener Kontrolle bleiben und später bevorzugt aus eigenem aufgebautem Kapital beziehungsweise sauberer Bankfinanzierung wachsen.
 
 ## LDigital Webseite – Version 2
 
@@ -711,6 +716,12 @@ Version 2.1 gilt als fertig, wenn:
 - [ ] Lagerort definieren
 - [ ] geeignetes Lager-/Gewerbeobjekt suchen
 - [ ] Objektkandidaten in `docs/reifenhotel-objektsuche.md` dokumentieren
+- [ ] WheelDepot-Start unabhängig von einem Kaufobjekt planen
+- [ ] Mietobjekt oder flexible Lagerlösung als Startvariante priorisieren
+- [ ] Kaufobjekte in `docs/wheeldepot-kaufobjekte.md` als Marktbeobachtung weiterführen
+- [ ] Kaufstrategie frühestens Frühling/Herbst 2027 neu bewerten
+- [ ] Eigenkapital-/Bankfinanzierungsfähigkeit aus Webdesign, CarDesk, WheelDepot und weiteren LDigital-Projekten aufbauen
+- [ ] Externe Investoren nicht als aktive Startoption führen; höchstens später separat prüfen
 - [ ] Nutzungsbewilligung für Lagerort klären
 - [ ] maximale Start-/Zielkapazität von bis ca. 250 Radsätzen prüfen und festlegen
 - [ ] Lagerfläche für bis ca. 1'000 Räder prüfen

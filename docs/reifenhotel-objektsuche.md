@@ -19,6 +19,14 @@ Planungsziel:
 
 Die Zielkapazität ist keine garantierte Verpflichtung. Sie hängt vom konkreten Objekt, den Kosten, der Zulässigkeit, der Versicherung, der Logistik und der tatsächlichen Nachfrage ab.
 
+## Einordnung: Miete zuerst, Kauf langfristig beobachten
+
+Diese Objektsuche bleibt auf den kurzfristigen WheelDepot-/Reifenhotel-Start ausgerichtet. Für den Start soll ein Mietobjekt, eine flexible Lagerlösung oder eine andere schlanke Lösung geprüft werden. Ein Kaufobjekt ist keine Voraussetzung und kein Startblocker.
+
+Kaufobjekte werden separat als langfristige Marktbeobachtung geführt. Die Kaufstrategie wird frühestens im Frühling 2027, alternativ im Herbst 2027, neu bewertet. Bis dahin sollen Nachfrage, Prozesse, Garagenpartner, Lieferlogik und tatsächlicher Cashflow aus Webdesign, CarDesk, WheelDepot und weiteren LDigital-Projekten aufgebaut und verstanden werden.
+
+Ein späterer Kauf kann ein erstes konkretes Immobilienziel von LDigital werden, wenn Eigenkapital, Bankfinanzierung, Nachfrage und Alternativnutzung realistisch sind. Externe Investoren sind aktuell nicht als aktive Startoption vorgesehen; WheelDepot, CarDesk und LDigital sollen möglichst unter eigener Kontrolle bleiben.
+
 ## Suchkriterien
 
 * ca. 100 m² Fläche
@@ -69,6 +77,8 @@ Davon gehen noch Kosten und Risiken ab:
 * Buchhaltung / Administration
 
 Das Ziel bleibt nicht maximaler Profit, sondern Garagenbindung, Kundenzugang und spätere CarDesk-Integration. Die Objektsuche muss deshalb auch zur späteren CarDesk-Lieferlogik passen: Sammelfahrten, definierte Lieferfenster, Bündelung nach CardDesk-Garagen und keine kostenlose Einzellogistik für jeden Direktkunden.
+
+Die Wirtschaftlichkeit eines späteren Kaufobjekts wird separat und frühestens im 2027-Kontext geprüft. Für den Pilot sind monatliche Fixkosten, kurze Bindung, klare Nutzungsbewilligung und operative Flexibilität wichtiger als eine frühe Immobilienentscheidung.
 
 ## Objektprüfung
 

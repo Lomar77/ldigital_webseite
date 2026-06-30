@@ -274,6 +274,24 @@ Suchkriterien:
 
 Die Objektsuche ist ein zentraler Prüfpunkt, weil Kapazität, Wirtschaftlichkeit, Versicherung, Brandauflagen und Lieferlogik direkt vom Lagerort abhängen.
 
+### Kauf- und Immobilienstrategie als späterer Schritt
+
+Ein Kaufobjekt wird nicht aus der Planung entfernt, ist aber keine Voraussetzung für den WheelDepot-/Reifenhotel-Start. Der Pilot soll kurzfristig mit einem Mietobjekt, einer flexiblen Lagerlösung oder einer anderen schlanken Startlösung anlaufen und zuerst Nachfrage, Prozesse, Lieferlogik und Garagenpartner testen.
+
+Die Kaufstrategie wird frühestens im Frühling 2027, alternativ im Herbst 2027, neu bewertet. Bis dahin bleiben Kaufobjekte eine langfristige Marktbeobachtung und ein mögliches erstes Immobilienziel von LDigital, nicht aber eine kurzfristige Kaufentscheidung oder ein Startblocker.
+
+Strategische Reihenfolge:
+
+1. WheelDepot als Pilot starten.
+2. Mietobjekt oder flexible Lagerlösung für den Start prüfen.
+3. Nachfrage, Prozesse und Garagenpartner testen.
+4. Cashflow aus Webdesign, CarDesk, WheelDepot und weiteren LDigital-Projekten aufbauen.
+5. Kaufobjekte weiter beobachten, aber nicht als Startvoraussetzung behandeln.
+6. Frühling/Herbst 2027 Kaufstrategie neu bewerten.
+7. Kauf nur prüfen, wenn Eigenkapital, Finanzierung, Nachfrage und Alternativnutzung realistisch sind.
+
+Externe Investoren sind aktuell nicht vorgesehen. WheelDepot, CarDesk und LDigital sollen möglichst unter eigener Kontrolle bleiben. Ein Kaufobjekt soll langfristig bevorzugt mit eigenem aufgebautem Kapital beziehungsweise sauberer Bankfinanzierung geprüft werden. Investoren können höchstens später separat geprüft werden, sind aber nicht Teil der aktuellen Strategie.
+
 ## 12. Operative Anforderungen
 
 Für einen sauberen Pilotbetrieb sind mindestens folgende Grundlagen nötig:
@@ -300,6 +318,10 @@ Vor einem öffentlichen Start müssen folgende Punkte bewusst geklärt werden:
 * Lagerort, Zugang und Sicherheit
 * klare Nutzungsbewilligung für den Lagerort
 * maximale realistische Kapazität
+* Start über Mietobjekt oder flexible Lagerlösung unabhängig von einem Kaufobjekt
+* Kaufobjekte nur als langfristige Marktbeobachtung und Immobilienziel 2027 behandeln
+* Kaufstrategie frühestens Frühling 2027, alternativ Herbst 2027, neu bewerten
+* Finanzierung bevorzugt aus eigenem aufgebautem Kapital beziehungsweise sauberer Bankfinanzierung prüfen
 * Lagerobjekt mit ca. 100 m² und geeigneter Zugänglichkeit finden
 * Lagerfläche für bis ca. 250 Radsätze beziehungsweise bis ca. 1'000 Räder
 * Zeitaufwand bei bis ca. 250 Radsätzen
@@ -338,6 +360,10 @@ Es werden keine Zusagen zu unbegrenzter Kapazität, garantierter Aufnahme jedes 
 - [ ] Lagerort definieren
 - [ ] Geeignetes Lager-/Gewerbeobjekt suchen
 - [ ] Objektkandidaten in `docs/reifenhotel-objektsuche.md` erfassen
+- [ ] WheelDepot-Start unabhängig von einem Kaufobjekt planen
+- [ ] Mietobjekt oder flexible Lagerlösung als Startvariante priorisieren
+- [ ] Kaufobjekte als langfristige Marktbeobachtung für Frühling/Herbst 2027 weiterführen
+- [ ] Eigenkapital-/Bankfinanzierungsfähigkeit aus Webdesign, CarDesk, WheelDepot und weiteren LDigital-Projekten aufbauen
 - [ ] Nutzungsbewilligung für Lagerort klären
 - [ ] Maximale Start-/Zielkapazität bis ca. 250 Radsätze prüfen und festlegen
 - [ ] Lagerfläche für bis ca. 1'000 Räder prüfen
