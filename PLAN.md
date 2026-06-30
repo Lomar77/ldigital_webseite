@@ -221,6 +221,8 @@ Der Dokumentationsblock für künftige Garage-, Carrosserie- und Werkstattprojek
 * [Ausführliches Garage-Kundenbriefing](docs/kunden-briefings/garage-kundenbriefing.md)
 * [Kurzbriefing für den Erstkontakt](docs/kunden-briefings/garage-kundenbriefing-kurz.md)
 * [Fragebogen für Zusatzwünsche](docs/kunden-briefings/garage-zusatzwuensche.md)
+* [Reifenhotel-Pilot](docs/reifenhotel-pilot.md)
+* [Reifenhotel-Objektsuche](docs/reifenhotel-objektsuche.md)
 
 Die Preisangaben sind interne Richtwerte beziehungsweise unverbindliche Orientierungswerte. Verbindliche Preise werden erst nach Briefing und klarer Leistungsabgrenzung offeriert. Das Marco-/Familienprojekt mit ungefähr CHF 200 bleibt eine persönliche Lern- und Referenzausnahme und ist kein offizieller Marktpreis.
 
@@ -328,6 +330,33 @@ CarDesk ist ein Pilotprojekt von LDigital für kleine Garagen, Werkstätten und 
 CarDesk befindet sich aktuell in Konzept- und Prototyp-Phase. Es ist kein fertiges Produkt, keine öffentlich buchbare Software und kein abgeschlossenes Kundenprojekt. Die Konzeptseite verspricht keine fertigen Funktionen oder Resultate.
 
 Der statische CarDesk-Prototyp bleibt separat im CarDesk-Repository. Die LDigital-Seite verlinkt vorerst von Startseite und Leistungsseite auf die interne Konzeptseite. Die lokale Browserprüfung der LDigital-Seite inklusive CarDesk-Seite ist abgeschlossen. Nächste Schritte sind menschliche Qualitätsprüfung, spätere Staging-/Lighthouse-Prüfung und erst danach eine separate Deployment-Entscheidung.
+
+## Reifenhotel / Rädereinlagerung
+
+Das Reifenhotel ist als kleines lokales Pilotangebot zum kommenden Saisonwechsel geplant. Es soll Sommer- und Winterräder für Privatkunden und potenziell später auch für Garagenkunden einlagern.
+
+Der Startumfang bleibt bewusst begrenzt: aktuell gibt es 3 potenzielle Kunden und zusätzlich die Möglichkeit, eigene Räder als internen Testfall zu verwalten. Die geplante Start-/Zielkapazität liegt bei bis ca. 250 Radsätzen in der Nordwestschweiz, entsprechend bis ca. 1'000 einzelnen Rädern. Die Kapazität wird abhängig von Nachfrage, Lagerort, Transportaufwand und geklärten Rahmenbedingungen aufgebaut.
+
+Geplanter Einführungspreis:
+
+* CHF 39.- pro Halbjahr
+* CHF 75.- pro Jahr
+* Basispreis für die Einlagerung
+* Lieferung zur Garage nur im CarDesk-/Partnergaragen-Modell nach klar definierten Regeln
+
+Die Lieferung zur Garage ist nicht pauschal für alle Reifenhotel-Kunden inklusive. Direktkunden ohne CarDesk-Bezug erhalten die Einlagerung zum Pilotpreis, aber keine automatisch inkludierte Lieferung zur Garage. Garagen ohne CarDesk-Zugang können Kunden vermitteln, erhalten aber keine automatisch inkludierte CarDesk-Lieferlogik. Lieferung für Direktkunden oder Garagen ohne CarDesk kann später optional gegen Aufpreis oder nach separater Absprache angeboten werden.
+
+Die inkludierte Lieferung zur Garage soll bewusst als Vorteil für CarDesk-Garagen positioniert werden. Sie gilt im CarDesk-Modell nur nach klar definiertem Gebiet, Lieferfenstern und Vorlaufzeit. Sonderfahrten, Expressfahrten oder Fahrten ausserhalb definierter Lieferfenster sind nicht im Basispreis enthalten.
+
+Der Reifenwechsel selbst ist nicht automatisch Bestandteil des Angebots. Annahme, Beschriftung, Foto-Dokumentation und einfache Sichtprüfung sind vorgesehen; eine professionelle Reifenprüfung, rechtliche Sicherheit oder versicherungstechnische Absicherung wird ohne vorgängige Prüfung nicht zugesagt.
+
+Strategisch soll der Pilot nicht primär maximale Einlagerungsmarge erzeugen, sondern Garagen an LDigital / CarDesk binden, wiederkehrenden Kundeneingang über Saisonwechsel schaffen und einen konkreten Software- und Logistikbaustein für CarDesk vorbereiten. Die Lieferlogik soll Garagen motivieren, CarDesk zu nutzen, und nicht jeden Direktkunden mit kostenloser Einzellogistik bedienen.
+
+Für Partnergaragen ist ein konservatives Provisionsmodell als Pilotannahme dokumentiert: 5 % für einfache Vermittlung ohne CarDesk-Zugang und 10 % für strukturierte Vermittlung mit CarDesk-Zugang, jeweils nur auf tatsächlich bezahlte Einlagerungen. Die Konditionen müssen später wirtschaftlich, rechtlich und buchhalterisch geprüft werden.
+
+Die detaillierte Planungsgrundlage steht in [`docs/reifenhotel-pilot.md`](docs/reifenhotel-pilot.md). Eine spätere Verbindung zu CarDesk ist möglich, wird aber erst nach praktischer Pilot-Erfahrung bewertet. Es wird aktuell keine Software-Funktionalität und keine Website-Unterseite dafür gebaut.
+
+Für den Pilot soll ein geeignetes Lager-/Gewerbeobjekt gesucht werden. Die Such- und Bewertungsübersicht steht in [`docs/reifenhotel-objektsuche.md`](docs/reifenhotel-objektsuche.md). Gesucht wird grob ca. 100 m², trocken, abschliessbar, gut zugänglich, mit Zufahrt für Auto/Transporter und schriftlich erlaubter Nutzung als Räder-/Reifenlager.
 
 ## LDigital Webseite – Version 2
 
@@ -676,6 +705,38 @@ Version 2.1 gilt als fertig, wenn:
 - [x] Definition of Done für Version 2 ergänzen
 - [x] Definition of Done für Version 2.1 ergänzen
 - [x] Reihenfolge der ersten Version-2-Arbeitsblöcke festlegen
+
+### Reifenhotel-Pilot bis Saisonwechsel
+
+- [ ] Lagerort definieren
+- [ ] geeignetes Lager-/Gewerbeobjekt suchen
+- [ ] Objektkandidaten in `docs/reifenhotel-objektsuche.md` dokumentieren
+- [ ] Nutzungsbewilligung für Lagerort klären
+- [ ] maximale Start-/Zielkapazität von bis ca. 250 Radsätzen prüfen und festlegen
+- [ ] Lagerfläche für bis ca. 1'000 Räder prüfen
+- [ ] ca. 100 m² Lagerfläche, Deckenhöhe, Zufahrt und Regalsystem prüfen
+- [ ] Miete, Nebenkosten, Kaution, Mindestlaufzeit und Kündigungsfrist prüfen
+- [ ] Brand-/Nutzungsauflagen für Räder-/Reifenlagerung prüfen
+- [ ] einfache Kundentabelle vorbereiten
+- [ ] Einlagerungsschein / Annahmeformular vorbereiten
+- [ ] Beschriftungssystem definieren
+- [ ] Foto-Dokumentation pro Radsatz planen
+- [ ] Liefergebiet definieren
+- [ ] Lieferfenster und Vorlaufzeiten definieren
+- [ ] Regeln für Lieferung zur Garage im CarDesk-Modell festlegen
+- [ ] Aufpreis oder separate Absprache für Direktkundenlieferung definieren
+- [ ] Lieferlogik für Garagen ohne CarDesk-Zugang abgrenzen
+- [ ] Sonderfahrten, Expressfahrten und Fahrten ausserhalb definierter Lieferfenster separat kalkulieren
+- [ ] Einführungspreis als Pilotpreis dokumentieren
+- [ ] Wirtschaftlichkeit bei 250 Radsätzen und CHF 18'750.- Jahresumsatz brutto vor Kosten prüfen
+- [ ] Partnergaragen-/Provisionsmodell wirtschaftlich, rechtlich und buchhalterisch prüfen
+- [ ] mögliche CarDesk-Funktionen für Kunden, Fahrzeuge, Radsätze, Status, Lieferung und Provisionen später bewerten
+- [ ] Datenschutz für Kundendaten, Fahrzeugdaten und Fotos prüfen
+- [ ] Social-Media-Werbung mit begrenztem Startgebiet Nordwestschweiz testen
+- [ ] BVB-/Tram-/ÖV-Werbung in Basel auf Kosten und Nutzen prüfen
+- [ ] Werbetext / einfache Angebotsseite vorbereiten
+- [ ] Haftung, Versicherung und Schäden als offene Prüfaufgabe markieren
+- [ ] Gespräch mit Versicherungsberater für geschäftliche Versicherungen vorbereiten
 
 ### Inhaltliche To-dos für Version 2
 
