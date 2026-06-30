@@ -2757,6 +2757,248 @@ main li {
     margin-bottom: 24px;
 }
 
+.wheeldepot-page {
+    background:
+        linear-gradient(180deg, rgba(214, 169, 77, 0.1), transparent 360px),
+        var(--color-background);
+}
+
+.wheeldepot-hero {
+    padding-block: clamp(56px, 8vw, 92px);
+    background:
+        linear-gradient(135deg, rgba(10, 42, 102, 0.1), rgba(214, 169, 77, 0.1)),
+        var(--color-surface);
+}
+
+.wheeldepot-hero__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.72fr);
+    gap: clamp(32px, 6vw, 70px);
+    align-items: center;
+}
+
+.wheeldepot-hero__copy {
+    max-width: 780px;
+}
+
+.wheeldepot-lead {
+    max-width: 760px;
+    color: var(--color-muted);
+    font-size: 1.18rem;
+}
+
+.wheeldepot-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 24px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wheeldepot-tags li {
+    margin: 0;
+    padding: 7px 11px;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.72);
+    color: var(--color-primary);
+    font-size: 0.88rem;
+    font-weight: 800;
+}
+
+.wheeldepot-visual {
+    display: grid;
+    gap: 18px;
+    min-height: 360px;
+    padding: clamp(22px, 4vw, 34px);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background:
+        linear-gradient(145deg, rgba(10, 42, 102, 0.1), transparent 48%),
+        var(--color-surface);
+    box-shadow: var(--shadow-md);
+}
+
+.wheeldepot-visual__rack {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.wheeldepot-visual__rack span,
+.wheeldepot-visual__status {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface-muted);
+}
+
+.wheeldepot-visual__rack span {
+    min-height: 74px;
+    padding: 14px 10px;
+    color: var(--color-primary);
+    font-weight: 850;
+    text-align: center;
+}
+
+.wheeldepot-visual__wheels {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(80px, 1fr));
+    gap: 16px;
+    align-items: center;
+    justify-items: center;
+    padding: 12px;
+}
+
+.wheeldepot-visual__wheels i {
+    display: block;
+    width: min(112px, 25vw);
+    aspect-ratio: 1;
+    border: 14px solid var(--color-primary-dark);
+    border-radius: 999px;
+    background:
+        radial-gradient(circle, var(--color-gold) 0 14%, transparent 15%),
+        radial-gradient(circle, transparent 0 38%, rgba(10, 42, 102, 0.16) 39% 48%, transparent 49%);
+    box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.46), 0 10px 18px rgba(10, 42, 102, 0.12);
+}
+
+.wheeldepot-visual__status {
+    display: grid;
+    gap: 4px;
+    padding: 16px;
+}
+
+.wheeldepot-visual__status strong {
+    color: var(--color-primary);
+    font-size: 1.35rem;
+}
+
+.wheeldepot-visual__status small {
+    color: var(--color-muted);
+    font-weight: 750;
+}
+
+.wheeldepot-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.wheeldepot-offer,
+.wheeldepot-garage {
+    min-width: 0;
+}
+
+.wheeldepot-offer {
+    display: grid;
+    grid-template-columns: minmax(240px, 0.72fr) minmax(0, 1.28fr);
+    gap: clamp(28px, 5vw, 52px);
+}
+
+.wheeldepot-price-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 24px;
+}
+
+.wheeldepot-price-grid article {
+    padding: 18px;
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-gold);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface-muted);
+}
+
+.wheeldepot-price-grid span,
+.wheeldepot-price-grid strong {
+    display: block;
+}
+
+.wheeldepot-price-grid span {
+    color: var(--color-muted);
+    font-weight: 800;
+}
+
+.wheeldepot-price-grid strong {
+    color: var(--color-primary);
+    font-size: clamp(1.7rem, 4vw, 2.25rem);
+    line-height: 1.1;
+}
+
+.wheeldepot-offer__lists {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.wheeldepot-offer__lists article {
+    padding: 22px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface-muted);
+}
+
+.wheeldepot-offer__lists ul {
+    margin-bottom: 0;
+}
+
+.wheeldepot-note {
+    grid-column: 1 / -1;
+    max-width: 940px;
+    margin-bottom: 0;
+    padding: 18px 20px;
+    border-left: 4px solid var(--color-gold);
+    background: var(--color-gold-light);
+    color: var(--color-primary-dark);
+    font-weight: 750;
+}
+
+.wheeldepot-steps {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+
+.wheeldepot-garage {
+    display: grid;
+    gap: 26px;
+}
+
+.wheeldepot-garage > p {
+    max-width: 900px;
+    margin-bottom: 0;
+    color: var(--color-muted);
+}
+
+.wheeldepot-faq {
+    display: grid;
+    gap: 12px;
+}
+
+.wheeldepot-faq details {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface);
+    box-shadow: var(--shadow-sm);
+}
+
+.wheeldepot-faq summary {
+    cursor: pointer;
+    padding: 18px 20px;
+    color: var(--color-primary);
+    font-weight: 850;
+}
+
+.wheeldepot-faq details[open] summary {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.wheeldepot-faq p {
+    max-width: 860px;
+    margin: 0;
+    padding: 18px 20px 20px;
+    color: var(--color-muted);
+}
+
 .legal-content {
     max-width: 850px;
 }
@@ -2860,7 +3102,9 @@ footer a:focus-visible {
 
     .cardesk-hero__grid,
     .cardesk-solution-grid,
-    .cardesk-pilot__grid {
+    .cardesk-pilot__grid,
+    .wheeldepot-hero__grid,
+    .wheeldepot-offer {
         grid-template-columns: 1fr;
     }
 
@@ -2937,6 +3181,8 @@ footer a:focus-visible {
     .project-detail-grid,
     .project-grid,
     .support-grid,
+    .wheeldepot-card-grid,
+    .wheeldepot-offer__lists,
     .about-founder,
     .about-workstyle,
     .about-audience,
@@ -3074,6 +3320,11 @@ footer a:focus-visible {
     .project-card,
     .project-hero-panel {
         padding: 24px 20px;
+    }
+
+    .wheeldepot-price-grid,
+    .wheeldepot-visual__rack {
+        grid-template-columns: 1fr;
     }
 
     .cardesk-project-teaser__header {
