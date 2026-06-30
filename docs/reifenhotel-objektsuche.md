@@ -391,3 +391,103 @@ Freundliche Grüsse
 3. Römerstrasse 30 Zeiningen nur nachrangig kontaktieren, falls eine deutliche Preisreduktion oder ein Teilflächenmodell denkbar ist.
 4. Klybeckstrasse 141 und Binningerstrasse 11 als wirtschaftliche Reserve prüfen, falls die Fricktal-/BL-Kandidaten preislich oder nutzungsrechtlich ausscheiden.
 5. Vor jeder Besichtigung schriftlich klären: Reifenlagerung erlaubt, Fläche trocken, Zugang für Radsätze praktikabel, Regale erlaubt, Brandschutz/Nutzung nicht problematisch, Kaution und Mindestlaufzeit akzeptabel.
+
+## Preisbasierte Objekt-Auswahl
+
+Erneute Webrecherche am 30. Juni 2026 mit Fokus auf Objekte mit klar ersichtlichem Mietpreis. Es wurde niemand kontaktiert und es wurde keine Besichtigung angefragt.
+
+Geprüfte Treffer / Suchergebnisse:
+
+* mindestens 20 Treffer oder Suchergebnisse gesichtet
+* gezielt geprüft wurden unter anderem Ergebnislisten und Inserate zu Möhlin, Rheinfelden, Kaiseraugst, Frick, Zeiningen, Wallbach, Liestal, Frenkendorf, Pratteln, Bubendorf, Füllinsdorf, Basel-Stadt und Allschwil / Umgebung
+* geprüfte Quellen: Homegate, ImmoScout24, Newhome, Flatfox, RealAdvisor, Reimann Immobilien, lokale Anbieter / Verwaltungen und Suchtreffer über Google
+* Comparis wurde als Suchquelle mitgeprüft, lieferte in dieser Runde aber keine zusätzliche belastbare Objektbasis mit klar besserem Preis-/Eignungsverhältnis
+
+Wichtig: Kein Objekt ist ohne schriftliche Bestätigung der Nutzung als Räder-/Reifenlager als definitiv geeignet zu betrachten. Bis dahin bleibt der operative Status `prüfen` oder `eher ungeeignet`.
+
+Grundlage der Preisrechnung:
+
+* Jahrespreis pro Radsatz: CHF 75.-
+* geplante Kapazität: bis ca. 250 Radsätze
+* maximaler Jahresumsatz bei 250 Radsätzen: CHF 18'750.- brutto
+* Jahresmiete = Monatsmiete x 12
+* Mietkosten pro Radsatz = Jahresmiete / 250
+* benötigte Radsätze zur Mietdeckung = Jahresmiete / 75
+* Anteil Jahresmiete am Maximalumsatz = Jahresmiete / CHF 18'750.-
+
+### Objekte mit bekanntem Preis
+
+| Status | Objekt / Adresse oder Bezeichnung | Ort | Kanton | Quelle / Link | Fläche | Deckenhöhe | Monatsmiete | Jahresmiete | Mietkosten pro Radsatz bei 250 | Radsätze zur Mietdeckung | Anteil am Maximalumsatz | Nebenkosten | Kaution | Mindestlaufzeit | Zugang / Zufahrt | Stockwerk / Lift / Rampe | Mögliche Kapazität grob geschätzt | Offene Prüfungen | Wirtschaftliche Einschätzung | Gesamteinschätzung |
+| --- | --- | --- | --- | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| prüfen | Lagerraum Soleweg | Möhlin | AG | [RealAdvisor / Dreamo](https://realadvisor.ch/de/mieten/4313-mohlin/gewerbe) | 45 m² | nicht angegeben | CHF 550.- | CHF 6'600.- | CHF 26.40 | 88.0 | 35.2 % | nicht angegeben | nicht angegeben | nicht angegeben | einfacher Fahrzeugzugang angegeben | nicht angegeben | zu klein für 250 Radsätze; Mini-Pilot oder Zusatzlager prüfbar | genaue Adresse, Reifenlagerung, Feuchtigkeit, Regale, Nebenkosten | wirtschaftlich interessant | Preis gut, Lage gut, Fläche deutlich zu knapp |
+| eher ungeeignet | Lagerraum Kiefernweg 2 | Möhlin | AG | [RealAdvisor / Newhome](https://realadvisor.ch/de/mieten/4313-mohlin/gewerbe) | 16 m² | nicht angegeben | CHF 110.- | CHF 1'320.- | CHF 5.28 | 17.6 | 7.0 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | deutlich zu klein | Nutzung als Reifenlager, Zugang, Feuchtigkeit, Brandschutz | wirtschaftlich stark, aber operativ zu klein | nur Marktvergleich oder Kleinst-Zusatzlager |
+| eher ungeeignet | Hobbyraum Lindenstrasse 6 | Möhlin | AG | [Homegate / RealAdvisor](https://realadvisor.ch/de/mieten/4313-mohlin/gewerbe) | 15 m² | nicht angegeben | CHF 142.- | CHF 1'704.- | CHF 6.82 | 22.7 | 9.1 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | 1. UG gemäss bisheriger Recherche | deutlich zu klein | Zugang, Feuchtigkeit, Nutzung als Räderlager, Brandschutz | wirtschaftlich stark, aber operativ zu klein | keine Lösung für Zielkapazität |
+| prüfen | Gewerbefläche Römerstrasse 30 | Zeiningen | AG | [Homegate](https://www.homegate.ch/mieten/4003269047) | 125 m² | 2.90 m | CHF 2'469.- | CHF 29'628.- | CHF 118.51 | 395.0 | 158.0 % | Strom/Wasser gemäss Inserat in NK inkludiert | nicht angegeben | nicht angegeben | elektrisches Rolltor 2.7 x 3.0 m, Parkplatz direkt beim Objekt | nicht angegeben | Zielkapazität operativ prüfbar | Preis verhandeln, Reifenlagerung schriftlich, Brandauflagen, Versicherung | wirtschaftlich kritisch bis ungeeignet | operativ gut, aber Miete übersteigt Maximalumsatz bei 250 Radsätzen |
+| prüfen | Gewerbefläche Rheinstrasse 74 | Wallbach | AG | [RealAdvisor / ImmoScout24](https://realadvisor.ch/de/mieten/4323-wallbach/gewerbe) | 105 m² | nicht angegeben | CHF 1'375.- | CHF 16'500.- | CHF 66.00 | 220.0 | 88.0 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | Zielgrösse grundsätzlich prüfbar | genaue Nutzung, Zufahrt, Regale, Brandschutz, Nebenkosten | über CHF 1'100.-, wirtschaftlich kritisch | Lage/Fläche interessant, aber Mietanteil sehr hoch |
+| prüfen | Gewerbefläche Rheinstrasse 74 | Wallbach | AG | [RealAdvisor / maison.work](https://realadvisor.ch/de/mieten/4323-wallbach/gewerbe) | 48 m² | nicht angegeben | CHF 890.- | CHF 10'680.- | CHF 42.72 | 142.4 | 57.0 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | eher zu klein für 250 Radsätze | Nutzung, Zufahrt, Feuchtigkeit, Regale | prüfbar, aber Fläche knapp | nur interessant, wenn Start deutlich kleiner bleibt |
+| eher ungeeignet | Lagerraum Theodorshofweg 22 | Rheinfelden | AG | [RealAdvisor / ImmoScout24](https://realadvisor.ch/de/mieten/4310-rheinfelden/gewerbe) | 20 m² | nicht angegeben | CHF 145.- | CHF 1'740.- | CHF 6.96 | 23.2 | 9.3 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | deutlich zu klein | Nutzung, Feuchtigkeit, Zugang, Brandschutz | wirtschaftlich stark, aber operativ zu klein | nur Vergleich / Zusatzraum |
+| eher ungeeignet | Geschäftsfläche Theodorshofweg 22 | Rheinfelden | AG | [RealAdvisor / ImmoScout24](https://realadvisor.ch/de/mieten/4310-rheinfelden/gewerbe) | 39 m² | nicht angegeben | CHF 795.- | CHF 9'540.- | CHF 38.16 | 127.2 | 50.9 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | zu klein für Zielkapazität | Nutzung als Lager, Zufahrt, Feuchtigkeit, Regale | prüfbar bis kritisch | Lage gut, Preis/Fläche für Pilot schwach |
+| prüfen | Bürofläche Oristalstrasse 97 | Liestal | BL | [RealAdvisor / Properstar](https://realadvisor.ch/de/mieten/4410-liestal/gewerbe) | 130 m² | nicht angegeben | CHF 542.- | CHF 6'504.- | CHF 26.02 | 86.7 | 34.7 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | Flächengrösse sehr passend, Nutzung als Räderlager offen | Büro-/Gewerbenutzung, Zufahrt, Regale, Brandschutz, Feuchtigkeit | wirtschaftlich interessant | preislich sehr stark, aber Lager-/Reifennutzung unklar |
+| prüfen | Lagerraum Gräubernstrasse 12 | Liestal | BL | [RealAdvisor / Flatfox](https://realadvisor.ch/de/mieten/4410-liestal/gewerbe) | 99 m² | nicht angegeben | CHF 660.- | CHF 7'920.- | CHF 31.68 | 105.6 | 42.2 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | Zielgrösse gut prüfbar | Reifenlagerung, Zufahrt, Feuchtigkeit, Regale, Brandschutz | wirtschaftlich interessant | aktuell stärkster Preis-/Eignungs-Treffer mit Preis |
+| prüfen | Allzweckraum Pumpwerkstrasse 9a | Liestal | BL | [RealAdvisor / Flatfox](https://realadvisor.ch/de/mieten/4410-liestal/gewerbe) | nicht angegeben | nicht angegeben | CHF 240.- | CHF 2'880.- | CHF 11.52 | 38.4 | 15.4 % | nicht angegeben | nicht angegeben | nicht angegeben | ruhige Nutzung gemäss Trefferhinweis prüfen | nicht angegeben | nicht berechenbar ohne Fläche | Fläche, Nutzung, Zugang, Feuchtigkeit, Regale | wirtschaftlich stark, Eignung offen | nur weiterprüfen, wenn Fläche und Zugang passen |
+| prüfen | Werkstatt Gerberstrasse 13 | Liestal | BL | [RealAdvisor / Newhome](https://realadvisor.ch/de/mieten/4410-liestal/gewerbe) | nicht angegeben | nicht angegeben | CHF 480.- | CHF 5'760.- | CHF 23.04 | 76.8 | 30.7 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht berechenbar ohne Fläche | Fläche, Zufahrt, Nutzung, Brandauflagen, Nebenkosten | wirtschaftlich stark, Eignung offen | interessant, falls Fläche mindestens ca. 80 m² hat |
+| prüfen | Einstellhalle 78 m² | Frenkendorf | BL | [Homegate](https://www.homegate.ch/mieten/4003235634) | 78 m² | nicht angegeben | CHF 800.- | CHF 9'600.- | CHF 38.40 | 128.0 | 51.2 % | nicht angegeben | nicht angegeben | nicht angegeben | gute Zufahrt, Wasseranschluss vor Halle gemäss bisheriger Recherche | Garage / rollstuhlgängig gemäss Inserat | knapp unter Idealfläche; Teilziel möglich | Reifenlagerung, Feuchtigkeit, Sicherheit, Regale, Brandauflagen | prüfbar | operativ prüfbar, aber Fläche knapp und Miete mittel |
+| prüfen | Gewerbefläche Hohenrainstrasse 24 | Pratteln | BL | [RealAdvisor / maison.work](https://realadvisor.ch/de/mieten/4133-pratteln/gewerbe) | 118 m² | nicht angegeben | CHF 974.- | CHF 11'688.- | CHF 46.75 | 155.8 | 62.3 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | Zielgrösse prüfbar | Nutzung als Räderlager, Zufahrt, Regale, Brandauflagen | kritisch | Flächengrösse gut, Mietbelastung hoch |
+| prüfen | Gewerbe-/Bürofläche Hohenrainstrasse 24 | Pratteln | BL | [RealAdvisor / maison.work](https://realadvisor.ch/de/mieten/4133-pratteln/gewerbe) | 114 m² | nicht angegeben | CHF 941.- | CHF 11'292.- | CHF 45.17 | 150.6 | 60.2 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | Zielgrösse prüfbar | Nutzung als Räderlager, Zufahrt, Regale, Brandauflagen | kritisch | knapp günstiger als 118 m², aber weiterhin hohe Fixkosten |
+| eher ungeeignet | Lagerraum St. Jakobstrasse 77 | Pratteln | BL | [RealAdvisor / Newhome](https://realadvisor.ch/de/mieten/4133-pratteln/gewerbe) | 21 m² | nicht angegeben | CHF 300.- | CHF 3'600.- | CHF 14.40 | 48.0 | 19.2 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | deutlich zu klein | Nutzung, Feuchtigkeit, Zugang, Brandschutz | wirtschaftlich stark, aber zu klein | nur Marktvergleich oder Zusatzlager |
+| prüfen | Werkstatt Flurstrasse 14 | Bubendorf | BL | [RealAdvisor / Newhome](https://realadvisor.ch/de/mieten/4416-bubendorf/gewerbe) | nicht angegeben | nicht angegeben | CHF 110.- | CHF 1'320.- | CHF 5.28 | 17.6 | 7.0 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht berechenbar ohne Fläche | Fläche, Zufahrt, Nutzung, Nebenkosten, Brandschutz | wirtschaftlich stark, Eignung offen | nur interessant, wenn Fläche überraschend gross ist |
+| prüfen | Bürofläche Hauptstrasse 24 | Bubendorf | BL | [RealAdvisor / Newhome](https://realadvisor.ch/de/mieten/4416-bubendorf/gewerbe) | 98 m² | nicht angegeben | CHF 1'536.- | CHF 18'432.- | CHF 73.73 | 245.8 | 98.3 % | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | nicht angegeben | Zielgrösse prüfbar | Büro-/Lagerzulässigkeit, Zufahrt, Regale, Brandschutz | über CHF 1'100.-, wirtschaftlich kritisch | fast gesamter Maximalumsatz nur für Miete |
+| prüfen | Gewerbefläche mit Garagenzugang | Füllinsdorf | BL | [RealAdvisor / maison.work](https://realadvisor.ch/de/mieten/4414-fullinsdorf/gewerbe) | 100 m² | nicht angegeben | CHF 1'870.- | CHF 22'440.- | CHF 89.76 | 299.2 | 119.7 % | nicht angegeben | nicht angegeben | nicht angegeben | direkter Zugang zur Garage gemäss Trefferhinweis | nicht angegeben | Zielgrösse operativ prüfbar | Nutzung, Zufahrt, Regale, Brandschutz, Preis | über CHF 1'100.-, wirtschaftlich kritisch | operativ möglich, wirtschaftlich für Pilot ungeeignet |
+| prüfen | Lagerräume Klybeckstrasse 141 | Basel | BS | [Homegate](https://www.homegate.ch/mieten/4001362032) | 75 m² | bis ca. 5 m gemäss Inserat | CHF 199.- | CHF 2'388.- | CHF 9.55 | 31.8 | 12.7 % | Nebenkosten inklusive gemäss bisheriger Recherche | grundsätzlich kein Depot gemäss bisheriger Recherche, individuell prüfen | flexible Verträge gemäss bisheriger Recherche | ebenerdige Anlieferung, Warenlift 1'600 kg | Warenlift | knapp, mit hoher Decke und Regalen prüfbar | Preis/Fläche bestätigen, Reifenlagerung, Feuchtigkeit, Lieferwege | wirtschaftlich stark | sehr günstig, aber Basel-Stadt nur Reservepriorität und Fläche knapp |
+| prüfen | Lager Gundeldingerstrasse 175 | Basel | BS | [Homegate](https://www.homegate.ch/mieten/4003039275) | 120 m² | nicht angegeben | CHF 890.- | CHF 10'680.- | CHF 42.72 | 142.4 | 57.0 % | nicht angegeben | nicht angegeben | nicht angegeben | Anlieferung über Innenhof/Rampe ins UG, weiterer Zugang via Einstellhalle | 1. UG, Rampe | Zielgrösse passend | Feuchtigkeit, Brandschutz, Reifenlagerung, Zufahrtszeiten | prüfbar | Fläche passend, aber Basel-Stadt und obere Mietgrenze |
+
+### Top 5 nach Preis-/Eignungsverhältnis
+
+1. Lagerraum Gräubernstrasse 12, Liestal, 99 m², CHF 660.-/Monat: bester aktueller Mix aus Lagerbezeichnung, passender Fläche und noch vertretbarer Miete. Wichtigste offene Punkte sind Zufahrt, Feuchtigkeit, Regale und schriftliche Reifenlager-Freigabe.
+2. Bürofläche Oristalstrasse 97, Liestal, 130 m², CHF 542.-/Monat: wirtschaftlich sehr stark für die Fläche, aber nur prüfbar, weil Büro-/Gewerbenutzung nicht automatisch Räderlagerung bedeutet.
+3. Einstellhalle Frenkendorf, 78 m², CHF 800.-/Monat: operativ interessant wegen Hallen-/Garagencharakter und Zufahrt, aber knapp unter Idealfläche und bereits bei 51.2 % des Maximalumsatzes nur für Miete.
+4. Lagerräume Klybeckstrasse 141, Basel, 75 m², CHF 199.-/Monat: extrem stark preislich, mit hoher Decke und Warenlift prüfbar; wegen Basel-Stadt-Priorität und knapper Fläche eher Reserve als Hauptlösung.
+5. Lager Gundeldingerstrasse 175, Basel, 120 m², CHF 890.-/Monat: Fläche passend und Preis noch in der Kategorie `prüfbar`; Basel-Stadt, UG/Rampe und Lieferlogik bleiben die Hauptnachteile.
+
+Knapp ausserhalb der Top 5:
+
+* Wallbach, Rheinstrasse 74, 105 m², CHF 1'375.-/Monat: sehr interessant wegen Fricktal-Lage und Fläche, aber mit CHF 16'500.- Jahresmiete bereits 88.0 % des maximalen Jahresumsatzes nur für Miete.
+* Pratteln, Hohenrainstrasse 24, 114-118 m², CHF 941.- bis CHF 974.-/Monat: passende Fläche, aber hohe Fixkosten und unklare Lager-/Reifennutzung.
+* Möhlin, Soleweg, 45 m², CHF 550.-/Monat: gute Lage und interessanter Preis, aber für 250 Radsätze deutlich zu klein.
+
+### Interessant, aber Preis fehlt
+
+Diese Objekte bleiben interessant, dürfen aber ohne klaren Mietpreis nicht als Top-Kandidaten empfohlen werden.
+
+| Objekt / Adresse | Ort | Kanton | Quelle / Link | Fläche | Bekannte Stärken | Fehlende Angaben / offene Prüfungen | Einschätzung |
+| --- | --- | --- | --- | ---: | --- | --- | --- |
+| Reimann Werkstatt / Lager, Germanenstrasse 10 | Möhlin | AG | [Reimann Immobilien](https://reimann.swiss/immobilien/werkstatt-lager-inkl-bueros) | 310 m² | Fricktal-Lage, LKW-Zufahrt, Rolltor, 4.60 m Höhe, Teilfläche eventuell denkbar | Mietpreis, Teilfläche 80-150 m², Nebenkosten, Mindestlaufzeit, Reifenlagerung schriftlich | operativ sehr stark, aber ohne Preis nicht Top-Kandidat |
+| Moderne Lagerflächen K7 Center, Kantonsstrasse 7 | Bubendorf | BL | [Homegate](https://www.homegate.ch/mieten/4003052847) | 116 m² / 150 m² | passende Flächen, Strom/Lüftung, direkter Tiefgaragenzugang | Mietpreis, Transporter-Zufahrt, Reifenlagerung, Brandauflagen, Deckenhöhe | starke Alternative, wenn Preis moderat ist |
+| Gewerbe-/Bürofläche Liebrütistrasse 25 | Kaiseraugst | AG | [RealAdvisor / Newhome](https://realadvisor.ch/de/mieten/4303-kaiseraugst/gewerbe) | 101 m² | Aargau-/Fricktal-Nähe, passende Fläche | Mietpreis, Nutzung als Lager, Zufahrt, Regale, Brandschutz | prüfbar, Preis fehlt |
+| Lagerfläche Junkholzweg 1 | Kaiseraugst | AG | [RealAdvisor / ImmoScout24](https://realadvisor.ch/de/mieten/4303-kaiseraugst/gewerbe) | 187 m² | Fricktal/Basel-Nähe, Lagerbezug, mehr Reserve | Mietpreis, Teilfläche, Nebenkosten, Zufahrt, Reifenlagerung | interessant, falls Teilfläche oder guter Preis möglich |
+| Gewerbe Schulstrasse | Frick | AG | [RealAdvisor / Homegate](https://realadvisor.ch/de/mieten/5070-frick/gewerbe) | ab ca. 150 m² / grösser | Fricktal-Lage, grössere Gewerbefläche | Mietpreis, Teilfläche, Nutzung, Laufzeit, Zufahrt | nur prüfen, wenn kleine Teilfläche und guter Preis möglich |
+
+### Empfehlung: zuerst genauer anschauen
+
+1. Gräubernstrasse 12, Liestal: aktuell stärkster belastbarer Preis-/Flächen-Treffer mit Lagerbezeichnung.
+2. Oristalstrasse 97, Liestal: wegen 130 m² zu CHF 542.-/Monat wirtschaftlich sehr interessant, aber nur bei sauberer Nutzungsfreigabe.
+3. Frenkendorf Einstellhalle 78 m²: operative Logik und Zufahrt wirken besser als bei vielen kleinen Räumen; wegen Fläche und Preis nur mit klarer Layoutprüfung.
+
+Reserve, falls Basel-Stadt strategisch akzeptabel ist:
+
+* Klybeckstrasse 141, Basel: sehr günstig, aber nur mit guter Regal-/Layoutlösung und bestätigter Reifenlagerung.
+* Gundeldingerstrasse 175, Basel: gute Fläche, aber obere Mietgrenze und UG-/Rampenzugang prüfen.
+
+### Wirtschaftlich kritische Objekte trotz guter Lage oder Fläche
+
+* Römerstrasse 30, Zeiningen: CHF 29'628.- Jahresmiete, ca. 395 Radsätze nur zur Mietdeckung; bei 250 Radsätzen wirtschaftlich klar kritisch.
+* Wallbach, Rheinstrasse 74, 105 m²: Fricktal-Lage und Fläche gut, aber CHF 16'500.- Jahresmiete bindet 88.0 % des Maximalumsatzes nur für Miete.
+* Bubendorf, Hauptstrasse 24, 98 m²: CHF 18'432.- Jahresmiete, fast der komplette Maximalumsatz nur für Miete.
+* Füllinsdorf, 100 m² mit Garagenzugang: CHF 22'440.- Jahresmiete, schon nur für Miete über dem wirtschaftlich sinnvollen Pilotrahmen.
+* Pratteln, Hohenrainstrasse 24, 114-118 m²: Fläche passend, aber CHF 11'292.- bis CHF 11'688.- Jahresmiete plus unklare Lager-/Reifennutzung.
+
+### Kurzfazit zur preisbasierten Recherche
+
+In dieser Runde wurden genügend Objekte mit klar ersichtlichem Preis gefunden, aber nur wenige treffen gleichzeitig Fläche, Preis, Lage und operative Eignung. Die stärksten bezahlbaren Treffer liegen aktuell in Liestal / Basel-Landschaft. Aargau / Fricktal bleibt strategisch bevorzugt, liefert mit bekanntem Preis aber entweder zu kleine Räume oder wirtschaftlich kritische Flächen.
+
+Für den nächsten manuellen Schritt sollte deshalb zuerst eine kurze, sachliche Vorabklärung bei den preislich stärksten Objekten erfolgen: Ist Räder-/Reifenlagerung erlaubt, ist die Fläche trocken und abschliessbar, ist die Zufahrt mit Auto/Transporter praktikabel, dürfen Regale gestellt werden und welche Kaution / Mindestlaufzeit / Nebenkosten gelten.
