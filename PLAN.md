@@ -21,6 +21,48 @@ Gestalterische Leitplanken:
 * CarDesk bleibt klar als Konzept-/Pilotprojekt positioniert und dient als Beispiel für Systemdenken.
 * Keine externen Libraries, kein Tracking, kein Deployment, kein Commit in diesem Arbeitsblock.
 
+#### Status Startseiten-Hero V3
+
+Der Startseiten-Hero wurde als scroll-interaktiver Fullscreen-Einstieg umgesetzt und bildet die technische Grundlage für das weitere V3-Hero-System.
+
+Umgesetzt:
+
+* Fullscreen/pinned Hero auf der Startseite.
+* Hero startet als voller erster Screen.
+* Scroll-Verkleinerung über JavaScript und CSS-Variablen.
+* Header-Höhe wird berücksichtigt, damit der Hero-Inhalt nicht unter der Navigation verschwindet.
+* Mobile priorisiert Text und CTA; bei knappen Viewports wird zuerst das Visual reduziert.
+* `prefers-reduced-motion` wird berücksichtigt und erhält einen statischen Hero ohne starke Scrollanimation.
+
+#### Neues Ziel: Unterseiten im V3-Stil nachziehen
+
+Die LDigital-Unterseiten sollen in einem separaten Arbeitsblock visuell zur neuen V3-Startseite geführt werden. Header, Footer und die dunkle Designrichtung sollen vereinheitlicht werden, ohne jede Seite künstlich in denselben Fullscreen-Sticky-Aufbau zu zwingen.
+
+Planungsrichtung:
+
+* Ein Page-Hero-System für Unterseiten definieren.
+* Wichtige Unterseiten können einen kompakten pinned oder leicht animierten Page-Hero erhalten.
+* Nicht jede Unterseite soll eine lange Fullscreen-Sticky-Stage bekommen.
+* Rechtliche Seiten wie `impressum.html` und `datenschutz.html` erhalten nur einen ruhigen, kompakten V3-Hero ohne starke Animation.
+* Unterseiten bleiben in Inhalt und Zweck klar unterscheidbar; das V3-System sorgt für visuelle Verwandtschaft, nicht für Gleichförmigkeit.
+
+#### Geplante Unterseiten-Hero-Richtung
+
+* `leistungen.html`: starker Page-Hero mit kurzer Aussage, technischen Visuals und kompaktem Einstieg.
+* `projekte.html` / Referenzen: visueller Hero mit grossen Projektkarten oder Preview-Fläche.
+* `cardesk.html`: stärkerer System-/Produkt-Hero mit Dashboard-/Modulgefühl.
+* `kontakt.html`: kurzer, vertrauenswürdiger Hero mit Fokus auf klare Kontaktaufnahme.
+* `impressum.html` und `datenschutz.html`: einfacher, seriöser V3-Basisstil ohne Scrollanimation.
+
+#### Qualitätsregeln für das V3-Unterseiten-System
+
+* Mobile zuerst prüfen.
+* Kein horizontaler Overflow.
+* `prefers-reduced-motion` respektieren.
+* Kurze Texte, grosse Visuals und klare Struktur.
+* Animationen nur dezent und funktional einsetzen.
+* Keine 1:1-Kopie von Linear oder anderen Websites.
+
 Nächste Prüfpunkte:
 
 * Startseite im Browser auf Desktop und Mobile prüfen.
