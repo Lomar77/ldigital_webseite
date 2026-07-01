@@ -224,6 +224,7 @@ Der Dokumentationsblock für künftige Garage-, Carrosserie- und Werkstattprojek
 * [Reifenhotel-Pilot](docs/reifenhotel-pilot.md)
 * [Reifenhotel-Objektsuche](docs/reifenhotel-objektsuche.md)
 * [WheelDepot-Kaufobjekte](docs/wheeldepot-kaufobjekte.md)
+* [WheelDepot-Medien-Checkliste](docs/wheeldepot-medien.md)
 
 Die Preisangaben sind interne Richtwerte beziehungsweise unverbindliche Orientierungswerte. Verbindliche Preise werden erst nach Briefing und klarer Leistungsabgrenzung offeriert. Das Marco-/Familienprojekt mit ungefähr CHF 200 bleibt eine persönliche Lern- und Referenzausnahme und ist kein offizieller Marktpreis.
 
@@ -334,34 +335,45 @@ Der statische CarDesk-Prototyp bleibt separat im CarDesk-Repository. Die LDigita
 
 ## Reifenhotel / Rädereinlagerung
 
-Das Reifenhotel ist als kleines lokales Pilotangebot zum kommenden Saisonwechsel geplant. Es soll Sommer- und Winterräder für Privatkunden und potenziell später auch für Garagenkunden einlagern.
+WheelDepot / Reifenhotel ist als modernes lokales Räderlager für Privatkunden und als möglicher langfristiger CarDesk-Baustein geplant. Das Angebot soll Sommer- und Winterräder strukturiert einlagern, zuhause Platz schaffen, den Saisonwechsel vereinfachen, Radsätze sauber dokumentieren und Garagenkunden langfristig mit CarDesk verbinden.
 
 Der Startumfang bleibt bewusst begrenzt: aktuell gibt es 3 potenzielle Kunden und zusätzlich die Möglichkeit, eigene Räder als internen Testfall zu verwalten. Die geplante Start-/Zielkapazität liegt bei bis ca. 250 Radsätzen in der Nordwestschweiz, entsprechend bis ca. 1'000 einzelnen Rädern. Die Kapazität wird abhängig von Nachfrage, Lagerort, Transportaufwand und geklärten Rahmenbedingungen aufgebaut.
 
-Geplanter Einführungspreis:
+Aktueller Angebotsstand für den Saisonwechsel-Pilot:
 
 * CHF 39.- pro Halbjahr
 * CHF 75.- pro Jahr
-* Basispreis für die Einlagerung
-* Lieferung zur Garage nur im CarDesk-/Partnergaragen-Modell nach klar definierten Regeln
+* 1 Radsatz / 4 Räder
+* begrenzte Startplätze
+* verpackt beziehungsweise sauber vorbereitet
+* geplante eindeutige Zuordnung per Etikett oder QR-Code
+* Foto-Dokumentation
+* Lagerplatz-Zuordnung
+* definitive Zusage erst nach Klärung von Lagerort, Kapazität, Versicherung und Nutzung
 
 Die Lieferung zur Garage ist nicht pauschal für alle Reifenhotel-Kunden inklusive. Direktkunden ohne CarDesk-Bezug erhalten die Einlagerung zum Pilotpreis, aber keine automatisch inkludierte Lieferung zur Garage. Garagen ohne CarDesk-Zugang können Kunden vermitteln, erhalten aber keine automatisch inkludierte CarDesk-Lieferlogik. Lieferung für Direktkunden oder Garagen ohne CarDesk kann später optional gegen Aufpreis oder nach separater Absprache angeboten werden.
 
-Die inkludierte Lieferung zur Garage soll bewusst als Vorteil für CarDesk-Garagen positioniert werden. Sie gilt im CarDesk-Modell nur nach klar definiertem Gebiet, Lieferfenstern und Vorlaufzeit. Sonderfahrten, Expressfahrten oder Fahrten ausserhalb definierter Lieferfenster sind nicht im Basispreis enthalten.
+Die Lieferung zur Garage soll bewusst als Vorteil für CarDesk- beziehungsweise Partnergaragen positioniert werden. Sie gilt nur nach klar definiertem Gebiet, Lieferfenstern, Vorlaufzeit und mit Sammelfahrten. Sonderfahrten, Expressfahrten oder Fahrten ausserhalb definierter Lieferfenster sind nicht im Basispreis enthalten. Es gibt keine kostenlose Einzellogistik für alle Direktkunden.
 
-Der Reifenwechsel selbst ist nicht automatisch Bestandteil des Angebots. Annahme, Beschriftung, Foto-Dokumentation und einfache Sichtprüfung sind vorgesehen; eine professionelle Reifenprüfung, rechtliche Sicherheit oder versicherungstechnische Absicherung wird ohne vorgängige Prüfung nicht zugesagt.
+Der Reifenwechsel selbst ist nicht automatisch Bestandteil des Angebots. Annahme, geschützte Vorbereitung beziehungsweise Verpackung, geplante QR-/Etikett-Zuordnung, Foto-Dokumentation und einfache Sichtprüfung sind vorgesehen; eine professionelle Reifenprüfung, rechtliche Sicherheit oder versicherungstechnische Absicherung wird ohne vorgängige Prüfung nicht zugesagt.
 
 Strategisch soll der Pilot nicht primär maximale Einlagerungsmarge erzeugen, sondern Garagen an LDigital / CarDesk binden, wiederkehrenden Kundeneingang über Saisonwechsel schaffen und einen konkreten Software- und Logistikbaustein für CarDesk vorbereiten. Die Lieferlogik soll Garagen motivieren, CarDesk zu nutzen, und nicht jeden Direktkunden mit kostenloser Einzellogistik bedienen.
 
 Für Partnergaragen ist ein konservatives Provisionsmodell als Pilotannahme dokumentiert: 5 % für einfache Vermittlung ohne CarDesk-Zugang und 10 % für strukturierte Vermittlung mit CarDesk-Zugang, jeweils nur auf tatsächlich bezahlte Einlagerungen. Die Konditionen müssen später wirtschaftlich, rechtlich und buchhalterisch geprüft werden.
 
-Die detaillierte Planungsgrundlage steht in [`docs/reifenhotel-pilot.md`](docs/reifenhotel-pilot.md). Eine spätere Verbindung zu CarDesk ist möglich, wird aber erst nach praktischer Pilot-Erfahrung bewertet. Es wird aktuell keine Software-Funktionalität und keine Website-Unterseite dafür gebaut.
+Die detaillierte Planungsgrundlage steht in [`docs/reifenhotel-pilot.md`](docs/reifenhotel-pilot.md). Eine spätere Verbindung zu CarDesk ist möglich, wird aber erst nach praktischer Pilot-Erfahrung bewertet. Aktuell wird keine Software-Funktionalität gebaut.
 
-Für den Pilot soll ein geeignetes Lager-/Gewerbeobjekt gesucht werden. Die Such- und Bewertungsübersicht steht in [`docs/reifenhotel-objektsuche.md`](docs/reifenhotel-objektsuche.md). Gesucht wird grob ca. 100 m², trocken, abschliessbar, gut zugänglich, mit Zufahrt für Auto/Transporter und schriftlich erlaubter Nutzung als Räder-/Reifenlager.
+`wheeldepot.html` existiert als moderne Voranmelde-/Landingpage innerhalb der LDigital-Website. Die Seite positioniert WheelDepot mit dem Hero `Räder einlagern, Platz zurückholen.`, sichtbarem Pilotpreis, klarem Nutzen für Privatkunden und CTA zur Vormerkung über `kontakt.html#kontakt-direkt`. Die CarDesk-Verknüpfung führt zu `cardesk.html#wheeldepot-partner`; dieser Abschnitt existiert auf der CarDesk-Seite und ordnet WheelDepot als möglichen CarDesk-Vorteil für Garagen ein.
+
+Die WheelDepot-Unterseite ist stärker visuell und medienorientiert aufgebaut. Aktuell sind keine echten WheelDepot-Fotos eingebunden; die Medienbereiche nutzen bewusst HTML-/CSS-Platzhalter, damit keine kaputten Bildpfade oder fremde Medien entstehen. Die lokale Browserprüfung inklusive mobiler Darstellung und CTA-Zielen wurde durchgeführt.
+
+Die Medienstrategie ist in [`docs/wheeldepot-medien.md`](docs/wheeldepot-medien.md) dokumentiert. Echte eigene Fotos und kurze Videos sollen später gezielt erstellt werden; KI-Bilder und fremde Bilder ohne Nutzungsrechte sind nicht vorgesehen. Geplante Motive sind 4 Räder / 1 Radsatz sauber vorbereitet, verpackter Radsatz mit geplanter QR-/Etikett-Zuordnung, QR-/Etikett-Detail auf der Verpackung, Lagerplatz mit verpackten Radsätzen, Übergabe oder Transport und Lieferung zur Garage im CarDesk-/Partnergaragen-Modell. Alte Motive wie Vorher-/Nachher-Kellerbilder oder einfache Beschriftung direkt am Reifen werden nicht mehr als Priorität geführt.
+
+Für den Pilot soll ein geeignetes Lager-/Gewerbeobjekt gesucht werden. Die Such- und Bewertungsübersicht steht in [`docs/reifenhotel-objektsuche.md`](docs/reifenhotel-objektsuche.md). Die Objektsuche wurde für Lager-/Gewerbeflächen durchgeführt und preis-/wirtschaftlich ergänzt. Operativ wird ein Mietobjekt oder eine flexible Lagerlösung priorisiert. Interessant sind grob 80-150 m², ideal rund 100 m², trocken, abschliessbar, gut zugänglich, mit Zufahrt für Auto/Transporter und schriftlich erlaubter Nutzung als Räder-/Reifenlager. Offene Prüfungen bleiben Nutzungsbewilligung, Trockenheit, Zufahrt, Brandschutz, Versicherung, Kaution, Mindestlaufzeit, Nebenkosten sowie Regale und Lagerstruktur.
 
 Ein Kaufobjekt bleibt als langfristiges strategisches Ziel in der Planung, ist aber keine Voraussetzung für den WheelDepot-Start. Der Start soll kurzfristig über ein Mietobjekt, eine flexible Lagerlösung oder eine andere schlanke Lösung möglich bleiben. Kaufobjekte werden weiter beobachtet, um Marktverständnis für Gewerbe- und Lagerflächen aufzubauen.
 
-Die Kaufstrategie wird frühestens im Frühling 2027, alternativ im Herbst 2027, neu bewertet. Ein Kauf wird nur geprüft, wenn Eigenkapital, Bankfinanzierung, Nachfrage und Alternativnutzung realistisch sind. Externe Investoren sind aktuell nicht als aktive Startoption vorgesehen; WheelDepot, CarDesk und LDigital sollen möglichst unter eigener Kontrolle bleiben und später bevorzugt aus eigenem aufgebautem Kapital beziehungsweise sauberer Bankfinanzierung wachsen.
+Die Kaufobjekt-Recherche steht in [`docs/wheeldepot-kaufobjekte.md`](docs/wheeldepot-kaufobjekte.md). Kaufobjekte dienen aktuell der langfristigen Marktbeobachtung und als mögliches erstes Immobilienziel ab 2027, nicht als kurzfristige Kaufentscheidung. Die Kaufstrategie wird frühestens im Frühling 2027, alternativ im Herbst 2027, neu bewertet. Ein Kauf wird nur geprüft, wenn Eigenkapital, Bankfinanzierung, Nachfrage, Alternativnutzung und laufende Kosten realistisch sind. Externe Investoren sind aktuell nicht als aktive Startoption vorgesehen; WheelDepot, CarDesk und LDigital sollen möglichst unter eigener Kontrolle bleiben und später bevorzugt aus eigenem aufgebautem Kapital beziehungsweise sauberer Bankfinanzierung wachsen.
 
 ## LDigital Webseite – Version 2
 
@@ -713,41 +725,34 @@ Version 2.1 gilt als fertig, wenn:
 
 ### Reifenhotel-Pilot bis Saisonwechsel
 
-- [ ] Lagerort definieren
-- [ ] geeignetes Lager-/Gewerbeobjekt suchen
-- [ ] Objektkandidaten in `docs/reifenhotel-objektsuche.md` dokumentieren
-- [ ] WheelDepot-Start unabhängig von einem Kaufobjekt planen
-- [ ] Mietobjekt oder flexible Lagerlösung als Startvariante priorisieren
-- [ ] Kaufobjekte in `docs/wheeldepot-kaufobjekte.md` als Marktbeobachtung weiterführen
-- [ ] Kaufstrategie frühestens Frühling/Herbst 2027 neu bewerten
-- [ ] Eigenkapital-/Bankfinanzierungsfähigkeit aus Webdesign, CarDesk, WheelDepot und weiteren LDigital-Projekten aufbauen
-- [ ] Externe Investoren nicht als aktive Startoption führen; höchstens später separat prüfen
-- [ ] Nutzungsbewilligung für Lagerort klären
-- [ ] maximale Start-/Zielkapazität von bis ca. 250 Radsätzen prüfen und festlegen
-- [ ] Lagerfläche für bis ca. 1'000 Räder prüfen
-- [ ] ca. 100 m² Lagerfläche, Deckenhöhe, Zufahrt und Regalsystem prüfen
-- [ ] Miete, Nebenkosten, Kaution, Mindestlaufzeit und Kündigungsfrist prüfen
-- [ ] Brand-/Nutzungsauflagen für Räder-/Reifenlagerung prüfen
-- [ ] einfache Kundentabelle vorbereiten
+Abgeschlossen beziehungsweise dokumentiert:
+
+- [x] WheelDepot-Konzept als modernes Räderlager / Reifenhotel dokumentiert
+- [x] WheelDepot-Unterseite `wheeldepot.html` erstellt
+- [x] WheelDepot-Landingpage visuell stärker ausgerichtet
+- [x] CarDesk-Verknüpfung über `cardesk.html#wheeldepot-partner` ergänzt
+- [x] Lieferlogik korrigiert: Lieferung nicht automatisch für alle Direktkunden enthalten
+- [x] Partnergaragen-Modell mit 5 % / 10 % als Pilotannahme dokumentiert
+- [x] Mietobjekt-Recherche in `docs/reifenhotel-objektsuche.md` durchgeführt
+- [x] Kaufobjekt-Recherche in `docs/wheeldepot-kaufobjekte.md` erstellt
+- [x] Kaufstrategie auf Frühling/Herbst 2027 verschoben
+- [x] Medienstrategie / Medien-Checkliste in `docs/wheeldepot-medien.md` erstellt
+- [x] lokale Browserprüfung der WheelDepot-Seite durchgeführt
+
+Nächste konkrete To-dos:
+
+- [ ] WheelDepot-Seite vom Nutzer final visuell prüfen
+- [ ] aktuelle WheelDepot-Änderungen bei Zufriedenheit committen und pushen
+- [ ] echte Medien planen und später erstellen: Radsatz, Verpackung, QR-/Etikett, Lagerplatz, Transport/Übergabe, Garage-Lieferung
+- [ ] Mietobjekt-Favoriten weiter prüfen
+- [ ] Versicherung / Haftung mit Versicherungsberater klären
+- [ ] Lager- und QR-/Etikett-Prozess konkretisieren
+- [ ] einfache Kundentabelle / Radsatzverwaltung vorbereiten
 - [ ] Einlagerungsschein / Annahmeformular vorbereiten
-- [ ] Beschriftungssystem definieren
-- [ ] Foto-Dokumentation pro Radsatz planen
-- [ ] Liefergebiet definieren
-- [ ] Lieferfenster und Vorlaufzeiten definieren
-- [ ] Regeln für Lieferung zur Garage im CarDesk-Modell festlegen
-- [ ] Aufpreis oder separate Absprache für Direktkundenlieferung definieren
-- [ ] Lieferlogik für Garagen ohne CarDesk-Zugang abgrenzen
-- [ ] Sonderfahrten, Expressfahrten und Fahrten ausserhalb definierter Lieferfenster separat kalkulieren
-- [ ] Einführungspreis als Pilotpreis dokumentieren
-- [ ] Wirtschaftlichkeit bei 250 Radsätzen und CHF 18'750.- Jahresumsatz brutto vor Kosten prüfen
-- [ ] Partnergaragen-/Provisionsmodell wirtschaftlich, rechtlich und buchhalterisch prüfen
-- [ ] mögliche CarDesk-Funktionen für Kunden, Fahrzeuge, Radsätze, Status, Lieferung und Provisionen später bewerten
-- [ ] Datenschutz für Kundendaten, Fahrzeugdaten und Fotos prüfen
-- [ ] Social-Media-Werbung mit begrenztem Startgebiet Nordwestschweiz testen
-- [ ] BVB-/Tram-/ÖV-Werbung in Basel auf Kosten und Nutzen prüfen
-- [ ] Werbetext / einfache Angebotsseite vorbereiten
-- [ ] Haftung, Versicherung und Schäden als offene Prüfaufgabe markieren
-- [ ] Gespräch mit Versicherungsberater für geschäftliche Versicherungen vorbereiten
+- [ ] Liefergebiet und Lieferfenster definieren
+- [ ] Garagenansprache vorbereiten
+- [ ] WheelDepot-Voranmeldetext / Social-Media-Text vorbereiten
+- [ ] Kaufobjekte nur langfristig beobachten und 2027 neu bewerten
 
 ### Inhaltliche To-dos für Version 2
 

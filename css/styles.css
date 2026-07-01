@@ -2759,20 +2759,22 @@ main li {
 
 .wheeldepot-page {
     background:
-        linear-gradient(180deg, rgba(214, 169, 77, 0.1), transparent 360px),
+        linear-gradient(180deg, rgba(214, 169, 77, 0.12), transparent 420px),
         var(--color-background);
 }
 
 .wheeldepot-hero {
-    padding-block: clamp(56px, 8vw, 92px);
+    position: relative;
+    overflow: hidden;
+    padding-block: clamp(62px, 8vw, 104px);
     background:
-        linear-gradient(135deg, rgba(10, 42, 102, 0.1), rgba(214, 169, 77, 0.1)),
-        var(--color-surface);
+        linear-gradient(135deg, rgba(6, 29, 71, 0.98) 0%, rgba(10, 42, 102, 0.94) 54%, rgba(31, 48, 65, 0.98) 100%);
+    color: white;
 }
 
 .wheeldepot-hero__grid {
     display: grid;
-    grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.72fr);
+    grid-template-columns: minmax(0, 1.04fr) minmax(320px, 0.76fr);
     gap: clamp(32px, 6vw, 70px);
     align-items: center;
 }
@@ -2781,10 +2783,103 @@ main li {
     max-width: 780px;
 }
 
+.wheeldepot-hero .eyebrow {
+    width: fit-content;
+    padding: 6px 10px;
+    border: 1px solid rgba(214, 169, 77, 0.4);
+    border-radius: 999px;
+    background: rgba(214, 169, 77, 0.12);
+    color: #f4d28b;
+}
+
+.wheeldepot-hero h1 {
+    max-width: 760px;
+    color: white;
+    font-size: 4.9rem;
+    line-height: 0.96;
+}
+
 .wheeldepot-lead {
     max-width: 760px;
-    color: var(--color-muted);
+    color: #dce6f2;
+    font-size: 1.28rem;
+}
+
+.wheeldepot-price-line {
+    margin-top: 22px;
+    color: #f6f8fb;
+    font-size: 1.08rem;
+    font-weight: 800;
+}
+
+.wheeldepot-price-line strong {
+    color: #f4d28b;
+}
+
+.wheeldepot-hero__price {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    max-width: 720px;
+    margin: 18px 0 24px;
+}
+
+.wheeldepot-hero__price span {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    padding: 12px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: var(--radius-sm);
+    background: rgba(255, 255, 255, 0.08);
+    color: #dce6f2;
+    font-size: 0.94rem;
+    font-weight: 750;
+}
+
+.wheeldepot-hero__price strong {
+    display: block;
+    color: white;
     font-size: 1.18rem;
+    line-height: 1.2;
+}
+
+.wheeldepot-hero .button {
+    border-color: var(--color-gold);
+    background-color: var(--color-gold);
+    color: var(--color-primary-dark);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.24);
+}
+
+.wheeldepot-hero .button:hover,
+.wheeldepot-hero .button:focus-visible {
+    border-color: white;
+    background-color: white;
+    color: var(--color-primary-dark);
+}
+
+.wheeldepot-hero .button-secondary {
+    border-color: rgba(255, 255, 255, 0.32);
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+}
+
+.wheeldepot-hero .button-secondary:hover,
+.wheeldepot-hero .button-secondary:focus-visible {
+    border-color: var(--color-gold);
+    background: rgba(214, 169, 77, 0.14);
+    color: white;
+}
+
+.wheeldepot-hero__note {
+    max-width: 720px;
+    margin: 16px 0 0;
+    color: #b9c7d8;
+    font-size: 0.94rem;
+}
+
+.wheeldepot-hero__note + .wheeldepot-tags {
+    margin-top: 18px;
 }
 
 .wheeldepot-tags {
@@ -2799,83 +2894,240 @@ main li {
 .wheeldepot-tags li {
     margin: 0;
     padding: 7px 11px;
-    border: 1px solid var(--color-border);
+    border: 1px solid rgba(255, 255, 255, 0.16);
     border-radius: 999px;
-    background: rgba(255, 255, 255, 0.72);
-    color: var(--color-primary);
+    background: rgba(255, 255, 255, 0.08);
+    color: #f6f8fb;
     font-size: 0.88rem;
     font-weight: 800;
 }
 
 .wheeldepot-visual {
-    display: grid;
-    gap: 18px;
-    min-height: 360px;
-    padding: clamp(22px, 4vw, 34px);
-    border: 1px solid var(--color-border);
+    position: relative;
+    display: block;
+    min-height: 470px;
+    padding: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
     border-radius: var(--radius-md);
     background:
-        linear-gradient(145deg, rgba(10, 42, 102, 0.1), transparent 48%),
-        var(--color-surface);
-    box-shadow: var(--shadow-md);
+        linear-gradient(135deg, rgba(214, 169, 77, 0.14), transparent 34%),
+        linear-gradient(145deg, #111c2c 0%, #07101f 58%, #181a22 100%);
+    box-shadow: 0 28px 70px rgba(0, 0, 0, 0.34);
+    color: white;
 }
 
-.wheeldepot-visual__rack {
+.wheeldepot-visual::before {
+    position: absolute;
+    inset: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: calc(var(--radius-md) - 2px);
+    content: "";
+    pointer-events: none;
+}
+
+.wheeldepot-media-frame {
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 10px;
-}
-
-.wheeldepot-visual__rack span,
-.wheeldepot-visual__status {
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-sm);
-    background: var(--color-surface-muted);
-}
-
-.wheeldepot-visual__rack span {
-    min-height: 74px;
-    padding: 14px 10px;
-    color: var(--color-primary);
-    font-weight: 850;
+    place-items: center;
+    min-height: 220px;
+    overflow: hidden;
+    border: 1px solid rgba(10, 42, 102, 0.14);
+    border-radius: var(--radius-md);
+    background:
+        linear-gradient(135deg, rgba(10, 42, 102, 0.08), rgba(214, 169, 77, 0.14)),
+        var(--color-surface-muted);
+    color: var(--color-primary-dark);
     text-align: center;
 }
 
-.wheeldepot-visual__wheels {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(80px, 1fr));
-    gap: 16px;
-    align-items: center;
-    justify-items: center;
-    padding: 12px;
+.wheeldepot-media-frame::before {
+    position: absolute;
+    inset: 18px;
+    border: 1px solid rgba(10, 42, 102, 0.12);
+    border-radius: calc(var(--radius-md) - 2px);
+    content: "";
 }
 
-.wheeldepot-visual__wheels i {
-    display: block;
-    width: min(112px, 25vw);
+.wheeldepot-media-frame::after {
+    position: absolute;
+    width: 148px;
     aspect-ratio: 1;
-    border: 14px solid var(--color-primary-dark);
+    border: 18px solid rgba(10, 42, 102, 0.17);
     border-radius: 999px;
     background:
-        radial-gradient(circle, var(--color-gold) 0 14%, transparent 15%),
-        radial-gradient(circle, transparent 0 38%, rgba(10, 42, 102, 0.16) 39% 48%, transparent 49%);
-    box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.46), 0 10px 18px rgba(10, 42, 102, 0.12);
+        radial-gradient(circle, rgba(214, 169, 77, 0.9) 0 12%, transparent 13%),
+        radial-gradient(circle, transparent 0 42%, rgba(10, 42, 102, 0.08) 43% 50%, transparent 51%);
+    content: "";
 }
 
-.wheeldepot-visual__status {
+.wheeldepot-media-frame span,
+.wheeldepot-video-placeholder strong {
+    position: relative;
+    z-index: 1;
+    max-width: 24ch;
+    padding: 8px 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.82);
+    color: var(--color-primary-dark);
+    font-size: 0.92rem;
+    font-weight: 850;
+}
+
+.wheeldepot-media-frame--hero {
+    min-height: 420px;
+    border-color: rgba(255, 255, 255, 0.16);
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.08), transparent 42%),
+        repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px 42px),
+        #101a2a;
+    color: white;
+}
+
+.wheeldepot-media-frame--hero::before {
+    border-color: rgba(255, 255, 255, 0.09);
+}
+
+.wheeldepot-media-frame--hero::after {
+    width: 210px;
+    border-color: rgba(255, 255, 255, 0.16);
+    background:
+        radial-gradient(circle, var(--color-gold) 0 10%, transparent 11%),
+        radial-gradient(circle, transparent 0 38%, rgba(255, 255, 255, 0.18) 39% 48%, transparent 49%),
+        rgba(255, 255, 255, 0.08);
+    box-shadow:
+        -92px 42px 0 -22px rgba(255, 255, 255, 0.07),
+        92px -40px 0 -22px rgba(214, 169, 77, 0.16);
+}
+
+.wheeldepot-media-frame--hero span {
+    background: rgba(255, 255, 255, 0.88);
+}
+
+.wheeldepot-media-frame--label::after {
+    width: 150px;
+    aspect-ratio: 1.28;
+    border: 0;
+    border-radius: 16px;
+    background:
+        linear-gradient(90deg, rgba(10, 42, 102, 0.82) 0 18%, transparent 18% 22%, rgba(10, 42, 102, 0.82) 22% 34%, transparent 34% 40%, rgba(10, 42, 102, 0.82) 40% 48%, transparent 48%),
+        linear-gradient(0deg, rgba(10, 42, 102, 0.82) 0 16%, transparent 16% 25%, rgba(10, 42, 102, 0.82) 25% 35%, transparent 35% 44%, rgba(10, 42, 102, 0.82) 44% 52%, transparent 52%),
+        rgba(255, 255, 255, 0.9);
+    box-shadow:
+        0 18px 40px rgba(10, 42, 102, 0.12),
+        72px -44px 0 -34px rgba(214, 169, 77, 0.72);
+}
+
+.wheeldepot-hero-media__badge,
+.wheeldepot-hero-media__chips,
+.wheeldepot-hero-media__caption {
+    position: absolute;
+    z-index: 2;
+}
+
+.wheeldepot-hero-media__badge {
+    top: 30px;
+    right: 30px;
+    width: fit-content;
+    padding: 9px 12px;
+    border-radius: 999px;
+    background: var(--color-gold);
+    color: var(--color-primary-dark);
+    font-size: 0.92rem;
+    font-weight: 900;
+}
+
+.wheeldepot-hero-media__chips {
+    right: 28px;
+    bottom: 94px;
+    left: 28px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.wheeldepot-hero-media__chips span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 999px;
+    background: rgba(6, 29, 71, 0.76);
+    color: white;
+    font-size: 0.86rem;
+    font-weight: 850;
+}
+
+.wheeldepot-hero-media__chips span::before {
+    flex: 0 0 auto;
+    width: 8px;
+    aspect-ratio: 1;
+    border-radius: 999px;
+    background: #5ee0a2;
+    content: "";
+}
+
+.wheeldepot-hero-media__caption {
+    right: 28px;
+    bottom: 24px;
+    left: 28px;
     display: grid;
-    gap: 4px;
-    padding: 16px;
+    gap: 2px;
+    padding: 13px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-sm);
+    background: rgba(6, 29, 71, 0.78);
 }
 
-.wheeldepot-visual__status strong {
-    color: var(--color-primary);
-    font-size: 1.35rem;
+.wheeldepot-hero-media__caption strong {
+    color: white;
 }
 
-.wheeldepot-visual__status small {
-    color: var(--color-muted);
+.wheeldepot-hero-media__caption small {
+    color: #b9c7d8;
     font-weight: 750;
+}
+
+.wheeldepot-media-section {
+    display: grid;
+    gap: 6px;
+}
+
+.wheeldepot-media-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.wheeldepot-media-card {
+    min-width: 0;
+    padding: 0 0 20px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+.wheeldepot-media-card .wheeldepot-media-frame {
+    border: 0;
+    border-bottom: 1px solid var(--color-border);
+    border-radius: 0;
+}
+
+.wheeldepot-media-card h3,
+.wheeldepot-media-card p {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.wheeldepot-media-card h3 {
+    margin-top: 20px;
+}
+
+.wheeldepot-media-card p {
+    color: var(--color-muted);
 }
 
 .wheeldepot-card-grid {
@@ -2897,7 +3149,7 @@ main li {
 
 .wheeldepot-price-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 14px;
     margin-top: 24px;
 }
@@ -2922,7 +3174,7 @@ main li {
 
 .wheeldepot-price-grid strong {
     color: var(--color-primary);
-    font-size: clamp(1.7rem, 4vw, 2.25rem);
+    font-size: 2.05rem;
     line-height: 1.1;
 }
 
@@ -2958,6 +3210,97 @@ main li {
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
 }
 
+.wheeldepot-steps li {
+    display: grid;
+    align-content: start;
+    gap: 10px;
+}
+
+.wheeldepot-step-media {
+    display: grid;
+    place-items: center;
+    min-height: 92px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: var(--radius-sm);
+    background:
+        linear-gradient(135deg, rgba(214, 169, 77, 0.14), rgba(255, 255, 255, 0.05)),
+        rgba(255, 255, 255, 0.04);
+}
+
+.wheeldepot-step-media span {
+    display: inline-flex;
+    width: fit-content;
+    margin: 0;
+    padding: 7px 10px;
+    border-radius: 999px;
+    background: rgba(6, 29, 71, 0.54);
+    color: #f4d28b;
+    font-size: 0.84rem;
+    font-weight: 900;
+}
+
+.wheeldepot-video-block {
+    display: grid;
+    grid-template-columns: minmax(0, 0.58fr) minmax(280px, 0.42fr);
+    gap: clamp(26px, 5vw, 52px);
+    align-items: center;
+}
+
+.wheeldepot-video-block__copy {
+    max-width: 620px;
+}
+
+.wheeldepot-video-placeholder {
+    position: relative;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 16 / 9;
+    min-height: 210px;
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background:
+        linear-gradient(135deg, rgba(10, 42, 102, 0.12), rgba(214, 169, 77, 0.18)),
+        var(--color-surface-muted);
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.wheeldepot-video-placeholder::before {
+    position: absolute;
+    inset: 18px;
+    border: 1px solid rgba(10, 42, 102, 0.12);
+    border-radius: calc(var(--radius-md) - 2px);
+    content: "";
+}
+
+.wheeldepot-video-placeholder__play {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 74px;
+    aspect-ratio: 1;
+    margin-bottom: 12px;
+    border-radius: 999px;
+    background: var(--color-primary);
+    box-shadow: 0 14px 30px rgba(10, 42, 102, 0.22);
+}
+
+.wheeldepot-video-placeholder__play::before {
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 20px solid white;
+    content: "";
+}
+
+.wheeldepot-video-placeholder strong {
+    border-radius: var(--radius-sm);
+}
+
 .wheeldepot-garage {
     display: grid;
     gap: 26px;
@@ -2967,6 +3310,28 @@ main li {
     max-width: 900px;
     margin-bottom: 0;
     color: var(--color-muted);
+}
+
+.wheeldepot-garage-visual {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.42fr) minmax(0, 0.58fr);
+    gap: 22px;
+    align-items: center;
+    padding: 18px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+    box-shadow: var(--shadow-sm);
+}
+
+.wheeldepot-garage-visual .wheeldepot-media-frame {
+    min-height: 180px;
+}
+
+.wheeldepot-garage-visual p {
+    margin: 0;
+    color: var(--color-muted);
+    font-weight: 750;
 }
 
 .wheeldepot-faq {
@@ -3104,8 +3469,14 @@ footer a:focus-visible {
     .cardesk-solution-grid,
     .cardesk-pilot__grid,
     .wheeldepot-hero__grid,
-    .wheeldepot-offer {
+    .wheeldepot-offer,
+    .wheeldepot-video-block,
+    .wheeldepot-garage-visual {
         grid-template-columns: 1fr;
+    }
+
+    .wheeldepot-hero h1 {
+        font-size: 4rem;
     }
 
     .cardesk-problem-grid,
@@ -3152,6 +3523,10 @@ footer a:focus-visible {
         font-size: 2.55rem;
     }
 
+    .wheeldepot-hero h1 {
+        font-size: 3.35rem;
+    }
+
     h2 {
         font-size: 1.9rem;
     }
@@ -3181,6 +3556,7 @@ footer a:focus-visible {
     .project-detail-grid,
     .project-grid,
     .support-grid,
+    .wheeldepot-media-grid,
     .wheeldepot-card-grid,
     .wheeldepot-offer__lists,
     .about-founder,
@@ -3322,9 +3698,56 @@ footer a:focus-visible {
         padding: 24px 20px;
     }
 
+    .wheeldepot-hero h1 {
+        font-size: 2.65rem;
+    }
+
+    .wheeldepot-lead {
+        font-size: 1.08rem;
+    }
+
+    .wheeldepot-hero__price,
     .wheeldepot-price-grid,
-    .wheeldepot-visual__rack {
+    .wheeldepot-visual__status-list {
         grid-template-columns: 1fr;
+    }
+
+    .wheeldepot-visual {
+        min-height: auto;
+    }
+
+    .wheeldepot-media-frame--hero {
+        min-height: 360px;
+    }
+
+    .wheeldepot-hero-media__badge {
+        top: 26px;
+        right: 26px;
+    }
+
+    .wheeldepot-hero-media__chips {
+        right: 24px;
+        bottom: 98px;
+        left: 24px;
+    }
+
+    .wheeldepot-hero-media__caption {
+        right: 24px;
+        left: 24px;
+    }
+
+    .wheeldepot-media-frame::after {
+        width: 118px;
+        border-width: 14px;
+    }
+
+    .wheeldepot-media-frame--hero::after {
+        width: 160px;
+    }
+
+    .wheeldepot-video-placeholder {
+        aspect-ratio: auto;
+        min-height: 190px;
     }
 
     .cardesk-project-teaser__header {
