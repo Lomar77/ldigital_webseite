@@ -225,6 +225,7 @@ Der Dokumentationsblock für künftige Garage-, Carrosserie- und Werkstattprojek
 * [Reifenhotel-Objektsuche](docs/reifenhotel-objektsuche.md)
 * [WheelDepot-Kaufobjekte](docs/wheeldepot-kaufobjekte.md)
 * [WheelDepot-Medien-Checkliste](docs/wheeldepot-medien.md)
+* [WheelDepot-Recht, Pflichten und offene Prüfungen](docs/wheeldepot-recht-pflichten.md)
 
 Die Preisangaben sind interne Richtwerte beziehungsweise unverbindliche Orientierungswerte. Verbindliche Preise werden erst nach Briefing und klarer Leistungsabgrenzung offeriert. Das Marco-/Familienprojekt mit ungefähr CHF 200 bleibt eine persönliche Lern- und Referenzausnahme und ist kein offizieller Marktpreis.
 
@@ -335,7 +336,7 @@ Der statische CarDesk-Prototyp bleibt separat im CarDesk-Repository. Die LDigita
 
 ## Reifenhotel / Rädereinlagerung
 
-WheelDepot / Reifenhotel ist als modernes lokales Räderlager für Privatkunden und als möglicher langfristiger CarDesk-Baustein geplant. Das Angebot soll Sommer- und Winterräder strukturiert einlagern, zuhause Platz schaffen, den Saisonwechsel vereinfachen, Radsätze sauber dokumentieren und Garagenkunden langfristig mit CarDesk verbinden.
+WheelDepot / Reifenhotel ist als modernes lokales Räderlager für Privatkunden und als möglicher langfristiger CarDesk-Baustein geplant. Zielgruppe sind Privatkunden in der Nordwestschweiz, Basel-Landschaft, Basel-Stadt, Aargau und Fricktal. Das Angebot soll Sommer- und Winterräder strukturiert einlagern, zuhause Platz schaffen, den Saisonwechsel vereinfachen, Radsätze sauber dokumentieren, Partnergaragen einbinden und Garagenkunden langfristig mit CarDesk in ein digitales System bringen.
 
 Der Startumfang bleibt bewusst begrenzt: aktuell gibt es 3 potenzielle Kunden und zusätzlich die Möglichkeit, eigene Räder als internen Testfall zu verwalten. Die geplante Start-/Zielkapazität liegt bei bis ca. 250 Radsätzen in der Nordwestschweiz, entsprechend bis ca. 1'000 einzelnen Rädern. Die Kapazität wird abhängig von Nachfrage, Lagerort, Transportaufwand und geklärten Rahmenbedingungen aufgebaut.
 
@@ -351,15 +352,23 @@ Aktueller Angebotsstand für den Saisonwechsel-Pilot:
 * Lagerplatz-Zuordnung
 * definitive Zusage erst nach Klärung von Lagerort, Kapazität, Versicherung und Nutzung
 
+Es werden keine garantierten Plätze, kein fixer Lagerort, keine bereits geklärte Versicherung und keine unbegrenzte Kapazität versprochen.
+
 Die Lieferung zur Garage ist nicht pauschal für alle Reifenhotel-Kunden inklusive. Direktkunden ohne CarDesk-Bezug erhalten die Einlagerung zum Pilotpreis, aber keine automatisch inkludierte Lieferung zur Garage. Garagen ohne CarDesk-Zugang können Kunden vermitteln, erhalten aber keine automatisch inkludierte CarDesk-Lieferlogik. Lieferung für Direktkunden oder Garagen ohne CarDesk kann später optional gegen Aufpreis oder nach separater Absprache angeboten werden.
 
 Die Lieferung zur Garage soll bewusst als Vorteil für CarDesk- beziehungsweise Partnergaragen positioniert werden. Sie gilt nur nach klar definiertem Gebiet, Lieferfenstern, Vorlaufzeit und mit Sammelfahrten. Sonderfahrten, Expressfahrten oder Fahrten ausserhalb definierter Lieferfenster sind nicht im Basispreis enthalten. Es gibt keine kostenlose Einzellogistik für alle Direktkunden.
 
-Der Reifenwechsel selbst ist nicht automatisch Bestandteil des Angebots. Annahme, geschützte Vorbereitung beziehungsweise Verpackung, geplante QR-/Etikett-Zuordnung, Foto-Dokumentation und einfache Sichtprüfung sind vorgesehen; eine professionelle Reifenprüfung, rechtliche Sicherheit oder versicherungstechnische Absicherung wird ohne vorgängige Prüfung nicht zugesagt.
+Eigener Reifenwechsel ist nicht Bestandteil der Startphase. Annahme, geschützte Vorbereitung beziehungsweise Verpackung, geplante QR-/Etikett-Zuordnung, Foto-Dokumentation und einfache Sichtprüfung sind vorgesehen; Reifenwechsel wird zunächst über Partnergaragen vermittelt. Eine professionelle Reifenprüfung, rechtliche Sicherheit oder versicherungstechnische Absicherung wird ohne vorgängige Prüfung nicht zugesagt.
 
 Strategisch soll der Pilot nicht primär maximale Einlagerungsmarge erzeugen, sondern Garagen an LDigital / CarDesk binden, wiederkehrenden Kundeneingang über Saisonwechsel schaffen und einen konkreten Software- und Logistikbaustein für CarDesk vorbereiten. Die Lieferlogik soll Garagen motivieren, CarDesk zu nutzen, und nicht jeden Direktkunden mit kostenloser Einzellogistik bedienen.
 
 Für Partnergaragen ist ein konservatives Provisionsmodell als Pilotannahme dokumentiert: 5 % für einfache Vermittlung ohne CarDesk-Zugang und 10 % für strukturierte Vermittlung mit CarDesk-Zugang, jeweils nur auf tatsächlich bezahlte Einlagerungen. Die Konditionen müssen später wirtschaftlich, rechtlich und buchhalterisch geprüft werden.
+
+Zusätzlich soll WheelDepot in der Startphase Reifenwechsel nicht selbst anbieten, sondern passende Partnergaragen vermitteln. Wenn ein Kunde keinen Reifenwechsel organisiert hat, kann WheelDepot beziehungsweise später CarDesk eine Partnergarage vorschlagen, die freie Kapazität hat und den Auftrag selbst annimmt oder ablehnt. Der Reifenwechsel wird durch die Partnergarage erbracht; der Werkvertrag für den Reifenwechsel entsteht grundsätzlich zwischen Kunde und Partnergarage. WheelDepot übernimmt in diesem Modell Vermittlung, Koordination und gegebenenfalls Logistik, aber keine eigene Reifenwechsel-Leistung.
+
+Für vermittelte Reifenwechsel-Aufträge ist als Pilotannahme eine Vermittlungsgebühr von 7 % vorgesehen. Diese gilt nur auf erfolgreich abgeschlossene und bezahlte Reifenwechsel-Aufträge, nicht auf reine Anfragen, abgesagte Termine oder nicht bezahlte Aufträge. Reifenlager-Vermittlung an WheelDepot und Reifenwechsel-Vermittlung an Partnergaragen bleiben getrennte Modelle und sollen später getrennt abgerechnet werden. Die 7-%-Logik muss wirtschaftlich, rechtlich und buchhalterisch geprüft werden; es werden keine garantierten Einnahmen versprochen.
+
+Ein eigener Reifenwechsel durch WheelDepot ist aktuell nicht Teil der Startphase. Er bleibt eine spätere Ausbauoption, weil er höhere Haftung, Werkleistung, Arbeitssicherheit, Werkzeug-/Hebemittel-Anforderungen, Versicherungsfragen, Qualitätskontrolle, mögliche Fahrzeugschäden und klare Prozesse auslöst. Vor einem eigenen Reifenwechsel wären mindestens geeignete Räume beziehungsweise Werkstattnutzung, sichere Hebemittel, Drehmomentdokumentation, SOPs, geschultes Personal, Haftpflichtdeckung, Unfall-/Arbeitssicherheit, Entsorgung, Kundendokumentation, Zustandsprotokoll und Nachkontrolle zu klären.
 
 Die detaillierte Planungsgrundlage steht in [`docs/reifenhotel-pilot.md`](docs/reifenhotel-pilot.md). Eine spätere Verbindung zu CarDesk ist möglich, wird aber erst nach praktischer Pilot-Erfahrung bewertet. Aktuell wird keine Software-Funktionalität gebaut.
 
@@ -374,6 +383,8 @@ Für den Pilot soll ein geeignetes Lager-/Gewerbeobjekt gesucht werden. Die Such
 Ein Kaufobjekt bleibt als langfristiges strategisches Ziel in der Planung, ist aber keine Voraussetzung für den WheelDepot-Start. Der Start soll kurzfristig über ein Mietobjekt, eine flexible Lagerlösung oder eine andere schlanke Lösung möglich bleiben. Kaufobjekte werden weiter beobachtet, um Marktverständnis für Gewerbe- und Lagerflächen aufzubauen.
 
 Die Kaufobjekt-Recherche steht in [`docs/wheeldepot-kaufobjekte.md`](docs/wheeldepot-kaufobjekte.md). Kaufobjekte dienen aktuell der langfristigen Marktbeobachtung und als mögliches erstes Immobilienziel ab 2027, nicht als kurzfristige Kaufentscheidung. Die Kaufstrategie wird frühestens im Frühling 2027, alternativ im Herbst 2027, neu bewertet. Ein Kauf wird nur geprüft, wenn Eigenkapital, Bankfinanzierung, Nachfrage, Alternativnutzung und laufende Kosten realistisch sind. Externe Investoren sind aktuell nicht als aktive Startoption vorgesehen; WheelDepot, CarDesk und LDigital sollen möglichst unter eigener Kontrolle bleiben und später bevorzugt aus eigenem aufgebautem Kapital beziehungsweise sauberer Bankfinanzierung wachsen.
+
+Rechtliche Grundlagen, Pflichten und offene Prüfungen sind als interne Recherchegrundlage in [`docs/wheeldepot-recht-pflichten.md`](docs/wheeldepot-recht-pflichten.md) dokumentiert. Diese Datei ist keine Rechtsberatung. Vor einem operativen Start müssen insbesondere Lagerobjekt-Nutzung, Vermieterfreigabe, Gemeinde/Bauamt, Brandschutz/Feuerpolizei, Versicherung, Vertragsunterlagen, Datenschutz, Partnerverträge und die Abgrenzung zur Reifenwechsel-Vermittlung mit zuständigen Stellen beziehungsweise Fachpersonen geprüft werden.
 
 ## LDigital Webseite – Version 2
 
@@ -738,21 +749,28 @@ Abgeschlossen beziehungsweise dokumentiert:
 - [x] Kaufstrategie auf Frühling/Herbst 2027 verschoben
 - [x] Medienstrategie / Medien-Checkliste in `docs/wheeldepot-medien.md` erstellt
 - [x] lokale Browserprüfung der WheelDepot-Seite durchgeführt
+- [x] Reifenwechsel-Vermittlungsmodell mit 7 % Pilotannahme ergänzt
+- [x] rechtliche Grundlagen / Pflichten als interne Recherchedatei dokumentiert
 
 Nächste konkrete To-dos:
 
 - [ ] WheelDepot-Seite vom Nutzer final visuell prüfen
-- [ ] aktuelle WheelDepot-Änderungen bei Zufriedenheit committen und pushen
+- [ ] aktuelle Website-Änderungen bei Zufriedenheit committen und pushen
+- [ ] PLAN-/Doku-Änderungen separat committen und pushen
 - [ ] echte Medien planen und später erstellen: Radsatz, Verpackung, QR-/Etikett, Lagerplatz, Transport/Übergabe, Garage-Lieferung
 - [ ] Mietobjekt-Favoriten weiter prüfen
 - [ ] Versicherung / Haftung mit Versicherungsberater klären
+- [ ] Nutzungsfreigabe / Brandschutz vor Mietvertrag prüfen
 - [ ] Lager- und QR-/Etikett-Prozess konkretisieren
 - [ ] einfache Kundentabelle / Radsatzverwaltung vorbereiten
 - [ ] Einlagerungsschein / Annahmeformular vorbereiten
+- [ ] Partnervertrag für Garagen vorbereiten
+- [ ] Reifenwechsel-Vermittlungsmodell mit 7 % prüfen
 - [ ] Liefergebiet und Lieferfenster definieren
 - [ ] Garagenansprache vorbereiten
 - [ ] WheelDepot-Voranmeldetext / Social-Media-Text vorbereiten
 - [ ] Kaufobjekte nur langfristig beobachten und 2027 neu bewerten
+- [ ] eigenen Reifenwechsel erst später separat prüfen
 
 ### Inhaltliche To-dos für Version 2
 

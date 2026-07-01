@@ -12,6 +12,7 @@ Diese Datei sammelt die geplanten echten Medien für die WheelDepot-Landingpage.
 * Medien erst einbauen, wenn sie zum tatsächlichen Pilotstatus passen.
 * Keine Aussagen durch Bilder suggerieren, die organisatorisch noch nicht geklärt sind.
 * QR-Code oder Etikett nur als geplante professionelle Zuordnungsidee zeigen, solange keine fertige technische Funktion umgesetzt ist.
+* QR-/Etikett-Visuals sollen keine direkten Kundendaten zeigen, sondern höchstens neutrale interne IDs.
 * Keine einfache Markierung direkt auf der Reifenoberfläche als Leitmotiv verwenden.
 
 ## Benötigte Fotos
@@ -41,6 +42,7 @@ Medien dürfen nicht suggerieren:
 * fixe Verfügbarkeit
 * kostenlose Lieferung für alle
 * Reifenwechsel inklusive
+* eigener Reifenwechsel durch WheelDepot als Startleistung
 * bereits geklärte Versicherung
 * bereits fixen Lagerort, falls noch offen
 * unbegrenzte Kapazität
@@ -53,6 +55,7 @@ Korrekte Bildaussage:
 * Direktkunden nutzen die Einlagerung zum Pilotpreis.
 * Lieferung für Direktkunden ist nur optional oder nach Absprache vorgesehen.
 * Lieferung zur Garage ist nur im CarDesk-/Partnergaragen-Modell vorgesehen.
+* Reifenwechsel ist in der Startphase höchstens als Vermittlung an Partnergaragen geplant.
 * Räder sollen geschützt vorbereitet beziehungsweise verpackt eingelagert werden.
 * Die Zuordnung soll modern über QR-Code oder Etikett auf der Verpackung beziehungsweise am Radsatz geplant werden.
 * Definitive Zusage erfolgt erst nach Klärung von Lagerort, Kapazität und Versicherung.

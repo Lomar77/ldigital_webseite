@@ -111,7 +111,7 @@ Zu klären sind insbesondere:
 * Umgang mit Sonderwünschen
 * Regeln für Sonderfahrten, Expressfahrten und Fahrten ausserhalb definierter Lieferfenster
 
-Der Reifenwechsel selbst ist nicht automatisch Bestandteil des Angebots.
+Der Reifenwechsel selbst ist in der Startphase nicht Bestandteil des WheelDepot-Angebots. Wenn Kunden einen Reifenwechsel benötigen, soll dieser zunächst nur an ausgewählte Partnergaragen vermittelt werden.
 
 Kurzfristig kann die Anfrage und Verwaltung per E-Mail oder einfachem Formular erfolgen. Langfristig ist ein Zugang über App oder CarDesk denkbar, abhängig vom Entwicklungsstand von CarDesk.
 
@@ -195,6 +195,24 @@ Grundregeln für das Provisionsmodell:
 * Es entstehen keine unbegrenzten, unklaren oder rückwirkenden Ansprüche.
 * Ziel ist Kundenbindung, Systemnutzung und wiederkehrender Kundeneingang, nicht maximale Marge.
 
+### Reifenwechsel-Vermittlung an Partnergaragen
+
+WheelDepot soll in der Startphase Reifenwechsel nicht selbst anbieten, sondern an ausgewählte Partnergaragen vermitteln. Wenn ein Kunde keinen Reifenwechsel organisiert hat, kann WheelDepot beziehungsweise später CarDesk eine passende Partnergarage vorschlagen. Die Garage entscheidet, ob sie den Auftrag annimmt.
+
+Grundlogik:
+
+* WheelDepot lagert Räder ein und koordiniert bei Bedarf.
+* Der Reifenwechsel wird durch die Partnergarage erbracht.
+* Der Werkvertrag für den Reifenwechsel entsteht grundsätzlich zwischen Kunde und Partnergarage.
+* WheelDepot übernimmt Vermittlung, Koordination und gegebenenfalls Logistik, aber keine eigene Reifenwechsel-Leistung.
+* CarDesk-Partnergaragen können langfristig freie Kapazitäten für Reifenwechsel-Aufträge sichtbar machen.
+
+Für vermittelte Reifenwechsel-Aufträge ist als Pilotannahme eine Vermittlungsgebühr von 7 % vorgesehen. Sie gilt nur auf erfolgreich abgeschlossene und bezahlte Reifenwechsel-Aufträge, nicht auf reine Anfragen, abgesagte Termine oder nicht bezahlte Aufträge. Die 7 % müssen wirtschaftlich, rechtlich und buchhalterisch geprüft werden.
+
+Reifenlager-Vermittlung an WheelDepot und Reifenwechsel-Vermittlung an Partnergaragen sind getrennte Modelle und sollen später getrennt abgerechnet werden.
+
+Eigener Reifenwechsel durch WheelDepot ist aktuell nicht für die Startphase vorgesehen. Er bleibt eine spätere Ausbauoption und muss wegen Werkleistung, Haftung, Arbeitssicherheit, Werkzeug-/Hebemittel-Anforderungen, Versicherung, Qualitätskontrolle und möglicher Fahrzeugschäden separat geprüft werden.
+
 ## 8. Mögliche spätere CarDesk-Funktionen
 
 Folgende Funktionen könnten später als CarDesk-Modul oder als angebundener Prozess geprüft werden:
@@ -210,6 +228,8 @@ Folgende Funktionen könnten später als CarDesk-Modul oder als angebundener Pro
 * Saisonwechsel-Erinnerungen auslösen
 * Garage als Vermittler zuordnen
 * Provisionen pro Garage auswerten
+* freie Reifenwechsel-Kapazitäten von Partnergaragen erfassen
+* vermittelte Reifenwechsel-Aufträge getrennt auswerten
 * Status führen: eingelagert, angefordert, unterwegs, bei Garage, abgeholt
 * Lieferlogik nach CarDesk-Garage, Region, Vorlaufzeit und Lieferfenster steuern
 * einfache Kommunikation per E-Mail
@@ -300,7 +320,7 @@ Für einen sauberen Pilotbetrieb sind mindestens folgende Grundlagen nötig:
 * maximale Start-/Zielkapazität für den ersten Saisonwechsel, aktuell als bis ca. 250 Radsätze geplant
 * einfache Kundentabelle mit Kundendaten, Fahrzeug, Radsatz und Saisonstatus
 * Einlagerungsschein oder Annahmeformular
-* Beschriftungssystem pro Radsatz
+* QR-/Etikett-Zuordnung pro Radsatz
 * Foto-Dokumentation pro Radsatz bei Annahme
 * einfache Sichtprüfung bei Annahme
 * definierte Regeln für Abholung, Lieferung und Rückgabe
@@ -339,9 +359,13 @@ Vor einem öffentlichen Start müssen folgende Punkte bewusst geklärt werden:
 * Versicherungsschutz
 * Schäden, Diebstahl und Brand
 * Brand-/Nutzungsauflagen des Lagerobjekts
+* Nutzungsfreigabe, Brandschutz und Feuerpolizei vor Mietvertrag prüfen
 * Umgang mit bereits beschädigten oder stark abgefahrenen Reifen
 * klare Abgrenzung zur professionellen Reifenprüfung
-* Abgrenzung zum Reifenwechsel
+* Reifenwechsel in der Startphase nur als Vermittlung an Partnergaragen führen
+* Vermittlungsgebühr von 7 % für bezahlte Reifenwechsel-Aufträge wirtschaftlich, rechtlich und buchhalterisch prüfen
+* Partnervertrag für Garagen vorbereiten
+* eigenen Reifenwechsel nur als spätere Ausbauoption nach separater Prüfung behandeln
 * Liefergebiet und Transportaufwand
 * Liefergebiet und Lieferfenster definieren
 * Kosten für Zusatzfahrten und Sonderwünsche
@@ -372,7 +396,7 @@ Es werden keine Zusagen zu unbegrenzter Kapazität, garantierter Aufnahme jedes 
 - [ ] Brand-/Nutzungsauflagen für Räder-/Reifenlagerung prüfen
 - [ ] Einfache Kundentabelle vorbereiten
 - [ ] Einlagerungsschein / Annahmeformular vorbereiten
-- [ ] Beschriftungssystem definieren
+- [ ] QR-/Etikett-Zuordnung definieren
 - [ ] Foto-Dokumentation pro Radsatz planen
 - [ ] Liefergebiet definieren
 - [ ] Lieferfenster und Vorlaufzeiten definieren
@@ -384,12 +408,16 @@ Es werden keine Zusagen zu unbegrenzter Kapazität, garantierter Aufnahme jedes 
 - [ ] Wirtschaftlichkeit bei 250 Radsätzen und CHF 18'750.- Jahresumsatz brutto vor Kosten prüfen
 - [ ] Einfaches Partnergaragen-/Provisionsmodell prüfen
 - [ ] Rechtliche und buchhalterische Klärung für Provisionen vormerken
+- [ ] Reifenwechsel-Vermittlungsmodell mit 7 % Pilotannahme prüfen
+- [ ] Partnervertrag für Garagen vorbereiten
+- [ ] Eigenen Reifenwechsel erst später separat prüfen
 - [ ] Datenschutz für Kundendaten, Fahrzeugdaten und Fotos prüfen
 - [ ] Social-Media-Startkampagne für Nordwestschweiz planen
 - [ ] BVB-/Tram-/ÖV-Werbung in Basel als Option prüfen
 - [ ] Werbetext / einfache Angebotsseite vorbereiten
 - [ ] Haftung, Versicherung und Schäden als offene Prüfaufgabe markieren
 - [ ] Gespräch mit Versicherungsberater für geschäftliche Versicherungen vorbereiten
+- [ ] Interne Rechts-/Pflichtenübersicht `docs/wheeldepot-recht-pflichten.md` vor operativem Start prüfen
 
 ## 15. Mögliche spätere Verbindung zu CarDesk
 
