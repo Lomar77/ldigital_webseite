@@ -226,6 +226,7 @@ Der Dokumentationsblock für künftige Garage-, Carrosserie- und Werkstattprojek
 * [WheelDepot-Kaufobjekte](docs/wheeldepot-kaufobjekte.md)
 * [WheelDepot-Medien-Checkliste](docs/wheeldepot-medien.md)
 * [WheelDepot-Recht, Pflichten und offene Prüfungen](docs/wheeldepot-recht-pflichten.md)
+* [WheelDepot-Startpaket](docs/wheeldepot-startpaket.md)
 
 Die Preisangaben sind interne Richtwerte beziehungsweise unverbindliche Orientierungswerte. Verbindliche Preise werden erst nach Briefing und klarer Leistungsabgrenzung offeriert. Das Marco-/Familienprojekt mit ungefähr CHF 200 bleibt eine persönliche Lern- und Referenzausnahme und ist kein offizieller Marktpreis.
 
@@ -385,6 +386,8 @@ Ein Kaufobjekt bleibt als langfristiges strategisches Ziel in der Planung, ist a
 Die Kaufobjekt-Recherche steht in [`docs/wheeldepot-kaufobjekte.md`](docs/wheeldepot-kaufobjekte.md). Kaufobjekte dienen aktuell der langfristigen Marktbeobachtung und als mögliches erstes Immobilienziel ab 2027, nicht als kurzfristige Kaufentscheidung. Die Kaufstrategie wird frühestens im Frühling 2027, alternativ im Herbst 2027, neu bewertet. Ein Kauf wird nur geprüft, wenn Eigenkapital, Bankfinanzierung, Nachfrage, Alternativnutzung und laufende Kosten realistisch sind. Externe Investoren sind aktuell nicht als aktive Startoption vorgesehen; WheelDepot, CarDesk und LDigital sollen möglichst unter eigener Kontrolle bleiben und später bevorzugt aus eigenem aufgebautem Kapital beziehungsweise sauberer Bankfinanzierung wachsen.
 
 Rechtliche Grundlagen, Pflichten und offene Prüfungen sind als interne Recherchegrundlage in [`docs/wheeldepot-recht-pflichten.md`](docs/wheeldepot-recht-pflichten.md) dokumentiert. Diese Datei ist keine Rechtsberatung. Vor einem operativen Start müssen insbesondere Lagerobjekt-Nutzung, Vermieterfreigabe, Gemeinde/Bauamt, Brandschutz/Feuerpolizei, Versicherung, Vertragsunterlagen, Datenschutz, Partnerverträge und die Abgrenzung zur Reifenwechsel-Vermittlung mit zuständigen Stellen beziehungsweise Fachpersonen geprüft werden.
+
+Das operative Startpaket steht in [`docs/wheeldepot-startpaket.md`](docs/wheeldepot-startpaket.md). Es ist keine finale Rechts- oder Vertragsunterlage, sondern eine Arbeitsgrundlage mit Startprozess, Kundendatensatz, QR-ID-Logik, Einlagerungsschein-Entwurf, Übergabeprotokoll, Foto-Checkliste, Lagerregeln, Partnergaragen-/Reifenwechselvermittlung, Fragenlisten und Start-Checkliste.
 
 ## LDigital Webseite – Version 2
 
@@ -751,6 +754,7 @@ Abgeschlossen beziehungsweise dokumentiert:
 - [x] lokale Browserprüfung der WheelDepot-Seite durchgeführt
 - [x] Reifenwechsel-Vermittlungsmodell mit 7 % Pilotannahme ergänzt
 - [x] rechtliche Grundlagen / Pflichten als interne Recherchedatei dokumentiert
+- [x] operatives WheelDepot-Startpaket als interne Arbeitsgrundlage erstellt
 
 Nächste konkrete To-dos:
 
@@ -761,9 +765,11 @@ Nächste konkrete To-dos:
 - [ ] Mietobjekt-Favoriten weiter prüfen
 - [ ] Versicherung / Haftung mit Versicherungsberater klären
 - [ ] Nutzungsfreigabe / Brandschutz vor Mietvertrag prüfen
+- [ ] Fragenlisten aus dem Startpaket für Versicherung, Vermieter/Gemeinde/Brandschutz und Treuhand abarbeiten
 - [ ] Lager- und QR-/Etikett-Prozess konkretisieren
+- [ ] QR-ID-System mit Test-IDs prüfen
 - [ ] einfache Kundentabelle / Radsatzverwaltung vorbereiten
-- [ ] Einlagerungsschein / Annahmeformular vorbereiten
+- [ ] Einlagerungsschein und Übergabeprotokoll später als DOCX/PDF vorbereiten
 - [ ] Partnervertrag für Garagen vorbereiten
 - [ ] Reifenwechsel-Vermittlungsmodell mit 7 % prüfen
 - [ ] Liefergebiet und Lieferfenster definieren
