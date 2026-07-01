@@ -4,6 +4,31 @@
 
 `PLAN.md` ist die zentrale Projektsteuerung für die nächsten Arbeitsphasen. Der frühere Arbeitsrapport ruht, wird nicht weitergeführt und nicht für die aktuelle Priorisierung verwendet.
 
+### LDigital V3 Designrichtung
+
+Stand: 1. Juli 2026, aktueller Startseiten-Umbau.
+
+Ziel ist eine moderne, dunkle und technische LDigital-Startseite, inspiriert von aktuellen SaaS- und Produktseiten, aber ohne 1:1-Kopie einzelner Vorbilder. Die Seite soll ruhiger, klarer und startup-näher wirken als die frühere blau-goldene Agentur-Optik.
+
+Gestalterische Leitplanken:
+
+* Farbwelt: Dunkelblau, Anthrazit, Weiss/Hellgrau und dezente Cyan-/Blau-Akzente.
+* Gold nur noch optional und minimal; auf der Startseite nicht als dominanter Markenakzent.
+* Grosse technische Visuals, kurze Headlines und deutlich reduzierte Texte.
+* Jede Startseiten-Section wird visuell geführt: Module, Karten, Linien, Systemflächen oder Projektvisuals.
+* Leistungen werden kompakt als Webseiten & Sichtbarkeit, digitale Werkzeuge, Prozesse & Automatisierung sowie Pilotprojekte dargestellt.
+* Pilot-/Showcase-Arbeiten bleiben ehrlich eingeordnet: keine fertigen Referenzen behaupten, wenn Projekte intern oder in Pilotphase sind.
+* CarDesk bleibt klar als Konzept-/Pilotprojekt positioniert und dient als Beispiel für Systemdenken.
+* Keine externen Libraries, kein Tracking, kein Deployment, kein Commit in diesem Arbeitsblock.
+
+Nächste Prüfpunkte:
+
+* Startseite im Browser auf Desktop und Mobile prüfen.
+* Lesbarkeit, Abstände, Hover-Zustände und Hero-Visual kontrollieren.
+* Prüfen, ob Header/Footer und Unterseiten visuell weiterhin sauber wirken.
+* Keine kaputten Bildpfade, keine horizontalen Scrollfehler, keine Placeholder-Texte.
+* Danach entscheiden, welche Unterseiten in einem separaten V3-Block nachgezogen werden.
+
 ### LDigital Version 1
 
 LDigital Version 1 ist abgeschlossen und bleibt die stabile interne Ausgangsbasis für Version 2.
