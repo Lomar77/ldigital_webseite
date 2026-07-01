@@ -3939,6 +3939,7 @@ footer a:focus-visible {
 /* LDigital V3 homepage */
 .home-page {
     --container-width: 1180px;
+    --home-header-height: 0px;
     --v3-bg: #05070b;
     --v3-bg-soft: #07111f;
     --v3-surface: rgba(16, 20, 28, 0.86);
@@ -4040,15 +4041,31 @@ footer a:focus-visible {
 }
 
 .home-v3 {
-    overflow: hidden;
+    overflow: visible;
     padding-block: 0;
     background:
         linear-gradient(180deg, rgba(5, 7, 11, 0) 0%, rgba(7, 17, 31, 0.78) 48%, rgba(5, 7, 11, 0.92) 100%);
 }
 
+.hero-stage {
+    --hero-progress: 0;
+    --hero-headline-scale: 1;
+    --hero-visual-scale: 1;
+    --hero-visual-x: 0px;
+    --hero-visual-y: 0px;
+    --hero-grid-opacity: 1;
+    --hero-glow-opacity: 1;
+    --hero-cta-y: 0px;
+    min-height: 190svh;
+}
+
 .home-v3 section {
     position: relative;
     padding-block: clamp(4rem, 8vw, 7.5rem);
+}
+
+.home-v3 .hero-stage {
+    padding-block: 0;
 }
 
 .home-v3 section + section {
@@ -4150,9 +4167,17 @@ footer a:focus-visible {
 }
 
 .hero-v3 {
-    min-height: auto;
-    display: block;
-    padding-block: clamp(5rem, 9vw, 8.5rem) clamp(4.5rem, 8vw, 7rem);
+    min-height: calc(100svh - var(--home-header-height, 0px));
+    display: grid;
+    align-items: center;
+    padding-block: clamp(2.75rem, 6vw, 5.5rem);
+}
+
+.hero-v3__sticky {
+    position: sticky;
+    top: var(--home-header-height, 0px);
+    overflow: hidden;
+    min-height: calc(100svh - var(--home-header-height, 0px));
 }
 
 .hero-v3::before {
@@ -4162,6 +4187,7 @@ footer a:focus-visible {
         linear-gradient(90deg, rgba(103, 232, 249, 0.08), transparent 26%, transparent 72%, rgba(142, 230, 184, 0.06)),
         linear-gradient(180deg, rgba(255, 255, 255, 0.035), transparent 30%);
     content: "";
+    opacity: var(--hero-glow-opacity);
     pointer-events: none;
 }
 
@@ -4174,8 +4200,19 @@ footer a:focus-visible {
     align-items: center;
 }
 
+.home-page .hero-copy h1 {
+    transform: scale(var(--hero-headline-scale));
+    transform-origin: left center;
+    transition: transform 0.12s linear;
+}
+
 .home-page .hero-copy {
     max-width: 680px;
+}
+
+.hero-v3 .button-group {
+    transform: translateY(var(--hero-cta-y));
+    transition: transform 0.12s linear;
 }
 
 .hero-proof {
@@ -4208,7 +4245,7 @@ footer a:focus-visible {
 
 .hero-system {
     position: relative;
-    min-height: 520px;
+    min-height: min(620px, calc(100svh - var(--home-header-height, 0px) - 140px));
     overflow: hidden;
     border: 1px solid var(--v3-line);
     border-radius: var(--v3-radius);
@@ -4216,6 +4253,9 @@ footer a:focus-visible {
         linear-gradient(135deg, rgba(16, 20, 28, 0.96), rgba(7, 17, 31, 0.96)),
         #10141c;
     box-shadow: var(--v3-shadow);
+    transform: translate(var(--hero-visual-x), var(--hero-visual-y)) scale(var(--hero-visual-scale));
+    transform-origin: center;
+    transition: transform 0.12s linear;
 }
 
 .hero-system__grid {
@@ -4226,6 +4266,7 @@ footer a:focus-visible {
         linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
     background-size: 44px 44px;
     mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.38));
+    opacity: var(--hero-grid-opacity);
 }
 
 .hero-system::before,
@@ -5016,6 +5057,10 @@ footer a:focus-visible {
 }
 
 @media (max-width: 620px) {
+    .hero-stage {
+        min-height: 170svh;
+    }
+
     .home-page .main-nav {
         display: flex;
         flex-wrap: wrap;
@@ -5045,8 +5090,8 @@ footer a:focus-visible {
     }
 
     .hero-v3 {
-        min-height: calc(100svh - 132px);
-        padding-block: 3rem 3.25rem;
+        min-height: calc(100svh - var(--home-header-height, 0px));
+        padding-block: clamp(2rem, 7svh, 3rem) 2rem;
     }
 
     .hero-v3__grid {
@@ -5089,6 +5134,7 @@ footer a:focus-visible {
         min-height: 250px;
         opacity: 0.24;
         pointer-events: none;
+        transform-origin: right center;
     }
 
     .hero-system__panel--main {
@@ -5165,6 +5211,30 @@ footer a:focus-visible {
 }
 
 @media (prefers-reduced-motion: reduce) {
+    .hero-stage {
+        --hero-progress: 0 !important;
+        --hero-headline-scale: 1 !important;
+        --hero-visual-scale: 1 !important;
+        --hero-visual-x: 0px !important;
+        --hero-visual-y: 0px !important;
+        --hero-grid-opacity: 1 !important;
+        --hero-glow-opacity: 1 !important;
+        --hero-cta-y: 0px !important;
+        min-height: auto;
+    }
+
+    .hero-v3__sticky {
+        position: relative;
+        top: auto;
+    }
+
+    .home-page .hero-copy h1,
+    .hero-system,
+    .hero-v3 .button-group {
+        transition: none;
+        transform: none;
+    }
+
     .home-page *,
     .home-page *::before,
     .home-page *::after {
